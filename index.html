@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>阿萍的工作台</title>
+
+  <!-- PWA / iOS 主屏幕 App 支持 -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="阿萍的工作台" />
+  <meta name="theme-color" content="#2f5e2d" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="icon" href="icon-192.png" />
+
+  <!-- 本地资源（离线可用，不依赖外网） -->
+  <script src="tailwind.min.js"></script>
+  <link rel="stylesheet" href="fa.css" />
+  <style>
+    :root {
+      --brand: #2f5e2d;
+      --brand-light: #e8f3e7;
+      --sidebar-w: 260px;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    .sidebar { width: var(--sidebar-w); min-height: 100vh; }
+    .nav-item.active { background: var(--brand); color: white; }
+    .nav-item:not(.active):hover { background: #f3f4f6; }
+    .checkbox-round {
+      appearance: none;
+      width: 1.25rem;
+      height: 1.25rem;
+      border: 2px solid #d1d5db;
+      border-radius: 9999px;
+      cursor: pointer;
+      position: relative;
+    }
+    .checkbox-round:checked {
+      background: var(--brand);
+      border-color: var(--brand);
+    }
+    .checkbox-round:checked::after {
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: 1px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    .progress-ring circle { transition: stroke-dashoffset 0.3s; }
+    @media (max-width: 768px) {
+      .sidebar { position: fixed; left: -100%; top: 0; z-index: 50; transition: left 0.25s; }
+      .sidebar.open { left: 0; }
+      .overlay { display: none; }
+      .overlay.open { display: block; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 pt-[env(safe-area-inset-top)]">
+
+  <!-- 移动端遮罩 -->
+  <div id="overlay" class="overlay fixed inset-0 bg-black/40 z-40 md:hidden" onclick="toggleSidebar()"></div>
+
+  <div class="flex min-h-screen">
+    <!-- 左侧边栏 -->
+    <aside id="sidebar" class="sidebar bg-white border-r border-gray-200 flex flex-col pt-[env(safe-area-inset-top)]">
+      <div class="p-6 border-b border-gray-100">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-full bg-gradient-to-br from-green-600 to-emerald-400 flex items-center justify-center text-white font-bold text-lg shadow">
+            我
+          </div>
+          <div>
+            <h1 class="font-bold text-gray-900 text-lg">阿萍的工作台</h1>
+            <p class="text-xs text-gray-500">每日成长 · 持续输出</p>
+          </div>
+        </div>
+      </div>
+
+      <nav class="flex-1 overflow-y-auto p-3 space-y-1">
+        <button class="nav-item active w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="daily-plan">
+          <i class="fa-regular fa-clipboard text-lg w-6 text-center"></i> 每日计划
+        </button>
+        <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="tech-news">
+          <i class="fa-solid fa-globe text-lg w-6 text-center"></i> 每日全球最新科技新闻
+        </button>
+        <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="news-analysis">
+          <i class="fa-solid fa-tv text-lg w-6 text-center"></i> 每日新闻联播深度分析
+        </button>
+        <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="topics">
+          <i class="fa-regular fa-lightbulb text-lg w-6 text-center"></i> 选题每日灵感
+        </button>
+        <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="review">
+          <i class="fa-solid fa-chart-column text-lg w-6 text-center"></i> 内容复盘
+        </button>
+        <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="tasks">
+          <i class="fa-solid fa-check-double text-lg w-6 text-center"></i> 每日任务
+        </button>
+        <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="memo">
+          <i class="fa-solid fa-pen-to-square text-lg w-6 text-center"></i> 备忘录
+        </button>
+        <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="english">
+          <i class="fa-solid fa-language text-lg w-6 text-center"></i> 英语学习
+          <span id="english-badge" class="hidden ml-auto w-2.5 h-2.5 rounded-full bg-red-500"></span>
+        </button>
+      </nav>
+
+      <div class="p-4 border-t border-gray-100 text-xs text-gray-400 text-center">
+        数据自动保存在本机浏览器中
+      </div>
+    </aside>
+
+    <!-- 主内容区 -->
+    <main class="flex-1 flex flex-col min-h-screen overflow-hidden">
+      <!-- 顶部栏 -->
+      <header class="min-h-16 bg-white border-b border-gray-200 flex items-center justify-between px-4 md:px-8">
+        <div class="flex items-center gap-3">
+          <button class="md:hidden p-2 rounded-lg hover:bg-gray-100" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars text-lg"></i>
+          </button>
+          <h2 id="page-title" class="font-bold text-lg md:text-xl">每日计划</h2>
+        </div>
+        <div class="text-sm text-gray-500" id="current-date"></div>
+      </header>
+
+      <div class="flex-1 overflow-y-auto p-4 md:p-8">
+
+        <!-- 1. 每日计划 -->
+        <section id="daily-plan" class="page-section space-y-6">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="font-bold text-gray-900">今日时间块规划</h3>
+              <button onclick="addPlanSlot()" class="text-sm px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition">
+                <i class="fa-solid fa-plus mr-1"></i> 增加时段
+              </button>
+            </div>
+            <div id="plan-list" class="space-y-3">
+              <!-- JS 渲染 -->
+            </div>
+          </div>
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <h3 class="font-bold text-gray-900 mb-3">今日核心目标</h3>
+            <textarea id="daily-goals" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 focus:border-green-600 resize-none" placeholder="写下今天最重要的 1-3 件事..."></textarea>
+          </div>
+        </section>
+
+        <!-- 2. 每日全球最新科技新闻 -->
+        <section id="tech-news" class="page-section hidden space-y-6">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+              <h3 class="font-bold text-gray-900">全球科技新闻摘要</h3>
+              <div class="flex gap-2">
+                <button onclick="openTechSite('https://www.techmeme.com')" class="text-sm px-3 py-1.5 rounded-lg border border-gray-200 hover:bg-gray-50">Techmeme</button>
+                <button onclick="openTechSite('https://techcrunch.com')" class="text-sm px-3 py-1.5 rounded-lg border border-gray-200 hover:bg-gray-50">TechCrunch</button>
+                <button onclick="openTechSite('https://www.36kr.com')" class="text-sm px-3 py-1.5 rounded-lg border border-gray-200 hover:bg-gray-50">36氪</button>
+              </div>
+            </div>
+            <p class="text-sm text-gray-500 mb-4">点击下方卡片编辑今日看到的重点科技资讯，或一键跳转到源站阅读。</p>
+            <div id="tech-news-list" class="grid md:grid-cols-2 gap-4">
+              <!-- JS 渲染 -->
+            </div>
+            <button onclick="addTechNews()" class="mt-4 w-full py-2 border-2 border-dashed border-gray-300 rounded-xl text-gray-500 hover:border-green-600 hover:text-green-700 transition">
+              <i class="fa-solid fa-plus mr-1"></i> 添加一条科技新闻
+            </button>
+          </div>
+        </section>
+
+        <!-- 3. 每日新闻联播深度分析 -->
+        <section id="news-analysis" class="page-section hidden space-y-6">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <h3 class="font-bold text-gray-900 mb-4">新闻联播深度分析</h3>
+            <div class="grid md:grid-cols-3 gap-4 mb-6">
+              <div class="p-4 rounded-xl bg-green-50 border border-green-100">
+                <div class="text-xs text-green-700 mb-1">政策信号</div>
+                <textarea id="news-policy" class="w-full bg-transparent text-sm resize-none focus:outline-none h-24" placeholder="记录政策方向与关键词..."></textarea>
+              </div>
+              <div class="p-4 rounded-xl bg-blue-50 border border-blue-100">
+                <div class="text-xs text-blue-700 mb-1">产业机会</div>
+                <textarea id="news-industry" class="w-full bg-transparent text-sm resize-none focus:outline-none h-24" placeholder="哪些行业/领域被重点提及..."></textarea>
+              </div>
+              <div class="p-4 rounded-xl bg-orange-50 border border-orange-100">
+                <div class="text-xs text-orange-700 mb-1">创作关联</div>
+                <textarea id="news-content" class="w-full bg-transparent text-sm resize-none focus:outline-none h-24" placeholder="可以关联到哪些选题/内容..."></textarea>
+              </div>
+            </div>
+            <h4 class="font-semibold text-gray-900 mb-2">今日金句 / 关键词</h4>
+            <textarea id="news-keywords" class="w-full h-24 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 focus:border-green-600 resize-none" placeholder="摘录今天最有价值的表述..."></textarea>
+          </div>
+        </section>
+
+        <!-- 4. 内容复盘 -->
+        <section id="review" class="page-section hidden space-y-6">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <h3 class="font-bold text-gray-900 mb-4">内容复盘</h3>
+            <div class="grid md:grid-cols-2 gap-4 mb-4">
+              <div>
+                <label class="block text-xs text-gray-500 mb-1">今日发布/创作内容</label>
+                <textarea id="review-published" class="w-full h-28 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 resize-none" placeholder="记录今天发布或准备发布的内容..."></textarea>
+              </div>
+              <div>
+                <label class="block text-xs text-gray-500 mb-1">数据反馈</label>
+                <textarea id="review-data" class="w-full h-28 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 resize-none" placeholder="播放量、互动、转化等数据..."></textarea>
+              </div>
+            </div>
+            <label class="block text-xs text-gray-500 mb-1">亮点与改进</label>
+            <textarea id="review-summary" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 resize-none" placeholder="做得好的地方 + 明天要改进的点..."></textarea>
+          </div>
+        </section>
+
+        <!-- 5. 每日任务（核心） -->
+        <section id="tasks" class="page-section hidden space-y-6">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+              <div>
+                <h3 class="font-bold text-gray-900 text-lg">每日任务清单</h3>
+                <p class="text-sm text-gray-500 mt-1">完成后打勾，养成可持续的习惯。</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <div class="text-right">
+                  <div class="text-2xl font-bold text-green-700" id="task-progress-text">0%</div>
+                  <div class="text-xs text-gray-500">今日完成度</div>
+                </div>
+                <div class="relative w-16 h-16">
+                  <svg class="progress-ring w-16 h-16" viewBox="0 0 60 60">
+                    <circle cx="30" cy="30" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"></circle>
+                    <circle id="progress-circle" cx="30" cy="30" r="26" fill="none" stroke="#2f5e2d" stroke-width="6" stroke-linecap="round" stroke-dasharray="163.36" stroke-dashoffset="163.36"></circle>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex gap-2 mb-6">
+              <input id="new-task-input" type="text" class="flex-1 px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 focus:border-green-600" placeholder="新增每日任务，例如：阅读 20 分钟" />
+              <button onclick="addTask()" class="px-5 py-2.5 bg-green-700 hover:bg-green-800 text-white rounded-xl font-medium transition">
+                <i class="fa-solid fa-plus"></i> 新增
+              </button>
+            </div>
+
+            <ul id="task-list" class="space-y-2">
+              <!-- JS 渲染 -->
+            </ul>
+
+            <div id="empty-tasks" class="hidden py-8 text-center text-gray-400">
+              <i class="fa-regular fa-clipboard text-3xl mb-2"></i>
+              <p>还没有任务，新增一个开始吧</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. 备忘录 -->
+        <section id="memo" class="page-section hidden space-y-6">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <h3 class="font-bold text-gray-900 mb-3">随手备忘录</h3>
+            <textarea id="memo-text" class="w-full h-80 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 focus:border-green-600 resize-none" placeholder="灵感、链接、待办事项随时记..."></textarea>
+          </div>
+        </section>
+
+        <!-- 7. 选题每日灵感 -->
+        <section id="topics" class="page-section hidden space-y-6">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <h3 class="font-bold text-gray-900 mb-4">选题灵感池</h3>
+            <div class="flex gap-2 mb-4">
+              <input id="new-topic-input" type="text" class="flex-1 px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20" placeholder="想到一个选题..." />
+              <button onclick="addTopic()" class="px-4 py-2.5 bg-green-700 text-white rounded-xl hover:bg-green-800 transition">添加</button>
+            </div>
+            <ul id="topic-list" class="space-y-2"></ul>
+          </div>
+        </section>
+
+
+
+        <!-- 10. 英语学习 -->
+        <section id="english" class="page-section hidden space-y-6">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <!-- 每日雅思模拟：按雅思标准 + 当天新闻自动生成 -->
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+            <div class="flex items-start justify-between mb-3">
+              <div>
+                <h3 class="font-bold text-gray-900">每日雅思模拟 <span class="text-xs font-normal text-gray-400">· 每天 8:00 自动更新</span></h3>
+                <p id="ielts-updated" class="text-xs text-gray-500 mt-0.5"></p>
+              </div>
+              <button onclick="refreshIelts()" class="shrink-0 text-sm px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition">
+                <i class="fa-solid fa-rotate mr-1"></i> 刷新
+              </button>
+            </div>
+            <details class="mb-4 group">
+              <summary class="cursor-pointer text-sm text-green-700 font-medium select-none">📐 雅思内容标准（点击展开）</summary>
+              <p id="ielts-standard" class="mt-2 text-sm text-gray-600 leading-relaxed"></p>
+            </details>
+            <div id="ielts-loading" class="hidden py-6 text-center text-gray-400 text-sm">
+              <i class="fa-solid fa-spinner fa-spin mr-1"></i> 正在按雅思标准整理今日新闻...
+            </div>
+            <div id="ielts-list" class="space-y-4"></div>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-4">英语学习打卡</h3>
+            <div class="grid md:grid-cols-2 gap-4 mb-4">
+              <div>
+                <label class="block text-xs text-gray-500 mb-1">今日学习内容</label>
+                <input id="english-content" type="text" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20" placeholder="例如：背单词 / 听力 / 口语">
+              </div>
+              <div>
+                <label class="block text-xs text-gray-500 mb-1">学习时长（分钟）</label>
+                <input id="english-duration" type="number" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20" placeholder="30">
+              </div>
+            </div>
+            <label class="block text-xs text-gray-500 mb-1">新学单词 / 句型</label>
+            <textarea id="english-notes" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 resize-none" placeholder="记录今天学到的表达..."></textarea>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // ================= 工具函数 =================
+    const $ = id => document.getElementById(id);
+    const todayKey = () => new Date().toISOString().slice(0, 10);
+    const storageKey = k => `${k}_${todayKey()}`;
+
+    // ================= 侧边栏切换 =================
+    function toggleSidebar() {
+      $('sidebar').classList.toggle('open');
+      $('overlay').classList.toggle('open');
+    }
+
+    document.querySelectorAll('.nav-item').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const page = btn.dataset.page;
+        showPage(page);
+        if (page === 'english') markEnglishRead();
+        if (window.innerWidth < 768) toggleSidebar();
+      });
+    });
+
+    function showPage(page) {
+      document.querySelectorAll('.page-section').forEach(s => s.classList.add('hidden'));
+      $(page).classList.remove('hidden');
+      const titles = {
+        'daily-plan': '每日计划',
+        'tech-news': '每日全球最新科技新闻',
+        'news-analysis': '每日新闻联播深度分析',
+        'topics': '选题每日灵感',
+        'review': '内容复盘',
+        'tasks': '每日任务',
+        'memo': '备忘录',
+        'english': '英语学习'
+      };
+      $('page-title').textContent = titles[page];
+      localStorage.setItem('workbench_last_page', page);
+    }
+
+    $('current-date').textContent = new Date().toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
+
+    // ================= 通用 CRUD 数据模型 =================
+    function loadList(key, defaults = []) {
+      try { return JSON.parse(localStorage.getItem(storageKey(key))) || defaults; }
+      catch { return defaults; }
+    }
+    function saveList(key, list) { localStorage.setItem(storageKey(key), JSON.stringify(list)); }
+
+    // ================= 每日任务（核心） =================
+    const defaultTasks = [
+      { id: Date.now() + 1, text: '运动 30 分钟', done: false },
+      { id: Date.now() + 2, text: '英语练习 30 分钟', done: false }
+    ];
+
+    function renderTasks() {
+      const tasks = loadList('tasks', defaultTasks);
+      const list = $('task-list');
+      list.innerHTML = '';
+      if (tasks.length === 0) {
+        $('empty-tasks').classList.remove('hidden');
+      } else {
+        $('empty-tasks').classList.add('hidden');
+        tasks.forEach(task => {
+          const li = document.createElement('li');
+          li.className = 'flex items-center gap-3 p-3 rounded-xl border border-gray-100 bg-gray-50/50 hover:bg-gray-50 transition group';
+          li.innerHTML = `
+            <input type="checkbox" class="checkbox-round shrink-0" ${task.done ? 'checked' : ''} onchange="toggleTask(${task.id})">
+            <span class="flex-1 text-sm ${task.done ? 'text-gray-400 line-through' : 'text-gray-800'}">${escapeHtml(task.text)}</span>
+            <button onclick="deleteTask(${task.id})" class="w-8 h-8 flex items-center justify-center rounded-lg text-gray-400 hover:text-red-500 hover:bg-red-50 opacity-0 group-hover:opacity-100 transition" title="删除">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          `;
+          list.appendChild(li);
+        });
+      }
+      updateProgress(tasks);
+    }
+
+    function updateProgress(tasks) {
+      const total = tasks.length;
+      const done = tasks.filter(t => t.done).length;
+      const pct = total === 0 ? 0 : Math.round(done / total * 100);
+      $('task-progress-text').textContent = `${pct}%`;
+      const circle = $('progress-circle');
+      const circumference = 2 * Math.PI * 26;
+      circle.style.strokeDasharray = circumference;
+      circle.style.strokeDashoffset = circumference * (1 - pct / 100);
+    }
+
+    function addTask() {
+      const input = $('new-task-input');
+      const text = input.value.trim();
+      if (!text) return;
+      const tasks = loadList('tasks', defaultTasks);
+      tasks.push({ id: Date.now(), text, done: false });
+      saveList('tasks', tasks);
+      input.value = '';
+      renderTasks();
+    }
+
+    $('new-task-input').addEventListener('keypress', e => { if (e.key === 'Enter') addTask(); });
+
+    function toggleTask(id) {
+      const tasks = loadList('tasks', defaultTasks);
+      const task = tasks.find(t => t.id === id);
+      if (task) { task.done = !task.done; saveList('tasks', tasks); renderTasks(); }
+    }
+
+    function deleteTask(id) {
+      let tasks = loadList('tasks', defaultTasks);
+      tasks = tasks.filter(t => t.id !== id);
+      saveList('tasks', tasks);
+      renderTasks();
+    }
+
+    // ================= 每日计划时间块 =================
+    const defaultPlan = [
+      { time: '06:30 - 07:00', content: '起床、洗漱、早餐' },
+      { time: '07:00 - 07:30', content: '运动 30 分钟' },
+      { time: '08:00 - 08:30', content: '英语练习 30 分钟' },
+      { time: '09:00 - 12:00', content: '深度工作 / 创作' },
+      { time: '14:00 - 17:00', content: '学习 / 拍摄 / 剪辑' },
+      { time: '20:00 - 21:00', content: '内容复盘与明日计划' }
+    ];
+
+    function renderPlan() {
+      const plan = loadList('plan', defaultPlan);
+      const list = $('plan-list');
+      list.innerHTML = '';
+      plan.forEach((slot, index) => {
+        const row = document.createElement('div');
+        row.className = 'flex flex-col md:flex-row gap-3';
+        row.innerHTML = `
+          <input type="text" value="${escapeHtml(slot.time)}" onchange="updatePlan(${index}, 'time', this.value)" class="md:w-36 px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:border-green-600" placeholder="时间段">
+          <input type="text" value="${escapeHtml(slot.content)}" onchange="updatePlan(${index}, 'content', this.value)" class="flex-1 px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:border-green-600" placeholder="计划内容">
+          <button onclick="removePlanSlot(${index})" class="px-3 py-2 text-gray-400 hover:text-red-500"><i class="fa-solid fa-trash-can"></i></button>
+        `;
+        list.appendChild(row);
+      });
+    }
+
+    function addPlanSlot() {
+      const plan = loadList('plan', defaultPlan);
+      plan.push({ time: '', content: '' });
+      saveList('plan', plan);
+      renderPlan();
+    }
+
+    function updatePlan(index, field, value) {
+      const plan = loadList('plan', defaultPlan);
+      plan[index][field] = value;
+      saveList('plan', plan);
+    }
+
+    function removePlanSlot(index) {
+      let plan = loadList('plan', defaultPlan);
+      plan.splice(index, 1);
+      saveList('plan', plan);
+      renderPlan();
+    }
+
+    // ================= 科技新闻 =================
+    const defaultTechNews = [
+      { title: '', summary: '' },
+      { title: '', summary: '' }
+    ];
+
+    function renderTechNews() {
+      const news = loadList('tech_news', defaultTechNews);
+      const list = $('tech-news-list');
+      list.innerHTML = '';
+      news.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
+        card.innerHTML = `
+          <input type="text" value="${escapeHtml(item.title)}" onchange="updateTechNews(${index}, 'title', this.value)" class="w-full mb-2 px-3 py-2 rounded-lg border border-gray-200 text-sm font-medium focus:outline-none focus:border-green-600" placeholder="新闻标题">
+          <textarea onchange="updateTechNews(${index}, 'summary', this.value)" class="w-full h-20 px-3 py-2 rounded-lg border border-gray-200 text-sm resize-none focus:outline-none focus:border-green-600" placeholder="一句话摘要...">${escapeHtml(item.summary)}</textarea>
+          <div class="flex justify-end mt-2">
+            <button onclick="removeTechNews(${index})" class="text-xs text-gray-400 hover:text-red-500"><i class="fa-solid fa-trash-can mr-1"></i>删除</button>
+          </div>
+        `;
+        list.appendChild(card);
+      });
+    }
+
+    function addTechNews() {
+      const news = loadList('tech_news', defaultTechNews);
+      news.push({ title: '', summary: '' });
+      saveList('tech_news', news);
+      renderTechNews();
+    }
+
+    function updateTechNews(index, field, value) {
+      const news = loadList('tech_news', defaultTechNews);
+      news[index][field] = value;
+      saveList('tech_news', news);
+    }
+
+    function removeTechNews(index) {
+      let news = loadList('tech_news', defaultTechNews);
+      news.splice(index, 1);
+      saveList('tech_news', news);
+      renderTechNews();
+    }
+
+    function openTechSite(url) { window.open(url, '_blank'); }
+
+    // ================= 文本字段自动保存 =================
+    function bindTextarea(id, key) {
+      const el = $(id);
+      el.value = localStorage.getItem(storageKey(key)) || '';
+      el.addEventListener('input', () => localStorage.setItem(storageKey(key), el.value));
+    }
+
+    // ================= 选题灵感 / 爆款热点 =================
+    function renderSimpleList(key, containerId, inputId, addFn) {
+      const items = loadList(key, []);
+      const list = $(containerId);
+      list.innerHTML = '';
+      items.forEach((item, index) => {
+        const li = document.createElement('li');
+        li.className = 'flex items-center gap-2 p-3 rounded-xl border border-gray-100 bg-gray-50/50 group';
+        li.innerHTML = `
+          <span class="flex-1 text-sm">${escapeHtml(item)}</span>
+          <button onclick="removeSimpleItem('${key}', '${containerId}', '${inputId}', ${index})" class="text-gray-400 hover:text-red-500 opacity-0 group-hover:opacity-100 transition"><i class="fa-solid fa-trash-can"></i></button>
+        `;
+        list.appendChild(li);
+      });
+    }
+
+    function addSimpleItem(key, containerId, inputId) {
+      const input = $(inputId);
+      const text = input.value.trim();
+      if (!text) return;
+      const items = loadList(key, []);
+      items.push(text);
+      saveList(key, items);
+      input.value = '';
+      renderSimpleList(key, containerId, inputId);
+    }
+
+    function removeSimpleItem(key, containerId, inputId, index) {
+      let items = loadList(key, []);
+      items.splice(index, 1);
+      saveList(key, items);
+      renderSimpleList(key, containerId, inputId);
+    }
+
+    function addTopic() { addSimpleItem('topics', 'topic-list', 'new-topic-input'); }
+
+    // ================= 初始化 =================
+    // ================= 今日雅思晨读（每日 7:00 自动采集整理） =================
+    // 雅思内容标准框架：9 大常考话题 + 通用模板
+    const IELTS_STANDARD = {
+      intro: '雅思四项能力（听、读、写、口）围绕 9 大常考话题。本模块每日用这套标准把最新英文新闻转化为练习：阅读（事实判断 TRUE/FALSE/NOT GIVEN）、写作（Task 2 议论文）、口语（Part 1/2/3）、词汇（话题核心词）。',
+      part1: 'Do you prefer to read news in English or your own language? Why?',
+      topics: {
+        '教育': { vocab:['curriculum','literacy','pedagogy','tuition','assessment','dropout','scholarship','rote learning'], writing:'Some people think universities should focus on academic subjects rather than practical skills. To what extent do you agree or disagree?', p2:'Describe a teacher who influenced you.', p3:'How has technology changed the way students learn?' },
+        '科技': { vocab:['automation','innovation','algorithm','privacy','cybersecurity','artificial intelligence','digital divide','disrupt'], writing:'Some believe artificial intelligence will replace human workers. To what extent do you agree or disagree?', p2:'Describe a piece of technology you find useful.', p3:'Does technology bring people closer or make them more isolated?' },
+        '环境': { vocab:['sustainability','emission','renewable','biodiversity','conservation','carbon footprint','ecosystem','degrade'], writing:'Individual action is useless against climate change; only governments and corporations can help. To what extent do you agree?', p2:'Describe an environmental problem in your area.', p3:'What role should young people play in protecting the environment?' },
+        '健康': { vocab:['wellbeing','epidemic','preventive','sedentary','nutrition','mental health','healthcare','obesity'], writing:'Some governments tax unhealthy food and drinks to improve public health. To what extent do you agree?', p2:'Describe a habit that helps you stay healthy.', p3:'How can societies improve public wellbeing?' },
+        '经济': { vocab:['inflation','globalization','entrepreneurship','consumerism','recession','subsidy','trade deficit','automation'], writing:'Economic growth should always take priority over environmental protection. Discuss both views.', p2:'Describe a small business you admire.', p3:'How does globalization affect local economies?' },
+        '社会': { vocab:['cohesion','inequality','welfare','community','marginalized','social mobility','volunteer','demographic'], writing:'Some think elderly people should live in care homes instead of with their families. To what extent do you agree?', p2:'Describe a community event you took part in.', p3:'What causes social inequality and how can it be reduced?' },
+        '国际': { vocab:['diplomacy','sanction','multilateral','sovereignty','refugee','bilateral','globalization','conflict'], writing:'International aid is more effective than military intervention in solving global crises. Discuss both views.', p2:'Describe a country you would like to visit.', p3:'How can countries cooperate on global challenges?' },
+        '文化': { vocab:['heritage','diversity','tradition','assimilation','identity','custom','preserve','multicultural'], writing:'Globalization threatens local cultures and traditions. To what extent do you agree?', p2:'Describe a tradition in your culture.', p3:'Is cultural diversity a strength or a challenge?' },
+        '生活': { vocab:['work-life balance','commute','routine','leisure','urbanization','lifestyle','wellbeing','time management'], writing:'People should work fewer hours to improve their quality of life. To what extent do you agree?', p2:'Describe your typical daily routine.', p3:'How does city life affect personal wellbeing?' },
+        '综合': { vocab:['perspective','controversial','significant','trend','implication','phenomenon','debate','approach'], writing:'Some people think ... while others believe .... Discuss both views and give your opinion.', p2:'Describe a recent news story that interested you.', p3:'Why do people have different opinions on the same issue?' }
+      }
+    };
+
+    const IELTS_SOURCES = [
+      'https://feeds.bbci.co.uk/news/world/rss.xml',
+      'https://www.theguardian.com/world/rss'
+    ];
+    const IELTS_TOPICS = {
+      '科技': ['technology','tech','ai','robot','software','digital','internet','data','chip','space'],
+      '环境': ['climate','environment','carbon','energy','emission','pollution','renewable','wildfire','ocean'],
+      '健康': ['health','virus','disease','vaccine','hospital','patient','medicine','covid','mental'],
+      '经济': ['economy','economic','trade','market','inflation','growth','jobs','business','price'],
+      '教育': ['education','school','student','university','teacher','learning','study','classroom'],
+      '社会': ['social','society','community','crime','election','government','policy','law','homeless'],
+      '国际': ['world','global','country','nation','war','peace','summit','treaty','border']
+    };
+    const IELTS_STOPWORDS = new Set('the a an and or but of to in on for with at by from as is are was were be been being this that these those it its their his her our your my we you they he she them us not no can will would should could may might must do does did has have had i he she they there here what which who whom whose when where why how all any both each few more most other some such only own same than too very can t don t'.split(' '));
+
+    function ieltsKey() { return 'ielts_' + todayKey(); }
+
+    function initIelts() {
+      const saved = localStorage.getItem(ieltsKey());
+      if (saved) {
+        try { renderIelts(JSON.parse(saved)); } catch (e) {}
+        updateEnglishBadge();
+      } else {
+        refreshIelts();
+      }
+      scheduleIelts();
+    }
+
+    function scheduleIelts() {
+      const now = new Date();
+      const next8 = new Date(now);
+      next8.setHours(8, 0, 0, 0);
+      if (next8 <= now) next8.setDate(next8.getDate() + 1);
+      setTimeout(() => { refreshIelts(); scheduleIelts(); }, next8 - now);
+    }
+
+    async function refreshIelts() {
+      const loading = $('ielts-loading');
+      const list = $('ielts-list');
+      if (loading) loading.classList.remove('hidden');
+      if (list) list.innerHTML = '';
+      for (const src of IELTS_SOURCES) {
+        try {
+          const url = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(src);
+          const res = await fetch(url);
+          const data = await res.json();
+          if (data && data.items && data.items.length) {
+            const items = data.items.slice(0, 6);
+            const payload = await buildDailyMock(items, (data.feed && data.feed.title) || src);
+            localStorage.setItem(ieltsKey(), JSON.stringify(payload));
+            renderIelts(payload);
+            if (loading) loading.classList.add('hidden');
+            updateEnglishBadge();
+            return;
+          }
+        } catch (e) { /* 尝试下一个源 */ }
+      }
+      if (loading) loading.classList.add('hidden');
+      if (list) list.innerHTML = '<p class="text-sm text-gray-400 text-center py-4">暂时无法获取新闻，请稍后点「刷新」重试。</p>';
+    }
+
+    function detectTopic(text) {
+      const t = text.toLowerCase();
+      let best = '综合', max = 0;
+      for (const topic in IELTS_TOPICS) {
+        const c = IELTS_TOPICS[topic].filter(k => t.indexOf(k) > -1).length;
+        if (c > max) { max = c; best = topic; }
+      }
+      return best;
+    }
+
+    async function buildDailyMock(items, source) {
+      const topicCount = {};
+      items.forEach(it => {
+        const t = detectTopic((it.title || '') + ' ' + (it.description || '').replace(/<[^>]+>/g, ''));
+        topicCount[t] = (topicCount[t] || 0) + 1;
+      });
+      let mainTopic = '综合', max = 0;
+      for (const k in topicCount) { if (k === '综合') continue; if (topicCount[k] > max) { max = topicCount[k]; mainTopic = k; } }
+      const std = IELTS_STANDARD.topics[mainTopic] || IELTS_STANDARD.topics['综合'];
+
+      const lead = items[0] || {};
+      const leadDesc = (lead.description || '').replace(/<[^>]+>/g, '');
+      const reading = generateReading(lead.title || '', leadDesc);
+
+      const writing = {
+        title: std.writing,
+        framework: [
+          '开头段：背景引入 + 明确立场（e.g. I partly agree...）',
+          '主体段1：第一个论点 + 解释 + 具体例子',
+          '主体段2：反方观点或深入论证 + 论据',
+          '结尾段：重申立场 + 简要总结'
+        ],
+        vocab: std.vocab.slice(0, 6)
+      };
+
+      const speaking = { p1: IELTS_STANDARD.part1, p2: std.p2, p3: std.p3 };
+
+      const vocab = await collectVocab(items, std);
+
+      const news = items.slice(0, 5).map(it => {
+        const d = (it.description || '').replace(/<[^>]+>/g, '');
+        const sents = d.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(s => s.length > 12).sort((a, b) => b.length - a.length);
+        return {
+          title: it.title || '',
+          topic: detectTopic((it.title || '') + ' ' + d),
+          longSentence: (sents[0] || '').slice(0, 160),
+          link: it.link || '', date: it.pubDate || ''
+        };
+      });
+
+      return { date: todayKey(), source, mainTopic, mock: { reading, writing, speaking, vocab }, news };
+    }
+
+    function generateReading(title, desc) {
+      const facts = desc.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(s => s.length > 30);
+      const f1 = facts[0] || title || 'The event was widely reported by multiple outlets.';
+      const trueQ = 'According to the passage, ' + (f1.charAt(0).toLowerCase() + f1.slice(1));
+      const falseQ = 'The article states that the incident had no impact on ordinary citizens.';
+      const ngQ = 'The report provides a detailed breakdown of the national education budget for next year.';
+      return [
+        { q: trueQ, a: 'TRUE' },
+        { q: falseQ, a: 'FALSE' },
+        { q: ngQ, a: 'NOT GIVEN' }
+      ];
+    }
+
+    async function collectVocab(items, std) {
+      const longWords = [];
+      for (const it of items.slice(0, 3)) {
+        const d = (it.description || '').replace(/<[^>]+>/g, '').toLowerCase();
+        const ws = (d.match(/[a-z][a-z'-]{6,}/g) || []).filter(w => !IELTS_STOPWORDS.has(w) && !/^[0-9]/.test(w));
+        for (const w of ws) { if (longWords.length < 6 && !longWords.includes(w)) longWords.push(w); }
+      }
+      const vocab = [];
+      for (const w of longWords.slice(0, 3)) {
+        let def = '';
+        try {
+          const ctrl = new AbortController();
+          const timer = setTimeout(() => ctrl.abort(), 4000);
+          const r = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + w, { signal: ctrl.signal });
+          clearTimeout(timer);
+          if (r.ok) {
+            const d = await r.json();
+            def = (Array.isArray(d) && d[0] && d[0].meanings && d[0].meanings[0] && d[0].meanings[0].definitions[0]) ? d[0].meanings[0].definitions[0].definition : '';
+          }
+        } catch (e) {}
+        vocab.push({ word: w, def });
+      }
+      const topicWords = (std.vocab || []).slice(0, 8).map(w => ({ word: w, def: '(雅思话题核心词)' }));
+      return vocab.concat(topicWords);
+    }
+
+    function renderIelts(payload) {
+      const list = $('ielts-list');
+      if (!list) return;
+      list.innerHTML = '';
+      $('ielts-updated').textContent = '更新于 ' + payload.date + (payload.source ? ' · 来源 ' + payload.source : '') + (payload.mainTopic ? ' · 今日话题「' + payload.mainTopic + '」' : '');
+      $('ielts-standard').textContent = IELTS_STANDARD.intro;
+
+      const m = payload.mock || {};
+
+      if (m.reading) {
+        const c = document.createElement('div');
+        c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-book-open text-green-600 mr-1"></i>阅读模拟 · TRUE / FALSE / NOT GIVEN</h4><ol class="space-y-2 list-decimal list-inside">';
+        m.reading.forEach(r => {
+          h += '<li class="text-sm text-gray-700">' + escapeHtml(r.q) + ' <span class="text-gray-400 text-xs">(答案：' + r.a + ')</span></li>';
+        });
+        h += '</ol><p class="text-xs text-gray-400 mt-2">答案已附在每题后，先自测再看。</p>';
+        c.innerHTML = h; list.appendChild(c);
+      }
+
+      if (m.writing) {
+        const c = document.createElement('div');
+        c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-pen-nib text-green-600 mr-1"></i>写作模拟 · Task 2</h4>';
+        h += '<p class="text-sm text-gray-800 font-medium">' + escapeHtml(m.writing.title) + '</p><div class="mt-2 space-y-1">';
+        m.writing.framework.forEach(f => { h += '<p class="text-xs text-gray-600"><i class="fa-solid fa-check text-green-500 mr-1"></i>' + escapeHtml(f) + '</p>'; });
+        h += '</div>';
+        if (m.writing.vocab && m.writing.vocab.length) {
+          h += '<div class="mt-2 flex flex-wrap gap-2">';
+          m.writing.vocab.forEach(v => { h += '<span class="text-xs bg-white border border-gray-200 rounded-lg px-2 py-1">' + escapeHtml(v) + '</span>'; });
+          h += '</div>';
+        }
+        c.innerHTML = h; list.appendChild(c);
+      }
+
+      if (m.speaking) {
+        const c = document.createElement('div');
+        c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-comments text-green-600 mr-1"></i>口语模拟 · Part 1 / 2 / 3</h4>';
+        h += '<p class="text-xs text-gray-500">Part 1</p><p class="text-sm text-gray-800 mb-2">' + escapeHtml(m.speaking.p1) + '</p>';
+        h += '<p class="text-xs text-gray-500">Part 2（话题卡）</p><p class="text-sm text-gray-800 mb-2">' + escapeHtml(m.speaking.p2) + '</p>';
+        h += '<p class="text-xs text-gray-500">Part 3</p><p class="text-sm text-gray-800">' + escapeHtml(m.speaking.p3) + '</p>';
+        c.innerHTML = h; list.appendChild(c);
+      }
+
+      if (m.vocab && m.vocab.length) {
+        const c = document.createElement('div');
+        c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-spell-check text-green-600 mr-1"></i>今日词汇（新闻长词 + 话题核心词）</h4><div class="flex flex-wrap gap-2">';
+        m.vocab.forEach(v => {
+          h += '<span class="text-xs bg-white border border-gray-200 rounded-lg px-2 py-1"><b>' + escapeHtml(v.word) + '</b> · ' + escapeHtml((v.def || '').slice(0, 50)) + '</span>';
+        });
+        h += '</div>';
+        c.innerHTML = h; list.appendChild(c);
+      }
+
+      if (payload.news && payload.news.length) {
+        const c = document.createElement('div');
+        c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-newspaper text-green-600 mr-1"></i>今日语料来源</h4>';
+        payload.news.forEach(n => {
+          h += '<div class="mb-3">';
+          h += '<span class="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">' + escapeHtml(n.topic) + '</span>';
+          h += '<p class="text-sm text-gray-800 font-medium leading-snug mt-1">' + escapeHtml(n.title) + '</p>';
+          if (n.longSentence) h += '<blockquote class="mt-1 pl-3 border-l-4 border-green-300 text-xs text-gray-600">' + escapeHtml(n.longSentence) + '</blockquote>';
+          if (n.link) h += '<a href="' + escapeHtml(n.link) + '" target="_blank" rel="noopener" class="inline-block mt-1 text-xs text-green-700 hover:underline">阅读原文 →</a>';
+          h += '</div>';
+        });
+        c.innerHTML = h; list.appendChild(c);
+      }
+    }
+
+    function updateEnglishBadge() {
+      const badge = $('english-badge');
+      if (!badge) return;
+      const saved = localStorage.getItem(ieltsKey());
+      const lastRead = localStorage.getItem('ielts_lastread');
+      if (saved) {
+        try {
+          const p = JSON.parse(saved);
+          if (p.date === todayKey() && lastRead !== todayKey()) { badge.classList.remove('hidden'); return; }
+        } catch (e) {}
+      }
+      badge.classList.add('hidden');
+    }
+
+    function markEnglishRead() {
+      localStorage.setItem('ielts_lastread', todayKey());
+      const badge = $('english-badge');
+      if (badge) badge.classList.add('hidden');
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function init() {
+      renderTasks();
+      initIelts();
+      renderPlan();
+      renderTechNews();
+      renderSimpleList('topics', 'topic-list', 'new-topic-input');
+
+      bindTextarea('daily-goals', 'daily_goals');
+      bindTextarea('news-policy', 'news_policy');
+      bindTextarea('news-industry', 'news_industry');
+      bindTextarea('news-content', 'news_content');
+      bindTextarea('news-keywords', 'news_keywords');
+      bindTextarea('review-published', 'review_published');
+      bindTextarea('review-data', 'review_data');
+      bindTextarea('review-summary', 'review_summary');
+      bindTextarea('memo-text', 'memo');
+      bindTextarea('english-content', 'english_content');
+      bindTextarea('english-duration', 'english_duration');
+      bindTextarea('english-notes', 'english_notes');
+
+      const lastPage = localStorage.getItem('workbench_last_page') || 'daily-plan';
+      showPage(lastPage);
+      document.querySelectorAll('.nav-item').forEach(b => {
+        b.classList.toggle('active', b.dataset.page === lastPage);
+      });
+    }
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js').catch(() => {});
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>
