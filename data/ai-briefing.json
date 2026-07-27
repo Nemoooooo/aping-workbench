@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27 22:24",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-27** ｜ 来源：The Verge AI、ZDNet AI\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **Samsung's new Ultra foldable is impressive, but I'd pay close attention to this model**  \n  The Galaxy Z Fold 8 Ultra is sure to impress power users, but Samsung took a risk with the…  \n  🔗 https://www.zdnet.com/article/samsung-galaxy-z-fold-8-ultra-hands-on/\n\n- **Samsung Galaxy Z Fold 8 Ultra vs. Z Fold 7: How the first 'Ultra' foldable compares to last year's model**  \n  Samsung's new Z Fold 8 Ultra brings design and software changes geared toward power users …  \n  🔗 https://www.zdnet.com/article/samsung-galaxy-z-fold-8-ultra-vs-z-fold-7/\n\n- **Claude Opus 5 arrives with near Fable performance at half the price**  \n  Anthropic's latest Claude upgrade targets developers and enterprises with stronger coding,…  \n  🔗 https://www.zdnet.com/article/claude-opus-5-near-fable-performance-at-half-the-price/\n\n\n## 其他（5 条）\n\n- **Assume AI cybersecurity attacks are the future: 43% of companies have already experienced it**  \n  New CDW research finds that AI is driving new phishing and malware-based threats. But are …  \n  🔗 https://www.zdnet.com/article/assume-ai-cybersecurity-attacks-are-the-future-43-percent-of-companies-have-already-experienced-it/\n\n- **I found a dual-display USB-C dock with 8 ports - and no bulky AC brick**  \n  EZQuest's Pro Series 8-in-1 hub runs on Intel's low-cut but high feature Hoover Ridge chip…  \n  🔗 https://www.zdnet.com/article/ezquest-pro-series-8-in-1-hub-no-bulky-ac-brick/\n\n- **I fixed my home office's spotty Wi-Fi with Samsung's free diagnostic tool - in minutes**  \n  There are some great non-Samsung alternatives, too.…  \n  🔗 https://www.zdnet.com/article/samsung-connectivity-labs-wifi-diagnostic-tool-fix-office-setup/\n\n- **How would AI data centers in space even work? A former NASA robotics chief explains**  \n  'You collect electricity in space, and you eject heat in space. The only thing that comes …  \n  🔗 https://www.zdnet.com/article/how-would-ai-data-centers-in-space-even-work-a-former-nasa-robotics-chief-explains/\n\n- **Samsung Galaxy Z Fold 8 vs. Z Flip 8: How Samsung's two new foldables compare**  \n  Samsung's new foldables are impressive, but how different are they really, by the specs? L…  \n  🔗 https://www.zdnet.com/article/samsung-galaxy-z-fold-8-vs-z-flip-8/\n",
+  "infographic_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"820\" height=\"726\" viewBox=\"0 0 820 726\" font-family=\"-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif\"><rect width=\"820\" height=\"726\" fill=\"#0f2417\"/><rect x=\"0\" y=\"0\" width=\"820\" height=\"130\" fill=\"#2f5e2d\"/><text x=\"28\" y=\"50\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"700\">AI 动态每日简报</text><text x=\"28\" y=\"84\" fill=\"#cfe8d0\" font-size=\"16\">生成日期 2026-07-27 ｜ 来源 The Verge / ZDNet</text><rect x=\"28\" y=\"100\" width=\"129\" height=\"22\" rx=\"11\" fill=\"#1c3a26\"/><text x=\"40\" y=\"116\" fill=\"#a9d8b4\" font-size=\"13\">研究/模型 3</text><rect x=\"167\" y=\"100\" width=\"84\" height=\"22\" rx=\"11\" fill=\"#1c3a26\"/><text x=\"179\" y=\"116\" fill=\"#a9d8b4\" font-size=\"13\">其他 9</text><rect x=\"28\" y=\"158\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"194\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">1</text><text x=\"80\" y=\"194\" fill=\"#ffffff\" font-size=\"17\">Assume AI cybersecurity attacks …</text><text x=\"80\" y=\"220\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 · 点击查看原文</text><rect x=\"28\" y=\"244\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"280\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">2</text><text x=\"80\" y=\"280\" fill=\"#ffffff\" font-size=\"17\">I found a dual-display USB-C doc…</text><text x=\"80\" y=\"306\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 · 点击查看原文</text><rect x=\"28\" y=\"330\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"366\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">3</text><text x=\"80\" y=\"366\" fill=\"#ffffff\" font-size=\"17\">I fixed my home office&#x27;s spotty …</text><text x=\"80\" y=\"392\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 · 点击查看原文</text><rect x=\"28\" y=\"416\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"452\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">4</text><text x=\"80\" y=\"452\" fill=\"#ffffff\" font-size=\"17\">How would AI data centers in spa…</text><text x=\"80\" y=\"478\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 · 点击查看原文</text><rect x=\"28\" y=\"502\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"538\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">5</text><text x=\"80\" y=\"538\" fill=\"#ffffff\" font-size=\"17\">Samsung Galaxy Z Fold 8 vs. Z Fl…</text><text x=\"80\" y=\"564\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 · 点击查看原文</text><rect x=\"28\" y=\"588\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"624\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">6</text><text x=\"80\" y=\"624\" fill=\"#ffffff\" font-size=\"17\">Samsung Galaxy Z Fold 8 Ultra vs…</text><text x=\"80\" y=\"650\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 · 点击查看原文</text><text x=\"28\" y=\"710\" fill=\"#7a947f\" font-size=\"12\">阿萍的工作台 · 每日 09:00 自动生成</text></svg>",
+  "items": [
+    {
+      "title": "Assume AI cybersecurity attacks are the future: 43% of companies have already experienced it",
+      "link": "https://www.zdnet.com/article/assume-ai-cybersecurity-attacks-are-the-future-43-percent-of-companies-have-already-experienced-it/"
+    },
+    {
+      "title": "I found a dual-display USB-C dock with 8 ports - and no bulky AC brick",
+      "link": "https://www.zdnet.com/article/ezquest-pro-series-8-in-1-hub-no-bulky-ac-brick/"
+    },
+    {
+      "title": "I fixed my home office's spotty Wi-Fi with Samsung's free diagnostic tool - in minutes",
+      "link": "https://www.zdnet.com/article/samsung-connectivity-labs-wifi-diagnostic-tool-fix-office-setup/"
+    },
+    {
+      "title": "How would AI data centers in space even work? A former NASA robotics chief explains",
+      "link": "https://www.zdnet.com/article/how-would-ai-data-centers-in-space-even-work-a-former-nasa-robotics-chief-explains/"
+    },
+    {
+      "title": "Samsung Galaxy Z Fold 8 vs. Z Flip 8: How Samsung's two new foldables compare",
+      "link": "https://www.zdnet.com/article/samsung-galaxy-z-fold-8-vs-z-flip-8/"
+    },
+    {
+      "title": "Samsung Galaxy Z Fold 8 Ultra vs. Motorola Razr Ultra: How Samsung fares against its foldable rival",
+      "link": "https://www.zdnet.com/article/galaxy-z-fold-8-ultra-vs-motorola-razr-ultra-comparison/"
+    },
+    {
+      "title": "Samsung's new Ultra foldable is impressive, but I'd pay close attention to this model",
+      "link": "https://www.zdnet.com/article/samsung-galaxy-z-fold-8-ultra-hands-on/"
+    },
+    {
+      "title": "Stop scrolling: Light's $299 flip phone and its retro specs could change your life",
+      "link": "https://www.zdnet.com/article/light-flip-news/"
+    },
+    {
+      "title": "Samsung Galaxy Z Fold 8 Ultra vs. Z Fold 7: How the first 'Ultra' foldable compares to last year's model",
+      "link": "https://www.zdnet.com/article/samsung-galaxy-z-fold-8-ultra-vs-z-fold-7/"
+    },
+    {
+      "title": "Everything announced at Galaxy Unpacked 2026: Can Samsung compete with the rumored foldable iPhone?",
+      "link": "https://www.zdnet.com/article/everything-announced-samsung-unpacked-2026/"
+    },
+    {
+      "title": "Amazon will give you a $350 gift card when you buy a new Samsung phone - here's what to know",
+      "link": "https://www.zdnet.com/article/samsung-galaxy-z-fold-flip-8-amazon-deals-2026/"
+    },
+    {
+      "title": "Claude Opus 5 arrives with near Fable performance at half the price",
+      "link": "https://www.zdnet.com/article/claude-opus-5-near-fable-performance-at-half-the-price/"
+    }
+  ]
+}

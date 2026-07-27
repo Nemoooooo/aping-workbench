@@ -86,10 +86,12 @@
           <i class="fa-regular fa-clipboard text-lg w-6 text-center"></i> 每日计划
         </button>
         <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="tech-news">
-          <i class="fa-solid fa-globe text-lg w-6 text-center"></i> 每日全球最新科技新闻
+          <i class="fa-solid fa-globe text-lg w-6 text-center"></i> AI动态每日简报
+          <span id="ai-badge" class="hidden ml-auto w-2.5 h-2.5 rounded-full bg-red-500"></span>
         </button>
         <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="news-analysis">
           <i class="fa-solid fa-tv text-lg w-6 text-center"></i> 每日新闻联播深度分析
+          <span id="news-badge" class="hidden ml-auto w-2.5 h-2.5 rounded-full bg-red-500"></span>
         </button>
         <button class="nav-item w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="topics">
           <i class="fa-regular fa-lightbulb text-lg w-6 text-center"></i> 选题每日灵感
@@ -148,18 +150,24 @@
           </div>
         </section>
 
-        <!-- 2. 每日全球最新科技新闻 -->
+        <!-- 2. AI动态每日简报 -->
         <section id="tech-news" class="page-section hidden space-y-6">
           <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
-              <h3 class="font-bold text-gray-900">全球科技新闻摘要</h3>
-              <div class="flex gap-2">
-                <button onclick="openTechSite('https://www.techmeme.com')" class="text-sm px-3 py-1.5 rounded-lg border border-gray-200 hover:bg-gray-50">Techmeme</button>
-                <button onclick="openTechSite('https://techcrunch.com')" class="text-sm px-3 py-1.5 rounded-lg border border-gray-200 hover:bg-gray-50">TechCrunch</button>
-                <button onclick="openTechSite('https://www.36kr.com')" class="text-sm px-3 py-1.5 rounded-lg border border-gray-200 hover:bg-gray-50">36氪</button>
+            <div class="flex items-start justify-between mb-3">
+              <div>
+                <h3 class="font-bold text-gray-900">AI 动态每日简报 <span class="text-xs font-normal text-gray-400">· 每天 09:00 自动更新</span></h3>
+                <p id="ai-updated" class="text-xs text-gray-500 mt-0.5"></p>
               </div>
+              <button onclick="renderAiBriefing()" class="shrink-0 text-sm px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition">
+                <i class="fa-solid fa-rotate mr-1"></i> 刷新
+              </button>
             </div>
-            <p class="text-sm text-gray-500 mb-4">点击下方卡片编辑今日看到的重点科技资讯，或一键跳转到源站阅读。</p>
+            <div id="ai-infographic" class="mb-4 rounded-xl overflow-hidden bg-gray-50"></div>
+            <div id="ai-md" class="max-w-none"></div>
+          </div>
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <h3 class="font-bold text-gray-900 mb-3">我的科技新闻笔记</h3>
+            <p class="text-sm text-gray-500 mb-4">上方为每日自动生成的 AI 简报，下方可手动记录你额外关注的科技资讯。</p>
             <div id="tech-news-list" class="grid md:grid-cols-2 gap-4">
               <!-- JS 渲染 -->
             </div>
@@ -172,23 +180,19 @@
         <!-- 3. 每日新闻联播深度分析 -->
         <section id="news-analysis" class="page-section hidden space-y-6">
           <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
-            <h3 class="font-bold text-gray-900 mb-4">新闻联播深度分析</h3>
-            <div class="grid md:grid-cols-3 gap-4 mb-6">
-              <div class="p-4 rounded-xl bg-green-50 border border-green-100">
-                <div class="text-xs text-green-700 mb-1">政策信号</div>
-                <textarea id="news-policy" class="w-full bg-transparent text-sm resize-none focus:outline-none h-24" placeholder="记录政策方向与关键词..."></textarea>
+            <div class="flex items-start justify-between mb-3">
+              <div>
+                <h3 class="font-bold text-gray-900">每日新闻联播深度分析 <span class="text-xs font-normal text-gray-400">· 每天 07:00 自动更新</span></h3>
+                <p id="news-updated" class="text-xs text-gray-500 mt-0.5"></p>
               </div>
-              <div class="p-4 rounded-xl bg-blue-50 border border-blue-100">
-                <div class="text-xs text-blue-700 mb-1">产业机会</div>
-                <textarea id="news-industry" class="w-full bg-transparent text-sm resize-none focus:outline-none h-24" placeholder="哪些行业/领域被重点提及..."></textarea>
-              </div>
-              <div class="p-4 rounded-xl bg-orange-50 border border-orange-100">
-                <div class="text-xs text-orange-700 mb-1">创作关联</div>
-                <textarea id="news-content" class="w-full bg-transparent text-sm resize-none focus:outline-none h-24" placeholder="可以关联到哪些选题/内容..."></textarea>
-              </div>
+              <button onclick="renderNewsAnalysis(true)" class="shrink-0 text-sm px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition">
+                <i class="fa-solid fa-rotate mr-1"></i> 刷新
+              </button>
             </div>
-            <h4 class="font-semibold text-gray-900 mb-2">今日金句 / 关键词</h4>
-            <textarea id="news-keywords" class="w-full h-24 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 focus:border-green-600 resize-none" placeholder="摘录今天最有价值的表述..."></textarea>
+            <p id="news-note" class="text-xs text-gray-400 mb-4"></p>
+            <div id="news-analysis-body" class="space-y-5">
+              <!-- JS 渲染四维分析 -->
+            </div>
           </div>
         </section>
 
@@ -335,6 +339,8 @@
         const page = btn.dataset.page;
         showPage(page);
         if (page === 'english') markEnglishRead();
+        if (page === 'tech-news') markAiRead();
+        if (page === 'news-analysis') markNewsRead();
         if (window.innerWidth < 768) toggleSidebar();
       });
     });
@@ -344,7 +350,7 @@
       $(page).classList.remove('hidden');
       const titles = {
         'daily-plan': '每日计划',
-        'tech-news': '每日全球最新科技新闻',
+        'tech-news': 'AI动态每日简报',
         'news-analysis': '每日新闻联播深度分析',
         'topics': '选题每日灵感',
         'review': '内容复盘',
@@ -837,18 +843,168 @@
       return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
 
+    // ================= 每日自动推送内容（模块2 / 模块3） =================
+    let _aiData = null, _newsData = null;
+
+    const PERSPECTIVE_META = {
+      '行政官员': { border: 'border-green-100', head: 'bg-green-50 text-green-800', count: 'text-green-600', icon: 'fa-landmark', desc: '政策如何传导到行政体系' },
+      '高校':     { border: 'border-blue-100', head: 'bg-blue-50 text-blue-800', count: 'text-blue-600', icon: 'fa-graduation-cap', desc: '对高校与科研的影响' },
+      '商人公司': { border: 'border-orange-100', head: 'bg-orange-50 text-orange-800', count: 'text-orange-600', icon: 'fa-building', desc: '企业与市场的机会与风险' },
+      '协会':     { border: 'border-purple-100', head: 'bg-purple-50 text-purple-800', count: 'text-purple-600', icon: 'fa-people-group', desc: '行业协会与标准走向' }
+    };
+
+    // 轻量 Markdown -> HTML（支持 #/##/###、>引用、-列表、**粗体**、链接、🔗原文）
+    function mdInline(text) {
+      let s = escapeHtml(text);
+      s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+        (m, t, u) => `<a href="${u}" target="_blank" rel="noopener" class="text-green-700 underline">${t}</a>`);
+      s = s.replace(/(🔗\s*https?:\/\/[^\s<]+|https?:\/\/[^\s<]+)/g, (m) => {
+        const url = m.replace('🔗', '').trim();
+        const label = m.startsWith('🔗') ? '🔗 查看原文' : url;
+        return `<a href="${url}" target="_blank" rel="noopener" class="text-green-700 underline">${label}</a>`;
+      });
+      s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      return s;
+    }
+
+    function renderMarkdown(md) {
+      if (!md) return '';
+      const lines = md.replace(/\r\n/g, '\n').split('\n');
+      let html = '', i = 0, inList = false, inQuote = false;
+      const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };
+      const closeQuote = () => { if (inQuote) { html += '</blockquote>'; inQuote = false; } };
+      while (i < lines.length) {
+        const line = lines[i];
+        if (/^\s*$/.test(line)) { closeList(); closeQuote(); i++; continue; }
+        if (/^#\s+/.test(line)) { closeList(); closeQuote(); html += `<h1 class="text-xl font-bold text-gray-900 mt-4 mb-2">${mdInline(line.replace(/^#\s+/, ''))}</h1>`; i++; continue; }
+        if (/^##\s+/.test(line)) { closeList(); closeQuote(); html += `<h2 class="text-base font-bold text-gray-800 mt-5 mb-2 pb-1 border-b border-gray-100">${mdInline(line.replace(/^##\s+/, ''))}</h2>`; i++; continue; }
+        if (/^###\s+/.test(line)) { closeList(); closeQuote(); html += `<h3 class="text-sm font-bold text-gray-800 mt-4 mb-2">${mdInline(line.replace(/^###\s+/, ''))}</h3>`; i++; continue; }
+        if (/^---+\s*$/.test(line)) { closeList(); closeQuote(); html += '<hr class="my-4 border-gray-100">'; i++; continue; }
+        if (/^>\s?/.test(line)) {
+          closeList();
+          if (!inQuote) { html += '<blockquote class="border-l-4 border-green-200 pl-3 text-sm text-gray-500 my-2">'; inQuote = true; }
+          html += mdInline(line.replace(/^>\s?/, '')) + '<br>';
+          i++; continue;
+        }
+        if (/^[-*]\s+/.test(line)) {
+          closeQuote();
+          if (!inList) { html += '<ul class="space-y-2 my-2 list-none">'; inList = true; }
+          let item = line.replace(/^[-*]\s+/, '');
+          i++;
+          while (i < lines.length && !/^\s*$/.test(lines[i]) && !/^[#>\-]/.test(lines[i]) && !/^---/.test(lines[i])) {
+            item += '<br>' + lines[i].replace(/^\s+/, '');
+            i++;
+          }
+          html += `<li class="text-sm text-gray-700 leading-relaxed">${mdInline(item)}</li>`;
+          continue;
+        }
+        closeList(); closeQuote();
+        html += `<p class="text-sm text-gray-700 my-2">${mdInline(line)}</p>`;
+        i++;
+      }
+      closeList(); closeQuote();
+      return html;
+    }
+
+    async function renderAiBriefing() {
+      const box = $('ai-md'), fig = $('ai-infographic'), upd = $('ai-updated');
+      if (!box) return;
+      box.innerHTML = '<p class="text-sm text-gray-400">加载中…</p>';
+      try {
+        const res = await fetch('data/ai-briefing.json?t=' + Date.now(), { cache: 'no-store' });
+        const d = await res.json();
+        _aiData = d;
+        if (upd) upd.textContent = '更新于 ' + (d.generated_at || '') + ' ｜ 共 ' + (d.items ? d.items.length : 0) + ' 条';
+        if (fig) {
+          fig.innerHTML = d.infographic_svg || '';
+          const svg = fig.querySelector('svg');
+          if (svg) { svg.removeAttribute('width'); svg.setAttribute('width', '100%'); svg.setAttribute('height', 'auto'); svg.style.height = 'auto'; }
+        }
+        box.innerHTML = renderMarkdown(d.briefing_md || '');
+        updateAiBadge();
+      } catch (e) {
+        box.innerHTML = '<p class="text-sm text-red-500">加载失败：' + escapeHtml(e.message) + '。请确认 data/ai-briefing.json 已随站点一起部署。</p>';
+      }
+    }
+
+    async function renderNewsAnalysis(force) {
+      const body = $('news-analysis-body'), upd = $('news-updated'), note = $('news-note');
+      if (!body) return;
+      if (!force && _newsData) { paintNews(); return; }
+      body.innerHTML = '<p class="text-sm text-gray-400">加载中…</p>';
+      try {
+        const res = await fetch('data/news-analysis.json?t=' + Date.now(), { cache: 'no-store' });
+        const d = await res.json();
+        _newsData = d;
+        paintNews();
+      } catch (e) {
+        body.innerHTML = '<p class="text-sm text-red-500">加载失败：' + escapeHtml(e.message) + '。请确认 data/news-analysis.json 已随站点一起部署。</p>';
+      }
+    }
+
+    function paintNews() {
+      const d = _newsData;
+      const body = $('news-analysis-body'), upd = $('news-updated'), note = $('news-note');
+      if (note) note.textContent = d.note || '';
+      let matched = 0;
+      order.forEach(p => { matched += ((d.analysis && d.analysis[p]) || []).length; });
+      if (upd) upd.textContent = '数据日期 ' + d.date + ' ｜ 来源：' + (d.source || '') + ' ｜ 抓取 ' + d.total + ' 条，命中四维分析 ' + matched + ' 条';
+      const order = ['行政官员', '高校', '商人公司', '协会'];
+      let html = '';
+      order.forEach(p => {
+        const items = (d.analysis && d.analysis[p]) || [];
+        const meta = PERSPECTIVE_META[p] || { border: 'border-gray-100', head: 'bg-gray-50 text-gray-800', count: 'text-gray-600', icon: 'fa-circle', desc: '' };
+        html += `<div class="rounded-xl border ${meta.border} overflow-hidden">
+          <div class="flex items-center gap-2 px-4 py-3 ${meta.head}">
+            <i class="fa-solid ${meta.icon}"></i>
+            <span class="font-semibold">${p}</span>
+            <span class="text-xs opacity-70 ml-1">${meta.desc}</span>
+            <span class="ml-auto text-xs ${meta.count}">${items.length} 条</span>
+          </div>
+          <div class="p-4 space-y-3">`;
+        if (items.length === 0) {
+          html += '<p class="text-sm text-gray-400">今日暂无直接相关要闻。</p>';
+        } else {
+          items.forEach(it => {
+            html += `<div class="p-3 rounded-lg bg-gray-50/60 border border-gray-100">
+              <a href="${escapeHtml(it.link)}" target="_blank" rel="noopener" class="text-sm font-medium text-gray-900 hover:text-green-700">${escapeHtml(it.title)} <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-300"></i></a>
+              ${it.area ? `<span class="ml-2 inline-block text-[11px] px-2 py-0.5 rounded bg-gray-100 text-gray-500">${escapeHtml(it.area)}</span>` : ''}
+              <p class="text-sm text-gray-600 mt-1.5 leading-relaxed">${escapeHtml(it.impact)}</p>
+            </div>`;
+          });
+        }
+        html += '</div></div>';
+      });
+      body.innerHTML = html;
+      updateNewsBadge();
+    }
+
+    function updateAiBadge() {
+      const b = $('ai-badge'); if (!b) return;
+      const last = localStorage.getItem('ai_lastread');
+      if (_aiData && _aiData.date === todayKey() && last !== todayKey()) b.classList.remove('hidden');
+      else b.classList.add('hidden');
+    }
+    function markAiRead() { localStorage.setItem('ai_lastread', todayKey()); const b = $('ai-badge'); if (b) b.classList.add('hidden'); }
+
+    function updateNewsBadge() {
+      const b = $('news-badge'); if (!b) return;
+      const last = localStorage.getItem('news_lastread');
+      if (_newsData && _newsData.date === todayKey() && last !== todayKey()) b.classList.remove('hidden');
+      else b.classList.add('hidden');
+    }
+    function markNewsRead() { localStorage.setItem('news_lastread', todayKey()); const b = $('news-badge'); if (b) b.classList.add('hidden'); }
+
     function init() {
       renderTasks();
       initIelts();
       renderPlan();
       renderTechNews();
       renderSimpleList('topics', 'topic-list', 'new-topic-input');
+      renderAiBriefing();
+      renderNewsAnalysis();
 
       bindTextarea('daily-goals', 'daily_goals');
-      bindTextarea('news-policy', 'news_policy');
-      bindTextarea('news-industry', 'news_industry');
-      bindTextarea('news-content', 'news_content');
-      bindTextarea('news-keywords', 'news_keywords');
       bindTextarea('review-published', 'review_published');
       bindTextarea('review-data', 'review_data');
       bindTextarea('review-summary', 'review_summary');
