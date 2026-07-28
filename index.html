@@ -8,12 +8,22 @@
   <!-- PWA / iOS 主屏幕 App 支持 -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="阿萍的工作台" />
   <meta name="theme-color" content="#2f5e2d" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="apple-touch-fullscreen" content="yes" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
   <link rel="icon" href="icon-192.png" />
+
+  <!-- iOS 启动闪屏（按设备分辨率匹配，避免打开时闪白/黑） -->
+  <link rel="apple-touch-startup-image" href="splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" />
+  <link rel="apple-touch-startup-image" href="splash-1242x2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" />
+  <link rel="apple-touch-startup-image" href="splash-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" />
+  <link rel="apple-touch-startup-image" href="splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" />
+  <link rel="apple-touch-startup-image" href="splash-1242x2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" />
+  <link rel="apple-touch-startup-image" href="splash-1284x2778.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3)" />
 
   <!-- 本地资源（离线可用，不依赖外网） -->
   <script src="tailwind.min.js"></script>
@@ -59,12 +69,65 @@
       .overlay { display: none; }
       .overlay.open { display: block; }
     }
+
+    /* ===== 原生 App 体验增强 ===== */
+    .sidebar, main { min-height: 100vh; }
+    @supports (min-height: 100dvh) {
+      .sidebar, main { min-height: 100dvh; }
+    }
+    .safe-bottom { padding-bottom: calc(1rem + env(safe-area-inset-bottom)); }
+
+    #app-splash {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      background: linear-gradient(160deg, #2f5e2d 0%, #34d399 100%);
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+      transition: opacity .35s ease;
+    }
+    #app-splash.hide { opacity: 0; pointer-events: none; }
+    #app-splash .logo {
+      width: 120px; height: 120px; border-radius: 9999px; background: #fff;
+      display: flex; align-items: center; justify-content: center;
+      color: #2f5e2d; font-size: 56px; font-weight: 700;
+      box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    }
+    #app-splash .name { color: #fff; font-size: 22px; font-weight: 600; margin-top: 22px; letter-spacing: 1px; }
+    #app-splash .sub { color: #e6f5e6; font-size: 13px; margin-top: 8px; }
+
+    #install-banner {
+      position: fixed; left: 12px; right: 12px;
+      bottom: calc(12px + env(safe-area-inset-bottom));
+      z-index: 9000; background: #2f5e2d; color: #fff; border-radius: 16px;
+      padding: 13px 15px; display: flex; align-items: center; gap: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.22); font-size: 14px; line-height: 1.45;
+    }
+    #install-banner .ib-icon { font-size: 22px; flex: none; }
+    #install-banner .ib-text { flex: 1; }
+    #install-banner .ib-text b { font-weight: 700; }
+    #install-banner button.ib-close {
+      background: rgba(255,255,255,.18); border: 0; color: #fff;
+      width: 28px; height: 28px; border-radius: 9999px; font-size: 16px; cursor: pointer; flex: none;
+    }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-800 pt-[env(safe-area-inset-top)]">
 
   <!-- 移动端遮罩 -->
   <div id="overlay" class="overlay fixed inset-0 bg-black/40 z-40 md:hidden" onclick="toggleSidebar()"></div>
+
+  <!-- 启动闪屏遮罩（加载资源时显示，就绪后淡出） -->
+  <div id="app-splash">
+    <div class="logo">我</div>
+    <div class="name">阿萍的工作台</div>
+    <div class="sub">每天进步一点点</div>
+  </div>
+
+  <!-- 添加到主屏幕引导条（仅在以网页形式打开时显示） -->
+  <div id="install-banner" style="display:none">
+    <span class="ib-icon">📲</span>
+    <span class="ib-text">想让它像 App 一样全屏打开？在 Safari 中点 <b>分享</b> → <b>添加到主屏幕</b>，以后从主屏图标进入即为全屏无地址栏。</span>
+    <button class="ib-close" onclick="dismissInstallBanner()" aria-label="关闭">×</button>
+  </div>
 
   <div class="flex min-h-screen">
     <!-- 左侧边栏 -->
@@ -81,7 +144,7 @@
         </div>
       </div>
 
-      <nav class="flex-1 overflow-y-auto p-3 space-y-1">
+      <nav class="flex-1 overflow-y-auto p-3 space-y-1 safe-bottom">
         <button class="nav-item active w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition" data-page="daily-plan">
           <i class="fa-regular fa-clipboard text-lg w-6 text-center"></i> 每日计划
         </button>
@@ -129,7 +192,7 @@
         <div class="text-sm text-gray-500" id="current-date"></div>
       </header>
 
-      <div class="flex-1 overflow-y-auto p-4 md:p-8">
+      <div class="flex-1 overflow-y-auto p-4 md:p-8 safe-bottom">
 
         <!-- 1. 每日计划 -->
         <section id="daily-plan" class="page-section space-y-6">
@@ -1025,6 +1088,31 @@
         navigator.serviceWorker.register('service-worker.js').catch(() => {});
       });
     }
+
+    // 关闭启动遮罩 + 非全屏时提示“添加到主屏幕”
+    function dismissInstallBanner() {
+      var b = document.getElementById('install-banner');
+      if (b) b.style.display = 'none';
+      try { localStorage.setItem('workbench_install_dismissed', '1'); } catch (e) {}
+    }
+    function setupAppShell() {
+      var splash = document.getElementById('app-splash');
+      function hideSplash() {
+        if (!splash) return;
+        splash.classList.add('hide');
+        setTimeout(function () { splash.style.display = 'none'; }, 400);
+      }
+      if (document.readyState === 'complete') setTimeout(hideSplash, 300);
+      else window.addEventListener('load', function () { setTimeout(hideSplash, 300); });
+
+      var isStandalone = window.navigator.standalone ||
+        (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+      var dismissed = false;
+      try { dismissed = localStorage.getItem('workbench_install_dismissed') === '1'; } catch (e) {}
+      var banner = document.getElementById('install-banner');
+      if (banner && !isStandalone && !dismissed) banner.style.display = 'flex';
+    }
+    setupAppShell();
 
     init();
   </script>
