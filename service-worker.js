@@ -1,5 +1,5 @@
 // 工作台 Service Worker：network-first 策略，在线即用最新，离线回退缓存
-const CACHE = 'workbench-v9';
+const CACHE = 'workbench-v10';
 
 self.addEventListener('install', () => {
   self.skipWaiting();
