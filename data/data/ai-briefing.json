@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28 07:40",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-28** ｜ 来源：The Verge AI、TechCrunch AI\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **Why China is giving away its best AI models**  \n  Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moon…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies\n\n- **Claude’s voice mode is now available for Opus and Sonnet**  \n  Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai\n\n- **PSA: Your Claude shared chats and Artifacts may have ended up on Google**  \n  The issue appears to have originated from Claude’s “share chat” feature, which allows user…  \n  🔗 https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/\n\n\n## 产品/应用（2 条）\n\n- **Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic**  \n  Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech com…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\n\n- **Midjourney bought the astrology app Co-Star**  \n  Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition\n\n\n## 其他（5 条）\n\n- **You can’t ignore Google Zero anymore**  \n  The web and Google once had a deal: Google collects data and indexes webpages and in excha…  \n  🔗 https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast\n\n- **Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities**  \n  Weeks after Anthropic's latest toe-to-toe with the US government, and days after an OpenAI…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release\n\n- **Meta is making its AI chatbot more like an assistant**  \n  Meta is upgrading its AI chatbot with new productivity features in a bid to compete with r…  \n  🔗 https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update\n\n- **The tech-broification of American science has officially begun**  \n  The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directin…  \n  🔗 https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants\n\n- **Alexa Plus is getting an AI update to handle more complicated instructions**  \n  Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to…  \n  🔗 https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices\n",
+  "infographic_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"820\" height=\"726\" viewBox=\"0 0 820 726\" font-family=\"-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif\"><rect width=\"820\" height=\"726\" fill=\"#0f2417\"/><rect x=\"0\" y=\"0\" width=\"820\" height=\"130\" fill=\"#2f5e2d\"/><text x=\"28\" y=\"50\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"700\">AI 动态每日简报</text><text x=\"28\" y=\"84\" fill=\"#cfe8d0\" font-size=\"16\">生成日期 2026-07-28 ｜ 来源 The Verge / TechCrunch</text><rect x=\"28\" y=\"100\" width=\"129\" height=\"22\" rx=\"11\" fill=\"#1c3a26\"/><text x=\"40\" y=\"116\" fill=\"#a9d8b4\" font-size=\"13\">研究/模型 3</text><rect x=\"167\" y=\"100\" width=\"129\" height=\"22\" rx=\"11\" fill=\"#1c3a26\"/><text x=\"179\" y=\"116\" fill=\"#a9d8b4\" font-size=\"13\">产品/应用 2</text><rect x=\"306\" y=\"100\" width=\"84\" height=\"22\" rx=\"11\" fill=\"#1c3a26\"/><text x=\"318\" y=\"116\" fill=\"#a9d8b4\" font-size=\"13\">其他 7</text><rect x=\"28\" y=\"158\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"194\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">1</text><text x=\"80\" y=\"194\" fill=\"#ffffff\" font-size=\"17\">Why China is giving away its bes…</text><text x=\"80\" y=\"220\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"244\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"280\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">2</text><text x=\"80\" y=\"280\" fill=\"#ffffff\" font-size=\"17\">Nvidia, Microsoft launch open AI…</text><text x=\"80\" y=\"306\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"330\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"366\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">3</text><text x=\"80\" y=\"366\" fill=\"#ffffff\" font-size=\"17\">Midjourney bought the astrology …</text><text x=\"80\" y=\"392\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"416\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"452\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">4</text><text x=\"80\" y=\"452\" fill=\"#ffffff\" font-size=\"17\">You can’t ignore Google Zero any…</text><text x=\"80\" y=\"478\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"502\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"538\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">5</text><text x=\"80\" y=\"538\" fill=\"#ffffff\" font-size=\"17\">Anthropic releases Opus 5 with ‘…</text><text x=\"80\" y=\"564\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"588\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#15301f\" stroke=\"#2f5e2d\"/><text x=\"46\" y=\"624\" fill=\"#7CFC9A\" font-size=\"20\" font-weight=\"700\">6</text><text x=\"80\" y=\"624\" fill=\"#ffffff\" font-size=\"17\">Meta is making its AI chatbot mo…</text><text x=\"80\" y=\"650\" fill=\"#9fb8a6\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><text x=\"28\" y=\"710\" fill=\"#7a947f\" font-size=\"12\">阿萍的工作台 ｜ 每日 09:00 自动生成</text></svg>",
+  "items": [
+    {
+      "title": "Why China is giving away its best AI models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
+    },
+    {
+      "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+    },
+    {
+      "title": "Midjourney bought the astrology app Co-Star",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition"
+    },
+    {
+      "title": "You can’t ignore Google Zero anymore",
+      "link": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast"
+    },
+    {
+      "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
+    },
+    {
+      "title": "Meta is making its AI chatbot more like an assistant",
+      "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update"
+    },
+    {
+      "title": "The tech-broification of American science has officially begun",
+      "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
+    },
+    {
+      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "link": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices"
+    },
+    {
+      "title": "Claude’s voice mode is now available for Opus and Sonnet",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai"
+    },
+    {
+      "title": "Patreon is laying off 20 percent of workers",
+      "link": "https://www.theverge.com/tech/970211/patreon-layoffs-ai"
+    },
+    {
+      "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+      "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
+    },
+    {
+      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+      "link": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/"
+    }
+  ]
+}
