@@ -1,41 +1,48 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-阿萍的工作台 · 服务端内容生成器
-- 模块3「每日新闻联播深度分析」：每日 07:00 抓取国内要闻，按 行政官员/高校/商人公司/协会 四维系统解读
-- 模块2「AI动态每日简报」：每日 09:00 抓取 AI 动态，生成 Markdown 简报 + SVG 信息图
-产出写入 /workspace/data/*.json，由部署流程推送到 GitHub Pages。
+Aping Workbench daily content generator.
+Module 3 (news-analysis): fetch domestic headlines, analyze impact from 4 perspectives.
+Module 2 (ai-briefing): fetch global AI news, build Markdown briefing + SVG infographic.
+Output written to /workspace/data/*.json.
 """
 import urllib.request, json, datetime, re, os, html as ihtml
 
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 WS = "/workspace"
 DATA = os.path.join(WS, "data")
-os.makedirs(DATA, exist_ok=True)
-UA = {"User-Agent": "Mozilla/5.0 (compatible; ApingWorkbench/1.0)"}
 
 NEWS3_SRC = "https://www.chinanews.com.cn/rss/scroll-news.xml"
 AI_SRCS = [
     "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-    "https://www.zdnet.com/news/ai/rss.xml",
+    "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "https://venturebeat.com/category/ai/feed/",
 ]
 
 PERSPECTIVES = {
-    "行政官员": ["政策", "政府", "国务院", "部委", "部署", "规划", "治理", "民生", "改革", "会议", "指示", "调控", "落实", "印发", "通知", "监管", "法治"],
-    "高校": ["高校", "大学", "教育", "招生", "科研", "学科", "学生", "教授", "学术", "就业", "人才", "培养", "院校", "课题", "学校"],
-    "商人公司": ["企业", "公司", "市场", "营收", "投资", "股价", "上市", "融资", "经济", "消费", "订单", "利润", "产业", "贸易", "营商", "商户", "工厂"],
-    "协会": ["协会", "行业", "标准", "自律", "商会", "联盟", "规范", "认证", "倡议", "行会", "学会", "工会"],
+    "行政官员": ["政策", "政府", "国务院", "部长", "部署", "监管", "执法", "通知", "发改委", "工信部",
+              "发文", "督查", "落地", "统筹", "民生", "行政", "中央", "省市", "措施", "改革", "会议"],
+    "高校": ["高校", "大学", "教育", "科研", "学生", "招生", "学术", "实验室", "院所", "培养",
+            "课题", "教研", "院系", "学位", "校园", "学者"],
+    "商人公司": ["企业", "公司", "市场", "上市", "融资", "营收", "股价", "产品", "消费", "客户",
+              "投资", "并购", "创业", "利润", "品牌", "厂商", "供应", "订单", "业务"],
+    "协会": ["协会", "行业", "标准", "规范", "自律", "联盟", "商会", "行会", "倡议", "团体",
+            "学会", "公会"],
 }
 
 
 def fetch(url, timeout=20):
-    req = urllib.request.Request(url, headers=UA)
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", "ignore")
+        raw = r.read()
+    try:
+        return raw.decode("utf-8")
+    except UnicodeDecodeError:
+        return raw.decode("utf-8", "replace")
 
 
 def un_cdata(s):
-    m = re.search(r"<!\[CDATA\[(.*?)\]\]>", s, re.S)
-    return m.group(1).strip() if m else s.strip()
+    return re.sub(r"<!\[CDATA\[(.*?)\]\]>", r"\1", s, flags=re.S)
 
 
 def clean(s):
@@ -51,27 +58,28 @@ def clean(s):
 def parse_feed(url):
     try:
         raw = fetch(url)
-    except Exception as e:
+    except Exception:
         return []
     items = []
-    for m in re.finditer(r"<item>(.*?)</item>", raw, re.S):
+    for m in re.finditer(r"<item[^>]*>(.*?)</item>", raw, re.S):
         it = m.group(1)
-        t = re.search(r"<title>(.*?)</title>", it, re.S)
-        l = re.search(r"<link>(.*?)</link>", it, re.S)
-        d = re.search(r"<description>(.*?)</description>", it, re.S)
-        p = re.search(r"<pubDate>(.*?)</pubDate>", it, re.S)
+        t = re.search(r"<title[^>]*>(.*?)</title>", it, re.S)
+        l = re.search(r"<link[^>]*>(.*?)</link>", it, re.S)
+        d = re.search(r"<description[^>]*>(.*?)</description>", it, re.S)
+        p = re.search(r"<pubDate[^>]*>(.*?)</pubDate>", it, re.S)
         title = clean(t.group(1)) if t else ""
         if title:
             items.append({"title": title, "link": clean(l.group(1)) if l else "",
                           "desc": clean(d.group(1)) if d else "", "pub": clean(p.group(1)) if p else ""})
-    for m in re.finditer(r"<entry>(.*?)</entry>", raw, re.S):
+    for m in re.finditer(r"<entry[^>]*>(.*?)</entry>", raw, re.S):
         it = m.group(1)
-        t = re.search(r"<title>(.*?)</title>", it, re.S)
+        t = re.search(r"<title[^>]*>(.*?)</title>", it, re.S)
         l = re.search(r'<link[^>]*href="([^"]+)"', it)
-        d = re.search(r"<summary>(.*?)</summary>", it, re.S)
+        d = re.search(r"<summary[^>]*>(.*?)</summary>", it, re.S)
         title = clean(t.group(1)) if t else ""
         if title:
-            items.append({"title": title, "link": l.group(1) if l else "",
+            items.append({"title": title,
+                          "link": l.group(1) if l else "",
                           "desc": clean(d.group(1)) if d else "", "pub": ""})
     return items[:30]
 
@@ -80,11 +88,11 @@ def impact_text(persp, area):
     if persp == "行政官员":
         return f"对行政体系而言，该动向要求相关职能部门在「{area}」上加强统筹与落地执行，关注政策的可操作性与民生实效，做好跨部门协同与进度督导。"
     if persp == "高校":
-        return f"对高校而言，「{area}」将影响学科布局、招生计划与校企协同方向，建议提前调整科研重点与人才培养方案，强化应用导向。"
+        return f"对高校而言，「{area}」将影响学科布局、招生培养与产学研合作方向，建议提前调整科研重点与人才储备方案，强化应用导向。"
     if persp == "商人公司":
         return f"对企业而言，这条信息意味着在「{area}」领域出现新的市场变量，需评估对需求、成本与合规的影响，把握其中的业务机会或对冲风险。"
     if persp == "协会":
-        return f"对行业协会而言，可借机推动「{area}」领域的标准制定与自律规范，引导会员单位有序应对，发挥桥梁与协调作用。"
+        return f"对行业协会而言，可借机推动「{area}」领域的标准制定与自律规范，引导会员单位有序应对，发挥补位与协调作用。"
     return f"在「{area}」层面需予以关注。"
 
 
@@ -116,11 +124,11 @@ def gen_news_analysis():
 
 
 def categorize(title):
-    if re.search(r"model|模型|gpt|claude|gemini|llama|开源|论文|研究|study|research|benchmark", title, re.I):
+    if re.search(r"model|模型|gpt|claude|gemini|llama|开源|论文|study|research|benchmark|训练|大模型|基座", title, re.I):
         return "研究/模型"
-    if re.search(r"policy|regulat|政策|监管|法案|欧盟|中美|出口|反垄断|立法", title, re.I):
+    if re.search(r"policy|regulat|政策|监管|法案|法规|中美|出口|反垄断|合规|政府|禁令", title, re.I):
         return "政策/行业"
-    if re.search(r"app|product|产品|发布|launch|工具|平台|手机|芯片|chip|gpu|发布|上线|融资|估值", title, re.I):
+    if re.search(r"app|product|产品|发布|launch|工具|平台|手机|芯片|chip|gpu|上线|融资|收购|应用|助手", title, re.I):
         return "产品/应用"
     return "其他"
 
@@ -136,8 +144,7 @@ def infographic_svg(items, date, cat_counts):
     p.append(f'<rect width="{W}" height="{H}" fill="#0f2417"/>')
     p.append(f'<rect x="0" y="0" width="{W}" height="130" fill="#2f5e2d"/>')
     p.append(f'<text x="{pad}" y="50" fill="#ffffff" font-size="30" font-weight="700">AI 动态每日简报</text>')
-    p.append(f'<text x="{pad}" y="84" fill="#cfe8d0" font-size="16">生成日期 {esc(date)} ｜ 来源 The Verge / ZDNet</text>')
-    # category chips
+    p.append(f'<text x="{pad}" y="84" fill="#cfe8d0" font-size="16">生成日期 {esc(date)} ｜ 来源 The Verge / TechCrunch</text>')
     cx = pad
     for c, n in cat_counts.items():
         if not n:
@@ -155,9 +162,9 @@ def infographic_svg(items, date, cat_counts):
         p.append(f'<rect x="{pad}" y="{y}" width="{W-2*pad}" height="{row_h-12}" rx="12" fill="#15301f" stroke="#2f5e2d"/>')
         p.append(f'<text x="{pad+18}" y="{y+36}" fill="#7CFC9A" font-size="20" font-weight="700">{idx+1}</text>')
         p.append(f'<text x="{pad+52}" y="{y+36}" fill="#ffffff" font-size="17">{esc(title)}</text>')
-        p.append(f'<text x="{pad+52}" y="{y+62}" fill="#9fb8a6" font-size="13">AI 动态 · 点击查看原文</text>')
+        p.append(f'<text x="{pad+52}" y="{y+62}" fill="#9fb8a6" font-size="13">AI 动态 ｜ 点击查看原文</text>')
         y += row_h
-    p.append(f'<text x="{pad}" y="{H-16}" fill="#7a947f" font-size="12">阿萍的工作台 · 每日 09:00 自动生成</text>')
+    p.append(f'<text x="{pad}" y="{H-16}" fill="#7a947f" font-size="12">阿萍的工作台 ｜ 每日 09:00 自动生成</text>')
     p.append('</svg>')
     return "".join(p)
 
@@ -178,7 +185,7 @@ def gen_ai_briefing():
         cats[categorize(i["title"])].append(i)
     md = []
     md.append("# AI 动态每日简报\n")
-    md.append(f"> 生成日期：**{today.isoformat()}** ｜ 来源：The Verge AI、ZDNet AI\n")
+    md.append(f"> 生成日期：**{today.isoformat()}** ｜ 来源：The Verge AI、TechCrunch AI\n")
     md.append("> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n")
     for c in ["研究/模型", "产品/应用", "政策/行业", "其他"]:
         its = cats[c][:5]
