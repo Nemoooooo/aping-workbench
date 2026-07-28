@@ -10,7 +10,7 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="阿萍的工作台" />
-  <meta name="theme-color" content="#2f5e2d" />
+  <meta name="theme-color" content="#0f172a" />
   <meta name="format-detection" content="telephone=no" />
   <meta name="apple-touch-fullscreen" content="yes" />
   <link rel="manifest" href="manifest.webmanifest" />
@@ -30,8 +30,8 @@
   <link rel="stylesheet" href="fa.css" />
   <style>
     :root {
-      --brand: #2f5e2d;
-      --brand-light: #e8f3e7;
+      --brand: #db2777;
+      --brand-light: #fce7f3;
       --sidebar-w: 260px;
     }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; }
@@ -80,22 +80,22 @@
     #app-splash {
       position: fixed; inset: 0; z-index: 9999;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
-      background: linear-gradient(160deg, #2f5e2d 0%, #34d399 100%);
+      background: radial-gradient(circle at 50% 35%, rgba(244,114,182,0.28) 0%, transparent 55%),
+                  linear-gradient(160deg, #0f172a 0%, #312e81 100%);
       padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
       transition: opacity .35s ease;
     }
     #app-splash.hide { opacity: 0; pointer-events: none; }
-    #app-splash .logo {
-      width: 120px; height: 120px; border-radius: 9999px; background: #fff;
-      display: flex; align-items: center; justify-content: center;
-      color: #2f5e2d; font-size: 56px; font-weight: 700;
-      box-shadow: 0 10px 30px rgba(0,0,0,.18);
+    #app-splash .logo-img {
+      width: 120px; height: 120px; border-radius: 9999px;
+      box-shadow: 0 10px 40px rgba(244,114,182,0.35);
+      background: transparent;
     }
     #app-splash .name { color: #fff; font-size: 22px; font-weight: 600; margin-top: 22px; letter-spacing: 1px; }
-    #app-splash .sub { color: #e6f5e6; font-size: 13px; margin-top: 8px; }
+    #app-splash .sub { color: #e9d5ff; font-size: 13px; margin-top: 8px; }
 
     #install-banner {
-      background: #2f5e2d; color: #fff; border-radius: 16px;
+      background: #db2777; color: #fff; border-radius: 16px;
       padding: 13px 15px; display: flex; align-items: center; gap: 12px;
       box-shadow: 0 8px 24px rgba(0,0,0,.22); font-size: 14px; line-height: 1.45;
       margin-bottom: 16px;
@@ -116,7 +116,7 @@
 
   <!-- 启动闪屏遮罩（加载资源时显示，就绪后淡出） -->
   <div id="app-splash">
-    <div class="logo">我</div>
+    <img src="logo-circle.png" class="logo-img" alt="阿萍的工作台">
     <div class="name">阿萍的工作台</div>
     <div class="sub">每天进步一点点</div>
   </div>
@@ -126,9 +126,7 @@
     <aside id="sidebar" class="sidebar bg-white border-r border-gray-200 flex flex-col pt-[env(safe-area-inset-top)]">
       <div class="p-6 border-b border-gray-100">
         <div class="flex items-center gap-3">
-          <div class="w-12 h-12 rounded-full bg-gradient-to-br from-green-600 to-emerald-400 flex items-center justify-center text-white font-bold text-lg shadow">
-            我
-          </div>
+          <img src="logo-circle.png" class="w-12 h-12 rounded-full shadow" alt="logo">
           <div>
             <h1 class="font-bold text-gray-900 text-lg">阿萍的工作台</h1>
             <p class="text-xs text-gray-500">每日成长 · 持续输出</p>
@@ -198,7 +196,7 @@
           <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
             <div class="flex items-center justify-between mb-4">
               <h3 class="font-bold text-gray-900">今日时间块规划</h3>
-              <button onclick="addPlanSlot()" class="text-sm px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition">
+              <button onclick="addPlanSlot()" class="text-sm px-3 py-1.5 bg-pink-50 text-pink-700 rounded-lg hover:bg-pink-100 transition">
                 <i class="fa-solid fa-plus mr-1"></i> 增加时段
               </button>
             </div>
@@ -208,7 +206,7 @@
           </div>
           <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
             <h3 class="font-bold text-gray-900 mb-3">今日核心目标</h3>
-            <textarea id="daily-goals" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 focus:border-green-600 resize-none" placeholder="写下今天最重要的 1-3 件事..."></textarea>
+            <textarea id="daily-goals" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20 focus:border-pink-600 resize-none" placeholder="写下今天最重要的 1-3 件事..."></textarea>
           </div>
         </section>
 
@@ -220,7 +218,7 @@
                 <h3 class="font-bold text-gray-900">AI 动态每日简报 <span class="text-xs font-normal text-gray-400">· 每天 09:00 自动更新</span></h3>
                 <p id="ai-updated" class="text-xs text-gray-500 mt-0.5"></p>
               </div>
-              <button onclick="renderAiBriefing()" class="shrink-0 text-sm px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition">
+              <button onclick="renderAiBriefing()" class="shrink-0 text-sm px-3 py-1.5 bg-pink-50 text-pink-700 rounded-lg hover:bg-pink-100 transition">
                 <i class="fa-solid fa-rotate mr-1"></i> 刷新
               </button>
             </div>
@@ -233,7 +231,7 @@
             <div id="tech-news-list" class="grid md:grid-cols-2 gap-4">
               <!-- JS 渲染 -->
             </div>
-            <button onclick="addTechNews()" class="mt-4 w-full py-2 border-2 border-dashed border-gray-300 rounded-xl text-gray-500 hover:border-green-600 hover:text-green-700 transition">
+            <button onclick="addTechNews()" class="mt-4 w-full py-2 border-2 border-dashed border-gray-300 rounded-xl text-gray-500 hover:border-pink-600 hover:text-pink-700 transition">
               <i class="fa-solid fa-plus mr-1"></i> 添加一条科技新闻
             </button>
           </div>
@@ -247,7 +245,7 @@
                 <h3 class="font-bold text-gray-900">每日新闻联播深度分析 <span class="text-xs font-normal text-gray-400">· 每天 07:00 自动更新</span></h3>
                 <p id="news-updated" class="text-xs text-gray-500 mt-0.5"></p>
               </div>
-              <button onclick="renderNewsAnalysis(true)" class="shrink-0 text-sm px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition">
+              <button onclick="renderNewsAnalysis(true)" class="shrink-0 text-sm px-3 py-1.5 bg-pink-50 text-pink-700 rounded-lg hover:bg-pink-100 transition">
                 <i class="fa-solid fa-rotate mr-1"></i> 刷新
               </button>
             </div>
@@ -265,15 +263,15 @@
             <div class="grid md:grid-cols-2 gap-4 mb-4">
               <div>
                 <label class="block text-xs text-gray-500 mb-1">今日发布/创作内容</label>
-                <textarea id="review-published" class="w-full h-28 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 resize-none" placeholder="记录今天发布或准备发布的内容..."></textarea>
+                <textarea id="review-published" class="w-full h-28 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20 resize-none" placeholder="记录今天发布或准备发布的内容..."></textarea>
               </div>
               <div>
                 <label class="block text-xs text-gray-500 mb-1">数据反馈</label>
-                <textarea id="review-data" class="w-full h-28 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 resize-none" placeholder="播放量、互动、转化等数据..."></textarea>
+                <textarea id="review-data" class="w-full h-28 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20 resize-none" placeholder="播放量、互动、转化等数据..."></textarea>
               </div>
             </div>
             <label class="block text-xs text-gray-500 mb-1">亮点与改进</label>
-            <textarea id="review-summary" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 resize-none" placeholder="做得好的地方 + 明天要改进的点..."></textarea>
+            <textarea id="review-summary" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20 resize-none" placeholder="做得好的地方 + 明天要改进的点..."></textarea>
           </div>
         </section>
 
@@ -287,7 +285,7 @@
               </div>
               <div class="flex items-center gap-4">
                 <div class="text-right">
-                  <div class="text-2xl font-bold text-green-700" id="task-progress-text">0%</div>
+                  <div class="text-2xl font-bold text-pink-700" id="task-progress-text">0%</div>
                   <div class="text-xs text-gray-500">今日完成度</div>
                 </div>
                 <div class="relative w-16 h-16">
@@ -300,8 +298,8 @@
             </div>
 
             <div class="flex gap-2 mb-6">
-              <input id="new-task-input" type="text" class="flex-1 px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 focus:border-green-600" placeholder="新增每日任务，例如：阅读 20 分钟" />
-              <button onclick="addTask()" class="px-5 py-2.5 bg-green-700 hover:bg-green-800 text-white rounded-xl font-medium transition">
+              <input id="new-task-input" type="text" class="flex-1 px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20 focus:border-pink-600" placeholder="新增每日任务，例如：阅读 20 分钟" />
+              <button onclick="addTask()" class="px-5 py-2.5 bg-pink-700 hover:bg-pink-800 text-white rounded-xl font-medium transition">
                 <i class="fa-solid fa-plus"></i> 新增
               </button>
             </div>
@@ -321,7 +319,7 @@
         <section id="memo" class="page-section hidden space-y-6">
           <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
             <h3 class="font-bold text-gray-900 mb-3">随手备忘录</h3>
-            <textarea id="memo-text" class="w-full h-80 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 focus:border-green-600 resize-none" placeholder="灵感、链接、待办事项随时记..."></textarea>
+            <textarea id="memo-text" class="w-full h-80 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20 focus:border-pink-600 resize-none" placeholder="灵感、链接、待办事项随时记..."></textarea>
           </div>
         </section>
 
@@ -330,8 +328,8 @@
           <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
             <h3 class="font-bold text-gray-900 mb-4">选题灵感池</h3>
             <div class="flex gap-2 mb-4">
-              <input id="new-topic-input" type="text" class="flex-1 px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20" placeholder="想到一个选题..." />
-              <button onclick="addTopic()" class="px-4 py-2.5 bg-green-700 text-white rounded-xl hover:bg-green-800 transition">添加</button>
+              <input id="new-topic-input" type="text" class="flex-1 px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20" placeholder="想到一个选题..." />
+              <button onclick="addTopic()" class="px-4 py-2.5 bg-pink-700 text-white rounded-xl hover:bg-pink-800 transition">添加</button>
             </div>
             <ul id="topic-list" class="space-y-2"></ul>
           </div>
@@ -349,12 +347,12 @@
                 <h3 class="font-bold text-gray-900">每日雅思模拟 <span class="text-xs font-normal text-gray-400">· 每天 8:00 自动更新</span></h3>
                 <p id="ielts-updated" class="text-xs text-gray-500 mt-0.5"></p>
               </div>
-              <button onclick="refreshIelts()" class="shrink-0 text-sm px-3 py-1.5 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition">
+              <button onclick="refreshIelts()" class="shrink-0 text-sm px-3 py-1.5 bg-pink-50 text-pink-700 rounded-lg hover:bg-pink-100 transition">
                 <i class="fa-solid fa-rotate mr-1"></i> 刷新
               </button>
             </div>
             <details class="mb-4 group">
-              <summary class="cursor-pointer text-sm text-green-700 font-medium select-none">📐 雅思内容标准（点击展开）</summary>
+              <summary class="cursor-pointer text-sm text-pink-700 font-medium select-none">📐 雅思内容标准（点击展开）</summary>
               <p id="ielts-standard" class="mt-2 text-sm text-gray-600 leading-relaxed"></p>
             </details>
             <div id="ielts-loading" class="hidden py-6 text-center text-gray-400 text-sm">
@@ -366,15 +364,15 @@
             <div class="grid md:grid-cols-2 gap-4 mb-4">
               <div>
                 <label class="block text-xs text-gray-500 mb-1">今日学习内容</label>
-                <input id="english-content" type="text" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20" placeholder="例如：背单词 / 听力 / 口语">
+                <input id="english-content" type="text" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20" placeholder="例如：背单词 / 听力 / 口语">
               </div>
               <div>
                 <label class="block text-xs text-gray-500 mb-1">学习时长（分钟）</label>
-                <input id="english-duration" type="number" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20" placeholder="30">
+                <input id="english-duration" type="number" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20" placeholder="30">
               </div>
             </div>
             <label class="block text-xs text-gray-500 mb-1">新学单词 / 句型</label>
-            <textarea id="english-notes" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-600/20 resize-none" placeholder="记录今天学到的表达..."></textarea>
+            <textarea id="english-notes" class="w-full h-32 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20 resize-none" placeholder="记录今天学到的表达..."></textarea>
           </div>
         </section>
 
@@ -518,8 +516,8 @@
         const row = document.createElement('div');
         row.className = 'flex flex-col md:flex-row gap-3';
         row.innerHTML = `
-          <input type="text" value="${escapeHtml(slot.time)}" onchange="updatePlan(${index}, 'time', this.value)" class="md:w-36 px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:border-green-600" placeholder="时间段">
-          <input type="text" value="${escapeHtml(slot.content)}" onchange="updatePlan(${index}, 'content', this.value)" class="flex-1 px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:border-green-600" placeholder="计划内容">
+          <input type="text" value="${escapeHtml(slot.time)}" onchange="updatePlan(${index}, 'time', this.value)" class="md:w-36 px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:border-pink-600" placeholder="时间段">
+          <input type="text" value="${escapeHtml(slot.content)}" onchange="updatePlan(${index}, 'content', this.value)" class="flex-1 px-3 py-2 rounded-lg border border-gray-200 text-sm focus:outline-none focus:border-pink-600" placeholder="计划内容">
           <button onclick="removePlanSlot(${index})" class="px-3 py-2 text-gray-400 hover:text-red-500"><i class="fa-solid fa-trash-can"></i></button>
         `;
         list.appendChild(row);
@@ -560,8 +558,8 @@
         const card = document.createElement('div');
         card.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
         card.innerHTML = `
-          <input type="text" value="${escapeHtml(item.title)}" onchange="updateTechNews(${index}, 'title', this.value)" class="w-full mb-2 px-3 py-2 rounded-lg border border-gray-200 text-sm font-medium focus:outline-none focus:border-green-600" placeholder="新闻标题">
-          <textarea onchange="updateTechNews(${index}, 'summary', this.value)" class="w-full h-20 px-3 py-2 rounded-lg border border-gray-200 text-sm resize-none focus:outline-none focus:border-green-600" placeholder="一句话摘要...">${escapeHtml(item.summary)}</textarea>
+          <input type="text" value="${escapeHtml(item.title)}" onchange="updateTechNews(${index}, 'title', this.value)" class="w-full mb-2 px-3 py-2 rounded-lg border border-gray-200 text-sm font-medium focus:outline-none focus:border-pink-600" placeholder="新闻标题">
+          <textarea onchange="updateTechNews(${index}, 'summary', this.value)" class="w-full h-20 px-3 py-2 rounded-lg border border-gray-200 text-sm resize-none focus:outline-none focus:border-pink-600" placeholder="一句话摘要...">${escapeHtml(item.summary)}</textarea>
           <div class="flex justify-end mt-2">
             <button onclick="removeTechNews(${index})" class="text-xs text-gray-400 hover:text-red-500"><i class="fa-solid fa-trash-can mr-1"></i>删除</button>
           </div>
@@ -820,7 +818,7 @@
       if (m.reading) {
         const c = document.createElement('div');
         c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
-        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-book-open text-green-600 mr-1"></i>阅读模拟 · TRUE / FALSE / NOT GIVEN</h4><ol class="space-y-2 list-decimal list-inside">';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-book-open text-pink-600 mr-1"></i>阅读模拟 · TRUE / FALSE / NOT GIVEN</h4><ol class="space-y-2 list-decimal list-inside">';
         m.reading.forEach(r => {
           h += '<li class="text-sm text-gray-700">' + escapeHtml(r.q) + ' <span class="text-gray-400 text-xs">(答案：' + r.a + ')</span></li>';
         });
@@ -831,9 +829,9 @@
       if (m.writing) {
         const c = document.createElement('div');
         c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
-        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-pen-nib text-green-600 mr-1"></i>写作模拟 · Task 2</h4>';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-pen-nib text-pink-600 mr-1"></i>写作模拟 · Task 2</h4>';
         h += '<p class="text-sm text-gray-800 font-medium">' + escapeHtml(m.writing.title) + '</p><div class="mt-2 space-y-1">';
-        m.writing.framework.forEach(f => { h += '<p class="text-xs text-gray-600"><i class="fa-solid fa-check text-green-500 mr-1"></i>' + escapeHtml(f) + '</p>'; });
+        m.writing.framework.forEach(f => { h += '<p class="text-xs text-gray-600"><i class="fa-solid fa-check text-pink-500 mr-1"></i>' + escapeHtml(f) + '</p>'; });
         h += '</div>';
         if (m.writing.vocab && m.writing.vocab.length) {
           h += '<div class="mt-2 flex flex-wrap gap-2">';
@@ -846,7 +844,7 @@
       if (m.speaking) {
         const c = document.createElement('div');
         c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
-        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-comments text-green-600 mr-1"></i>口语模拟 · Part 1 / 2 / 3</h4>';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-comments text-pink-600 mr-1"></i>口语模拟 · Part 1 / 2 / 3</h4>';
         h += '<p class="text-xs text-gray-500">Part 1</p><p class="text-sm text-gray-800 mb-2">' + escapeHtml(m.speaking.p1) + '</p>';
         h += '<p class="text-xs text-gray-500">Part 2（话题卡）</p><p class="text-sm text-gray-800 mb-2">' + escapeHtml(m.speaking.p2) + '</p>';
         h += '<p class="text-xs text-gray-500">Part 3</p><p class="text-sm text-gray-800">' + escapeHtml(m.speaking.p3) + '</p>';
@@ -856,7 +854,7 @@
       if (m.vocab && m.vocab.length) {
         const c = document.createElement('div');
         c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
-        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-spell-check text-green-600 mr-1"></i>今日词汇（新闻长词 + 话题核心词）</h4><div class="flex flex-wrap gap-2">';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-spell-check text-pink-600 mr-1"></i>今日词汇（新闻长词 + 话题核心词）</h4><div class="flex flex-wrap gap-2">';
         m.vocab.forEach(v => {
           h += '<span class="text-xs bg-white border border-gray-200 rounded-lg px-2 py-1"><b>' + escapeHtml(v.word) + '</b> · ' + escapeHtml((v.def || '').slice(0, 50)) + '</span>';
         });
@@ -867,13 +865,13 @@
       if (payload.news && payload.news.length) {
         const c = document.createElement('div');
         c.className = 'p-4 rounded-xl border border-gray-100 bg-gray-50/50';
-        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-newspaper text-green-600 mr-1"></i>今日语料来源</h4>';
+        let h = '<h4 class="font-semibold text-gray-900 text-sm mb-2"><i class="fa-solid fa-newspaper text-pink-600 mr-1"></i>今日语料来源</h4>';
         payload.news.forEach(n => {
           h += '<div class="mb-3">';
-          h += '<span class="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">' + escapeHtml(n.topic) + '</span>';
+          h += '<span class="text-xs px-2 py-0.5 rounded-full bg-pink-100 text-pink-700">' + escapeHtml(n.topic) + '</span>';
           h += '<p class="text-sm text-gray-800 font-medium leading-snug mt-1">' + escapeHtml(n.title) + '</p>';
-          if (n.longSentence) h += '<blockquote class="mt-1 pl-3 border-l-4 border-green-300 text-xs text-gray-600">' + escapeHtml(n.longSentence) + '</blockquote>';
-          if (n.link) h += '<a href="' + escapeHtml(n.link) + '" target="_blank" rel="noopener" class="inline-block mt-1 text-xs text-green-700 hover:underline">阅读原文 →</a>';
+          if (n.longSentence) h += '<blockquote class="mt-1 pl-3 border-l-4 border-pink-300 text-xs text-gray-600">' + escapeHtml(n.longSentence) + '</blockquote>';
+          if (n.link) h += '<a href="' + escapeHtml(n.link) + '" target="_blank" rel="noopener" class="inline-block mt-1 text-xs text-pink-700 hover:underline">阅读原文 →</a>';
           h += '</div>';
         });
         c.innerHTML = h; list.appendChild(c);
@@ -909,7 +907,7 @@
     let _aiData = null, _newsData = null;
 
     const PERSPECTIVE_META = {
-      '行政官员': { border: 'border-green-100', head: 'bg-green-50 text-green-800', count: 'text-green-600', icon: 'fa-landmark', desc: '政策如何传导到行政体系' },
+      '行政官员': { border: 'border-pink-100', head: 'bg-pink-50 text-pink-800', count: 'text-pink-600', icon: 'fa-landmark', desc: '政策如何传导到行政体系' },
       '高校':     { border: 'border-blue-100', head: 'bg-blue-50 text-blue-800', count: 'text-blue-600', icon: 'fa-graduation-cap', desc: '对高校与科研的影响' },
       '商人公司': { border: 'border-orange-100', head: 'bg-orange-50 text-orange-800', count: 'text-orange-600', icon: 'fa-building', desc: '企业与市场的机会与风险' },
       '协会':     { border: 'border-purple-100', head: 'bg-purple-50 text-purple-800', count: 'text-purple-600', icon: 'fa-people-group', desc: '行业协会与标准走向' }
@@ -919,11 +917,11 @@
     function mdInline(text) {
       let s = escapeHtml(text);
       s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
-        (m, t, u) => `<a href="${u}" target="_blank" rel="noopener" class="text-green-700 underline">${t}</a>`);
+        (m, t, u) => `<a href="${u}" target="_blank" rel="noopener" class="text-pink-700 underline">${t}</a>`);
       s = s.replace(/(🔗\s*https?:\/\/[^\s<]+|https?:\/\/[^\s<]+)/g, (m) => {
         const url = m.replace('🔗', '').trim();
         const label = m.startsWith('🔗') ? '🔗 查看原文' : url;
-        return `<a href="${url}" target="_blank" rel="noopener" class="text-green-700 underline">${label}</a>`;
+        return `<a href="${url}" target="_blank" rel="noopener" class="text-pink-700 underline">${label}</a>`;
       });
       s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
       return s;
@@ -944,7 +942,7 @@
         if (/^---+\s*$/.test(line)) { closeList(); closeQuote(); html += '<hr class="my-4 border-gray-100">'; i++; continue; }
         if (/^>\s?/.test(line)) {
           closeList();
-          if (!inQuote) { html += '<blockquote class="border-l-4 border-green-200 pl-3 text-sm text-gray-500 my-2">'; inQuote = true; }
+          if (!inQuote) { html += '<blockquote class="border-l-4 border-pink-200 pl-3 text-sm text-gray-500 my-2">'; inQuote = true; }
           html += mdInline(line.replace(/^>\s?/, '')) + '<br>';
           i++; continue;
         }
@@ -1029,7 +1027,7 @@
         } else {
           items.forEach(it => {
             html += `<div class="p-3 rounded-lg bg-gray-50/60 border border-gray-100">
-              <a href="${escapeHtml(it.link)}" target="_blank" rel="noopener" class="text-sm font-medium text-gray-900 hover:text-green-700">${escapeHtml(it.title)} <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-300"></i></a>
+              <a href="${escapeHtml(it.link)}" target="_blank" rel="noopener" class="text-sm font-medium text-gray-900 hover:text-pink-700">${escapeHtml(it.title)} <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-300"></i></a>
               ${it.area ? `<span class="ml-2 inline-block text-[11px] px-2 py-0.5 rounded bg-gray-100 text-gray-500">${escapeHtml(it.area)}</span>` : ''}
               <p class="text-sm text-gray-600 mt-1.5 leading-relaxed">${escapeHtml(it.impact)}</p>
             </div>`;

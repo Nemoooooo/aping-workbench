@@ -162,30 +162,30 @@ def infographic_svg(items, date, cat_counts):
     esc = ihtml.escape
     p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
          f'font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">']
-    p.append(f'<rect width="{W}" height="{H}" fill="#0f2417"/>')
-    p.append(f'<rect x="0" y="0" width="{W}" height="130" fill="#2f5e2d"/>')
+    p.append(f'<rect width="{W}" height="{H}" fill="#1e1b4b"/>')
+    p.append(f'<rect x="0" y="0" width="{W}" height="130" fill="#db2777"/>')
     p.append(f'<text x="{pad}" y="50" fill="#ffffff" font-size="30" font-weight="700">AI 动态每日简报</text>')
-    p.append(f'<text x="{pad}" y="84" fill="#cfe8d0" font-size="16">生成日期 {esc(date)} ｜ 来源 The Verge / TechCrunch（已译）</text>')
+    p.append(f'<text x="{pad}" y="84" fill="#fce7f3" font-size="16">生成日期 {esc(date)} ｜ 来源 The Verge / TechCrunch（已译）</text>')
     cx = pad
     for c, n in cat_counts.items():
         if not n:
             continue
         label = f"{c} {n}"
         w = 24 + len(label) * 15
-        p.append(f'<rect x="{cx}" y="100" width="{w}" height="22" rx="11" fill="#1c3a26"/>')
-        p.append(f'<text x="{cx+12}" y="116" fill="#a9d8b4" font-size="13">{esc(label)}</text>')
+        p.append(f'<rect x="{cx}" y="100" width="{w}" height="22" rx="11" fill="#312e81"/>')
+        p.append(f'<text x="{cx+12}" y="116" fill="#fbcfe8" font-size="13">{esc(label)}</text>')
         cx += w + 10
     y = 158
     for idx, it in enumerate(items):
         title = it.get("title_zh") or it["title"]
         if len(title) > 34:
             title = title[:33] + "…"
-        p.append(f'<rect x="{pad}" y="{y}" width="{W-2*pad}" height="{row_h-12}" rx="12" fill="#15301f" stroke="#2f5e2d"/>')
-        p.append(f'<text x="{pad+18}" y="{y+36}" fill="#7CFC9A" font-size="20" font-weight="700">{idx+1}</text>')
+        p.append(f'<rect x="{pad}" y="{y}" width="{W-2*pad}" height="{row_h-12}" rx="12" fill="#312e81" stroke="#db2777"/>')
+        p.append(f'<text x="{pad+18}" y="{y+36}" fill="#f9a8d4" font-size="20" font-weight="700">{idx+1}</text>')
         p.append(f'<text x="{pad+52}" y="{y+36}" fill="#ffffff" font-size="17">{esc(title)}</text>')
-        p.append(f'<text x="{pad+52}" y="{y+62}" fill="#9fb8a6" font-size="13">AI 动态 ｜ 点击查看原文</text>')
+        p.append(f'<text x="{pad+52}" y="{y+62}" fill="#e9d5ff" font-size="13">AI 动态 ｜ 点击查看原文</text>')
         y += row_h
-    p.append(f'<text x="{pad}" y="{H-16}" fill="#7a947f" font-size="12">阿萍的工作台 ｜ 每日 09:00 自动生成</text>')
+    p.append(f'<text x="{pad}" y="{H-16}" fill="#a78bfa" font-size="12">阿萍的工作台 ｜ 每日 09:00 自动生成</text>')
     p.append('</svg>')
     return "".join(p)
 
