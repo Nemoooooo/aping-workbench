@@ -3,10 +3,16 @@
 """
 Aping Workbench daily content generator.
 Module 3 (news-analysis): fetch domestic headlines, analyze impact from 4 perspectives.
-Module 2 (ai-briefing): fetch global AI news, build Markdown briefing + SVG infographic.
+Module 2 (ai-briefing): fetch global AI news, translate to Chinese, build Markdown briefing + SVG infographic.
 Output written to /workspace/data/*.json.
 """
-import urllib.request, json, datetime, re, os, html as ihtml
+import urllib.request, json, datetime, re, os, time, html as ihtml
+
+try:
+    from deep_translator import GoogleTranslator
+    _TRANSLATOR = GoogleTranslator(source='auto', target='zh-CN')
+except Exception:
+    _TRANSLATOR = None
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 WS = "/workspace"
@@ -84,6 +90,21 @@ def parse_feed(url):
     return items[:30]
 
 
+def translate_texts(texts):
+    if not _TRANSLATOR or not texts:
+        return texts
+    try:
+        out = []
+        for i in range(0, len(texts), 5):
+            batch = texts[i:i + 5]
+            out.extend(_TRANSLATOR.translate_batch(batch))
+            time.sleep(0.3)
+        return out
+    except Exception as e:
+        print("[translate warn]", e)
+        return texts
+
+
 def impact_text(persp, area):
     if persp == "行政官员":
         return f"对行政体系而言，该动向要求相关职能部门在「{area}」上加强统筹与落地执行，关注政策的可操作性与民生实效，做好跨部门协同与进度督导。"
@@ -144,7 +165,7 @@ def infographic_svg(items, date, cat_counts):
     p.append(f'<rect width="{W}" height="{H}" fill="#0f2417"/>')
     p.append(f'<rect x="0" y="0" width="{W}" height="130" fill="#2f5e2d"/>')
     p.append(f'<text x="{pad}" y="50" fill="#ffffff" font-size="30" font-weight="700">AI 动态每日简报</text>')
-    p.append(f'<text x="{pad}" y="84" fill="#cfe8d0" font-size="16">生成日期 {esc(date)} ｜ 来源 The Verge / TechCrunch</text>')
+    p.append(f'<text x="{pad}" y="84" fill="#cfe8d0" font-size="16">生成日期 {esc(date)} ｜ 来源 The Verge / TechCrunch（已译）</text>')
     cx = pad
     for c, n in cat_counts.items():
         if not n:
@@ -156,9 +177,9 @@ def infographic_svg(items, date, cat_counts):
         cx += w + 10
     y = 158
     for idx, it in enumerate(items):
-        title = it["title"]
-        if len(title) > 33:
-            title = title[:32] + "…"
+        title = it.get("title_zh") or it["title"]
+        if len(title) > 34:
+            title = title[:33] + "…"
         p.append(f'<rect x="{pad}" y="{y}" width="{W-2*pad}" height="{row_h-12}" rx="12" fill="#15301f" stroke="#2f5e2d"/>')
         p.append(f'<text x="{pad+18}" y="{y+36}" fill="#7CFC9A" font-size="20" font-weight="700">{idx+1}</text>')
         p.append(f'<text x="{pad+52}" y="{y+36}" fill="#ffffff" font-size="17">{esc(title)}</text>')
@@ -179,13 +200,21 @@ def gen_ai_briefing():
             seen.add(i["title"])
             items.append(i)
     items = items[:12]
+
+    # translate titles and summaries to Chinese
+    titles_zh = translate_texts([i["title"] for i in items])
+    descs_zh = translate_texts([i["desc"] for i in items])
+    for it, tz, dz in zip(items, titles_zh, descs_zh):
+        it["title_zh"] = tz
+        it["desc_zh"] = dz
+
     today = datetime.date.today()
     cats = {"研究/模型": [], "产品/应用": [], "政策/行业": [], "其他": []}
     for i in items:
         cats[categorize(i["title"])].append(i)
     md = []
     md.append("# AI 动态每日简报\n")
-    md.append(f"> 生成日期：**{today.isoformat()}** ｜ 来源：The Verge AI、TechCrunch AI\n")
+    md.append(f"> 生成日期：**{today.isoformat()}** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n")
     md.append("> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n")
     for c in ["研究/模型", "产品/应用", "政策/行业", "其他"]:
         its = cats[c][:5]
@@ -193,8 +222,9 @@ def gen_ai_briefing():
             continue
         md.append(f"\n## {c}（{len(its)} 条）\n")
         for i in its:
-            note = (i["desc"][:90] + "…") if i["desc"] else "（暂无摘要）"
-            md.append(f"- **{i['title']}**  \n  {note}  \n  🔗 {i['link']}\n")
+            note = (i.get("desc_zh") or i["desc"])[:90] + "…" if (i.get("desc_zh") or i["desc"]) else "（暂无摘要）"
+            title = i.get("title_zh") or i["title"]
+            md.append(f"- **{title}**  \n  {note}  \n  🔗 {i['link']}\n")
     cat_counts = {c: len(v) for c, v in cats.items() if v}
     svg = infographic_svg(items[:6], today.isoformat(), cat_counts)
     data = {
@@ -202,7 +232,7 @@ def gen_ai_briefing():
         "generated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "briefing_md": "\n".join(md),
         "infographic_svg": svg,
-        "items": [{"title": i["title"], "link": i["link"]} for i in items[:12]],
+        "items": [{"title": i["title"], "title_zh": i.get("title_zh", ""), "link": i["link"]} for i in items[:12]],
     }
     return data
 
