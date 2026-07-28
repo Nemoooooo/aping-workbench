@@ -944,12 +944,12 @@
 
     function paintNews() {
       const d = _newsData;
+      const order = ['行政官员', '高校', '商人公司', '协会'];
       const body = $('news-analysis-body'), upd = $('news-updated'), note = $('news-note');
       if (note) note.textContent = d.note || '';
       let matched = 0;
       order.forEach(p => { matched += ((d.analysis && d.analysis[p]) || []).length; });
       if (upd) upd.textContent = '数据日期 ' + d.date + ' ｜ 来源：' + (d.source || '') + ' ｜ 抓取 ' + d.total + ' 条，命中四维分析 ' + matched + ' 条';
-      const order = ['行政官员', '高校', '商人公司', '协会'];
       let html = '';
       order.forEach(p => {
         const items = (d.analysis && d.analysis[p]) || [];
