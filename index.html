@@ -8,7 +8,7 @@
   <!-- PWA / iOS 主屏幕 App 支持 -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="阿萍的工作台" />
   <meta name="theme-color" content="#0b0f19" />
   <meta name="format-detection" content="telephone=no" />
@@ -1081,9 +1081,10 @@
     }
 
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js').catch(() => {});
-      });
+      // 立即注册，让 iOS 18 在“添加到主屏幕”前就完成 Service Worker 激活
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('[SW] registered'))
+        .catch((e) => console.warn('[SW] register failed', e));
     }
 
     // 关闭启动遮罩 + 非全屏时提示“添加到主屏幕”
