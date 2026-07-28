@@ -95,11 +95,10 @@
     #app-splash .sub { color: #e6f5e6; font-size: 13px; margin-top: 8px; }
 
     #install-banner {
-      position: fixed; left: 12px; right: 12px;
-      bottom: calc(12px + env(safe-area-inset-bottom));
-      z-index: 9000; background: #2f5e2d; color: #fff; border-radius: 16px;
+      background: #2f5e2d; color: #fff; border-radius: 16px;
       padding: 13px 15px; display: flex; align-items: center; gap: 12px;
       box-shadow: 0 8px 24px rgba(0,0,0,.22); font-size: 14px; line-height: 1.45;
+      margin-bottom: 16px;
     }
     #install-banner .ib-icon { font-size: 22px; flex: none; }
     #install-banner .ib-text { flex: 1; }
@@ -120,13 +119,6 @@
     <div class="logo">我</div>
     <div class="name">阿萍的工作台</div>
     <div class="sub">每天进步一点点</div>
-  </div>
-
-  <!-- 添加到主屏幕引导条（仅在以网页形式打开时显示） -->
-  <div id="install-banner" style="display:none">
-    <span class="ib-icon">📲</span>
-    <span class="ib-text">想让它像 App 一样全屏打开？在 Safari 中点 <b>分享</b> → <b>添加到主屏幕</b>，以后从主屏图标进入即为全屏无地址栏。</span>
-    <button class="ib-close" onclick="dismissInstallBanner()" aria-label="关闭">×</button>
   </div>
 
   <div class="flex min-h-screen">
@@ -193,6 +185,13 @@
       </header>
 
       <div class="flex-1 overflow-y-auto p-4 md:p-8 safe-bottom">
+
+        <!-- 添加到主屏幕引导（仅在 iOS 网页模式显示） -->
+        <div id="install-banner" style="display:none">
+          <span class="ib-icon">📲</span>
+          <span class="ib-text">底部看到网址栏？这是网页模式。点 Safari 的 <b>分享</b> → <b>添加到主屏幕</b>，从桌面图标进入即可全屏无地址栏，像 App 一样使用。</span>
+          <button class="ib-close" onclick="dismissInstallBanner()" aria-label="关闭">×</button>
+        </div>
 
         <!-- 1. 每日计划 -->
         <section id="daily-plan" class="page-section space-y-6">
