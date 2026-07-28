@@ -13,7 +13,8 @@ import subprocess
 import datetime
 
 REPO_DIR = "/tmp/deploy"
-PY = "/usr/bin/python3.11"
+import sys
+PY = sys.executable
 BRANCH = "main"
 REMOTE = "origin"
 TOKEN = os.environ.get("GH_TOKEN", "")

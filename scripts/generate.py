@@ -184,34 +184,61 @@ PERSPECTIVE_TEMPLATES = {
 LLM_KEY = os.environ.get("LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
 LLM_BASE = os.environ.get("LLM_BASE_URL", "https://api.openai.com/v1").rstrip("/")
 LLM_MODEL = os.environ.get("LLM_MODEL", "gpt-4o-mini")
+ANALYSIS_KEYS = ["行政官员", "高校", "商人公司", "行业协会"]
+
+def _parse_analysis_json(content):
+    m = re.search(r"\{.*\}", content, re.S)
+    if not m:
+        return None
+    try:
+        obj = json.loads(m.group(0))
+    except Exception:
+        return None
+    out = {k: (obj.get(k) or "").strip() for k in ANALYSIS_KEYS}
+    return out if all(out.values()) else None
+
+def _prompt(title):
+    return ("你是政策与产业分析助手。针对以下《新闻联播》内容，分别从「行政官员」「高校」「商人公司」「行业协会」"
+            "四个视角，各写一段60字左右、紧扣内容本身、有依据不套话的深度分析（说明该内容对该群体的意义与后续关注点）。\n内容："
+            + title + "\n只输出JSON：{\"行政官员\":\"...\",\"高校\":\"...\",\"商人公司\":\"...\",\"行业协会\":\"...\"}")
+
+def g4f_analyze(title):
+    """免Key大模型通道（g4f免费provider），生成真正针对内容的深度分析；失败返回None。"""
+    try:
+        from g4f.client import Client
+    except Exception:
+        return None
+    try:
+        client = Client()
+    except Exception:
+        return None
+    for m in ["gpt-4o-mini", "gpt-4o", "gpt-3.5-turbo"]:
+        try:
+            r = client.chat.completions.create(model=m, messages=[{"role": "user", "content": _prompt(title)}], web_search=False)
+            out = _parse_analysis_json((r.choices[0].message.content or ""))
+            if out:
+                return out
+        except Exception as e:
+            print("[g4f]", m, "fail", str(e)[:60])
+    return None
 
 def llm_analyze(title):
-    """可选：若配置了 OpenAI 兼容的大模型 Key，则调用其生成真正的深度分析；失败返回 None。"""
+    """可选：用户若配置 OpenAI 兼容 Key 则用其。"""
     if not LLM_KEY:
         return None
     try:
-        import urllib.request as _ur, json as _json
-        prompt = ("你是政策与产业分析助手。请针对以下《新闻联播》内容，分别从「行政官员」「高校」「商人公司」「行业协会」"
-                  "四个视角，各写一段约60字、紧扣内容、不套话的深度分析（说明该内容对上述群体的意义与后续关注点）。\n内容："
-                  + title + "\n请严格只输出 JSON：{\"行政官员\":\"...\",\"高校\":\"...\",\"商人公司\":\"...\",\"行业协会\":\"...\"}")
-        payload = {"model": LLM_MODEL, "messages": [{"role": "user", "content": prompt}], "temperature": 0.4}
-        req = _ur.Request(LLM_BASE + "/chat/completions", data=_json.dumps(payload).encode(),
+        import urllib.request as _ur
+        payload = {"model": LLM_MODEL, "messages": [{"role": "user", "content": _prompt(title)}], "temperature": 0.4}
+        req = _ur.Request(LLM_BASE + "/chat/completions", data=json.dumps(payload).encode(),
                           headers={"Authorization": "Bearer " + LLM_KEY, "Content-Type": "application/json"})
         with _ur.urlopen(req, timeout=35) as r:
-            resp = _json.loads(r.read())
-        content = resp["choices"][0]["message"]["content"]
-        m = re.search(r"\{.*\}", content, re.S)
-        obj = _json.loads(m.group(0))
-        return {k: (obj.get(k) or "").strip() for k in ["行政官员", "高校", "商人公司", "行业协会"]}
+            resp = json.loads(r.read())
+        return _parse_analysis_json(resp["choices"][0]["message"]["content"])
     except Exception as e:
-        print("[llm warn]", e)
+        print("[llm]", "fail", str(e)[:60])
         return None
 
-def analyze_item(title):
-    # 优先调用大模型做真正有深度的分析；未配置 Key 时回退到模板。
-    llm = llm_analyze(title)
-    if llm and all(llm.values()):
-        return llm
+def _template_analysis(title):
     m = re.search(r"【([^】]+)】", title)
     theme = m.group(1) if m else ""
     clean = re.sub(r"【[^】]+】", "", title).strip()
@@ -223,6 +250,11 @@ def analyze_item(title):
             base = "围绕「" + theme + "」栏目，" + base
         out[p] = base
     return out
+
+def analyze_item(title):
+    out = g4f_analyze(title) or llm_analyze(title)
+    return out if out else _template_analysis(title)
+
 
 def fetch_xwlb_items():
     """抓取央视《新闻联播》当日「本期节目主要内容」，返回 (date_iso, broadcast, items)。"""
@@ -273,7 +305,7 @@ def gen_news_analysis():
     if res and res[2]:
         date_iso, broadcast, items = res
         source = "央视网《新闻联播》"
-        note = "本模块每日 07:00 自动抓取央视《新闻联播》当日「本期节目主要内容」，对每条内容分别从 行政官员 / 高校 / 商人公司 / 行业协会 四个视角进行深度分析（已配置大模型时由模型生成，否则由领域模板生成）。"
+        note = "本模块每日 07:00 自动抓取央视《新闻联播》当日「本期节目主要内容」，逐条梳理并对每条内容分别从 行政官员 / 高校 / 商人公司 / 行业协会 四个视角进行深度分析（由大模型生成，个别失败时回退模板）。"
     else:
         feeds = parse_feed(FALLBACK_SRC)
         items = [(i + 1, it["title"]) for i, it in enumerate(feeds[:12])]
@@ -281,7 +313,11 @@ def gen_news_analysis():
         broadcast = ""
         source = "国内主流媒体要闻（央视源暂不可用，已用同源替代）"
         note = "央视《新闻联播》源本次抓取失败，已以国内主流媒体一手要闻作同源替代，四维解读逻辑一致。"
-    analyzed = [{"no": n, "title": t, "analysis": analyze_item(t)} for n, t in items]
+    analyzed = []
+    for n, t in items:
+        analyzed.append({"no": n, "title": t, "analysis": analyze_item(t)})
+        time.sleep(1.2)  # 控制免费大模型通道调用频率
+
     # 主题归纳式摘要
     label_map = {"外交国际": "外交", "经济产业": "经济产业", "科技创新": "科技创新", "政策法治": "政策法治",
                  "民生保障": "民生保障", "教育人才": "教育人才", "农业农村": "农业农村", "生态环保": "生态环保",
