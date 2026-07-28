@@ -10,7 +10,7 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="阿萍的工作台" />
-  <meta name="theme-color" content="#0f172a" />
+  <meta name="theme-color" content="#0b0f19" />
   <meta name="format-detection" content="telephone=no" />
   <meta name="apple-touch-fullscreen" content="yes" />
   <link rel="manifest" href="manifest.webmanifest" />
@@ -80,15 +80,15 @@
     #app-splash {
       position: fixed; inset: 0; z-index: 9999;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
-      background: radial-gradient(circle at 50% 35%, rgba(244,114,182,0.28) 0%, transparent 55%),
-                  linear-gradient(160deg, #0f172a 0%, #312e81 100%);
+      background: radial-gradient(circle at 50% 35%, rgba(255,45,146,0.22) 0%, transparent 50%),
+                  linear-gradient(160deg, #0b0f19 0%, #1e103c 100%);
       padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
       transition: opacity .35s ease;
     }
     #app-splash.hide { opacity: 0; pointer-events: none; }
     #app-splash .logo-img {
       width: 120px; height: 120px; border-radius: 9999px;
-      box-shadow: 0 10px 40px rgba(244,114,182,0.35);
+      box-shadow: 0 0 45px rgba(255,45,146,0.45), 0 0 90px rgba(0,240,255,0.12);
       background: transparent;
     }
     #app-splash .name { color: #fff; font-size: 22px; font-weight: 600; margin-top: 22px; letter-spacing: 1px; }
