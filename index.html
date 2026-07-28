@@ -1096,10 +1096,18 @@
     }
 
     if ('serviceWorker' in navigator) {
-      // 立即注册，让 iOS 18 在“添加到主屏幕”前就完成 Service Worker 激活
+      // 立即注册，让 iOS 在“添加到主屏幕”前就完成 Service Worker 激活
       navigator.serviceWorker.register('service-worker.js')
         .then(() => console.log('[SW] registered'))
         .catch((e) => console.warn('[SW] register failed', e));
+      // 新版本 Service Worker 接管后自动刷新一次，确保加载到含内嵌保险数据的 index.html
+      var _swReloaded = false;
+      navigator.serviceWorker.addEventListener('controllerchange', function () {
+        if (_swReloaded) return;
+        _swReloaded = true;
+        console.log('[SW] new version activated, auto-reloading to refresh cached app');
+        location.reload();
+      });
     }
 
     // 关闭启动遮罩 + 非全屏时提示“添加到主屏幕”

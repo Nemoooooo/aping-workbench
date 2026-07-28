@@ -1,33 +1,49 @@
-// 工作台 Service Worker v13
-// 目标：GitHub Pages 在国内访问不稳定时，模块数据也不空白。
-// 策略：核心资源 + 当日数据在“安装时预缓存”；数据走“稳定缓存键(忽略?t=) + 后台更新(SWR)”；
-// 页面网络优先、静态资源缓存优先；任何情况下都返回合法 Response，绝不返回 null。
-const CACHE = 'workbench-v13';  // 升版以重新预缓存含内嵌保险数据的 index.html
+// 工作台 Service Worker v14
+// 策略：
+// - 安装时预缓存核心资源，并从 index.html 提取「内嵌保险数据」写入数据缓存
+//   （这样即使浏览器缓存的是旧版 index.html，数据仍可由 SW 兜底返回，模块永不空白）
+// - 数据请求：网络优先，失败回退到缓存（含内嵌数据），再失败给 {}
+// - 页面：网络优先，失败回退缓存
+// - 静态资源：缓存优先
+// - 任何情况都返回合法 Response，绝不返回 null
+const CACHE = 'workbench-v14';
 const CORE = [
-  './',
-  './index.html',
-  './tailwind.min.js',
-  './fa.css',
-  './manifest.webmanifest',
-  './icon-192.png',
-  './apple-touch-icon.png',
-  './logo-circle.png',
-  './data/news-analysis.json',
-  './data/ai-briefing.json'
+  './', './index.html', './tailwind.min.js', './fa.css', './manifest.webmanifest',
+  './icon-192.png', './apple-touch-icon.png', './logo-circle.png'
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE)
-      .then((c) => Promise.allSettled(CORE.map((u) => c.add(u))))
-      .then(() => self.skipWaiting())
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+    await Promise.allSettled(CORE.map((u) => cache.add(u)));
+    // 从 index.html 提取内嵌保险数据，写入数据缓存（核心兜底，独立于 HTML 缓存新旧）
+    try {
+      const htmlRes = await cache.match('./index.html');
+      const text = htmlRes ? await htmlRes.text() : await (await fetch('./index.html')).text();
+      const m = text.match(/<script id="embedded-data">([\s\S]*?)<\/script>/);
+      if (m) {
+        let js = m[1];
+        const i = js.indexOf('window.__EMBEDDED__ = ');
+        let jsonStr = js.slice(i + 'window.__EMBEDDED__ = '.length).replace(/;\s*$/, '').trim();
+        const data = JSON.parse(jsonStr); // <\/ 在 JSON 中会自动解析为 </
+        if (data.news) {
+          await cache.put(new Request(self.location.origin + '/data/news-analysis.json'),
+            new Response(JSON.stringify(data.news), { status: 200, headers: { 'Content-Type': 'application/json; charset=utf-8' } }));
+        }
+        if (data.ai) {
+          await cache.put(new Request(self.location.origin + '/data/ai-briefing.json'),
+            new Response(JSON.stringify(data.ai), { status: 200, headers: { 'Content-Type': 'application/json; charset=utf-8' } }));
+        }
+        console.log('[SW] embedded data cached as offline fallback');
+      }
+    } catch (e) { console.warn('[SW] extract embedded failed', e); }
+    await self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -44,48 +60,36 @@ function putCache(req, res) {
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET') return;
-
   let url;
   try { url = new URL(req.url); } catch (e) { return; }
-  if (url.origin !== self.location.origin) return; // 跨域不拦截
-
+  if (url.origin !== self.location.origin) return;
   const isData = url.pathname.endsWith('.json');
   const isNav = req.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname === '/' || url.pathname.endsWith('/');
-
   if (isData) {
-    // 数据：用“去掉查询串”的稳定键做缓存；有缓存先回缓存并后台更新，无缓存走网络，网络失败给 {}
     const normReq = new Request(url.origin + url.pathname, { method: 'GET' });
-    event.respondWith(
-      caches.match(normReq).then((cached) => {
-        const net = fetch(req).then((res) => {
-          if (res && res.ok) {
-            const copy = res.clone();
-            caches.open(CACHE).then((c) => c.put(normReq, copy)).catch(() => {});
-          }
-          return res;
-        }).catch(() => null);
-        if (cached) return cached; // 立即返回缓存，net 在后台更新
-        return net.then((res) => res || new Response('{}', { status: 200, headers: { 'Content-Type': 'application/json; charset=utf-8' } }));
-      })
-    );
+    event.respondWith((async () => {
+      try {
+        const res = await fetch(req);
+        if (res && res.ok) putCache(normReq, res);
+        return res;
+      } catch (e) {
+        const cached = await caches.match(normReq);
+        if (cached) return cached;
+        return new Response('{}', { status: 200, headers: { 'Content-Type': 'application/json; charset=utf-8' } });
+      }
+    })());
     return;
   }
-
   if (isNav) {
-    // 页面：网络优先保证最新，失败回退缓存
     event.respondWith(
-      fetch(req)
-        .then((res) => { putCache(req, res); return res; })
+      fetch(req).then((res) => { putCache(req, res); return res; })
         .catch(() => caches.match(req).then((r) => r || caches.match('./index.html').then((x) => x || new Response('offline', { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' } }))))
     );
     return;
   }
-
-  // 静态资源：缓存优先（已预缓存，秒开且离线可用），失败回退网络
   event.respondWith(
     caches.match(req).then((r) =>
-      r || fetch(req)
-        .then((res) => { putCache(req, res); return res; })
+      r || fetch(req).then((res) => { putCache(req, res); return res; })
         .catch(() => new Response('', { status: 200, headers: { 'Content-Type': 'text/plain; charset=utf-8' } }))
     )
   );
