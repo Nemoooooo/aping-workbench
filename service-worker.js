@@ -1,8 +1,8 @@
-// 工作台 Service Worker v12
+// 工作台 Service Worker v13
 // 目标：GitHub Pages 在国内访问不稳定时，模块数据也不空白。
 // 策略：核心资源 + 当日数据在“安装时预缓存”；数据走“稳定缓存键(忽略?t=) + 后台更新(SWR)”；
 // 页面网络优先、静态资源缓存优先；任何情况下都返回合法 Response，绝不返回 null。
-const CACHE = 'workbench-v12';
+const CACHE = 'workbench-v13';  // 升版以重新预缓存含内嵌保险数据的 index.html
 const CORE = [
   './',
   './index.html',

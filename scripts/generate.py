@@ -402,6 +402,27 @@ def gen_ai_briefing():
     return data
 
 
+
+
+def inject_embedded(na, ab):
+    """Embed daily data into index.html as insurance when GitHub Pages is unreachable."""
+    html_path = os.path.join(WS, "index.html")
+    if not os.path.exists(html_path):
+        return
+    with open(html_path, "r", encoding="utf-8") as f:
+        html = f.read()
+    payload = json.dumps({"news": na, "ai": ab}, ensure_ascii=False)
+    payload = payload.replace("</", "<" + chr(92) + "/")  # avoid premature </script>
+    block = '<script id="embedded-data">window.__EMBEDDED__ = %s;</script>' % payload
+    if '<script id="embedded-data">' in html:
+        html = re.sub(r'<script id="embedded-data">.*?</script>', lambda m: block, html, flags=re.S)
+    else:
+        html = html.replace("</body>", block + chr(10) + "</body>", 1)
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print("OK embedded data injected into index.html (%d chars)" % len(payload))
+
+
 def main():
     na = gen_news_analysis()
     with open(os.path.join(DATA, "news-analysis.json"), "w", encoding="utf-8") as f:
@@ -409,6 +430,7 @@ def main():
     ab = gen_ai_briefing()
     with open(os.path.join(DATA, "ai-briefing.json"), "w", encoding="utf-8") as f:
         json.dump(ab, f, ensure_ascii=False, indent=2)
+    inject_embedded(na, ab)
     print("OK news-analysis:", na["date"], "items", na["total"])
     print("OK ai-briefing:", ab["date"], "items", len(ab["items"]))
 

@@ -35,7 +35,24 @@ def run_generate():
     return r.returncode == 0, r.stderr
 
 
+def _sync_file(rel):
+    sp = os.path.join("/workspace", rel)
+    dp = os.path.join(REPO_DIR, rel)
+    if not os.path.exists(sp):
+        return
+    os.makedirs(os.path.dirname(dp), exist_ok=True)
+    with io.open(sp, "r", encoding="utf-8") as f:
+        content = f.read()
+    with io.open(dp, "w", encoding="utf-8") as f:
+        f.write(content)
+
+
 def git_push(date_str):
+    # 同步 /workspace 下的关键文件到部署仓库（含内嵌保险数据的 index.html）
+    for rel in ["index.html", "service-worker.js", "manifest.webmanifest",
+                os.path.join("scripts", "generate.py"),
+                os.path.join("scripts", "scheduler.py")]:
+        _sync_file(rel)
     # generate.py 写入 /workspace/data，需先同步进部署仓库
     src = os.path.join("/workspace", "data")
     dst = os.path.join(REPO_DIR, "data")
