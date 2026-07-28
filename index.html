@@ -1107,10 +1107,11 @@
 
       var isStandalone = window.navigator.standalone ||
         (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+      var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
       var dismissed = false;
       try { dismissed = localStorage.getItem('workbench_install_dismissed') === '1'; } catch (e) {}
       var banner = document.getElementById('install-banner');
-      if (banner && !isStandalone && !dismissed) banner.style.display = 'flex';
+      if (banner && isIOS && !isStandalone && !dismissed) banner.style.display = 'flex';
     }
     setupAppShell();
 
