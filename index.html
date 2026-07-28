@@ -907,10 +907,10 @@
     let _aiData = null, _newsData = null;
 
     const PERSPECTIVE_META = {
-      '行政官员': { border: 'border-pink-100', head: 'bg-pink-50 text-pink-800', count: 'text-pink-600', icon: 'fa-landmark', desc: '政策如何传导到行政体系' },
-      '高校':     { border: 'border-blue-100', head: 'bg-blue-50 text-blue-800', count: 'text-blue-600', icon: 'fa-graduation-cap', desc: '对高校与科研的影响' },
-      '商人公司': { border: 'border-orange-100', head: 'bg-orange-50 text-orange-800', count: 'text-orange-600', icon: 'fa-building', desc: '企业与市场的机会与风险' },
-      '协会':     { border: 'border-purple-100', head: 'bg-purple-50 text-purple-800', count: 'text-purple-600', icon: 'fa-people-group', desc: '行业协会与标准走向' }
+      '行政官员': { icon: 'fa-landmark', text: 'text-pink-700', dot: 'bg-pink-600', label: '政策如何传导到行政体系' },
+      '高校':     { icon: 'fa-graduation-cap', text: 'text-blue-700', dot: 'bg-blue-600', label: '对高校与科研的影响' },
+      '商人公司': { icon: 'fa-building', text: 'text-orange-700', dot: 'bg-orange-600', label: '企业与市场的机会与风险' },
+      '行业协会': { icon: 'fa-people-group', text: 'text-purple-700', dot: 'bg-purple-600', label: '行业协会与标准走向' }
     };
 
     // 轻量 Markdown -> HTML（支持 #/##/###、>引用、-列表、**粗体**、链接、🔗原文）
@@ -1004,41 +1004,48 @@
 
     function paintNews() {
       const d = _newsData;
-      const order = ['行政官员', '高校', '商人公司', '协会'];
+      const order = ['行政官员', '高校', '商人公司', '行业协会'];
       const body = $('news-analysis-body'), upd = $('news-updated'), note = $('news-note');
       if (note) note.textContent = d.note || '';
-      let matched = 0;
-      order.forEach(p => { matched += ((d.analysis && d.analysis[p]) || []).length; });
-      if (upd) upd.textContent = '数据日期 ' + d.date + ' ｜ 来源：' + (d.source || '') + ' ｜ 抓取 ' + d.total + ' 条，命中四维分析 ' + matched + ' 条';
+      if (upd) {
+        let txt = '数据日期 ' + (d.date || '');
+        if (d.broadcast) txt += ' ｜ 播出 ' + d.broadcast;
+        txt += ' ｜ 来源：' + (d.source || '') + ' ｜ 共 ' + (d.total || 0) + ' 条';
+        upd.textContent = txt;
+      }
       let html = '';
-      order.forEach(p => {
-        const items = (d.analysis && d.analysis[p]) || [];
-        const meta = PERSPECTIVE_META[p] || { border: 'border-gray-100', head: 'bg-gray-50 text-gray-800', count: 'text-gray-600', icon: 'fa-circle', desc: '' };
-        html += `<div class="rounded-xl border ${meta.border} overflow-hidden">
-          <div class="flex items-center gap-2 px-4 py-3 ${meta.head}">
-            <i class="fa-solid ${meta.icon}"></i>
-            <span class="font-semibold">${p}</span>
-            <span class="text-xs opacity-70 ml-1">${meta.desc}</span>
-            <span class="ml-auto text-xs ${meta.count}">${items.length} 条</span>
-          </div>
-          <div class="p-4 space-y-3">`;
-        if (items.length === 0) {
-          html += '<p class="text-sm text-gray-400">今日暂无直接相关要闻。</p>';
-        } else {
-          items.forEach(it => {
-            html += `<div class="p-3 rounded-lg bg-gray-50/60 border border-gray-100">
-              <a href="${escapeHtml(it.link)}" target="_blank" rel="noopener" class="text-sm font-medium text-gray-900 hover:text-pink-700">${escapeHtml(it.title)} <i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-gray-300"></i></a>
-              ${it.area ? `<span class="ml-2 inline-block text-[11px] px-2 py-0.5 rounded bg-gray-100 text-gray-500">${escapeHtml(it.area)}</span>` : ''}
-              <p class="text-sm text-gray-600 mt-1.5 leading-relaxed">${escapeHtml(it.impact)}</p>
-            </div>`;
+      if (d.summary) {
+        html += '<div class="rounded-xl bg-gradient-to-r from-pink-50 to-purple-50 border border-pink-100 p-4">'
+              + '<div class="text-xs font-semibold text-pink-700 mb-1"><i class="fa-solid fa-clipboard-list mr-1"></i>本期内容速览</div>'
+              + '<p class="text-sm text-gray-700 leading-relaxed">' + escapeHtml(d.summary) + '</p></div>';
+      }
+      if (!d.items || !d.items.length) {
+        html += '<p class="text-sm text-gray-400">今日暂无内容。</p>';
+      } else {
+        d.items.forEach((it, idx) => {
+          html += '<div class="rounded-2xl border border-gray-100 overflow-hidden">';
+          html += '<div class="flex items-center gap-2 px-4 py-3 bg-gray-50 border-b border-gray-100">'
+                + '<span class="shrink-0 w-6 h-6 rounded-full bg-pink-600 text-white text-xs font-bold flex items-center justify-center">' + (idx+1) + '</span>'
+                + '<span class="text-sm font-semibold text-gray-900 leading-snug">' + escapeHtml(it.title) + '</span></div>';
+          html += '<div class="grid sm:grid-cols-2 gap-px bg-gray-100">';
+          order.forEach(p => {
+            const meta = PERSPECTIVE_META[p] || { icon: 'fa-circle', text: 'text-gray-700', dot: 'bg-gray-400', label: '' };
+            const txt = (it.analysis && it.analysis[p]) || '';
+            html += '<div class="bg-white p-3">'
+                  + '<div class="flex items-center gap-1.5 mb-1">'
+                  + '<span class="w-1.5 h-1.5 rounded-full ' + meta.dot + '"></span>'
+                  + '<i class="fa-solid ' + meta.icon + ' ' + meta.text + ' text-xs"></i>'
+                  + '<span class="text-xs font-semibold ' + meta.text + '">' + p + '</span>'
+                  + '<span class="text-[10px] text-gray-400 ml-auto hidden sm:inline">' + escapeHtml(meta.label) + '</span>'
+                  + '</div>'
+                  + '<p class="text-[13px] text-gray-600 leading-relaxed">' + escapeHtml(txt) + '</p></div>';
           });
-        }
-        html += '</div></div>';
-      });
+          html += '</div></div>';
+        });
+      }
       body.innerHTML = html;
       updateNewsBadge();
     }
-
     function updateAiBadge() {
       const b = $('ai-badge'); if (!b) return;
       const last = localStorage.getItem('ai_lastread');
