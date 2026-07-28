@@ -356,41 +356,6 @@ def categorize(title):
     return "其他"
 
 
-def infographic_svg(items, date, cat_counts):
-    W, pad = 820, 28
-    rows = min(len(items), 6)
-    row_h = 86
-    H = 210 + rows * row_h
-    esc = ihtml.escape
-    p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-         f'font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">']
-    p.append(f'<rect width="{W}" height="{H}" fill="#0b0f19"/>')
-    p.append(f'<rect x="0" y="0" width="{W}" height="130" fill="#ff2d92"/>')
-    p.append(f'<text x="{pad}" y="50" fill="#ffffff" font-size="30" font-weight="700">AI 动态每日简报</text>')
-    p.append(f'<text x="{pad}" y="84" fill="#fce7f3" font-size="16">生成日期 {esc(date)} ｜ 来源 The Verge / TechCrunch（已译）</text>')
-    cx = pad
-    for c, n in cat_counts.items():
-        if not n:
-            continue
-        label = f"{c} {n}"
-        w = 24 + len(label) * 15
-        p.append(f'<rect x="{cx}" y="100" width="{w}" height="22" rx="11" fill="#1e103c"/>')
-        p.append(f'<text x="{cx+12}" y="116" fill="#fbcfe8" font-size="13">{esc(label)}</text>')
-        cx += w + 10
-    y = 158
-    for idx, it in enumerate(items):
-        title = it.get("title_zh") or it["title"]
-        if len(title) > 34:
-            title = title[:33] + "…"
-        p.append(f'<rect x="{pad}" y="{y}" width="{W-2*pad}" height="{row_h-12}" rx="12" fill="#1e103c" stroke="#ff2d92"/>')
-        p.append(f'<text x="{pad+18}" y="{y+36}" fill="#f9a8d4" font-size="20" font-weight="700">{idx+1}</text>')
-        p.append(f'<text x="{pad+52}" y="{y+36}" fill="#ffffff" font-size="17">{esc(title)}</text>')
-        p.append(f'<text x="{pad+52}" y="{y+62}" fill="#e9d5ff" font-size="13">AI 动态 ｜ 点击查看原文</text>')
-        y += row_h
-    p.append(f'<text x="{pad}" y="{H-16}" fill="#a78bfa" font-size="12">阿萍的工作台 ｜ 每日 09:00 自动生成</text>')
-    p.append('</svg>')
-    return "".join(p)
-
 
 def gen_ai_briefing():
     raw = []
@@ -428,12 +393,10 @@ def gen_ai_briefing():
             title = i.get("title_zh") or i["title"]
             md.append(f"- **{title}**  \n  {note}  \n  🔗 {i['link']}\n")
     cat_counts = {c: len(v) for c, v in cats.items() if v}
-    svg = infographic_svg(items[:6], today.isoformat(), cat_counts)
     data = {
         "date": today.isoformat(),
         "generated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "briefing_md": "\n".join(md),
-        "infographic_svg": svg,
         "items": [{"title": i["title"], "title_zh": i.get("title_zh", ""), "link": i["link"]} for i in items[:12]],
     }
     return data
