@@ -222,7 +222,6 @@
                 <i class="fa-solid fa-rotate mr-1"></i> 刷新
               </button>
             </div>
-            <div id="ai-infographic" class="mb-4 rounded-xl overflow-hidden bg-gray-50"></div>
             <div id="ai-md" class="max-w-none"></div>
           </div>
           <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
@@ -967,7 +966,7 @@
     }
 
     async function renderAiBriefing() {
-      const box = $('ai-md'), fig = $('ai-infographic'), upd = $('ai-updated');
+      const box = $('ai-md'), upd = $('ai-updated');
       if (!box) return;
       box.innerHTML = '<p class="text-sm text-gray-400">加载中…</p>';
       try {
@@ -975,11 +974,6 @@
         const d = await res.json();
         _aiData = d;
         if (upd) upd.textContent = '更新于 ' + (d.generated_at || '') + ' ｜ 共 ' + (d.items ? d.items.length : 0) + ' 条';
-        if (fig) {
-          fig.innerHTML = d.infographic_svg || '';
-          const svg = fig.querySelector('svg');
-          if (svg) { svg.removeAttribute('width'); svg.setAttribute('width', '100%'); svg.setAttribute('height', 'auto'); svg.style.height = 'auto'; }
-        }
         box.innerHTML = renderMarkdown(d.briefing_md || '');
         updateAiBadge();
       } catch (e) {
