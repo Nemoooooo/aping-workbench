@@ -1,16 +1,19 @@
 #!/usr/bin/env python3.11
+# -*- coding: utf-8 -*-
 """
 每日自动生成调度器（阿萍的工作台）
 - 每天 07:00（Asia/Shanghai）重新生成「每日新闻联播深度分析」
 - 每天 09:00（Asia/Shanghai）重新生成「AI动态每日简报」
-数据写入 /workspace/data，由沙箱 8000 端口直接对外提供（手机可访问）。
-若配置了有效 GitHub Token（环境变量 GH_TOKEN 或远程地址含 token），
-则额外把更新推送到 GitHub Pages 作为镜像。
+
+Cloud Studio 沙箱会在闲置时休眠、恢复后继续运行。因此本调度器增加：
+1. 启动/恢复时检查是否漏跑，若当前时间已过调度点则立即补跑；
+2. 把 last_news / last_ai 持久化到 .scheduler_state.json，避免进程重启后状态丢失。
 """
 import os
 import time
 import subprocess
 import datetime
+import json
 
 REPO_DIR = "/tmp/deploy"
 import sys
@@ -18,6 +21,7 @@ PY = sys.executable
 BRANCH = "main"
 REMOTE = "origin"
 TOKEN = os.environ.get("GH_TOKEN", "")
+STATE_FILE = os.path.join("/workspace", ".scheduler_state.json")
 
 
 def sh(cmd, cwd=REPO_DIR):
@@ -30,9 +34,25 @@ def ensure_remote_token():
         sh(["git", "remote", "set-url", REMOTE, url])
 
 
+def load_state():
+    try:
+        with open(STATE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_state(state):
+    try:
+        with open(STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump(state, f, ensure_ascii=False)
+    except Exception as e:
+        print(f"[{now_shanghai():%Y-%m-%d %H:%M:%S}] 状态保存失败: {e}", flush=True)
+
+
 def run_generate():
     r = sh([PY, "scripts/generate.py"])
-    return r.returncode == 0, r.stderr
+    return r.returncode == 0, r.stdout + r.stderr
 
 
 def _sync_file(rel):
@@ -41,9 +61,9 @@ def _sync_file(rel):
     if not os.path.exists(sp):
         return
     os.makedirs(os.path.dirname(dp), exist_ok=True)
-    with io.open(sp, "r", encoding="utf-8") as f:
+    with open(sp, "r", encoding="utf-8") as f:
         content = f.read()
-    with io.open(dp, "w", encoding="utf-8") as f:
+    with open(dp, "w", encoding="utf-8") as f:
         f.write(content)
 
 
@@ -88,39 +108,57 @@ def now_shanghai():
 def main():
     ensure_remote_token()
     can_push = push_enabled()
-    last_news = ""
-    last_ai = ""
+    state = load_state()
+    last_news = state.get("last_news", "")
+    last_ai = state.get("last_ai", "")
     mode = "（含 GitHub Pages 推送）" if can_push else "（仅沙箱本地，供手机直接访问）"
     print(f"[{now_shanghai():%Y-%m-%d %H:%M:%S}] 调度器启动 {mode}", flush=True)
+    print(f"[{now_shanghai():%Y-%m-%d %H:%M:%S}] 状态: last_news={last_news}, last_ai={last_ai}", flush=True)
+
+    def run_news(today):
+        nonlocal last_news
+        ok, msg = run_generate()
+        if ok:
+            if can_push:
+                ok2, msg2 = git_push(today)
+                print(f"[{now_shanghai():%H:%M:%S}] 新闻分析 {'已推送' if ok2 else '推送失败'}: {msg2[:80]}", flush=True)
+            else:
+                print(f"[{now_shanghai():%H:%M:%S}] 新闻分析已重新生成（本地）", flush=True)
+            last_news = today
+            save_state({"last_news": last_news, "last_ai": last_ai})
+        else:
+            print(f"[{now_shanghai():%H:%M:%S}] 新闻分析生成失败: {msg[:200]}", flush=True)
+
+    def run_ai(today):
+        nonlocal last_ai
+        ok, msg = run_generate()
+        if ok:
+            if can_push:
+                ok2, msg2 = git_push(today)
+                print(f"[{now_shanghai():%H:%M:%S}] AI简报 {'已推送' if ok2 else '推送失败'}: {msg2[:80]}", flush=True)
+            else:
+                print(f"[{now_shanghai():%H:%M:%S}] AI简报已重新生成（本地）", flush=True)
+            last_ai = today
+            save_state({"last_news": last_news, "last_ai": last_ai})
+        else:
+            print(f"[{now_shanghai():%H:%M:%S}] AI简报生成失败: {msg[:200]}", flush=True)
+
     while True:
         try:
             t = now_shanghai()
             hhmm = t.strftime("%H:%M")
             today = t.strftime("%Y-%m-%d")
-            if hhmm == "07:00" and last_news != today:
-                ok, msg = run_generate()
-                if ok:
-                    if can_push:
-                        ok2, msg2 = git_push(today)
-                        print(f"[{t:%H:%M:%S}] 07:00 新闻分析 {'已推送' if ok2 else '推送失败'}: {msg2[:80]}", flush=True)
-                    else:
-                        print(f"[{t:%H:%M:%S}] 07:00 新闻分析已重新生成（本地）", flush=True)
-                else:
-                    print(f"[{t:%H:%M:%S}] 07:00 生成失败: {msg[:120]}", flush=True)
-                last_news = today
-            if hhmm == "09:00" and last_ai != today:
-                ok, msg = run_generate()
-                if ok:
-                    if can_push:
-                        ok2, msg2 = git_push(today)
-                        print(f"[{t:%H:%M:%S}] 09:00 AI简报 {'已推送' if ok2 else '推送失败'}: {msg2[:80]}", flush=True)
-                    else:
-                        print(f"[{t:%H:%M:%S}] 09:00 AI简报已重新生成（本地）", flush=True)
-                else:
-                    print(f"[{t:%H:%M:%S}] 09:00 生成失败: {msg[:120]}", flush=True)
-                last_ai = today
+
+            # 新闻联播：07:00 执行；若沙箱恢复时间晚于 07:00 则立即补跑
+            if last_news != today and hhmm >= "07:00":
+                run_news(today)
+
+            # AI 简报：09:00 执行；若沙箱恢复时间晚于 09:00 则立即补跑
+            if last_ai != today and hhmm >= "09:00":
+                run_ai(today)
+
         except Exception as e:
-            print(f"[scheduler error] {e}", flush=True)
+            print(f"[{now_shanghai():%Y-%m-%d %H:%M:%S}] [scheduler error] {e}", flush=True)
         time.sleep(30)
 
 
