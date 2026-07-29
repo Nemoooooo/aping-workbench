@@ -1,68 +1,67 @@
 {
-  "date": "2026-07-28",
-  "generated_at": "2026-07-28 13:55",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-28** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **Why China is giving away its best AI models**  \n  Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moon…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies\n\n- **Claude’s voice mode is now available for Opus and Sonnet**  \n  Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai\n\n- **Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI**  \n  Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and C…  \n  🔗 https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\n\n\n## 产品/应用（2 条）\n\n- **Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic**  \n  Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech com…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\n\n- **Midjourney bought the astrology app Co-Star**  \n  Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition\n\n\n## 其他（5 条）\n\n- **You can’t ignore Google Zero anymore**  \n  The web and Google once had a deal: Google collects data and indexes webpages and in excha…  \n  🔗 https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast\n\n- **Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities**  \n  Weeks after Anthropic's latest toe-to-toe with the US government, and days after an OpenAI…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release\n\n- **Meta is making its AI chatbot more like an assistant**  \n  Meta is upgrading its AI chatbot with new productivity features in a bid to compete with r…  \n  🔗 https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update\n\n- **The tech-broification of American science has officially begun**  \n  The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directin…  \n  🔗 https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants\n\n- **Alexa Plus is getting an AI update to handle more complicated instructions**  \n  Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to…  \n  🔗 https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices\n",
-  "infographic_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"820\" height=\"726\" viewBox=\"0 0 820 726\" font-family=\"-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif\"><rect width=\"820\" height=\"726\" fill=\"#0b0f19\"/><rect x=\"0\" y=\"0\" width=\"820\" height=\"130\" fill=\"#ff2d92\"/><text x=\"28\" y=\"50\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"700\">AI 动态每日简报</text><text x=\"28\" y=\"84\" fill=\"#fce7f3\" font-size=\"16\">生成日期 2026-07-28 ｜ 来源 The Verge / TechCrunch（已译）</text><rect x=\"28\" y=\"100\" width=\"129\" height=\"22\" rx=\"11\" fill=\"#1e103c\"/><text x=\"40\" y=\"116\" fill=\"#fbcfe8\" font-size=\"13\">研究/模型 3</text><rect x=\"167\" y=\"100\" width=\"129\" height=\"22\" rx=\"11\" fill=\"#1e103c\"/><text x=\"179\" y=\"116\" fill=\"#fbcfe8\" font-size=\"13\">产品/应用 2</text><rect x=\"306\" y=\"100\" width=\"84\" height=\"22\" rx=\"11\" fill=\"#1e103c\"/><text x=\"318\" y=\"116\" fill=\"#fbcfe8\" font-size=\"13\">其他 7</text><rect x=\"28\" y=\"158\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#1e103c\" stroke=\"#ff2d92\"/><text x=\"46\" y=\"194\" fill=\"#f9a8d4\" font-size=\"20\" font-weight=\"700\">1</text><text x=\"80\" y=\"194\" fill=\"#ffffff\" font-size=\"17\">Why China is giving away its best…</text><text x=\"80\" y=\"220\" fill=\"#e9d5ff\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"244\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#1e103c\" stroke=\"#ff2d92\"/><text x=\"46\" y=\"280\" fill=\"#f9a8d4\" font-size=\"20\" font-weight=\"700\">2</text><text x=\"80\" y=\"280\" fill=\"#ffffff\" font-size=\"17\">Nvidia, Microsoft launch open AI …</text><text x=\"80\" y=\"306\" fill=\"#e9d5ff\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"330\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#1e103c\" stroke=\"#ff2d92\"/><text x=\"46\" y=\"366\" fill=\"#f9a8d4\" font-size=\"20\" font-weight=\"700\">3</text><text x=\"80\" y=\"366\" fill=\"#ffffff\" font-size=\"17\">Midjourney bought the astrology a…</text><text x=\"80\" y=\"392\" fill=\"#e9d5ff\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"416\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#1e103c\" stroke=\"#ff2d92\"/><text x=\"46\" y=\"452\" fill=\"#f9a8d4\" font-size=\"20\" font-weight=\"700\">4</text><text x=\"80\" y=\"452\" fill=\"#ffffff\" font-size=\"17\">You can’t ignore Google Zero anym…</text><text x=\"80\" y=\"478\" fill=\"#e9d5ff\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"502\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#1e103c\" stroke=\"#ff2d92\"/><text x=\"46\" y=\"538\" fill=\"#f9a8d4\" font-size=\"20\" font-weight=\"700\">5</text><text x=\"80\" y=\"538\" fill=\"#ffffff\" font-size=\"17\">Anthropic releases Opus 5 with ‘c…</text><text x=\"80\" y=\"564\" fill=\"#e9d5ff\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><rect x=\"28\" y=\"588\" width=\"764\" height=\"74\" rx=\"12\" fill=\"#1e103c\" stroke=\"#ff2d92\"/><text x=\"46\" y=\"624\" fill=\"#f9a8d4\" font-size=\"20\" font-weight=\"700\">6</text><text x=\"80\" y=\"624\" fill=\"#ffffff\" font-size=\"17\">Meta is making its AI chatbot mor…</text><text x=\"80\" y=\"650\" fill=\"#e9d5ff\" font-size=\"13\">AI 动态 ｜ 点击查看原文</text><text x=\"28\" y=\"710\" fill=\"#a78bfa\" font-size=\"12\">阿萍的工作台 ｜ 每日 09:00 自动生成</text></svg>",
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29 08:13",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-29** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **为什么中国要赠送最好的人工智能模型**  \n  硅谷在过去一周的大部分时间里都处于红色警报状态，消化着 Moonshot AI 的 Kimi K3 的到来，这是一种中国人工智能模型，据称可以以极低的成本击败美国公司构建的一些最好…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies\n\n\n## 产品/应用（2 条）\n\n- **Nvidia、微软推出开放人工智能安全联盟——没有 OpenAI、Google 或 Anthropic**  \n  英伟达周一表示，它正在与微软、SpaceX、IBM 和其他科技公司联手构建和共享开源人工智能安全工具。新成立的开放安全人工智能联盟表示，需要开放工具来有效防御来自前沿模型的攻击。该…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\n\n- **Midjourney 购买了占星应用程序 Co-Star**  \n  Midjourney 已经从生成 AI 猫图像到全身超声波扫描，正在进入一个新领域：占星术。据彭博社早些时候报道，这家人工智能初创公司周四宣布，它已经收购了个性化占星应用程序 Co…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition\n\n\n## 其他（5 条）\n\n- **人工智能领导者签署一份声明，要求政府对自动化人工智能采取措施**  \n  OpenAI 和 Anthropic 以及谷歌、Meta、Thinking Machines、微软、Mistral 和其他领先人工智能实验室的员工已向美国政府写了一份声明，支持前沿…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta\n\n- **人工智能终于昂贵到让华尔街感到紧张**  \n  财报季来临，投资者从 Google 得到了一个令人不快的惊喜：其支出预期从上一季度高达 1900 亿美元的预测上调至 2050 亿美元。即使是谷歌新预计范围的下限——1950 亿美…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex\n\n- **Perplexity 的个人电脑将 Windows PC 变成人工智能代理**  \n  Perplexity 已将其代理个人计算机工具扩展到 Windows，允许运行世界上最流行操作系统的计算机用作本地运行的人工智能系统。与 Perplexity 在 4 月份推出的 …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents\n\n- **智能戒指看起来就像我喜欢的人工智能小工具**  \n  在过去的几个月里，我花了很多时间与电脑交谈。法学硕士革命的一个被低估的特点是各种听写技术的显着飞跃 - 即使是最快、最便宜的模型也变得非常擅长理解和处理语音。我测试过很多这样的应用…  \n  🔗 https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index\n\n- **拥抱脸被用来轻松脱掉妇女和儿童的衣服**  \n  Hugging Face 被用来制作未经同意的 Deepfake，而流行的开源 AI 模型存储库却没有采取任何措施来阻止这种情况。这是根据欧洲非营利组织 AI Forensics …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children\n",
   "items": [
     {
+      "title": "AI leaders sign a statement asking the government to do something about automated AI",
+      "title_zh": "人工智能领导者签署一份声明，要求政府对自动化人工智能采取措施",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
+    },
+    {
+      "title": "AI’s finally expensive enough to make Wall Street nervous",
+      "title_zh": "人工智能终于昂贵到让华尔街感到紧张",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
+    },
+    {
+      "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+      "title_zh": "Perplexity 的个人电脑将 Windows PC 变成人工智能代理",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
+    },
+    {
+      "title": "Smart rings are looking like my kind of AI gadget",
+      "title_zh": "智能戒指看起来就像我喜欢的人工智能小工具",
+      "link": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index"
+    },
+    {
+      "title": "Hugging Face is being used to easily undress women and children",
+      "title_zh": "拥抱脸被用来轻松脱掉妇女和儿童的衣服",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children"
+    },
+    {
       "title": "Why China is giving away its best AI models",
-      "title_zh": "Why China is giving away its best AI models",
+      "title_zh": "为什么中国要赠送最好的人工智能模型",
       "link": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
     },
     {
       "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
-      "title_zh": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+      "title_zh": "Nvidia、微软推出开放人工智能安全联盟——没有 OpenAI、Google 或 Anthropic",
       "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
     },
     {
       "title": "Midjourney bought the astrology app Co-Star",
-      "title_zh": "Midjourney bought the astrology app Co-Star",
+      "title_zh": "Midjourney 购买了占星应用程序 Co-Star",
       "link": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition"
     },
     {
       "title": "You can’t ignore Google Zero anymore",
-      "title_zh": "You can’t ignore Google Zero anymore",
+      "title_zh": "你不能再忽视 Google Zero",
       "link": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast"
     },
     {
       "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-      "title_zh": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
+      "title_zh": "Anthropic 发布了 Opus 5，其功能“接近”《神鬼寓言 5》",
       "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
     },
     {
-      "title": "Meta is making its AI chatbot more like an assistant",
-      "title_zh": "Meta is making its AI chatbot more like an assistant",
-      "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update"
+      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+      "title_zh": "Cyera 同意以 10 亿美元收购 Oasis Security，以保护不断扩散的人工智能代理",
+      "link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/"
     },
     {
-      "title": "The tech-broification of American science has officially begun",
-      "title_zh": "The tech-broification of American science has officially begun",
-      "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants"
-    },
-    {
-      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
-      "title_zh": "Alexa Plus is getting an AI update to handle more complicated instructions",
-      "link": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices"
-    },
-    {
-      "title": "Claude’s voice mode is now available for Opus and Sonnet",
-      "title_zh": "Claude’s voice mode is now available for Opus and Sonnet",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai"
-    },
-    {
-      "title": "Patreon is laying off 20 percent of workers",
-      "title_zh": "Patreon is laying off 20 percent of workers",
-      "link": "https://www.theverge.com/tech/970211/patreon-layoffs-ai"
-    },
-    {
-      "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-      "title_zh": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-      "link": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/"
-    },
-    {
-      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
-      "title_zh": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
-      "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
+      "title": "Bot-detection startup Spur nabs $200M from Insight",
+      "title_zh": "机器人检测初创公司 Spur 从 Insight 获得 2 亿美元投资",
+      "link": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
     }
   ]
 }
