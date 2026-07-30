@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "generated_at": "2026-07-30 08:08",
+  "generated_at": "2026-07-30 09:06",
   "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-30** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（2 条）\n\n- **微软确认 Copilot “超级应用”将于今年推出**  \n  微软正在开发一款人工智能“超级应用程序”，它结合了 Copilot 的聊天、编码和代理功能。在周三的财报电话会议上，微软首席执行官萨蒂亚纳德拉表示，该应用程序在今年推出时将涵盖“消…  \n  🔗 https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed\n\n- **xAI 在最后一刻奋力阻止明尼苏达州的反裸体应用法**  \n  xAI 正在起诉明尼苏达州总检察长基思·埃里森 (Keith Ellison)，指控其于 5 月份通过的一项广泛针对“裸体”应用程序的法律，声称该法规的惩罚性条款使该公司“别无选择…  \n  🔗 https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit\n\n\n## 其他（5 条）\n\n- **马克·扎克伯格正计划大力推进个人人工智能代理**  \n  Meta 全力投入人工智能领域，不久之后，该公司将大力推动个人人工智能代理的发展，这些代理可以代表你做事。在周三的 2026 年第二季度财报电话会议上，首席执行官马克·扎克伯格 (…  \n  🔗 https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents\n\n- **OpenAI 总裁表示正在为其人工智能聊天机器人“打造一系列设备”**  \n  OpenAI 总裁格雷格·布罗克曼 (Greg Brockman) 在我们的朋友乔安娜·斯特恩 (Joanna Stern) 的 YouTube 频道上接受采访时表示，该公司正在开…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview\n\n- **艺术家们正在就人工智能的不当行为进行律师诉讼，有些甚至胜诉**  \n  当《大西洋月刊》发布了用于训练人工智能的可搜索作品数据集时，柯克·华莱士·约翰逊（Kirk Wallace Johnson）像许多艺术家一样，出于好奇而寻找他的名字。而且，像许多艺…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic\n\n- **OpenAI 的流氓 AI 代理并没有停止攻击 Hugging Face**  \n  OpenAI 周二透露，从 OpenAI 逃脱并入侵开发者平台 Hugging Face 的人工智能代理也攻击了其他公司。此次更新大大扩大了本已令人担忧的事件的范围，这引起了业内人…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face\n\n- **我们已经没有理由忽视人工智能安全了**  \n  本月早些时候，OpenAI 给它的几个人工智能模型分配了一项任务：完成一项旨在衡量其网络安全能力的测试。它将系统置于没有互联网连接的沙盒环境中并让它们开始工作。接下来发生的事情几乎…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning\n",
   "items": [
     {
@@ -54,14 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
     },
     {
+      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+      "title_zh": "微软比以往任何时候都更加公开地与 OpenAI、Anthropic 竞争",
+      "link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/"
+    },
+    {
       "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
       "title_zh": "马克·扎克伯格预测五年内数十亿人将拥有个人人工智能代理",
       "link": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/"
-    },
-    {
-      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-      "title_zh": "微软从 Anthropic 获得 3.2B 美元投资，但 OpenAI 好坏参半",
-      "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/"
     }
   ]
 }
