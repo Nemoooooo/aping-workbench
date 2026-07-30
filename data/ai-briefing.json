@@ -1,8 +1,43 @@
 {
-  "date": "2026-07-29",
-  "generated_at": "2026-07-29 08:13",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-29** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **为什么中国要赠送最好的人工智能模型**  \n  硅谷在过去一周的大部分时间里都处于红色警报状态，消化着 Moonshot AI 的 Kimi K3 的到来，这是一种中国人工智能模型，据称可以以极低的成本击败美国公司构建的一些最好…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies\n\n\n## 产品/应用（2 条）\n\n- **Nvidia、微软推出开放人工智能安全联盟——没有 OpenAI、Google 或 Anthropic**  \n  英伟达周一表示，它正在与微软、SpaceX、IBM 和其他科技公司联手构建和共享开源人工智能安全工具。新成立的开放安全人工智能联盟表示，需要开放工具来有效防御来自前沿模型的攻击。该…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\n\n- **Midjourney 购买了占星应用程序 Co-Star**  \n  Midjourney 已经从生成 AI 猫图像到全身超声波扫描，正在进入一个新领域：占星术。据彭博社早些时候报道，这家人工智能初创公司周四宣布，它已经收购了个性化占星应用程序 Co…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition\n\n\n## 其他（5 条）\n\n- **人工智能领导者签署一份声明，要求政府对自动化人工智能采取措施**  \n  OpenAI 和 Anthropic 以及谷歌、Meta、Thinking Machines、微软、Mistral 和其他领先人工智能实验室的员工已向美国政府写了一份声明，支持前沿…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta\n\n- **人工智能终于昂贵到让华尔街感到紧张**  \n  财报季来临，投资者从 Google 得到了一个令人不快的惊喜：其支出预期从上一季度高达 1900 亿美元的预测上调至 2050 亿美元。即使是谷歌新预计范围的下限——1950 亿美…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex\n\n- **Perplexity 的个人电脑将 Windows PC 变成人工智能代理**  \n  Perplexity 已将其代理个人计算机工具扩展到 Windows，允许运行世界上最流行操作系统的计算机用作本地运行的人工智能系统。与 Perplexity 在 4 月份推出的 …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents\n\n- **智能戒指看起来就像我喜欢的人工智能小工具**  \n  在过去的几个月里，我花了很多时间与电脑交谈。法学硕士革命的一个被低估的特点是各种听写技术的显着飞跃 - 即使是最快、最便宜的模型也变得非常擅长理解和处理语音。我测试过很多这样的应用…  \n  🔗 https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index\n\n- **拥抱脸被用来轻松脱掉妇女和儿童的衣服**  \n  Hugging Face 被用来制作未经同意的 Deepfake，而流行的开源 AI 模型存储库却没有采取任何措施来阻止这种情况。这是根据欧洲非营利组织 AI Forensics …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children\n",
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30 08:08",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-30** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（2 条）\n\n- **微软确认 Copilot “超级应用”将于今年推出**  \n  微软正在开发一款人工智能“超级应用程序”，它结合了 Copilot 的聊天、编码和代理功能。在周三的财报电话会议上，微软首席执行官萨蒂亚纳德拉表示，该应用程序在今年推出时将涵盖“消…  \n  🔗 https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed\n\n- **xAI 在最后一刻奋力阻止明尼苏达州的反裸体应用法**  \n  xAI 正在起诉明尼苏达州总检察长基思·埃里森 (Keith Ellison)，指控其于 5 月份通过的一项广泛针对“裸体”应用程序的法律，声称该法规的惩罚性条款使该公司“别无选择…  \n  🔗 https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit\n\n\n## 其他（5 条）\n\n- **马克·扎克伯格正计划大力推进个人人工智能代理**  \n  Meta 全力投入人工智能领域，不久之后，该公司将大力推动个人人工智能代理的发展，这些代理可以代表你做事。在周三的 2026 年第二季度财报电话会议上，首席执行官马克·扎克伯格 (…  \n  🔗 https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents\n\n- **OpenAI 总裁表示正在为其人工智能聊天机器人“打造一系列设备”**  \n  OpenAI 总裁格雷格·布罗克曼 (Greg Brockman) 在我们的朋友乔安娜·斯特恩 (Joanna Stern) 的 YouTube 频道上接受采访时表示，该公司正在开…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview\n\n- **艺术家们正在就人工智能的不当行为进行律师诉讼，有些甚至胜诉**  \n  当《大西洋月刊》发布了用于训练人工智能的可搜索作品数据集时，柯克·华莱士·约翰逊（Kirk Wallace Johnson）像许多艺术家一样，出于好奇而寻找他的名字。而且，像许多艺…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic\n\n- **OpenAI 的流氓 AI 代理并没有停止攻击 Hugging Face**  \n  OpenAI 周二透露，从 OpenAI 逃脱并入侵开发者平台 Hugging Face 的人工智能代理也攻击了其他公司。此次更新大大扩大了本已令人担忧的事件的范围，这引起了业内人…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face\n\n- **我们已经没有理由忽视人工智能安全了**  \n  本月早些时候，OpenAI 给它的几个人工智能模型分配了一项任务：完成一项旨在衡量其网络安全能力的测试。它将系统置于没有互联网连接的沙盒环境中并让它们开始工作。接下来发生的事情几乎…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning\n",
   "items": [
+    {
+      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "title_zh": "微软确认 Copilot “超级应用”将于今年推出",
+      "link": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
+    },
+    {
+      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
+      "title_zh": "马克·扎克伯格正计划大力推进个人人工智能代理",
+      "link": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents"
+    },
+    {
+      "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
+      "title_zh": "xAI 在最后一刻奋力阻止明尼苏达州的反裸体应用法",
+      "link": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit"
+    },
+    {
+      "title": "OpenAI president says it’s ‘building a family of devices’ for its AI chatbots",
+      "title_zh": "OpenAI 总裁表示正在为其人工智能聊天机器人“打造一系列设备”",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview"
+    },
+    {
+      "title": "Artists are lawyering up against AI slop, and some are even winning",
+      "title_zh": "艺术家们正在就人工智能的不当行为进行律师诉讼，有些甚至胜诉",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic"
+    },
+    {
+      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+      "title_zh": "OpenAI 的流氓 AI 代理并没有停止攻击 Hugging Face",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face"
+    },
+    {
+      "title": "We’re running out of reasons to ignore AI safety",
+      "title_zh": "我们已经没有理由忽视人工智能安全了",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning"
+    },
     {
       "title": "AI leaders sign a statement asking the government to do something about automated AI",
       "title_zh": "人工智能领导者签署一份声明，要求政府对自动化人工智能采取措施",
@@ -19,49 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
     },
     {
-      "title": "Smart rings are looking like my kind of AI gadget",
-      "title_zh": "智能戒指看起来就像我喜欢的人工智能小工具",
-      "link": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index"
+      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+      "title_zh": "马克·扎克伯格预测五年内数十亿人将拥有个人人工智能代理",
+      "link": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/"
     },
     {
-      "title": "Hugging Face is being used to easily undress women and children",
-      "title_zh": "拥抱脸被用来轻松脱掉妇女和儿童的衣服",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children"
-    },
-    {
-      "title": "Why China is giving away its best AI models",
-      "title_zh": "为什么中国要赠送最好的人工智能模型",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies"
-    },
-    {
-      "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
-      "title_zh": "Nvidia、微软推出开放人工智能安全联盟——没有 OpenAI、Google 或 Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
-    },
-    {
-      "title": "Midjourney bought the astrology app Co-Star",
-      "title_zh": "Midjourney 购买了占星应用程序 Co-Star",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition"
-    },
-    {
-      "title": "You can’t ignore Google Zero anymore",
-      "title_zh": "你不能再忽视 Google Zero",
-      "link": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast"
-    },
-    {
-      "title": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-      "title_zh": "Anthropic 发布了 Opus 5，其功能“接近”《神鬼寓言 5》",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
-    },
-    {
-      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-      "title_zh": "Cyera 同意以 10 亿美元收购 Oasis Security，以保护不断扩散的人工智能代理",
-      "link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/"
-    },
-    {
-      "title": "Bot-detection startup Spur nabs $200M from Insight",
-      "title_zh": "机器人检测初创公司 Spur 从 Insight 获得 2 亿美元投资",
-      "link": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/"
+      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+      "title_zh": "微软从 Anthropic 获得 3.2B 美元投资，但 OpenAI 好坏参半",
+      "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/"
     }
   ]
 }
