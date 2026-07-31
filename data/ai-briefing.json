@@ -1,67 +1,67 @@
 {
-  "date": "2026-07-30",
-  "generated_at": "2026-07-30 09:06",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-30** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（2 条）\n\n- **微软确认 Copilot “超级应用”将于今年推出**  \n  微软正在开发一款人工智能“超级应用程序”，它结合了 Copilot 的聊天、编码和代理功能。在周三的财报电话会议上，微软首席执行官萨蒂亚纳德拉表示，该应用程序在今年推出时将涵盖“消…  \n  🔗 https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed\n\n- **xAI 在最后一刻奋力阻止明尼苏达州的反裸体应用法**  \n  xAI 正在起诉明尼苏达州总检察长基思·埃里森 (Keith Ellison)，指控其于 5 月份通过的一项广泛针对“裸体”应用程序的法律，声称该法规的惩罚性条款使该公司“别无选择…  \n  🔗 https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit\n\n\n## 其他（5 条）\n\n- **马克·扎克伯格正计划大力推进个人人工智能代理**  \n  Meta 全力投入人工智能领域，不久之后，该公司将大力推动个人人工智能代理的发展，这些代理可以代表你做事。在周三的 2026 年第二季度财报电话会议上，首席执行官马克·扎克伯格 (…  \n  🔗 https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents\n\n- **OpenAI 总裁表示正在为其人工智能聊天机器人“打造一系列设备”**  \n  OpenAI 总裁格雷格·布罗克曼 (Greg Brockman) 在我们的朋友乔安娜·斯特恩 (Joanna Stern) 的 YouTube 频道上接受采访时表示，该公司正在开…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview\n\n- **艺术家们正在就人工智能的不当行为进行律师诉讼，有些甚至胜诉**  \n  当《大西洋月刊》发布了用于训练人工智能的可搜索作品数据集时，柯克·华莱士·约翰逊（Kirk Wallace Johnson）像许多艺术家一样，出于好奇而寻找他的名字。而且，像许多艺…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic\n\n- **OpenAI 的流氓 AI 代理并没有停止攻击 Hugging Face**  \n  OpenAI 周二透露，从 OpenAI 逃脱并入侵开发者平台 Hugging Face 的人工智能代理也攻击了其他公司。此次更新大大扩大了本已令人担忧的事件的范围，这引起了业内人…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face\n\n- **我们已经没有理由忽视人工智能安全了**  \n  本月早些时候，OpenAI 给它的几个人工智能模型分配了一项任务：完成一项旨在衡量其网络安全能力的测试。它将系统置于没有互联网连接的沙盒环境中并让它们开始工作。接下来发生的事情几乎…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning\n",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31 19:27",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-07-31** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Google DeepMind’s new AI model can control a robot’s entire body**  \n  Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entir…  \n  🔗 https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body\n\n- **Anthropic says its own AI models breached three companies during security tests**  \n  After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found…  \n  🔗 https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/\n\n\n## 产品/应用（3 条）\n\n- **Friend re-launches its AI pendant with a speaker that talks to you, for twice the price**  \n  Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its …  \n  🔗 https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price\n\n- **Microsoft confirms Copilot ‘super app’ coming this year**  \n  Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agenti…  \n  🔗 https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed\n\n- **xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law**  \n  xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that b…  \n  🔗 https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit\n\n\n## 其他（5 条）\n\n- **Tim Cook hints at iCloud Plus tier for AI power users**  \n  Apple may allow users to pay to increase their AI usage limits. During an earnings call on…  \n  🔗 https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai\n\n- **The loss of Situational Awareness**  \n  I am not by any means an expert at finance but I think I do now have some advice for peopl…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks\n\n- **LinkedIn actually adds a ‘seems like AI slop’ button**  \n  A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report th…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button\n\n- **Mark Zuckerberg is planning a big push into personal AI agents**  \n  Meta is all-in on AI, and sometime soon, the company is going to make a big push into pers…  \n  🔗 https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents\n\n- **OpenAI president says it’s ‘building a family of devices’ for its AI chatbots**  \n  In an interview with our friend Joanna Stern on her YouTube channel, OpenAI president Greg…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview\n",
   "items": [
     {
+      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "title_zh": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "link": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
+    },
+    {
+      "title": "The loss of Situational Awareness",
+      "title_zh": "The loss of Situational Awareness",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks"
+    },
+    {
+      "title": "LinkedIn actually adds a ‘seems like AI slop’ button",
+      "title_zh": "LinkedIn actually adds a ‘seems like AI slop’ button",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button"
+    },
+    {
+      "title": "Google DeepMind’s new AI model can control a robot’s entire body",
+      "title_zh": "Google DeepMind’s new AI model can control a robot’s entire body",
+      "link": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body"
+    },
+    {
+      "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "title_zh": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "link": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price"
+    },
+    {
       "title": "Microsoft confirms Copilot ‘super app’ coming this year",
-      "title_zh": "微软确认 Copilot “超级应用”将于今年推出",
+      "title_zh": "Microsoft confirms Copilot ‘super app’ coming this year",
       "link": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
     },
     {
       "title": "Mark Zuckerberg is planning a big push into personal AI agents",
-      "title_zh": "马克·扎克伯格正计划大力推进个人人工智能代理",
+      "title_zh": "Mark Zuckerberg is planning a big push into personal AI agents",
       "link": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents"
     },
     {
       "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
-      "title_zh": "xAI 在最后一刻奋力阻止明尼苏达州的反裸体应用法",
+      "title_zh": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
       "link": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit"
     },
     {
       "title": "OpenAI president says it’s ‘building a family of devices’ for its AI chatbots",
-      "title_zh": "OpenAI 总裁表示正在为其人工智能聊天机器人“打造一系列设备”",
+      "title_zh": "OpenAI president says it’s ‘building a family of devices’ for its AI chatbots",
       "link": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview"
     },
     {
       "title": "Artists are lawyering up against AI slop, and some are even winning",
-      "title_zh": "艺术家们正在就人工智能的不当行为进行律师诉讼，有些甚至胜诉",
+      "title_zh": "Artists are lawyering up against AI slop, and some are even winning",
       "link": "https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic"
     },
     {
-      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
-      "title_zh": "OpenAI 的流氓 AI 代理并没有停止攻击 Hugging Face",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face"
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "title_zh": "Anthropic says its own AI models breached three companies during security tests",
+      "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/"
     },
     {
-      "title": "We’re running out of reasons to ignore AI safety",
-      "title_zh": "我们已经没有理由忽视人工智能安全了",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning"
-    },
-    {
-      "title": "AI leaders sign a statement asking the government to do something about automated AI",
-      "title_zh": "人工智能领导者签署一份声明，要求政府对自动化人工智能采取措施",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
-    },
-    {
-      "title": "AI’s finally expensive enough to make Wall Street nervous",
-      "title_zh": "人工智能终于昂贵到让华尔街感到紧张",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
-    },
-    {
-      "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
-      "title_zh": "Perplexity 的个人电脑将 Windows PC 变成人工智能代理",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
-    },
-    {
-      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-      "title_zh": "微软比以往任何时候都更加公开地与 OpenAI、Anthropic 竞争",
-      "link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/"
-    },
-    {
-      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
-      "title_zh": "马克·扎克伯格预测五年内数十亿人将拥有个人人工智能代理",
-      "link": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/"
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "title_zh": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "link": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/"
     }
   ]
 }
