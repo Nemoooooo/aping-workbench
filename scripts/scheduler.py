@@ -7,7 +7,9 @@
 
 Cloud Studio 沙箱会在闲置时休眠、恢复后继续运行。因此本调度器增加：
 1. 启动/恢复时检查是否漏跑，若当前时间已过调度点则立即补跑；
-2. 把 last_news / last_ai 持久化到 .scheduler_state.json，避免进程重启后状态丢失。
+2. 把 last_news / last_ai / pushed 持久化到 .scheduler_state.json；
+3. 【关键修复】推送失败不再标记当天完成——只要本地还有未推送的提交，
+   调度器每 30s 持续重试推送，直到 GitHub 可达，避免数据滞留。
 """
 import os
 import time
@@ -86,12 +88,14 @@ def git_push(date_str):
                     f.write(data)
     sh(["git", "add", "-A"])
     st = sh(["git", "status", "--porcelain"])
-    if not st.stdout.strip():
-        return True, "无变更"
-    sh(["git", "-c", "credential.helper=", "commit",
-        "-m", f"daily auto-update {date_str}"])
+    if st.stdout.strip():
+        sh(["git", "-c", "credential.helper=", "commit",
+            "-m", f"daily auto-update {date_str}"])
+    # 始终尝试推送（即便只是把已提交但未推上去的本地提交推到远端）
     r = sh(["git", "-c", "credential.helper=", "push", REMOTE, BRANCH])
-    return r.returncode == 0, r.stderr
+    if r.returncode != 0:
+        return False, (r.stderr or r.stdout)
+    return True, "ok"
 
 
 def push_enabled():
@@ -109,37 +113,42 @@ def main():
     ensure_remote_token()
     can_push = push_enabled()
     state = load_state()
-    last_news = state.get("last_news", "")
-    last_ai = state.get("last_ai", "")
     mode = "（含 GitHub Pages 推送）" if can_push else "（仅沙箱本地，供手机直接访问）"
     print(f"[{now_shanghai():%Y-%m-%d %H:%M:%S}] 调度器启动 {mode}", flush=True)
-    print(f"[{now_shanghai():%Y-%m-%d %H:%M:%S}] 状态: last_news={last_news}, last_ai={last_ai}", flush=True)
+    print(f"[{now_shanghai():%Y-%m-%d %H:%M:%S}] 状态: last_news={state.get('last_news','')}, "
+          f"last_ai={state.get('last_ai','')}, pushed={state.get('pushed','')}", flush=True)
+
+    def try_push(today):
+        if state.get("pushed") == today:
+            return True
+        ok2, msg2 = git_push(today)
+        if ok2:
+            state["pushed"] = today
+            save_state(state)
+            print(f"[{now_shanghai():%H:%M:%S}] 已推送至 GitHub Pages", flush=True)
+        else:
+            print(f"[{now_shanghai():%H:%M:%S}] 推送失败（将每周期重试）: {str(msg2)[:90]}", flush=True)
+        return ok2
 
     def run_news(today):
-        nonlocal last_news
         ok, msg = run_generate()
         if ok:
+            state["last_news"] = today
+            save_state(state)
+            print(f"[{now_shanghai():%H:%M:%S}] 新闻分析已重新生成（本地 {today}）", flush=True)
             if can_push:
-                ok2, msg2 = git_push(today)
-                print(f"[{now_shanghai():%H:%M:%S}] 新闻分析 {'已推送' if ok2 else '推送失败'}: {msg2[:80]}", flush=True)
-            else:
-                print(f"[{now_shanghai():%H:%M:%S}] 新闻分析已重新生成（本地）", flush=True)
-            last_news = today
-            save_state({"last_news": last_news, "last_ai": last_ai})
+                try_push(today)
         else:
             print(f"[{now_shanghai():%H:%M:%S}] 新闻分析生成失败: {msg[:200]}", flush=True)
 
     def run_ai(today):
-        nonlocal last_ai
         ok, msg = run_generate()
         if ok:
+            state["last_ai"] = today
+            save_state(state)
+            print(f"[{now_shanghai():%H:%M:%S}] AI简报已重新生成（本地 {today}）", flush=True)
             if can_push:
-                ok2, msg2 = git_push(today)
-                print(f"[{now_shanghai():%H:%M:%S}] AI简报 {'已推送' if ok2 else '推送失败'}: {msg2[:80]}", flush=True)
-            else:
-                print(f"[{now_shanghai():%H:%M:%S}] AI简报已重新生成（本地）", flush=True)
-            last_ai = today
-            save_state({"last_news": last_news, "last_ai": last_ai})
+                try_push(today)
         else:
             print(f"[{now_shanghai():%H:%M:%S}] AI简报生成失败: {msg[:200]}", flush=True)
 
@@ -150,12 +159,17 @@ def main():
             today = t.strftime("%Y-%m-%d")
 
             # 新闻联播：07:00 执行；若沙箱恢复时间晚于 07:00 则立即补跑
-            if last_news != today and hhmm >= "07:00":
+            if state.get("last_news") != today and hhmm >= "07:00":
                 run_news(today)
 
             # AI 简报：09:00 执行；若沙箱恢复时间晚于 09:00 则立即补跑
-            if last_ai != today and hhmm >= "09:00":
+            if state.get("last_ai") != today and hhmm >= "09:00":
                 run_ai(today)
+
+            # 独立推送重试：只要今天已生成、且尚未成功推送，就持续尝试（修复“推送失败即标记完成”的缺陷）
+            if can_push and state.get("pushed") != today and (
+                    state.get("last_news") == today or state.get("last_ai") == today):
+                try_push(today)
 
         except Exception as e:
             print(f"[{now_shanghai():%Y-%m-%d %H:%M:%S}] [scheduler error] {e}", flush=True)
