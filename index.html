@@ -1167,7 +1167,7 @@
 
     if ('serviceWorker' in navigator) {
       // 立即注册，让 iOS 在“添加到主屏幕”前就完成 Service Worker 激活
-      navigator.serviceWorker.register('service-worker.js')
+      navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' })
         .then(() => console.log('[SW] registered'))
         .catch((e) => console.warn('[SW] register failed', e));
       // 新版本 Service Worker 接管后自动刷新一次，确保加载到含内嵌保险数据的 index.html

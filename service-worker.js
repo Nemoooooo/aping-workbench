@@ -1,12 +1,13 @@
-// 工作台 Service Worker v14
+// 工作台 Service Worker v15
 // 策略：
-// - 安装时预缓存核心资源，并从 index.html 提取「内嵌保险数据」写入数据缓存
-//   （这样即使浏览器缓存的是旧版 index.html，数据仍可由 SW 兜底返回，模块永不空白）
-// - 数据请求：网络优先，失败回退到缓存（含内嵌数据），再失败给 {}
-// - 页面：网络优先，失败回退缓存
+// - 安装时预缓存核心资源（带 no-cache，确保首次安装/更新时拿到最新文件）
+// - 从 index.html 提取「内嵌保险数据」写入数据缓存，离线兜底
+// - 数据请求：网络优先 + no-cache，失败回退缓存，再失败给 {}
+// - 页面导航：网络优先 + no-cache，失败回退缓存
 // - 静态资源：缓存优先
+// - 激活时清理旧缓存并立即接管页面（clients.claim）
 // - 任何情况都返回合法 Response，绝不返回 null
-const CACHE = 'workbench-v14';
+const CACHE = 'workbench-v15';
 const CORE = [
   './', './index.html', './tailwind.min.js', './fa.css', './manifest.webmanifest',
   './icon-192.png', './apple-touch-icon.png', './logo-circle.png'
@@ -15,11 +16,18 @@ const CORE = [
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
-    await Promise.allSettled(CORE.map((u) => cache.add(u)));
+    // 显式用 no-cache 拉取核心资源，避免浏览器 HTTP 缓存导致安装的是旧版
+    await Promise.allSettled(CORE.map(async (u) => {
+      try {
+        const resp = await fetch(u, { cache: 'no-cache' });
+        if (resp && resp.ok) await cache.put(new Request(u), resp);
+      } catch (e) { console.warn('[SW] pre-cache failed', u, e); }
+    }));
     // 从 index.html 提取内嵌保险数据，写入数据缓存（核心兜底，独立于 HTML 缓存新旧）
     try {
-      const htmlRes = await cache.match('./index.html');
-      const text = htmlRes ? await htmlRes.text() : await (await fetch('./index.html')).text();
+      const htmlRes = await cache.match('./index.html') ||
+                       await fetch('./index.html', { cache: 'no-cache' });
+      const text = await htmlRes.text();
       const m = text.match(/<script id="embedded-data">([\s\S]*?)<\/script>/);
       if (m) {
         let js = m[1];
@@ -65,11 +73,13 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
   const isData = url.pathname.endsWith('.json');
   const isNav = req.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname === '/' || url.pathname.endsWith('/');
+
   if (isData) {
     const normReq = new Request(url.origin + url.pathname, { method: 'GET' });
     event.respondWith((async () => {
       try {
-        const res = await fetch(req);
+        // 数据请求强制绕过浏览器 HTTP 缓存，确保每次都能看到最新内容
+        const res = await fetch(new Request(req, { cache: 'no-cache' }));
         if (res && res.ok) putCache(normReq, res);
         return res;
       } catch (e) {
@@ -80,13 +90,16 @@ self.addEventListener('fetch', (event) => {
     })());
     return;
   }
+
   if (isNav) {
     event.respondWith(
-      fetch(req).then((res) => { putCache(req, res); return res; })
+      fetch(new Request(req, { cache: 'no-cache' }))
+        .then((res) => { putCache(req, res); return res; })
         .catch(() => caches.match(req).then((r) => r || caches.match('./index.html').then((x) => x || new Response('offline', { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' } }))))
     );
     return;
   }
+
   event.respondWith(
     caches.match(req).then((r) =>
       r || fetch(req).then((res) => { putCache(req, res); return res; })
