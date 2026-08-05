@@ -1,4 +1,4 @@
-// 工作台 Service Worker v15
+// 工作台 Service Worker v16
 // 策略：
 // - 安装时预缓存核心资源（带 no-cache，确保首次安装/更新时拿到最新文件）
 // - 从 index.html 提取「内嵌保险数据」写入数据缓存，离线兜底
@@ -7,7 +7,7 @@
 // - 静态资源：缓存优先
 // - 激活时清理旧缓存并立即接管页面（clients.claim）
 // - 任何情况都返回合法 Response，绝不返回 null
-const CACHE = 'workbench-v15';
+const CACHE = 'workbench-v16';
 const CORE = [
   './', './index.html', './tailwind.min.js', './fa.css', './manifest.webmanifest',
   './icon-192.png', './apple-touch-icon.png', './logo-circle.png'
@@ -35,11 +35,11 @@ self.addEventListener('install', (event) => {
         let jsonStr = js.slice(i + 'window.__EMBEDDED__ = '.length).replace(/;\s*$/, '').trim();
         const data = JSON.parse(jsonStr); // <\/ 在 JSON 中会自动解析为 </
         if (data.news) {
-          await cache.put(new Request(self.location.origin + '/data/news-analysis.json'),
+          await cache.put(new Request('./data/news-analysis.json'),
             new Response(JSON.stringify(data.news), { status: 200, headers: { 'Content-Type': 'application/json; charset=utf-8' } }));
         }
         if (data.ai) {
-          await cache.put(new Request(self.location.origin + '/data/ai-briefing.json'),
+          await cache.put(new Request('./data/ai-briefing.json'),
             new Response(JSON.stringify(data.ai), { status: 200, headers: { 'Content-Type': 'application/json; charset=utf-8' } }));
         }
         console.log('[SW] embedded data cached as offline fallback');
