@@ -1,8 +1,13 @@
 {
-  "date": "2026-08-09",
-  "generated_at": "2026-08-09 13:38",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-08-09** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **OpenAI puts the brakes on a new model because it’s supposedly too powerful**  \n  OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities\n\n- **OpenAI is giving ChatGPT free users unlimited text chats**  \n  OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next we…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats\n\n\n## 其他（5 条）\n\n- **An Amazon data center could have the worst polluting power plant in the country**  \n  To power its new West Texas data center, Amazon is investing in the construction of a new …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant\n\n- **Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore**  \n  It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo\n\n- **Watching Roku’s AI channel is like eating from a trough**  \n  The appeal of free ad-supported streaming television (FAST) channels has always been the w…  \n  🔗 https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel\n\n- **What’s behind the Google AI shake-up**  \n  Some of the biggest names on Google's AI team got new jobs this week. In some cases, inclu…  \n  🔗 https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast\n\n- **Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker**  \n  The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a s…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor\n",
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10 12:29",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-08-10** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **OpenAI puts the brakes on a new model because it’s supposedly too powerful**  \n  OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities\n\n- **OpenAI is giving ChatGPT free users unlimited text chats**  \n  OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next we…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats\n\n- **Anthropic is turning Claude Code’s auto mode on by default**  \n  Programming with Claude Code will soon require even less human oversight.…  \n  🔗 https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/\n\n\n## 产品/应用（1 条）\n\n- **Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry**  \n  The AI-focused hedge fund is still making some big bets.…  \n  🔗 https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/\n\n\n## 其他（5 条）\n\n- **AI detectors are creating a new era of distrust**  \n  This is The Stepback, a weekly newsletter breaking down one essential story from the tech …  \n  🔗 https://www.theverge.com/column/976690/ai-writing-detectors-suspicion\n\n- **An Amazon data center could have the worst polluting power plant in the country**  \n  To power its new West Texas data center, Amazon is investing in the construction of a new …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant\n\n- **Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore**  \n  It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo\n\n- **Watching Roku’s AI channel is like eating from a trough**  \n  The appeal of free ad-supported streaming television (FAST) channels has always been the w…  \n  🔗 https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel\n\n- **What’s behind the Google AI shake-up**  \n  Some of the biggest names on Google's AI team got new jobs this week. In some cases, inclu…  \n  🔗 https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast\n",
   "items": [
+    {
+      "title": "AI detectors are creating a new era of distrust",
+      "title_zh": "AI detectors are creating a new era of distrust",
+      "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion"
+    },
     {
       "title": "An Amazon data center could have the worst polluting power plant in the country",
       "title_zh": "An Amazon data center could have the worst polluting power plant in the country",
@@ -49,19 +54,14 @@
       "link": "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio"
     },
     {
-      "title": "The left and right agree on one thing: no data centers",
-      "title_zh": "The left and right agree on one thing: no data centers",
-      "link": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan"
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "title_zh": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/"
     },
     {
-      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
-      "title_zh": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
-      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/"
-    },
-    {
-      "title": "OpenAI acquires presentation startup NextSlide",
-      "title_zh": "OpenAI acquires presentation startup NextSlide",
-      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "title_zh": "Anthropic is turning Claude Code’s auto mode on by default",
+      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
     }
   ]
 }
