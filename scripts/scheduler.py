@@ -29,6 +29,8 @@ TOKEN = os.environ.get("GH_TOKEN", "")
 GITEE_REPO = "cui-pingnemo/aping-workbench"
 GITEE_TOKEN_FILE = "/root/.gitee_token"
 STATE_FILE = os.path.join("/workspace", ".scheduler_state.json")
+CLOUDFLARE_LOG = "/tmp/preview-cloudflared.log"
+CONFIG_FILE = os.path.join("/workspace", "config.json")
 
 
 def sh(cmd, cwd=REPO_DIR):
@@ -86,9 +88,50 @@ def _sync_file(rel):
         f.write(content)
 
 
+def detect_tunnel_url():
+    """从 cloudflared 日志中提取最新的 trycloudflare 隧道地址"""
+    try:
+        with open(CLOUDFLARE_LOG, "r", encoding="utf-8", errors="ignore") as f:
+            txt = f.read()
+        urls = [u for u in __import__("re").findall(r"https://[a-z0-9-]+\.trycloudflare\.com", txt)
+                if "api.trycloudflare" not in u]
+        return urls[-1] if urls else ""
+    except Exception:
+        return ""
+
+
+def update_backend_config():
+    """检测当前隧道地址，若变化则更新 config.json 并推送到部署仓库（让 PWA 读到最新后端）"""
+    url = detect_tunnel_url()
+    if not url:
+        return False
+    try:
+        cur = {}
+        if os.path.exists(CONFIG_FILE):
+            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+                cur = json.load(f)
+        if cur.get("backend") == url:
+            return False
+        cur["backend"] = url
+        cur["updated"] = now_shanghai().strftime("%Y-%m-%d")
+        with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+            json.dump(cur, f, ensure_ascii=False, indent=2)
+        # 同步并推送 config.json
+        _sync_file("config.json")
+        sh(["git", "-C", REPO_DIR, "add", "-A"])
+        sh(["git", "-C", REPO_DIR, "commit", "-m", "chore: update backend tunnel url"])
+        r_gitee = sh(["git", "-c", "credential.helper=", "push", "gitee", "main:master"])
+        r_gh = sh(["git", "-c", "credential.helper=", "push", REMOTE, BRANCH])
+        print(f"[{now_shanghai():%H:%M:%S}] 后端地址已更新并推送: {url}", flush=True)
+        return True
+    except Exception as e:
+        print(f"[{now_shanghai():%H:%M:%S}] 更新后端配置失败: {e}", flush=True)
+        return False
+
+
 def git_push(date_str):
     # 同步 /workspace 关键文件到部署仓库
-    for rel in ["index.html", "service-worker.js", "manifest.webmanifest",
+    for rel in ["index.html", "service-worker.js", "manifest.webmanifest", "config.json",
                 os.path.join("scripts", "generate.py"),
                 os.path.join("scripts", "scheduler.py")]:
         _sync_file(rel)
@@ -108,13 +151,19 @@ def git_push(date_str):
     if st.stdout.strip():
         sh(["git", "-c", "credential.helper=", "commit",
             "-m", f"daily auto-update {date_str}"])
-    # 主推 Gitee（国内可达）；再尽力推 GitHub（常被墙，失败忽略）
+    # 双通道推送：GitHub Pages（稳定永久地址，手机直连）+ Gitee（国内备用）
+    # 二者任一成功即视为推送完成，最大化可用性
     r_gitee = sh(["git", "-c", "credential.helper=", "push", "gitee", "main:master"])
-    ok = r_gitee.returncode == 0
-    sh(["git", "-c", "credential.helper=", "push", REMOTE, BRANCH])  # 备用，忽略结果
+    r_gh = sh(["git", "-c", "credential.helper=", "push", REMOTE, BRANCH])
+    ok = r_gitee.returncode == 0 or r_gh.returncode == 0
     if ok:
-        return True, "ok (gitee)"
-    return False, (r_gitee.stderr or "gitee push failed")
+        channels = []
+        if r_gh.returncode == 0:
+            channels.append("github")
+        if r_gitee.returncode == 0:
+            channels.append("gitee")
+        return True, "ok (" + "+".join(channels) + ")"
+    return False, ((r_gh.stderr or "") + (r_gitee.stderr or "") or "push failed")
 
 
 def push_enabled():
@@ -180,6 +229,9 @@ def main():
             t = now_shanghai()
             hhmm = t.strftime("%H:%M")
             today = t.strftime("%Y-%m-%d")
+
+            # 后端隧道地址自检：变化则更新 config.json 并推送（保证备忘录云端备份不断）
+            update_backend_config()
 
             if state.get("last_news") != today and hhmm >= "07:00":
                 run_news(today)

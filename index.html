@@ -365,6 +365,7 @@
           <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
             <h3 class="font-bold text-gray-900 mb-3">随手备忘录</h3>
             <textarea id="memo-text" class="w-full h-80 p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-600/20 focus:border-pink-600 resize-none" placeholder="灵感、链接、待办事项随时记..."></textarea>
+            <p class="mt-2 text-xs text-gray-400"><i class="fa-solid fa-cloud-arrow-up mr-1"></i><span id="memo-save-status">内容自动保存到云端，清除缓存也不会丢失</span></p>
           </div>
         </section>
 
@@ -664,6 +665,64 @@
     function openTechSite(url) { window.open(url, '_blank'); }
 
     // ================= 文本字段自动保存 =================
+    let BACKEND = '';  // 云端后端地址（来自 config.json，由调度器随隧道变化同步）
+    let _memoTimer = null;
+
+    // 启动时读取后端地址，使 PWA 始终指向当前可用的云端服务
+    async function loadBackendConfig() {
+      try {
+        const r = await fetch('config.json?t=' + Date.now(), { cache: 'no-store' });
+        if (!r.ok) return;
+        const cfg = await r.json();
+        BACKEND = cfg.backend || '';
+      } catch (e) {
+        console.warn('[config] 读取后端地址失败', e);
+      }
+    }
+
+    // 备忘录内容防抖上传到云端，确保清空缓存/重装后仍能恢复
+    function syncMemoToCloud(text) {
+      const status = $('memo-save-status');
+      if (!BACKEND) {
+        if (status) status.textContent = '云端未连接，内容仅保存在本机';
+        return;
+      }
+      clearTimeout(_memoTimer);
+      _memoTimer = setTimeout(async () => {
+        try {
+          const r = await fetch(BACKEND + '/api/memo', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ text })
+          });
+          if (status) status.textContent = r.ok ? '已自动保存到云端 ✓' : '云端保存失败，已存本机';
+        } catch (e) {
+          if (status) status.textContent = '云端保存失败，已存本机';
+        }
+      }, 600);
+    }
+
+    // 本地为空时从云端恢复备忘录，避免清缓存丢失
+    async function restoreMemoFromCloud() {
+      if (!BACKEND) return;
+      const el = $('memo-text');
+      if (!el) return;
+      const local = localStorage.getItem(storageKey('memo')) || '';
+      if (local) return;  // 本地已有内容则优先，不覆盖
+      try {
+        const r = await fetch(BACKEND + '/api/memo?t=' + Date.now(), { cache: 'no-store' });
+        if (!r.ok) return;
+        const data = await r.json();
+        const cloud = (data.text || '').trim();
+        if (cloud) {
+          el.value = data.text;
+          localStorage.setItem(storageKey('memo'), data.text);
+        }
+      } catch (e) {
+        console.warn('[memo] 云端恢复失败', e);
+      }
+    }
+
     function bindTextarea(id, key) {
       const el = $(id);
       el.value = localStorage.getItem(storageKey(key)) || '';
@@ -1154,6 +1213,12 @@
       bindTextarea('review-data', 'review_data');
       bindTextarea('review-summary', 'review_summary');
       bindTextarea('memo-text', 'memo');
+      // 备忘录云端自动保存：加载后端地址、监听输入上传、启动时从云端恢复
+      loadBackendConfig().then(() => {
+        const memoEl = $('memo-text');
+        if (memoEl) memoEl.addEventListener('input', () => syncMemoToCloud(memoEl.value));
+        restoreMemoFromCloud();
+      });
       bindTextarea('english-content', 'english_content');
       bindTextarea('english-duration', 'english_duration');
       bindTextarea('english-notes', 'english_notes');
