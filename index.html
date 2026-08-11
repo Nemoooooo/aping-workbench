@@ -680,46 +680,56 @@
       }
     }
 
-    // 备忘录内容防抖上传到云端，确保清空缓存/重装后仍能恢复
+    // 备忘录内容防抖上传到云端，确保清空缓存/重装后仍能恢复。
+    // 优先同源相对接口（PWA 由本服务端直接托管时可用，无需配置），
+    // 回退到 config.json 指定的跨域云端后端（GitHub Pages 等外部托管场景）。
     function syncMemoToCloud(text) {
       const status = $('memo-save-status');
-      if (!BACKEND) {
-        if (status) status.textContent = '云端未连接，内容仅保存在本机';
-        return;
-      }
       clearTimeout(_memoTimer);
       _memoTimer = setTimeout(async () => {
+        let ok = false;
         try {
-          const r = await fetch(BACKEND + '/api/memo', {
+          const r = await fetch('api/memo', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ text })
           });
-          if (status) status.textContent = r.ok ? '已自动保存到云端 ✓' : '云端保存失败，已存本机';
-        } catch (e) {
-          if (status) status.textContent = '云端保存失败，已存本机';
+          if (r.ok) ok = true;
+        } catch (e) {}
+        if (!ok && BACKEND) {
+          try {
+            const r = await fetch(BACKEND + '/api/memo', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ text })
+            });
+            if (r.ok) ok = true;
+          } catch (e) {}
         }
+        if (status) status.textContent = ok ? '已自动保存到云端 ✓' : '云端未连接，内容仅存本机';
       }, 600);
     }
 
-    // 本地为空时从云端恢复备忘录，避免清缓存丢失
+    // 本地为空时从云端恢复备忘录，避免清缓存丢失；同源与跨域后端均尝试
     async function restoreMemoFromCloud() {
-      if (!BACKEND) return;
       const el = $('memo-text');
       if (!el) return;
       const local = localStorage.getItem(storageKey('memo')) || '';
       if (local) return;  // 本地已有内容则优先，不覆盖
+      let cloud = '';
       try {
-        const r = await fetch(BACKEND + '/api/memo?t=' + Date.now(), { cache: 'no-store' });
-        if (!r.ok) return;
-        const data = await r.json();
-        const cloud = (data.text || '').trim();
-        if (cloud) {
-          el.value = data.text;
-          localStorage.setItem(storageKey('memo'), data.text);
-        }
-      } catch (e) {
-        console.warn('[memo] 云端恢复失败', e);
+        const r = await fetch('api/memo?t=' + Date.now(), { cache: 'no-store' });
+        if (r.ok) { const d = await r.json(); cloud = (d.text || '').trim(); }
+      } catch (e) {}
+      if (!cloud && BACKEND) {
+        try {
+          const r = await fetch(BACKEND + '/api/memo?t=' + Date.now(), { cache: 'no-store' });
+          if (r.ok) { const d = await r.json(); cloud = (d.text || '').trim(); }
+        } catch (e) {}
+      }
+      if (cloud) {
+        el.value = cloud;
+        localStorage.setItem(storageKey('memo'), cloud);
       }
     }
 
