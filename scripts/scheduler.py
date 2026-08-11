@@ -37,6 +37,14 @@ def sh(cmd, cwd=REPO_DIR):
     return subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
 
 
+def sht(cmd, timeout=30, cwd=REPO_DIR):
+    """带超时执行，避免 GitHub 不可达时 git push 长时间挂起阻塞调度循环"""
+    try:
+        return subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        return subprocess.CompletedProcess(cmd, returncode=-1, stdout="", stderr="timeout")
+
+
 def ensure_remote_token():
     if TOKEN:
         url = f"https://x-access-token:{TOKEN}@github.com/Nemoooooo/aping-workbench.git"
@@ -154,7 +162,7 @@ def git_push(date_str):
     # 双通道推送：GitHub Pages（稳定永久地址，手机直连）+ Gitee（国内备用）
     # 二者任一成功即视为推送完成，最大化可用性
     r_gitee = sh(["git", "-c", "credential.helper=", "push", "gitee", "main:master"])
-    r_gh = sh(["git", "-c", "credential.helper=", "push", REMOTE, BRANCH])
+    r_gh = sht(["git", "-c", "credential.helper=", "push", REMOTE, BRANCH], timeout=25)
     ok = r_gitee.returncode == 0 or r_gh.returncode == 0
     if ok:
         channels = []
@@ -178,6 +186,15 @@ def push_enabled():
 
 def now_shanghai():
     return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
+
+
+def unpushed_count():
+    """本地领先 origin/main 的提交数（git push 会更新远程跟踪引用，故可本地判断）"""
+    r = sh(["git", "rev-list", "--count", "origin/main..HEAD"])
+    try:
+        return int((r.stdout or "0").strip() or 0)
+    except Exception:
+        return 0
 
 
 def main():
@@ -232,6 +249,15 @@ def main():
 
             # 后端隧道地址自检：变化则更新 config.json 并推送（保证备忘录云端备份不断）
             update_backend_config()
+
+            # 本地有未推送 GitHub 的提交（如本次备忘录云端功能）则持续补齐，
+            # 网络恢复后自动推上 GitHub Pages，无需等待下次每日生成
+            if unpushed_count() > 0:
+                rp = sht(["git", "-c", "credential.helper=", "push", REMOTE, BRANCH], timeout=25)
+                if rp.returncode == 0:
+                    print(f"[{now_shanghai():%H:%M:%S}] 已补齐推送至 GitHub Pages（含未上线改动）", flush=True)
+                else:
+                    print(f"[{now_shanghai():%H:%M:%S}] GitHub 暂不可达，稍后自动重试补齐", flush=True)
 
             if state.get("last_news") != today and hhmm >= "07:00":
                 run_news(today)
