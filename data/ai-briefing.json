@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-11",
-  "generated_at": "2026-08-11 10:51",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-08-11** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **OpenAI 对新模型踩刹车，因为它被认为太强大了**  \n  OpenAI 表示，它正在暂停围绕正在开发的人工智能模型 Astra 的“内部活动”，因为它尚未满足该公司正在制定的新安全标准。该公告是在最近披露 OpenAI 模型意外入侵 Hu…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities\n\n- **随着 AI 主导的攻击倍增，OpenAI 推出新的网络模型**  \n  OpenAI 正在扩展其人工智能网络安全防御计划 Daybreak，并推出新的网络训练人工智能模型。…  \n  🔗 https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/\n\n\n## 产品/应用（1 条）\n\n- **当耳机变成 AI 后，Bose 会发生什么？**  \n  今天，我采访的是 Bose 首席执行官 Lila Snyder。您当然知道 Bose——它是所有消费科技领域最著名的品牌之一。该公司于 60 年前开始向消费者销售扬声器，其对研发的…  \n  🔗 https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio\n\n\n## 其他（5 条）\n\n- **马克扎克伯格不明白如何生活**  \n  最近，一个和我一起攀岩的男人告诉我，他如何使用人工智能为自己制作了一张励志海报，并将其挂在卧室的墙上：一只熊，在峡谷上走扁带，举着一块牌子，上面写着“做酷狗屎”。我发出了我希望是有…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision\n\n- **马克·扎克伯格大规模人工智能宣言的四个要点**  \n  Meta 首席执行官马克·扎克伯格 (Mark Zuckerberg) 对于他现在设想的人类与人工智能共存的理想化未来有很多话要说——他最新的文章就这个问题跨越了 6,500 多个…  \n  🔗 https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble\n\n- **福特的新人工智能助手可以检查你的燃油水平和轮胎压力**  \n  福特正在推出一款新的人工智能助手，可以回答有关福特或林肯车辆的问题，例如您下次公路旅行需要多少燃料，或者您的卡车是否可以牵引新摩托艇。该应用程序首先在福特和林肯移动应用程序中推出，…  \n  🔗 https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app\n\n- **人工智能探测器正在创造一个不信任的新时代**  \n  这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能如何改变我们日常生活的更多新闻，请关注艾玛·罗斯 (Emma Roth)。 《Stepb…  \n  🔗 https://www.theverge.com/column/976690/ai-writing-detectors-suspicion\n\n- **亚马逊数据中心可能拥有全国污染最严重的发电厂**  \n  据《纽约时报》报道，为了为其新的西德克萨斯数据中心供电，亚马逊正在投资建设一座新发电厂，该发电厂可能成为美国最大的温室气体单一生产商之一。德克萨斯州佩科斯县的新燃气工厂获得了亚马逊…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant\n",
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12 16:52",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-08-12** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（4 条）\n\n- **Saber denies replacing Rideshare Stimulator’s writers with ChatGPT**  \n  After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now…  \n  🔗 https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive\n\n- **ChatGPT and Gemini both just passed 1 billion users**  \n  For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai post…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users\n\n- **Claude will apply invisible watermarks to AI text and images**  \n  Anthropic has pledged to start marking Claude-generated text and images with machine-reada…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images\n\n- **OpenAI launches ChatGPT desktop app for Linux**  \n  OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.…  \n  🔗 https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/\n\n\n## 产品/应用（1 条）\n\n- **Apple could help you prove your iPhone photos aren’t deepfakes**  \n  Apple is seemingly developing an iOS feature that can verify when a photograph was taken u…  \n  🔗 https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata\n\n\n## 其他（5 条）\n\n- **Another OpenAI executive takes off**  \n  Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure\n\n- **Made by Google 2026: all the Pixel news and announcements**  \n  Google is gearing up to reveal a bunch of new Pixel devices on August 12th. A series of le…  \n  🔗 https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news\n\n- **‘Zoomsday’ hack uncovered using fewer than 20 AI prompts**  \n  Zoom has patched a major security vulnerability that could allow an attacker to hijack any…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack\n\n- **Why your Amazon order confirmation emails have become so unhelpful**  \n  Earlier this summer, Amazon customers began noticing that emails related to their online o…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data\n\n- **Spotify says it won’t recommend music from ‘AI Personas’**  \n  Spotify will soon label AI artists and remove their music from your recommendations. The c…  \n  🔗 https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations\n",
   "items": [
     {
-      "title": "Mark Zuckerberg doesn’t understand how to live",
-      "title_zh": "马克扎克伯格不明白如何生活",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision"
+      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+      "title_zh": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+      "link": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive"
     },
     {
-      "title": "Four takeaways from Mark Zuckerberg’s massive AI manifesto",
-      "title_zh": "马克·扎克伯格大规模人工智能宣言的四个要点",
-      "link": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble"
+      "title": "ChatGPT and Gemini both just passed 1 billion users",
+      "title_zh": "ChatGPT and Gemini both just passed 1 billion users",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
     },
     {
-      "title": "What happens to Bose when headphones become AI?",
-      "title_zh": "当耳机变成 AI 后，Bose 会发生什么？",
-      "link": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio"
+      "title": "Another OpenAI executive takes off",
+      "title_zh": "Another OpenAI executive takes off",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure"
     },
     {
-      "title": "Ford’s new AI assistant can check your fuel levels and tire pressure",
-      "title_zh": "福特的新人工智能助手可以检查你的燃油水平和轮胎压力",
-      "link": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app"
+      "title": "Made by Google 2026: all the Pixel news and announcements",
+      "title_zh": "Made by Google 2026: all the Pixel news and announcements",
+      "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news"
     },
     {
-      "title": "AI detectors are creating a new era of distrust",
-      "title_zh": "人工智能探测器正在创造一个不信任的新时代",
-      "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion"
+      "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
+      "title_zh": "Apple could help you prove your iPhone photos aren’t deepfakes",
+      "link": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata"
     },
     {
-      "title": "An Amazon data center could have the worst polluting power plant in the country",
-      "title_zh": "亚马逊数据中心可能拥有全国污染最严重的发电厂",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+      "title": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+      "title_zh": "‘Zoomsday’ hack uncovered using fewer than 20 AI prompts",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack"
     },
     {
-      "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-      "title_zh": "Fenix Flexin 甚至不再否认使用人工智能来制作“Rubberz”",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo"
+      "title": "Why your Amazon order confirmation emails have become so unhelpful",
+      "title_zh": "Why your Amazon order confirmation emails have become so unhelpful",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data"
     },
     {
-      "title": "Watching Roku’s AI channel is like eating from a trough",
-      "title_zh": "看 Roku 的 AI 频道就像从槽里吃饭",
-      "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel"
+      "title": "Spotify says it won’t recommend music from ‘AI Personas’",
+      "title_zh": "Spotify says it won’t recommend music from ‘AI Personas’",
+      "link": "https://www.theverge.com/entertainment/977815/spotify-ai-persona-label-recommendations"
     },
     {
-      "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
-      "title_zh": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
+      "title": "Claude will apply invisible watermarks to AI text and images",
+      "title_zh": "Claude will apply invisible watermarks to AI text and images",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
     },
     {
-      "title": "What’s behind the Google AI shake-up",
-      "title_zh": "谷歌人工智能变革背后的原因是什么",
-      "link": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast"
+      "title": "The AI takeover of mathematics has begun",
+      "title_zh": "The AI takeover of mathematics has begun",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun"
     },
     {
-      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-      "title_zh": "据报道 OpenAI 完成了 70 亿美元的员工收购要约",
-      "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/"
+      "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
+      "title_zh": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
+      "link": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/"
     },
     {
-      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
-      "title_zh": "随着 AI 主导的攻击倍增，OpenAI 推出新的网络模型",
-      "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/"
+      "title": "OpenAI launches ChatGPT desktop app for Linux",
+      "title_zh": "OpenAI launches ChatGPT desktop app for Linux",
+      "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/"
     }
   ]
 }
