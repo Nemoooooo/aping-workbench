@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """SPA fallback HTTP server on :8000 — 所有 404 返回 index.html
 由 supervisor 托管，沙箱重启后自动恢复。
-额外提供 /api/memo 接口：云端备份备忘录（GET 取 / POST 存），供手机 PWA 调用。"""
+提供以下 API（GET 均带 CORS *）：
+  /api/memo          备忘录云端备份（GET 取 / POST 存）
+  /api/news-analysis 新闻联播深度分析最新数据
+  /api/ai-briefing   AI动态每日简报最新数据
+前端打开 PWA 时自动从这些接口拉取当天最新内容，不再依赖 GitHub Pages 同步时效。"""
 import http.server
 import os
 import socketserver
@@ -11,7 +15,10 @@ import datetime
 WORKSPACE = "/workspace"
 INDEX = os.path.join(WORKSPACE, "index.html")
 PORT = 8000
-MEMO_FILE = os.path.join(WORKSPACE, "data", "memo.json")
+DATA_DIR = os.path.join(WORKSPACE, "data")
+MEMO_FILE = os.path.join(DATA_DIR, "memo.json")
+NEWS_FILE = os.path.join(DATA_DIR, "news-analysis.json")
+AI_FILE = os.path.join(DATA_DIR, "ai-briefing.json")
 
 # 允许跨域的来源（GitHub Pages 与隧道域名）
 ALLOW_ORIGINS = "*"
@@ -21,12 +28,25 @@ def now_iso():
     return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat()
 
 
-def load_memo():
+def load_json(filepath, default=None):
+    """安全读取 JSON 文件，失败返回默认值"""
+    if default is None:
+        default = {"error": "数据暂不可用", "date": ""}
     try:
-        with open(MEMO_FILE, "r", encoding="utf-8") as f:
+        with open(filepath, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception:
-        return {"text": "", "updated": None}
+        return default
+
+
+def serve_json_api(filepath):
+    """读取 JSON 文件并返回 Response 元组 (status_code, bytes)"""
+    data = load_json(filepath)
+    return 200, json.dumps(data, ensure_ascii=False).encode("utf-8")
+
+
+def load_memo():
+    return load_json(MEMO_FILE, {"text": "", "updated": None})
 
 
 def save_memo(text):
@@ -51,15 +71,22 @@ class FallbackHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         path = self.path.split("?")[0].split("#")[0]
 
-        # 备忘录云端读取接口
-        if path == "/api/memo":
-            self.send_response(200)
+        # ---- 数据 API 接口（供 PWA 前端实时拉取最新内容）----
+        api_routes = {
+            "/api/memo": MEMO_FILE,
+            "/api/news-analysis": NEWS_FILE,
+            "/api/ai-briefing": AI_FILE,
+        }
+        if path in api_routes:
+            status, body = serve_json_api(api_routes[path])
+            self.send_response(status)
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self._cors()
             self.end_headers()
-            self.wfile.write(json.dumps(load_memo(), ensure_ascii=False).encode("utf-8"))
+            self.wfile.write(body)
             return
 
+        # 静态文件 / SPA fallback
         abs_path = os.path.normpath(os.path.join(WORKSPACE, path.lstrip("/")))
         if not abs_path.startswith(WORKSPACE):
             self.send_error(403)
