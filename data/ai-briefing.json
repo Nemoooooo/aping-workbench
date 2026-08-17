@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-13",
-  "generated_at": "2026-08-13 14:42",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-08-13** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（4 条）\n\n- **Of course the ChatGPT dog cancer vaccine spawned a startup**  \n  Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee\n\n- **Saber denies replacing Rideshare Stimulator’s writers with ChatGPT**  \n  After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now…  \n  🔗 https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive\n\n- **ChatGPT and Gemini both just passed 1 billion users**  \n  For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai post…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users\n\n- **Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes**  \n  Is Anthropic's new watermarking system a travesty? Some have taken to social media to comp…  \n  🔗 https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/\n\n\n## 产品/应用（1 条）\n\n- **Apple could help you prove your iPhone photos aren’t deepfakes**  \n  Apple is seemingly developing an iOS feature that can verify when a photograph was taken u…  \n  🔗 https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata\n\n\n## 其他（5 条）\n\n- **Twitch streamers can now opt out from training Amazon’s AI**  \n  Twitch users can now opt out of allowing their content to be used to train Amazon's genera…  \n  🔗 https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai\n\n- **Guitar company D’Addario admits that AI music was used in a promotional video**  \n  After weeks of controversy and speculation, music company D'Addario has admitted that AI, …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno\n\n- **Google’s Pixel Watch 5 dives deeper into AI and health**  \n  The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite c…  \n  🔗 https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch\n\n- **Grok is now an AI ‘teammate’ you can assign work**  \n  SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like in…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch\n\n- **Another OpenAI executive takes off**  \n  Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure\n",
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17 11:13",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-08-17** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **ChatGPT 的计算机历史记录跟踪您的点击和击键**  \n  ChatGPT 在 macOS 上的桌面应用程序有一个名为“计算机历史记录”的新功能，可以将您的操作转化为训练数据、了解您的工作方式、建议自动化，甚至拾取您未完成的任务。它使用您的…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes\n\n- **您现在可以关闭 Google Gemini 的可见水印**  \n  谷歌现在将允许您从使用人工智能工具制作的图像、视频和音乐中删除可见水印。通过更新，您可以在 Gemini 和 Google 的 AI 视频生成器 Flow 中关闭新的“媒体水印”设…  \n  🔗 https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal\n\n- **苹果在阿里巴巴的帮助下为中国训练了自己的人工智能模型**  \n  据报道，苹果公司与国内科技巨头阿里巴巴一起为中国市场训练了一个定制的人工智能模型，这是一种罕见的跨境合作伙伴关系，可以缓解北京和华盛顿之间日益紧张的关系。据路透社援引三位不愿透露姓…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba\n\n\n## 产品/应用（1 条）\n\n- **Suno 试图看起来更像一个真正的音乐制作工具**  \n  Suno 发布的 Studio 2.0 进行了重大升级，使其更接近实际的数字音频工作站 (DAW)，而不是具有生成 AI 功能的简单音频编辑器。 The biggest addit…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects\n\n\n## 其他（5 条）\n\n- **据报道 OpenAI 解散了其准备团队**  \n  据英国《金融时报》报道，OpenAI 于上月底解散了其准备团队。准备团队的工作是评估模型是否会带来严重风险，并制定减轻这些风险的方法。 （你知道，就像它可能会失控并攻击另一家公司一…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。 《Stepback》将于美国东部时间上…  \n  🔗 https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai\n\n- **通过扮演聊天机器人来嘲笑人工智能的牺牲**  \n  你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，您提交答案。但重要的是，等式的两边都有一个人。提示可…  \n  🔗 https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot\n\n- **马克·扎克伯格有一个 Instazam**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast\n\n- **微软类似 Clippy 的 Mico 角色不再是 Copilot 的面孔**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired\n",
   "items": [
     {
-      "title": "Twitch streamers can now opt out from training Amazon’s AI",
-      "title_zh": "Twitch streamers can now opt out from training Amazon’s AI",
-      "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "title_zh": "据报道 OpenAI 解散了其准备团队",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     },
     {
-      "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
-      "title_zh": "Guitar company D’Addario admits that AI music was used in a promotional video",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno"
+      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "title_zh": "ChatGPT 的计算机历史记录跟踪您的点击和击键",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
     },
     {
-      "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
-      "title_zh": "Google’s Pixel Watch 5 dives deeper into AI and health",
-      "link": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch"
+      "title": "Rogue AI aren’t science fiction anymore",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai"
     },
     {
-      "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
-      "title_zh": "Of course the ChatGPT dog cancer vaccine spawned a startup",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee"
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "title_zh": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
+      "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
     },
     {
-      "title": "Grok is now an AI ‘teammate’ you can assign work",
-      "title_zh": "Grok is now an AI ‘teammate’ you can assign work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch"
+      "title": "Mark Zuckerberg has an Instagzam",
+      "title_zh": "马克·扎克伯格有一个 Instazam",
+      "link": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast"
     },
     {
-      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
-      "title_zh": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
-      "link": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive"
+      "title": "You can now turn off Google Gemini’s visible watermarks",
+      "title_zh": "您现在可以关闭 Google Gemini 的可见水印",
+      "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
     },
     {
-      "title": "ChatGPT and Gemini both just passed 1 billion users",
-      "title_zh": "ChatGPT and Gemini both just passed 1 billion users",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users"
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "title_zh": "苹果在阿里巴巴的帮助下为中国训练了自己的人工智能模型",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
     },
     {
-      "title": "Another OpenAI executive takes off",
-      "title_zh": "Another OpenAI executive takes off",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure"
+      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+      "title_zh": "微软类似 Clippy 的 Mico 角色不再是 Copilot 的面孔",
+      "link": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired"
     },
     {
-      "title": "Made by Google 2026: all the Pixel news and announcements",
-      "title_zh": "Made by Google 2026: all the Pixel news and announcements",
-      "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news"
+      "title": "OpenAI is losing its second executive this week",
+      "title_zh": "OpenAI 本周将失去第二位高管",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure"
     },
     {
-      "title": "Apple could help you prove your iPhone photos aren’t deepfakes",
-      "title_zh": "Apple could help you prove your iPhone photos aren’t deepfakes",
-      "link": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata"
+      "title": "Suno is trying to look more like a real music production tool",
+      "title_zh": "Suno 试图看起来更像一个真正的音乐制作工具",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects"
     },
     {
-      "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
-      "title_zh": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
-      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/"
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "title_zh": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter",
+      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
     },
     {
-      "title": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
-      "title_zh": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
-      "link": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/"
+      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/"
     }
   ]
 }
