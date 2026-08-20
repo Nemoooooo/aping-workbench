@@ -15,8 +15,10 @@ except Exception:
     _TRANSLATOR = None
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
-WS = "/workspace"
+# 工作区可配置：沙箱默认 /workspace；GitHub Actions 用仓库根目录（通过 WORKSPACE 环境变量传入）
+WS = os.environ.get("WORKSPACE", "/workspace")
 DATA = os.path.join(WS, "data")
+os.makedirs(DATA, exist_ok=True)
 
 NEWS3_SRC = "https://www.chinanews.com.cn/rss/scroll-news.xml"
 AI_SRCS = [
