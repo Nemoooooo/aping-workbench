@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-17",
-  "generated_at": "2026-08-17 11:13",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-08-17** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **ChatGPT 的计算机历史记录跟踪您的点击和击键**  \n  ChatGPT 在 macOS 上的桌面应用程序有一个名为“计算机历史记录”的新功能，可以将您的操作转化为训练数据、了解您的工作方式、建议自动化，甚至拾取您未完成的任务。它使用您的…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes\n\n- **您现在可以关闭 Google Gemini 的可见水印**  \n  谷歌现在将允许您从使用人工智能工具制作的图像、视频和音乐中删除可见水印。通过更新，您可以在 Gemini 和 Google 的 AI 视频生成器 Flow 中关闭新的“媒体水印”设…  \n  🔗 https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal\n\n- **苹果在阿里巴巴的帮助下为中国训练了自己的人工智能模型**  \n  据报道，苹果公司与国内科技巨头阿里巴巴一起为中国市场训练了一个定制的人工智能模型，这是一种罕见的跨境合作伙伴关系，可以缓解北京和华盛顿之间日益紧张的关系。据路透社援引三位不愿透露姓…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba\n\n\n## 产品/应用（1 条）\n\n- **Suno 试图看起来更像一个真正的音乐制作工具**  \n  Suno 发布的 Studio 2.0 进行了重大升级，使其更接近实际的数字音频工作站 (DAW)，而不是具有生成 AI 功能的简单音频编辑器。 The biggest addit…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects\n\n\n## 其他（5 条）\n\n- **据报道 OpenAI 解散了其准备团队**  \n  据英国《金融时报》报道，OpenAI 于上月底解散了其准备团队。准备团队的工作是评估模型是否会带来严重风险，并制定减轻这些风险的方法。 （你知道，就像它可能会失控并攻击另一家公司一…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。 《Stepback》将于美国东部时间上…  \n  🔗 https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai\n\n- **通过扮演聊天机器人来嘲笑人工智能的牺牲**  \n  你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，您提交答案。但重要的是，等式的两边都有一个人。提示可…  \n  🔗 https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot\n\n- **马克·扎克伯格有一个 Instazam**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast\n\n- **微软类似 Clippy 的 Mico 角色不再是 Copilot 的面孔**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired\n",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20 05:39",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-08-20** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **谷歌双子座将建立一个专门的学生中心**  \n  在我们为返校季做准备之际，Google 正在 Gemini 推出一个新的专用学生中心。它是一个一站式存储库，用于在学习笔记本中收集研究成果、创建抽认卡、参加练习测验等。谷歌还通过对…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub\n\n- **ChatGPT 正在为青少年提供专用模式**  \n  OpenAI 正在推出一种专门针对青少年的 ChatGPT 模式，将现有的青少年保障措施和新的安全功能结合在一起。随着其他平台实施自己的年龄检查和针对青少年的保护措施，公众越来越多…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode\n\n\n## 产品/应用（1 条）\n\n- **Meta AI 即将推出 Mac 应用程序**  \n  Meta 正在推出一款专用于其 AI 聊天机器人的新 Mac 应用程序。 Meta 在周三的公告中表示，你可以与其人工智能聊天机器人共享你的窗口，后者可以提供建议、回答问题或根据屏…  \n  🔗 https://www.theverge.com/tech/982270/meta-ai-mac-app\n\n\n## 其他（5 条）\n\n- **OpenAI 踩了刹车。现在怎么办？**  \n  随着 IPO 的临近、来自 Anthropic 的激烈竞争，以及中国和开放重量级竞争对手的紧随其后，OpenAI 有充分的理由迅速采取行动。相反，它踩了刹车。周二，该公司表示，在加…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai\n\n- **英伟达的新财务战略并没有计算在内**  \n  1805 年 4 月 拿破仑是欧洲的主人 只有英国舰队站在他面前 计算现在是一种资产类别 我认为现在是再次谈论金融创新的时候了。 Apollo、BlackRock、Blacksto…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset\n\n- **罗宾·威廉姆斯 (Robin Williams) 恢复 Instagram 账户以对抗“人工智能滥用”**  \n  据 The Wrap 早些时候报道，在罗宾·威廉姆斯的女儿公开反对使用他的人工智能肖像后，他的孩子们正在接管父亲的 Instagram 账户。在周二的一篇帖子中，扎克、塞尔达和科迪…  \n  🔗 https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai\n\n- **OpenAI 在其 AI 黑客入侵 Hugging Face 后推出了新的安全更改**  \n  继 7 月份有消息称其 AI 突破沙盒环境并意外入侵 Hugging Face 后，OpenAI 宣布了安全更新，包括对其研究环境、监控和对齐技术的改进。该公司已经停止了新车型 A…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack\n\n- **Firefox 的智能窗口有望打造更好的人工智能浏览器**  \n  从今天开始，通过与 Exa 合作，Firefox 智能窗口 AI 浏览模式中的 AI 聊天可以从当前的网络信息中提取信息，并在聊天响应中显示源链接。当您使用自然搜索浏览历史记录时，…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features\n",
   "items": [
     {
-      "title": "OpenAI reportedly disbanded its preparedness team",
-      "title_zh": "据报道 OpenAI 解散了其准备团队",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
+      "title": "Google Gemini is getting a dedicated student hub",
+      "title_zh": "谷歌双子座将建立一个专门的学生中心",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub"
     },
     {
-      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
-      "title_zh": "ChatGPT 的计算机历史记录跟踪您的点击和击键",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
+      "title": "OpenAI hit the brakes. Now what?",
+      "title_zh": "OpenAI 踩了刹车。现在怎么办？",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
     },
     {
-      "title": "Rogue AI aren’t science fiction anymore",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai"
+      "title": "Meta AI is getting a Mac app",
+      "title_zh": "Meta AI 即将推出 Mac 应用程序",
+      "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app"
     },
     {
-      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-      "title_zh": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
-      "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
+      "title": "Nvidia’s new financial strategy does not compute",
+      "title_zh": "英伟达的新财务战略并没有计算在内",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset"
     },
     {
-      "title": "Mark Zuckerberg has an Instagzam",
-      "title_zh": "马克·扎克伯格有一个 Instazam",
-      "link": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast"
+      "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+      "title_zh": "罗宾·威廉姆斯 (Robin Williams) 恢复 Instagram 账户以对抗“人工智能滥用”",
+      "link": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai"
     },
     {
-      "title": "You can now turn off Google Gemini’s visible watermarks",
-      "title_zh": "您现在可以关闭 Google Gemini 的可见水印",
-      "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
+      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+      "title_zh": "OpenAI 在其 AI 黑客入侵 Hugging Face 后推出了新的安全更改",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack"
     },
     {
-      "title": "Apple trained its own AI model for China with help from Alibaba",
-      "title_zh": "苹果在阿里巴巴的帮助下为中国训练了自己的人工智能模型",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba"
+      "title": "Firefox’s Smart Window promises a better AI browser",
+      "title_zh": "Firefox 的智能窗口有望打造更好的人工智能浏览器",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features"
     },
     {
-      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
-      "title_zh": "微软类似 Clippy 的 Mico 角色不再是 Copilot 的面孔",
-      "link": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired"
+      "title": "Google’s Pet Memory forgot who my cats are",
+      "title_zh": "谷歌的宠物记忆忘记了我的猫是谁",
+      "link": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review"
     },
     {
-      "title": "OpenAI is losing its second executive this week",
-      "title_zh": "OpenAI 本周将失去第二位高管",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure"
+      "title": "Elon Musk broke the FAA — Palantir is picking up the pieces",
+      "title_zh": "埃隆·马斯克 (Elon Musk) 打破了美国联邦航空管理局 (FAA) 的制裁——Palantir 正在收拾残局",
+      "link": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir"
     },
     {
-      "title": "Suno is trying to look more like a real music production tool",
-      "title_zh": "Suno 试图看起来更像一个真正的音乐制作工具",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects"
+      "title": "ChatGPT is getting a dedicated mode for teens",
+      "title_zh": "ChatGPT 正在为青少年提供专用模式",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode"
     },
     {
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "title_zh": "据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter",
-      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+      "title_zh": "Stripe 收购 OpenRouter 并不是因为它的“奇点”",
+      "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/"
     },
     {
-      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/"
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "title_zh": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic",
+      "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"
     }
   ]
 }
