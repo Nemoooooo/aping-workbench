@@ -1,67 +1,67 @@
 {
-  "date": "2026-09-01",
-  "generated_at": "2026-09-01 17:14",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-01** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **ChatGPT 将在欧盟面临更严格的监管**  \n  OpenAI 很快将承担责任，以减轻与 ChatGPT 对未成年人影响、用户心理健康以及非法内容在欧盟传播相关的风险。这是因为根据欧盟数字服务法案，ChatGPT 现在被认为是一个…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa\n\n\n## 产品/应用（4 条）\n\n- **约翰迪尔为农民推出人工智能聊天机器人**  \n  约翰迪尔正在测试一款新的“JD”人工智能助手，据称该助手可以帮助农民赚更多钱，并根据他们自己的数据提供有关最佳实践和历史趋势的答案。它使用他们的“现场、机器和操作数据”来回答有关设…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot\n\n- **Nvidia 备受争议的 DLSS 5 将于 9 月 3 日上市，需要强大的 GPU 马力**  \n  Nvidia 将于本周正式推出 DLSS 5，此前我们在 3 月份发布了一项引起争议的公告，当时我们将 AI 升级技术比作“视频游戏的实时生成 AI 过滤器”和“视频游戏的运动平滑…  \n  🔗 https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27\n\n- **索尼音乐出版公司和华纳查佩尔起诉 Anthropic**  \n  索尼音乐出版公司和华纳查佩尔已向美国加州北区地方法院对 Anthropic 提起诉讼，要求赔偿“数万”版权作品的损失。这些公司要求每件作品最高赔偿 15 万美元，如果可识别的版权数…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright\n\n- **红杉资本孵化的 Empirik 斥资 2100 万美元推出，用于在服务中断发生之前进行预测**  \n  这家初创公司希望为 IT 基础设施做 Cursor 在软件工程领域所做的事情。…  \n  🔗 https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/\n\n\n## 其他（5 条）\n\n- **Google Pics 就像 Canva，但具有更多人工智能**  \n  谷歌为 Workspace 用户提供了一套新的创意设计工具，名为 Google Pics，旨在让企业编辑和生成“专业级”AI 图像不再那么麻烦。 Google Pics 围绕 Ge…  \n  🔗 https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator\n\n- **Debian 不会禁止其 Linux 发行版中的人工智能代码**  \n  Debian 投票允许开发人员使用 AI 工具为 Linux 发行版的“开发、维护和文档”做出贡献。关于人工智能的新政策承认“负责任”地使用人工智能可以提高开发人员的生产力，并接着…  \n  🔗 https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  今天，我正在与纽约州州长凯西·霍赫尔交谈，我只是警告你——这一集进展得非常快。毕竟，今年是选举年，涉及数量惊人的科技政策，而霍赫尔州长在几乎所有重大科技问题上都采取了强硬立场。例如…  \n  🔗 https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras\n\n- **Instagram 打击冒充人类的人工智能账户**  \n  Instagram 终于采取措施来解决越来越难以发现的虚假人工智能影响者账户的增加问题。它还将“人工智能创造者”标签重命名为“人工智能生成的个人资料”，以明确何时个人资料中包含的是…  \n  🔗 https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  随着人们对 Flock 人工智能监控摄像头的强烈反对，德克萨斯州州长格雷格·阿博特 (Greg Abbott) 冻结了国家在这些摄像头上的支出。此举发生在《德克萨斯论坛报》发表一项…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras\n",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02 17:04",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-02** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay\n\n\n## 产品/应用（1 条）\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit\n\n\n## 其他（5 条）\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai\n",
   "items": [
     {
-      "title": "John Deere launched an AI chatbot for farmers",
-      "title_zh": "约翰迪尔为农民推出人工智能聊天机器人",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot"
-    },
-    {
-      "title": "Google Pics is like Canva, but with even more AI",
-      "title_zh": "Google Pics 就像 Canva，但具有更多人工智能",
-      "link": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator"
-    },
-    {
-      "title": "Nvidia’s controversial DLSS 5 arrives September 3rd and requires serious GPU horsepower",
-      "title_zh": "Nvidia 备受争议的 DLSS 5 将于 9 月 3 日上市，需要强大的 GPU 马力",
-      "link": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27"
-    },
-    {
-      "title": "Debian won’t ban AI code from its Linux distribution",
-      "title_zh": "Debian 不会禁止其 Linux 发行版中的人工智能代码",
-      "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
-    },
-    {
-      "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
       "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "link": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras"
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
     },
     {
-      "title": "ChatGPT to face tougher regulation in the EU",
-      "title_zh": "ChatGPT 将在欧盟面临更严格的监管",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa"
-    },
-    {
-      "title": "Instagram cracks down on AI accounts pretending to be human",
-      "title_zh": "Instagram 打击冒充人类的人工智能账户",
-      "link": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop"
-    },
-    {
-      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+      "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
       "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit"
     },
     {
-      "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
-      "title_zh": "索尼音乐出版公司和华纳查佩尔起诉 Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
+      "title": "Google is sending MrBeast into the wilderness, armed with AI",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit"
     },
     {
-      "title": "Musicians-turned-detectives are hunting for AI grifters",
-      "title_zh": "音乐家出身的侦探正在追捕人工智能诈骗犯",
-      "link": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai"
+      "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting"
     },
     {
-      "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
-      "title_zh": "红杉资本孵化的 Empirik 斥资 2100 万美元推出，用于在服务中断发生之前进行预测",
-      "link": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/"
+      "title": "NYC bans AI use for students until they reach high school",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban"
     },
     {
-      "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
-      "title_zh": "Amazon Alexa 现在可以在新商品可能吸引您购物时提醒您",
-      "link": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/"
+      "title": "Google needs Hollywood more than the studios need AI",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai"
+    },
+    {
+      "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1"
+    },
+    {
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay"
+    },
+    {
+      "title": "The rise of AI ‘civilizations’ and the fall of corporate responsibility",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack"
+    },
+    {
+      "title": "Apple accuses OpenAI of destroying evidence",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit"
+    },
+    {
+      "title": "Wonderful more than doubles its valuation to $5B in under 6 months",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/"
+    },
+    {
+      "title": "India’s richest man now wants to turn aging computers into AI-ready PCs",
+      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "link": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/"
     }
   ]
 }
