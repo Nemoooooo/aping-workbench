@@ -1,67 +1,67 @@
 {
-  "date": "2026-09-12",
-  "generated_at": "2026-09-12 16:06",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-12** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai\n\n\n## 其他（5 条）\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity\n\n- **Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.**  \n  Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.…  \n  🔗 https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions\n",
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13 16:54",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-13** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 其他（5 条）\n\n- **OpenAI’s rogue AI tried to hack another company in May**  \n  In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serio…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack\n\n- **Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’**  \n  OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interv…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised\n\n- **Anthropic CEO says it’s time to pump the brakes on AI**  \n  Anthropic CEO Dario Amodei says the time has come to slow down AI development and will giv…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development\n\n- **Trump is giving data centers a pass to pollute**  \n  President Donald Trump is weakening environmental regulations in the name of speeding up t…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa\n\n- **OpenAI just wants to win**  \n  OpenAI has spent the last few years planting flags across the increasingly difficult terra…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition\n",
   "items": [
     {
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "title_zh": "OpenAI’s rogue AI tried to hack another company in May",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
+    },
+    {
+      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "title_zh": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised"
+    },
+    {
+      "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+      "title_zh": "Anthropic CEO says it’s time to pump the brakes on AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development"
+    },
+    {
       "title": "Trump is giving data centers a pass to pollute",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_zh": "Trump is giving data centers a pass to pollute",
       "link": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa"
     },
     {
       "title": "OpenAI just wants to win",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_zh": "OpenAI just wants to win",
       "link": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition"
     },
     {
       "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_zh": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
       "link": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal"
     },
     {
       "title": "Anthropic spent this week in hot water over cybersecurity",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_zh": "Anthropic spent this week in hot water over cybersecurity",
       "link": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity"
     },
     {
       "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_zh": "Meta says it’s changing AI suggestions after posing invasive personal questions",
       "link": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions"
     },
     {
       "title": "Slack can now vibe-code interactive charts and reports inside chats",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_zh": "Slack can now vibe-code interactive charts and reports inside chats",
       "link": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
     },
     {
       "title": "Schools are catching on to Big Tech’s playbook",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title_zh": "Schools are catching on to Big Tech’s playbook",
       "link": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids"
     },
     {
-      "title": "Universal Music is launching an AI music platform with ElevenLabs",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai"
+      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "title_zh": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
     },
     {
-      "title": "Meta’s Muse AI works and creeps me out",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "link": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on"
-    },
-    {
-      "title": "Why the current tech backlash feels different",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "link": "https://www.theverge.com/podcast/992141/decoder-mailbag-ai-backlash-surveillance-midterms-data-centers"
-    },
-    {
-      "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "title_zh": "Anthropic CEO outlines plan to slow AI development",
       "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
-    },
-    {
-      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-      "title_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/"
     }
   ]
 }
