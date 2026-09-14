@@ -1,8 +1,18 @@
 {
-  "date": "2026-09-13",
-  "generated_at": "2026-09-13 16:54",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-13** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 其他（5 条）\n\n- **OpenAI’s rogue AI tried to hack another company in May**  \n  In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serio…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack\n\n- **Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’**  \n  OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interv…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised\n\n- **Anthropic CEO says it’s time to pump the brakes on AI**  \n  Anthropic CEO Dario Amodei says the time has come to slow down AI development and will giv…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development\n\n- **Trump is giving data centers a pass to pollute**  \n  President Donald Trump is weakening environmental regulations in the name of speeding up t…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa\n\n- **OpenAI just wants to win**  \n  OpenAI has spent the last few years planting flags across the increasingly difficult terra…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition\n",
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14 18:27",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-14** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll**  \n  Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved o…  \n  🔗 https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/\n\n\n## 其他（5 条）\n\n- **Microsoft says ‘people matter more than AI’ following safety concerns**  \n  Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety…  \n  🔗 https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct\n\n- **Trump and Mike Johnson think the AI industry is overreacting**  \n  Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time t…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting\n\n- **OpenAI’s rogue AI tried to hack another company in May**  \n  In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serio…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack\n\n- **Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’**  \n  OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interv…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised\n\n- **Anthropic CEO says it’s time to pump the brakes on AI**  \n  Anthropic CEO Dario Amodei says the time has come to slow down AI development and will giv…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development\n",
   "items": [
+    {
+      "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "title_zh": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "link": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct"
+    },
+    {
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "title_zh": "Trump and Mike Johnson think the AI industry is overreacting",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
+    },
     {
       "title": "OpenAI’s rogue AI tried to hack another company in May",
       "title_zh": "OpenAI’s rogue AI tried to hack another company in May",
@@ -44,24 +54,14 @@
       "link": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions"
     },
     {
-      "title": "Slack can now vibe-code interactive charts and reports inside chats",
-      "title_zh": "Slack can now vibe-code interactive charts and reports inside chats",
-      "link": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
+      "title": "With iOS 27, I’m actually using Siri again",
+      "title_zh": "With iOS 27, I’m actually using Siri again",
+      "link": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/"
     },
     {
-      "title": "Schools are catching on to Big Tech’s playbook",
-      "title_zh": "Schools are catching on to Big Tech’s playbook",
-      "link": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids"
-    },
-    {
-      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
-      "title_zh": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
-      "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
-    },
-    {
-      "title": "Anthropic CEO outlines plan to slow AI development",
-      "title_zh": "Anthropic CEO outlines plan to slow AI development",
-      "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/"
+      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "title_zh": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "link": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/"
     }
   ]
 }
