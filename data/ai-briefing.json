@@ -1,8 +1,38 @@
 {
-  "date": "2026-09-15",
-  "generated_at": "2026-09-15 17:33",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-15** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 其他（5 条）\n\n- **Meta’s new One subscriptions put a price on social media and AI**  \n  Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscrip…  \n  🔗 https://www.theverge.com/tech/995453/meta-one-subscriptions-ai\n\n- **This doorbell camera lets a human security guard watch your front door**  \n  DIY home security company SimpliSafe is bringing its AI-powered proactive security feature…  \n  🔗 https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs\n\n- **Is Big Tech’s AI slowdown a safety pact or a cartel?**  \n  When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Ha…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel\n\n- **What execs and politicians are saying about slowing down AI development**  \n  Dario Amodei kicked off a flood of statements over the past few days about AI safety by pu…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei\n\n- **Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world**  \n  Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the Al…  \n  🔗 https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit\n",
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16 17:33",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-16** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Claude comes for Gemini with its own take on Docs and Slides**  \n  Claude is getting a pair of new tools today: Docs and Slides. They'll let you create docum…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides\n\n- **Anthropic merges Claude chat and Cowork in one interface**  \n  Anthropic is initially releasing these features to Pro and Max plan subscribers.…  \n  🔗 https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/\n\n\n## 产品/应用（2 条）\n\n- **Apple might make servers again to cash in on the AI rush**  \n  According to The Information, Apple is planning to get back into the server game and might…  \n  🔗 https://www.theverge.com/tech/996321/apple-servers-ai-nvidia\n\n- **The sexy AI-powered dating app scams are here**  \n  Security researcher Matthew \"Zigula\" Gore-Kormanik was analyzing a fraudulent dating app c…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams\n\n\n## 政策/行业（1 条）\n\n- **A brief history of AI executives calling for regulation**  \n  Over the past few days, a lot of people who stand to make a lot of money from AI all publi…  \n  🔗 https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation\n\n\n## 其他（5 条）\n\n- **Google will now let any AI agent run your smart home**  \n  Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw …  \n  🔗 https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date\n\n- **AI and data centers are incredibly unpopular in every poll**  \n  Poll data released Tuesday by The New York Times and Siena University confirms what we've …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september\n\n- **Meta’s new One subscriptions put a price on social media and AI**  \n  Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscrip…  \n  🔗 https://www.theverge.com/tech/995453/meta-one-subscriptions-ai\n\n- **This doorbell camera lets a human security guard watch your front door**  \n  DIY home security company SimpliSafe is bringing its AI-powered proactive security feature…  \n  🔗 https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs\n\n- **Is Big Tech’s AI slowdown a safety pact or a cartel?**  \n  When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Ha…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel\n",
   "items": [
+    {
+      "title": "Apple might make servers again to cash in on the AI rush",
+      "title_zh": "Apple might make servers again to cash in on the AI rush",
+      "link": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia"
+    },
+    {
+      "title": "Google will now let any AI agent run your smart home",
+      "title_zh": "Google will now let any AI agent run your smart home",
+      "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date"
+    },
+    {
+      "title": "Claude comes for Gemini with its own take on Docs and Slides",
+      "title_zh": "Claude comes for Gemini with its own take on Docs and Slides",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides"
+    },
+    {
+      "title": "The sexy AI-powered dating app scams are here",
+      "title_zh": "The sexy AI-powered dating app scams are here",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams"
+    },
+    {
+      "title": "A brief history of AI executives calling for regulation",
+      "title_zh": "A brief history of AI executives calling for regulation",
+      "link": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
+    },
+    {
+      "title": "AI and data centers are incredibly unpopular in every poll",
+      "title_zh": "AI and data centers are incredibly unpopular in every poll",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+    },
     {
       "title": "Meta’s new One subscriptions put a price on social media and AI",
       "title_zh": "Meta’s new One subscriptions put a price on social media and AI",
@@ -24,44 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei"
     },
     {
-      "title": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
-      "title_zh": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
-      "link": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit"
+      "title": "Your AI agents can now control your Google Home devices",
+      "title_zh": "Your AI agents can now control your Google Home devices",
+      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/"
     },
     {
-      "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
-      "title_zh": "Microsoft says ‘people matter more than AI’ following safety concerns",
-      "link": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct"
-    },
-    {
-      "title": "Trump and Mike Johnson think the AI industry is overreacting",
-      "title_zh": "Trump and Mike Johnson think the AI industry is overreacting",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting"
-    },
-    {
-      "title": "OpenAI’s rogue AI tried to hack another company in May",
-      "title_zh": "OpenAI’s rogue AI tried to hack another company in May",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
-    },
-    {
-      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
-      "title_zh": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised"
-    },
-    {
-      "title": "Anthropic CEO says it’s time to pump the brakes on AI",
-      "title_zh": "Anthropic CEO says it’s time to pump the brakes on AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development"
-    },
-    {
-      "title": "Meta expands subscription push with new AI-focused plans",
-      "title_zh": "Meta expands subscription push with new AI-focused plans",
-      "link": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/"
-    },
-    {
-      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "title_zh": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/"
+      "title": "Anthropic merges Claude chat and Cowork in one interface",
+      "title_zh": "Anthropic merges Claude chat and Cowork in one interface",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/"
     }
   ]
 }
