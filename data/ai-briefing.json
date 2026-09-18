@@ -1,8 +1,43 @@
 {
-  "date": "2026-09-17",
-  "generated_at": "2026-09-17 17:33",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-17** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Claude comes for Gemini with its own take on Docs and Slides**  \n  Claude is getting a pair of new tools today: Docs and Slides. They'll let you create docum…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides\n\n\n## 产品/应用（4 条）\n\n- **Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac**  \n  Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digita…  \n  🔗 https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac\n\n- **Apple might make servers again to cash in on the AI rush**  \n  According to The Information, Apple is planning to get back into the server game and might…  \n  🔗 https://www.theverge.com/tech/996321/apple-servers-ai-nvidia\n\n- **The sexy AI-powered dating app scams are here**  \n  Security researcher Matthew \"Zigula\" Gore-Kormanik was analyzing a fraudulent dating app c…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams\n\n- **Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire**  \n  Base Labs, the research group Baseten spun up earlier this year, will develop and publish …  \n  🔗 https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/\n\n\n## 政策/行业（1 条）\n\n- **A brief history of AI executives calling for regulation**  \n  Over the past few days, a lot of people who stand to make a lot of money from AI all publi…  \n  🔗 https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation\n\n\n## 其他（5 条）\n\n- **Inside the suddenly explosive world of AI safety**  \n  On a sunny July day in Berkeley, California, the country's top AI safety researchers gathe…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic\n\n- **The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long**  \n  Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred…  \n  🔗 https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review\n\n- **The AI data center e-waste problem is huge — and getting bigger**  \n  E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it c…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban\n\n- **Google will now let any AI agent run your smart home**  \n  Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw …  \n  🔗 https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date\n\n- **AI and data centers are incredibly unpopular in every poll**  \n  Poll data released Tuesday by The New York Times and Siena University confirms what we've …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september\n",
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18 16:59",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-18** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Security researchers used Claude to help them hack into OpenAI**  \n  A team of three independent security researchers at Hacktron says it took less than 72 hou…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist\n\n- **Claude Code relaunches Projects to manage multiple AI agents in the cloud**  \n  The revamped projects feature in Claude Code allows users to run multiple agents under the…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects\n\n\n## 产品/应用（1 条）\n\n- **Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac**  \n  Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digita…  \n  🔗 https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac\n\n\n## 其他（5 条）\n\n- **What Hollywood thinks about existential AI warnings**  \n  As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment l…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings\n\n- **Flash floods can strike without warning — this new technology could change that**  \n  On the morning of June 9th, Laura Lin was working from her home in Lanesville, a rural sou…  \n  🔗 https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning\n\n- **The AI Superintelligence Slowdown**  \n  Remember when tech leaders would tell their employees to “move fast and break things”? It …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic\n\n- **Microsoft AI CEO says AI threats are real, and Anthropic is making it worse**  \n  Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt awar…  \n  🔗 https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude\n\n- **AI is feared globally as the destroyer of jobs**  \n  Pew Research has published a new global survey that sheds light on how people view AI, inc…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs\n",
   "items": [
+    {
+      "title": "What Hollywood thinks about existential AI warnings",
+      "title_zh": "What Hollywood thinks about existential AI warnings",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings"
+    },
+    {
+      "title": "Security researchers used Claude to help them hack into OpenAI",
+      "title_zh": "Security researchers used Claude to help them hack into OpenAI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist"
+    },
+    {
+      "title": "Flash floods can strike without warning — this new technology could change that",
+      "title_zh": "Flash floods can strike without warning — this new technology could change that",
+      "link": "https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning"
+    },
+    {
+      "title": "The AI Superintelligence Slowdown",
+      "title_zh": "The AI Superintelligence Slowdown",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic"
+    },
+    {
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "title_zh": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects"
+    },
+    {
+      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "title_zh": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "link": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude"
+    },
+    {
+      "title": "AI is feared globally as the destroyer of jobs",
+      "title_zh": "AI is feared globally as the destroyer of jobs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs"
+    },
     {
       "title": "Inside the suddenly explosive world of AI safety",
       "title_zh": "Inside the suddenly explosive world of AI safety",
@@ -19,49 +54,14 @@
       "link": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review"
     },
     {
-      "title": "The AI data center e-waste problem is huge — and getting bigger",
-      "title_zh": "The AI data center e-waste problem is huge — and getting bigger",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
+      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+      "title_zh": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+      "link": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/"
     },
     {
-      "title": "Apple might make servers again to cash in on the AI rush",
-      "title_zh": "Apple might make servers again to cash in on the AI rush",
-      "link": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia"
-    },
-    {
-      "title": "Google will now let any AI agent run your smart home",
-      "title_zh": "Google will now let any AI agent run your smart home",
-      "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date"
-    },
-    {
-      "title": "Claude comes for Gemini with its own take on Docs and Slides",
-      "title_zh": "Claude comes for Gemini with its own take on Docs and Slides",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides"
-    },
-    {
-      "title": "The sexy AI-powered dating app scams are here",
-      "title_zh": "The sexy AI-powered dating app scams are here",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams"
-    },
-    {
-      "title": "A brief history of AI executives calling for regulation",
-      "title_zh": "A brief history of AI executives calling for regulation",
-      "link": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
-    },
-    {
-      "title": "AI and data centers are incredibly unpopular in every poll",
-      "title_zh": "AI and data centers are incredibly unpopular in every poll",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
-    },
-    {
-      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "title_zh": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/"
-    },
-    {
-      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
-      "title_zh": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
-      "link": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/"
+      "title": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
+      "title_zh": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/"
     }
   ]
 }
