@@ -1,8 +1,38 @@
 {
-  "date": "2026-09-18",
-  "generated_at": "2026-09-18 16:59",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-18** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Security researchers used Claude to help them hack into OpenAI**  \n  A team of three independent security researchers at Hacktron says it took less than 72 hou…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist\n\n- **Claude Code relaunches Projects to manage multiple AI agents in the cloud**  \n  The revamped projects feature in Claude Code allows users to run multiple agents under the…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects\n\n\n## 产品/应用（1 条）\n\n- **Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac**  \n  Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digita…  \n  🔗 https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac\n\n\n## 其他（5 条）\n\n- **What Hollywood thinks about existential AI warnings**  \n  As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment l…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings\n\n- **Flash floods can strike without warning — this new technology could change that**  \n  On the morning of June 9th, Laura Lin was working from her home in Lanesville, a rural sou…  \n  🔗 https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning\n\n- **The AI Superintelligence Slowdown**  \n  Remember when tech leaders would tell their employees to “move fast and break things”? It …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic\n\n- **Microsoft AI CEO says AI threats are real, and Anthropic is making it worse**  \n  Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt awar…  \n  🔗 https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude\n\n- **AI is feared globally as the destroyer of jobs**  \n  Pew Research has published a new global survey that sheds light on how people view AI, inc…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs\n",
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19 16:19",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-19** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Gemini went rogue, hacked three companies, and Google hid it**  \n  In May, Gemini broke containment and hacked three different companies, but Google didn't d…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack\n\n- **Security researchers used Claude to help them hack into OpenAI**  \n  A team of three independent security researchers at Hacktron says it took less than 72 hou…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist\n\n\n## 政策/行业（1 条）\n\n- **The AI regulation smackdown isn’t over**  \n  At the start of this week, the who's-who of AI seemed - at least tentatively - on the side…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over\n\n\n## 其他（5 条）\n\n- **Does AI need an antitrust exemption so it doesn’t kill everyone????**  \n  Today on Decoder, we’ve got the first of a two-part series on the future of business, and …  \n  🔗 https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition\n\n- **OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web**  \n  Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero\n\n- **Virginia governor creates an AI task force and moves to restrain data centers**  \n  Virginia Gov. Abigail Spanberger ordered the state government to take steps that could emp…  \n  🔗 https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force\n\n- **Gavin Newsom is pushing for an AI kill switch**  \n  California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight…  \n  🔗 https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch\n\n- **What Hollywood thinks about existential AI warnings**  \n  As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment l…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings\n",
   "items": [
+    {
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "title_zh": "Gemini went rogue, hacked three companies, and Google hid it",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack"
+    },
+    {
+      "title": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
+      "title_zh": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
+      "link": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition"
+    },
+    {
+      "title": "The AI regulation smackdown isn’t over",
+      "title_zh": "The AI regulation smackdown isn’t over",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over"
+    },
+    {
+      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "title_zh": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero"
+    },
+    {
+      "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "title_zh": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "link": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force"
+    },
+    {
+      "title": "Gavin Newsom is pushing for an AI kill switch",
+      "title_zh": "Gavin Newsom is pushing for an AI kill switch",
+      "link": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch"
+    },
     {
       "title": "What Hollywood thinks about existential AI warnings",
       "title_zh": "What Hollywood thinks about existential AI warnings",
@@ -24,44 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic"
     },
     {
-      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "title_zh": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects"
+      "title": "AI safety conversations have gotten unbelievable",
+      "title_zh": "AI safety conversations have gotten unbelievable",
+      "link": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/"
     },
     {
-      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
-      "title_zh": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
-      "link": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude"
-    },
-    {
-      "title": "AI is feared globally as the destroyer of jobs",
-      "title_zh": "AI is feared globally as the destroyer of jobs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs"
-    },
-    {
-      "title": "Inside the suddenly explosive world of AI safety",
-      "title_zh": "Inside the suddenly explosive world of AI safety",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic"
-    },
-    {
-      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
-      "title_zh": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
-      "link": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
-    },
-    {
-      "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
-      "title_zh": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
-      "link": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review"
-    },
-    {
-      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
-      "title_zh": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
-      "link": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/"
-    },
-    {
-      "title": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
-      "title_zh": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/"
+      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+      "title_zh": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+      "link": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/"
     }
   ]
 }
