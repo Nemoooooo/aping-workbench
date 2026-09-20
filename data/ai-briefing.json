@@ -1,8 +1,23 @@
 {
-  "date": "2026-09-19",
-  "generated_at": "2026-09-19 16:19",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-19** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Gemini went rogue, hacked three companies, and Google hid it**  \n  In May, Gemini broke containment and hacked three different companies, but Google didn't d…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack\n\n- **Security researchers used Claude to help them hack into OpenAI**  \n  A team of three independent security researchers at Hacktron says it took less than 72 hou…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist\n\n\n## 政策/行业（1 条）\n\n- **The AI regulation smackdown isn’t over**  \n  At the start of this week, the who's-who of AI seemed - at least tentatively - on the side…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over\n\n\n## 其他（5 条）\n\n- **Does AI need an antitrust exemption so it doesn’t kill everyone????**  \n  Today on Decoder, we’ve got the first of a two-part series on the future of business, and …  \n  🔗 https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition\n\n- **OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web**  \n  Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero\n\n- **Virginia governor creates an AI task force and moves to restrain data centers**  \n  Virginia Gov. Abigail Spanberger ordered the state government to take steps that could emp…  \n  🔗 https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force\n\n- **Gavin Newsom is pushing for an AI kill switch**  \n  California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight…  \n  🔗 https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch\n\n- **What Hollywood thinks about existential AI warnings**  \n  As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment l…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings\n",
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20 16:43",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-20** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Gemini went rogue, hacked three companies, and Google hid it**  \n  In May, Gemini broke containment and hacked three different companies, but Google didn't d…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack\n\n\n## 政策/行业（1 条）\n\n- **The AI regulation smackdown isn’t over**  \n  At the start of this week, the who's-who of AI seemed - at least tentatively - on the side…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over\n\n\n## 其他（5 条）\n\n- **Trump now says he wants to form an ‘AI Force’**  \n  The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar\n\n- **Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems**  \n  Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" o…  \n  🔗 https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure\n\n- **Meta’s Muse is creepy, but maybe not for the reasons you think**  \n  Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy\n\n- **Does AI need an antitrust exemption so it doesn’t kill everyone????**  \n  Today on Decoder, we’ve got the first of a two-part series on the future of business, and …  \n  🔗 https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition\n\n- **OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web**  \n  Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero\n",
   "items": [
+    {
+      "title": "Trump now says he wants to form an ‘AI Force’",
+      "title_zh": "Trump now says he wants to form an ‘AI Force’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar"
+    },
+    {
+      "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+      "title_zh": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+      "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure"
+    },
+    {
+      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "title_zh": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
+    },
     {
       "title": "Gemini went rogue, hacked three companies, and Google hid it",
       "title_zh": "Gemini went rogue, hacked three companies, and Google hid it",
@@ -39,29 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings"
     },
     {
-      "title": "Security researchers used Claude to help them hack into OpenAI",
-      "title_zh": "Security researchers used Claude to help them hack into OpenAI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist"
+      "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
+      "title_zh": "6 days left to get ahead at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/"
     },
     {
-      "title": "Flash floods can strike without warning — this new technology could change that",
-      "title_zh": "Flash floods can strike without warning — this new technology could change that",
-      "link": "https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning"
-    },
-    {
-      "title": "The AI Superintelligence Slowdown",
-      "title_zh": "The AI Superintelligence Slowdown",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic"
-    },
-    {
-      "title": "AI safety conversations have gotten unbelievable",
-      "title_zh": "AI safety conversations have gotten unbelievable",
-      "link": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/"
-    },
-    {
-      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
-      "title_zh": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
-      "link": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/"
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "title_zh": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/"
     }
   ]
 }
