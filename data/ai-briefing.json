@@ -1,8 +1,33 @@
 {
-  "date": "2026-09-22",
-  "generated_at": "2026-09-22 17:34",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-22** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity**  \n  Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity\n\n\n## 产品/应用（3 条）\n\n- **Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta**  \n  Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a p…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy\n\n- **Can John Ternus find Apple’s next big thing?**  \n  Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both…  \n  🔗 https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone\n\n- **iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement**  \n  Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Sir…  \n  🔗 https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement\n\n\n## 其他（5 条）\n\n- **Trump says the US is officially renaming AI to ‘super intelligence’**  \n  In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence\n\n- **Meta patches Muse exploit that let attackers control the AI agent**  \n  Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulne…  \n  🔗 https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent\n\n- **California tightens rules on AI data center energy and water use**  \n  California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers fr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills\n\n- **UN says AI safeguards can’t wait for certainty**  \n  Governments need to rein in increasingly capable AI agents before their risks are fully un…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle\n\n- **Amazon blocks Meta’s Muse AI agent**  \n  Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWir…  \n  🔗 https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping\n",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23 17:46",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-23** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity**  \n  Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity\n\n\n## 产品/应用（1 条）\n\n- **Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta**  \n  Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a p…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy\n\n\n## 其他（5 条）\n\n- **Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison**  \n  Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act\n\n- **YouTube is building AI creator tools that do almost everything for them**  \n  Part of the job of a content creator is to figure out how to get their work in front of th…  \n  🔗 https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests\n\n- **OpenAI nabs key Patreon execs ahead of upcoming announcement**  \n  OpenAI has hired three former Patreon execs to anchor its product strategy for creators. A…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam\n\n- **OpenAI wants to consult elite mathematicians about how to not fumble again**  \n  After turning a string of spectacular mathematical results into a reputational crisis, Ope…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel\n\n- **Rabbit’s new AI agent doesn’t need an R1 to run**  \n  Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI age…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3\n",
   "items": [
+    {
+      "title": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
+      "title_zh": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act"
+    },
+    {
+      "title": "YouTube is building AI creator tools that do almost everything for them",
+      "title_zh": "YouTube is building AI creator tools that do almost everything for them",
+      "link": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests"
+    },
+    {
+      "title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+      "title_zh": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam"
+    },
+    {
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "title_zh": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
+    },
+    {
+      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "title_zh": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
+    },
     {
       "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
       "title_zh": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
@@ -29,39 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
     },
     {
-      "title": "Can John Ternus find Apple’s next big thing?",
-      "title_zh": "Can John Ternus find Apple’s next big thing?",
-      "link": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone"
+      "title": "Even Americans who use AI every day are worried about it",
+      "title_zh": "Even Americans who use AI every day are worried about it",
+      "link": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/"
     },
     {
-      "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
-      "title_zh": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
-      "link": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement"
-    },
-    {
-      "title": "UN says AI safeguards can’t wait for certainty",
-      "title_zh": "UN says AI safeguards can’t wait for certainty",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle"
-    },
-    {
-      "title": "Amazon blocks Meta’s Muse AI agent",
-      "title_zh": "Amazon blocks Meta’s Muse AI agent",
-      "link": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
-    },
-    {
-      "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
-      "title_zh": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"
-    },
-    {
-      "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
-      "title_zh": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
-      "link": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/"
-    },
-    {
-      "title": "AstroForge is putting AI in command of its next spacecraft",
-      "title_zh": "AstroForge is putting AI in command of its next spacecraft",
-      "link": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/"
+      "title": "YouTube Music gets more conversational with new AI features",
+      "title_zh": "YouTube Music gets more conversational with new AI features",
+      "link": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/"
     }
   ]
 }
