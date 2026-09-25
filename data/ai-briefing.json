@@ -1,8 +1,48 @@
 {
-  "date": "2026-09-24",
-  "generated_at": "2026-09-24 17:48",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-24** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Gemini can now call businesses for you so you don’t have to wait on hold**  \n  Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate loca…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls\n\n\n## 产品/应用（2 条）\n\n- **Muse will apparently let you download its entire filesystem**  \n  A pair of developers say that with very little prompting, Meta's Muse will share its entir…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem\n\n- **Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend**  \n  Meta’s new AI gadget may look like a Tamagotchi, but its dangling form factor taps into a …  \n  🔗 https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/\n\n\n## 其他（5 条）\n\n- **Muse sure looks a lot like OpenClaw**  \n  We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, …  \n  🔗 https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike\n\n- **It’s sinister that Meta’s Muse AI mascot is so cute**  \n  This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that …  \n  🔗 https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute\n\n- **Why can’t we just keep rogue AIs off the internet?**  \n  AI agents keep getting loose, escaping supposedly secure tests to attack real-world target…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents\n\n- **Google is sending an AI satellite into space next week**  \n  Google is getting ready to launch a satellite with its AI processors to test how well they…  \n  🔗 https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher\n\n- **The vibes are bad for Flock in Washington**  \n  Flock is in the hot seat in Washington, even if its CEO declined to actually face senators…  \n  🔗 https://www.theverge.com/policy/1000005/flock-senate-hearing\n",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25 17:50",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-25** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Gemini 3.8 Live with Live Avatar gives Google’s AI a face**  \n  Google's new Gemini 3.8 Live update lets users have conversations with the model while wat…  \n  🔗 https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face\n\n\n## 产品/应用（3 条）\n\n- **Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test**  \n  A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand…  \n  🔗 https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review\n\n- **Microsoft thinks its new Copilot ‘super app’ will be as influential as Office**  \n  After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it…  \n  🔗 https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot\n\n- **Muse will apparently let you download its entire filesystem**  \n  A pair of developers say that with very little prompting, Meta's Muse will share its entir…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem\n\n\n## 其他（5 条）\n\n- **Meta makes the Muse filesystem even more accessible**  \n  Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its fil…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem\n\n- **Sony and UMG are suing Suno again**  \n  Sony and Universal Music Group filed yet another suit against Suno. The labels claim its n…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music\n\n- **One company is at the center of a wave of rogue AI attacks**  \n  In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google\n\n- **Jensen Huang talks about AI and climate change like a supervillain**  \n  As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an en…  \n  🔗 https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain\n\n- **Meta is going to let you build games with AI right on your phone**  \n  Meta has a new plan to get people to make games for its Horizon social platform. The compa…  \n  🔗 https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games\n",
   "items": [
+    {
+      "title": "Meta makes the Muse filesystem even more accessible",
+      "title_zh": "Meta makes the Muse filesystem even more accessible",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem"
+    },
+    {
+      "title": "Sony and UMG are suing Suno again",
+      "title_zh": "Sony and UMG are suing Suno again",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music"
+    },
+    {
+      "title": "One company is at the center of a wave of rogue AI attacks",
+      "title_zh": "One company is at the center of a wave of rogue AI attacks",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
+    },
+    {
+      "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "title_zh": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "link": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review"
+    },
+    {
+      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "title_zh": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "link": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot"
+    },
+    {
+      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+      "title_zh": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+      "link": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
+    },
+    {
+      "title": "Jensen Huang talks about AI and climate change like a supervillain",
+      "title_zh": "Jensen Huang talks about AI and climate change like a supervillain",
+      "link": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain"
+    },
+    {
+      "title": "Meta is going to let you build games with AI right on your phone",
+      "title_zh": "Meta is going to let you build games with AI right on your phone",
+      "link": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games"
+    },
     {
       "title": "Muse will apparently let you download its entire filesystem",
       "title_zh": "Muse will apparently let you download its entire filesystem",
@@ -14,54 +54,14 @@
       "link": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike"
     },
     {
-      "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
-      "title_zh": "It’s sinister that Meta’s Muse AI mascot is so cute",
-      "link": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute"
+      "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+      "title_zh": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+      "link": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/"
     },
     {
-      "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
-      "title_zh": "Gemini can now call businesses for you so you don’t have to wait on hold",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls"
-    },
-    {
-      "title": "Why can’t we just keep rogue AIs off the internet?",
-      "title_zh": "Why can’t we just keep rogue AIs off the internet?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents"
-    },
-    {
-      "title": "Google is sending an AI satellite into space next week",
-      "title_zh": "Google is sending an AI satellite into space next week",
-      "link": "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher"
-    },
-    {
-      "title": "The vibes are bad for Flock in Washington",
-      "title_zh": "The vibes are bad for Flock in Washington",
-      "link": "https://www.theverge.com/policy/1000005/flock-senate-hearing"
-    },
-    {
-      "title": "I have some questions for Mark Zuckerberg",
-      "title_zh": "I have some questions for Mark Zuckerberg",
-      "link": "https://www.theverge.com/podcast/999383/mark-zuckerberg-meta-glasses-ai-teen-safety-surveillance-data-centers"
-    },
-    {
-      "title": "Meta’s Muse AI Charms can interact with each other",
-      "title_zh": "Meta’s Muse AI Charms can interact with each other",
-      "link": "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem"
-    },
-    {
-      "title": "Everything is spying on you and there’s no opting out",
-      "title_zh": "Everything is spying on you and there’s no opting out",
-      "link": "https://www.theverge.com/tech/999889/spy-creep-tech-meta-glasses-apple-watches-surveillance"
-    },
-    {
-      "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
-      "title_zh": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
-      "link": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/"
-    },
-    {
-      "title": "Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS",
-      "title_zh": "Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS",
-      "link": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/"
+      "title": "Astra and Opus just passed Turing’s other test",
+      "title_zh": "Astra and Opus just passed Turing’s other test",
+      "link": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/"
     }
   ]
 }
