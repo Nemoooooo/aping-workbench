@@ -1,8 +1,48 @@
 {
-  "date": "2026-09-28",
-  "generated_at": "2026-09-28 20:02",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-28** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Florida seeks a ban on ChatGPT acting like a person**  \n  Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"givin…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids\n\n- **OpenAI pauses training of its ‘most capable models’**  \n  As reports of OpenAI's models breaking containment, hacking sites, and generally getting o…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause\n\n\n## 产品/应用（1 条）\n\n- **Nvidia launches new platform for reining in rogue AI agents**  \n  As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI …  \n  🔗 https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/\n\n\n## 其他（5 条）\n\n- **OpenAI’s AI agents need to catch up**  \n  OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approach…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent\n\n- **AI is supercharging hacking, and your local hospitals and banks aren’t ready**  \n  In March, Janice Malone began getting calls about suspicious activity from her nonprofit o…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready\n\n- **OpenAI keeps bulldozing mathematicians**  \n  In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable cons…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group\n\n- **Walmart won’t hike prices based on your shopping history, CEO says**  \n  Walmart says it won't change product prices based on your personal information or the time…  \n  🔗 https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels\n\n- **The SaaSpocalypse that wasn’t, with Atlassian CEO Mike Cannon-Brookes**  \n  Today, I’m talking with Mike Cannon-Brookes, who is cofounder and CEO of Atlassian. Atlass…  \n  🔗 https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira\n",
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29 18:31",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-29** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’**  \n  \"The chance of human extinction is about a coin flip, in my view,\" Geoffrey Irving, a form…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews\n\n- **OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite**  \n  OpenAI's newly announced suite of office features puts it into mor direct competition with…  \n  🔗 https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/\n\n\n## 产品/应用（2 条）\n\n- **OpenAI launches Dots, its Muse competitor**  \n  OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor\n\n- **AI-powered app maker Wabi pivots to a messaging experience**  \n  Wabi is repositioning its prompt-based app builder as a personal AI agent that can create …  \n  🔗 https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/\n\n\n## 其他（5 条）\n\n- **Protesters gather at OpenAI’s DevDay**  \n  On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. \"Sam Alt…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers\n\n- **OpenAI DevDay 2026: The biggest news and announcements**  \n  It’s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual Dev…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements\n\n- **Meta’s Muse AI sent a YouTuber’s address to a stranger**  \n  Tech YouTuber Matt Robb says that Muse gave out his home address to a total stranger this …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns\n\n- **Will Chinese AI companies slow down? A top House Democrat wants answers**  \n  As President Donald Trump prepares to meet tech and AI CEOs in Washington, Rep. Ro Khanna …  \n  🔗 https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty\n\n- **Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing**  \n  As Anthropic gears up for its greatly anticipated public debut, a preview of the company's…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat\n",
   "items": [
+    {
+      "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+      "title_zh": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews"
+    },
+    {
+      "title": "OpenAI launches Dots, its Muse competitor",
+      "title_zh": "OpenAI launches Dots, its Muse competitor",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor"
+    },
+    {
+      "title": "Protesters gather at OpenAI’s DevDay",
+      "title_zh": "Protesters gather at OpenAI’s DevDay",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers"
+    },
+    {
+      "title": "OpenAI DevDay 2026: The biggest news and announcements",
+      "title_zh": "OpenAI DevDay 2026: The biggest news and announcements",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements"
+    },
+    {
+      "title": "Meta’s Muse AI sent a YouTuber’s address to a stranger",
+      "title_zh": "Meta’s Muse AI sent a YouTuber’s address to a stranger",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns"
+    },
+    {
+      "title": "Will Chinese AI companies slow down? A top House Democrat wants answers",
+      "title_zh": "Will Chinese AI companies slow down? A top House Democrat wants answers",
+      "link": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty"
+    },
+    {
+      "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
+      "title_zh": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat"
+    },
+    {
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "title_zh": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
+    },
     {
       "title": "OpenAI’s AI agents need to catch up",
       "title_zh": "OpenAI’s AI agents need to catch up",
@@ -14,54 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready"
     },
     {
-      "title": "Florida seeks a ban on ChatGPT acting like a person",
-      "title_zh": "Florida seeks a ban on ChatGPT acting like a person",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids"
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+      "title_zh": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+      "link": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/"
     },
     {
-      "title": "OpenAI keeps bulldozing mathematicians",
-      "title_zh": "OpenAI keeps bulldozing mathematicians",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group"
-    },
-    {
-      "title": "Walmart won’t hike prices based on your shopping history, CEO says",
-      "title_zh": "Walmart won’t hike prices based on your shopping history, CEO says",
-      "link": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels"
-    },
-    {
-      "title": "The SaaSpocalypse that wasn’t, with Atlassian CEO Mike Cannon-Brookes",
-      "title_zh": "The SaaSpocalypse that wasn’t, with Atlassian CEO Mike Cannon-Brookes",
-      "link": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira"
-    },
-    {
-      "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
-      "title_zh": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
-      "link": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents"
-    },
-    {
-      "title": "Engram is a sampler that turns broken AI hallucinations into music",
-      "title_zh": "Engram is a sampler that turns broken AI hallucinations into music",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music"
-    },
-    {
-      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "title_zh": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website"
-    },
-    {
-      "title": "OpenAI pauses training of its ‘most capable models’",
-      "title_zh": "OpenAI pauses training of its ‘most capable models’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause"
-    },
-    {
-      "title": "Shopify opens checkout to browser-based AI agents",
-      "title_zh": "Shopify opens checkout to browser-based AI agents",
-      "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/"
-    },
-    {
-      "title": "Nvidia launches new platform for reining in rogue AI agents",
-      "title_zh": "Nvidia launches new platform for reining in rogue AI agents",
-      "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/"
+      "title": "AI-powered app maker Wabi pivots to a messaging experience",
+      "title_zh": "AI-powered app maker Wabi pivots to a messaging experience",
+      "link": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/"
     }
   ]
 }
