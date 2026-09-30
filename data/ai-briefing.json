@@ -1,67 +1,67 @@
 {
-  "date": "2026-09-29",
-  "generated_at": "2026-09-29 18:31",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-29** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’**  \n  \"The chance of human extinction is about a coin flip, in my view,\" Geoffrey Irving, a form…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews\n\n- **OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite**  \n  OpenAI's newly announced suite of office features puts it into mor direct competition with…  \n  🔗 https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/\n\n\n## 产品/应用（2 条）\n\n- **OpenAI launches Dots, its Muse competitor**  \n  OpenAI is responding to Meta's buzzy Muse AI with agentic helpers of its own: Dots. During…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor\n\n- **AI-powered app maker Wabi pivots to a messaging experience**  \n  Wabi is repositioning its prompt-based app builder as a personal AI agent that can create …  \n  🔗 https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/\n\n\n## 其他（5 条）\n\n- **Protesters gather at OpenAI’s DevDay**  \n  On Tuesday, OpenAI's annual DevDay event began with protests, flyers, and chants. \"Sam Alt…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers\n\n- **OpenAI DevDay 2026: The biggest news and announcements**  \n  It’s OpenAI’s turn in the fall tech events calendar. The company is hosting its annual Dev…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements\n\n- **Meta’s Muse AI sent a YouTuber’s address to a stranger**  \n  Tech YouTuber Matt Robb says that Muse gave out his home address to a total stranger this …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns\n\n- **Will Chinese AI companies slow down? A top House Democrat wants answers**  \n  As President Donald Trump prepares to meet tech and AI CEOs in Washington, Rep. Ro Khanna …  \n  🔗 https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty\n\n- **Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing**  \n  As Anthropic gears up for its greatly anticipated public debut, a preview of the company's…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat\n",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30 18:19",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-09-30** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Sam Altman says OpenAI won’t go public until its models are safe**  \n  For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety\n\n- **AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’**  \n  \"The chance of human extinction is about a coin flip, in my view,\" Geoffrey Irving, a form…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews\n\n\n## 其他（5 条）\n\n- **The AI Tamagotchis are coming**  \n  While AI has made plenty of inroads on people's phones and computers, it's largely failed …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices\n\n- **Here’s what AI leaders are saying about Trump’s new safety plan**  \n  After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments\n\n- **All the latest news on Meta’s cute, creepy Muse AI agent**  \n  Meta launched a new Muse AI agent it claims can help you with everything from firing off e…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai\n\n- **Google reportedly tests paying publishers for AI search results**  \n  Google has launched a pilot program that pays publishers for their contributions to its AI…  \n  🔗 https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features\n\n- **Instagram is adding an AI ‘assistant’ to tell you how to post**  \n  Instagram is the latest social media platform to add built-in AI-powered features that wil…  \n  🔗 https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube\n",
   "items": [
+    {
+      "title": "The AI Tamagotchis are coming",
+      "title_zh": "The AI Tamagotchis are coming",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices"
+    },
+    {
+      "title": "Here’s what AI leaders are saying about Trump’s new safety plan",
+      "title_zh": "Here’s what AI leaders are saying about Trump’s new safety plan",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments"
+    },
+    {
+      "title": "All the latest news on Meta’s cute, creepy Muse AI agent",
+      "title_zh": "All the latest news on Meta’s cute, creepy Muse AI agent",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai"
+    },
+    {
+      "title": "Google reportedly tests paying publishers for AI search results",
+      "title_zh": "Google reportedly tests paying publishers for AI search results",
+      "link": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features"
+    },
+    {
+      "title": "Instagram is adding an AI ‘assistant’ to tell you how to post",
+      "title_zh": "Instagram is adding an AI ‘assistant’ to tell you how to post",
+      "link": "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube"
+    },
+    {
+      "title": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+      "title_zh": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs"
+    },
+    {
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "title_zh": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety"
+    },
+    {
+      "title": "Trump orders US government to call AI ‘Super Intelligence’",
+      "title_zh": "Trump orders US government to call AI ‘Super Intelligence’",
+      "link": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai"
+    },
+    {
+      "title": "Elon Musk’s AI-powered Grokipedia is updating again",
+      "title_zh": "Elon Musk’s AI-powered Grokipedia is updating again",
+      "link": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again"
+    },
     {
       "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
       "title_zh": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews"
     },
     {
-      "title": "OpenAI launches Dots, its Muse competitor",
-      "title_zh": "OpenAI launches Dots, its Muse competitor",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor"
+      "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "title_zh": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "link": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
     },
     {
-      "title": "Protesters gather at OpenAI’s DevDay",
-      "title_zh": "Protesters gather at OpenAI’s DevDay",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers"
-    },
-    {
-      "title": "OpenAI DevDay 2026: The biggest news and announcements",
-      "title_zh": "OpenAI DevDay 2026: The biggest news and announcements",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements"
-    },
-    {
-      "title": "Meta’s Muse AI sent a YouTuber’s address to a stranger",
-      "title_zh": "Meta’s Muse AI sent a YouTuber’s address to a stranger",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns"
-    },
-    {
-      "title": "Will Chinese AI companies slow down? A top House Democrat wants answers",
-      "title_zh": "Will Chinese AI companies slow down? A top House Democrat wants answers",
-      "link": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty"
-    },
-    {
-      "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
-      "title_zh": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat"
-    },
-    {
-      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
-      "title_zh": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
-      "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
-    },
-    {
-      "title": "OpenAI’s AI agents need to catch up",
-      "title_zh": "OpenAI’s AI agents need to catch up",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent"
-    },
-    {
-      "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
-      "title_zh": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready"
-    },
-    {
-      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "title_zh": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "link": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/"
-    },
-    {
-      "title": "AI-powered app maker Wabi pivots to a messaging experience",
-      "title_zh": "AI-powered app maker Wabi pivots to a messaging experience",
-      "link": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/"
+      "title": "The ugly economics of consumer AI",
+      "title_zh": "The ugly economics of consumer AI",
+      "link": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/"
     }
   ]
 }
