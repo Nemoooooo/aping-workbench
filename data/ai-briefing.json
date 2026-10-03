@@ -1,8 +1,33 @@
 {
-  "date": "2026-10-02",
-  "generated_at": "2026-10-02 18:16",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-02** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents**  \n  Apple says it will add new controls around macOS’s Full Disk Access permission, warning th…  \n  🔗 https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/\n\n\n## 其他（5 条）\n\n- **OpenAI’s Dot agent is enterprise software that can also order your dinner**  \n  It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent\n\n- **Breaking up (with Elon Musk) is hard to do**  \n  In a throwback to MySpace-style internet drama, Shivon Zilis announced that she and the fa…  \n  🔗 https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis\n\n- **AI hallucinations are making entitled customers even worse**  \n  Madison, a server in New York City, greets every table by asking about each diner's allerg…  \n  🔗 https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents\n\n- **If a data center is camouflaged in the woods, will anyone hate it?**  \n  San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his…  \n  🔗 https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry\n\n- **Amazon writes scary blog warning communities not to block data centers**  \n  Amazon is calling for people to support AI data center projects, or risk irreparable harm …  \n  🔗 https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning\n",
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03 17:06",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-03** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Apple will limit Mac disk access as AI agents ‘substantially’ increase risk**  \n  Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI a…  \n  🔗 https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents\n\n\n## 其他（5 条）\n\n- **Capcom is preparing for a ‘future where we create games together with AI’**  \n  Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't…  \n  🔗 https://www.theverge.com/games/1004418/capcom-ai-game-development\n\n- **Splice CEO Kakul Srivastava thinks AI emails are killing conversations**  \n  Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for…  \n  🔗 https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview\n\n- **An OpenAI safety employee has quit and is sounding the alarm**  \n  David Robinson used to write the safety reports that accompanied every major model release…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm\n\n- **Meta open sources code to let you make Muse AI gadgets**  \n  Meta now lets you make your own Muse gadgets that feature the company's new AI agent with …  \n  🔗 https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link\n\n- **OpenAI’s Dot agent is enterprise software that can also order your dinner**  \n  It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent\n",
   "items": [
+    {
+      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+      "title_zh": "Capcom is preparing for a ‘future where we create games together with AI’",
+      "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development"
+    },
+    {
+      "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+      "title_zh": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+      "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview"
+    },
+    {
+      "title": "An OpenAI safety employee has quit and is sounding the alarm",
+      "title_zh": "An OpenAI safety employee has quit and is sounding the alarm",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+    },
+    {
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "title_zh": "Meta open sources code to let you make Muse AI gadgets",
+      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+    },
+    {
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "title_zh": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+    },
     {
       "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
       "title_zh": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
@@ -29,39 +54,14 @@
       "link": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning"
     },
     {
-      "title": "AI music maker Suno now generates spoken words",
-      "title_zh": "AI music maker Suno now generates spoken words",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability"
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "title_zh": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
     },
     {
-      "title": "Google’s new Guided Vision feature can help you read the fine print",
-      "title_zh": "Google’s new Guided Vision feature can help you read the fine print",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
-    },
-    {
-      "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
-      "title_zh": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
-      "link": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
-    },
-    {
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "title_zh": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
-    },
-    {
-      "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
-      "title_zh": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
-      "link": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash"
-    },
-    {
-      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
-      "title_zh": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
-      "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
-    },
-    {
-      "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
-      "title_zh": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
-      "link": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/"
+      "title": "All the AI agents that can live in your text messages",
+      "title_zh": "All the AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/"
     }
   ]
 }
