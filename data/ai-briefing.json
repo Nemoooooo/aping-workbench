@@ -1,8 +1,18 @@
 {
-  "date": "2026-10-03",
-  "generated_at": "2026-10-03 17:06",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-03** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Apple will limit Mac disk access as AI agents ‘substantially’ increase risk**  \n  Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI a…  \n  🔗 https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents\n\n\n## 其他（5 条）\n\n- **Capcom is preparing for a ‘future where we create games together with AI’**  \n  Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't…  \n  🔗 https://www.theverge.com/games/1004418/capcom-ai-game-development\n\n- **Splice CEO Kakul Srivastava thinks AI emails are killing conversations**  \n  Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for…  \n  🔗 https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview\n\n- **An OpenAI safety employee has quit and is sounding the alarm**  \n  David Robinson used to write the safety reports that accompanied every major model release…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm\n\n- **Meta open sources code to let you make Muse AI gadgets**  \n  Meta now lets you make your own Muse gadgets that feature the company's new AI agent with …  \n  🔗 https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link\n\n- **OpenAI’s Dot agent is enterprise software that can also order your dinner**  \n  It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent\n",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04 17:21",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-04** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Apple will limit Mac disk access as AI agents ‘substantially’ increase risk**  \n  Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI a…  \n  🔗 https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents\n\n\n## 其他（5 条）\n\n- **NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment**  \n  New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th afte…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true\n\n- **An AI couldn’t beat humans at StarCraft, so it decided to cheat**  \n  StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against h…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft\n\n- **Capcom is preparing for a ‘future where we create games together with AI’**  \n  Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't…  \n  🔗 https://www.theverge.com/games/1004418/capcom-ai-game-development\n\n- **Splice CEO Kakul Srivastava thinks AI emails are killing conversations**  \n  Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for…  \n  🔗 https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview\n\n- **An OpenAI safety employee has quit and is sounding the alarm**  \n  David Robinson used to write the safety reports that accompanied every major model release…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm\n",
   "items": [
+    {
+      "title": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+      "title_zh": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true"
+    },
+    {
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "title_zh": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft"
+    },
     {
       "title": "Capcom is preparing for a ‘future where we create games together with AI’",
       "title_zh": "Capcom is preparing for a ‘future where we create games together with AI’",
@@ -44,24 +54,14 @@
       "link": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents"
     },
     {
-      "title": "If a data center is camouflaged in the woods, will anyone hate it?",
-      "title_zh": "If a data center is camouflaged in the woods, will anyone hate it?",
-      "link": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry"
+      "title": "Trump unveils his new Super Intelligence Force",
+      "title_zh": "Trump unveils his new Super Intelligence Force",
+      "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
     },
     {
-      "title": "Amazon writes scary blog warning communities not to block data centers",
-      "title_zh": "Amazon writes scary blog warning communities not to block data centers",
-      "link": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning"
-    },
-    {
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "title_zh": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
-    },
-    {
-      "title": "All the AI agents that can live in your text messages",
-      "title_zh": "All the AI agents that can live in your text messages",
-      "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/"
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "title_zh": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
     }
   ]
 }
