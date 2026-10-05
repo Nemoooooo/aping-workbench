@@ -1,67 +1,67 @@
 {
-  "date": "2026-10-04",
-  "generated_at": "2026-10-04 17:21",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-04** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Apple will limit Mac disk access as AI agents ‘substantially’ increase risk**  \n  Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI a…  \n  🔗 https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents\n\n\n## 其他（5 条）\n\n- **NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment**  \n  New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th afte…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true\n\n- **An AI couldn’t beat humans at StarCraft, so it decided to cheat**  \n  StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against h…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft\n\n- **Capcom is preparing for a ‘future where we create games together with AI’**  \n  Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't…  \n  🔗 https://www.theverge.com/games/1004418/capcom-ai-game-development\n\n- **Splice CEO Kakul Srivastava thinks AI emails are killing conversations**  \n  Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for…  \n  🔗 https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview\n\n- **An OpenAI safety employee has quit and is sounding the alarm**  \n  David Robinson used to write the safety reports that accompanied every major model release…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm\n",
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05 21:11",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-05** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（5 条）\n\n- **OpenAI is adding text watermarking in ChatGPT and Codex**  \n  An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Code…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act\n\n- **OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide**  \n  An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fa…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr\n\n- **OpenAI is sticking more ads in ChatGPT**  \n  OpenAI's latest ad format will put images of sponsored products and services on your scree…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads\n\n- **OpenAI will start watermarking ChatGPT’s text in the EU**  \n  OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing …  \n  🔗 https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/\n\n- **Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost**  \n  Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitc…  \n  🔗 https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/\n\n\n## 产品/应用（2 条）\n\n- **Sam Altman says ‘some bad things’ will happen, but AI is totally worth it**  \n  Sam Altman thinks that the benefits of AI will be so great that \"the world should accept s…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff\n\n- **An open-source tool lets you delete 12GB of Apple Intelligence data on macOS**  \n  Getting some extra storage space on your Mac could be as easy as deleting Apple's AI featu…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool\n\n\n## 政策/行业（1 条）\n\n- **Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time**  \n  Today, I’m talking with Sen. Adam Schiff, a Democrat from California. Schiff sits on a num…  \n  🔗 https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption\n\n\n## 其他（4 条）\n\n- **This startup is issuing AI-generated acne prescriptions**  \n  People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthc…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions\n\n- **All the drama around AI’s takeover of mathematics**  \n  This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution\n\n- **Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage**  \n  Following many recent disclosures about AI agents accessing third-party websites and servi…  \n  🔗 https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage\n\n- **Our minds aren’t equipped to handle AI**  \n  Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflecte…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought\n",
   "items": [
     {
-      "title": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
-      "title_zh": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true"
+      "title": "This startup is issuing AI-generated acne prescriptions",
+      "title_zh": "This startup is issuing AI-generated acne prescriptions",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions"
     },
     {
-      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-      "title_zh": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft"
+      "title": "All the drama around AI’s takeover of mathematics",
+      "title_zh": "All the drama around AI’s takeover of mathematics",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution"
     },
     {
-      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
-      "title_zh": "Capcom is preparing for a ‘future where we create games together with AI’",
-      "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development"
+      "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+      "title_zh": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+      "link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
     },
     {
-      "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
-      "title_zh": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
-      "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview"
+      "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+      "title_zh": "OpenAI is adding text watermarking in ChatGPT and Codex",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
     },
     {
-      "title": "An OpenAI safety employee has quit and is sounding the alarm",
-      "title_zh": "An OpenAI safety employee has quit and is sounding the alarm",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+      "title": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide",
+      "title_zh": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr"
     },
     {
-      "title": "Meta open sources code to let you make Muse AI gadgets",
-      "title_zh": "Meta open sources code to let you make Muse AI gadgets",
-      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+      "title": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+      "title_zh": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff"
     },
     {
-      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-      "title_zh": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-      "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+      "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+      "title_zh": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+      "link": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption"
     },
     {
-      "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-      "title_zh": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+      "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS",
+      "title_zh": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool"
     },
     {
-      "title": "Breaking up (with Elon Musk) is hard to do",
-      "title_zh": "Breaking up (with Elon Musk) is hard to do",
-      "link": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis"
+      "title": "OpenAI is sticking more ads in ChatGPT",
+      "title_zh": "OpenAI is sticking more ads in ChatGPT",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads"
     },
     {
-      "title": "AI hallucinations are making entitled customers even worse",
-      "title_zh": "AI hallucinations are making entitled customers even worse",
-      "link": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents"
+      "title": "Our minds aren’t equipped to handle AI",
+      "title_zh": "Our minds aren’t equipped to handle AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought"
     },
     {
-      "title": "Trump unveils his new Super Intelligence Force",
-      "title_zh": "Trump unveils his new Super Intelligence Force",
-      "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "title_zh": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
     },
     {
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "title_zh": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "title_zh": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
     }
   ]
 }
