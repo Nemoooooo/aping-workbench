@@ -1,8 +1,23 @@
 {
-  "date": "2026-10-11",
-  "generated_at": "2026-10-11 17:56",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-11** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Satya Nadella says we should assume all AI models are ‘compromised’**  \n  In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\n\n- **These execs think voice AI hasn’t reached its ChatGPT moment yet**  \n  Voice AI's often misses important points for its context layer, and causes the whole pipel…  \n  🔗 https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/\n\n\n## 其他（5 条）\n\n- **Learning to use local AI is exciting, overwhelming, and frustrating**  \n  I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the re…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress\n\n- **DistroKid has been quietly taking down songs in response to UMG lawsuit**  \n  Artists are taking to social media to complain that DistroKid has unceremoniously removed …  \n  🔗 https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit\n\n- **Anthropic is cutting off its internal evaluations from the internet**  \n  After a recent spate of high-profile incidents in which AI agents escaped containment, Ant…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet\n\n- **AI agent makers are promising privacy — will they deliver?**  \n  At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - an…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots\n\n- **Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide**  \n  An Anthropic AI model provided false information about an unsolved homicide to a Philadelp…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip\n",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12 21:38",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-12** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **Meta has some Wonder Full new AI models**  \n  Meta is making up for lost time in the AI race. After launching Muse Spark, the first mode…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model\n\n- **Satya Nadella says we should assume all AI models are ‘compromised’**  \n  In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\n\n- **Meta releases its first frontier model, Muse Wonder**  \n  Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wo…  \n  🔗 https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/\n\n\n## 产品/应用（1 条）\n\n- **Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs**  \n  Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be t…  \n  🔗 https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout\n\n\n## 其他（5 条）\n\n- **Silicon Valley is falling in line with Trump’s attempt to rename AI**  \n  When President Donald Trump announced his plans to rebrand artificial intelligence as \"sup…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai\n\n- **Learning to use local AI is exciting, overwhelming, and frustrating**  \n  I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the re…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress\n\n- **DistroKid has been quietly taking down songs in response to UMG lawsuit**  \n  Artists are taking to social media to complain that DistroKid has unceremoniously removed …  \n  🔗 https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit\n\n- **Anthropic is cutting off its internal evaluations from the internet**  \n  After a recent spate of high-profile incidents in which AI agents escaped containment, Ant…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet\n\n- **AI agent makers are promising privacy — will they deliver?**  \n  At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - an…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots\n",
   "items": [
+    {
+      "title": "Meta has some Wonder Full new AI models",
+      "title_zh": "Meta has some Wonder Full new AI models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+    },
+    {
+      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "title_zh": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "link": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+    },
+    {
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "title_zh": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
+    },
     {
       "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
       "title_zh": "Learning to use local AI is exciting, overwhelming, and frustrating",
@@ -39,29 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos"
     },
     {
-      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
-      "title_zh": "Nikon microscopic video competition winner disqualified for using generative AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai"
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "title_zh": "Meta releases its first frontier model, Muse Wonder",
+      "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
     },
     {
-      "title": "Trump’s attempt to rename AI is looking awfully artificial",
-      "title_zh": "Trump’s attempt to rename AI is looking awfully artificial",
-      "link": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding"
-    },
-    {
-      "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
-      "title_zh": "Instinct was the buzziest AI agent around — can it survive Muse?",
-      "link": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots"
-    },
-    {
-      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "title_zh": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "link": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/"
-    },
-    {
-      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-      "title_zh": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-      "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/"
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "title_zh": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
     }
   ]
 }
