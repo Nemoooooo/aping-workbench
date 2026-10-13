@@ -1,67 +1,67 @@
 {
-  "date": "2026-10-12",
-  "generated_at": "2026-10-12 21:38",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-12** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **Meta has some Wonder Full new AI models**  \n  Meta is making up for lost time in the AI race. After launching Muse Spark, the first mode…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model\n\n- **Satya Nadella says we should assume all AI models are ‘compromised’**  \n  In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\n\n- **Meta releases its first frontier model, Muse Wonder**  \n  Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wo…  \n  🔗 https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/\n\n\n## 产品/应用（1 条）\n\n- **Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs**  \n  Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be t…  \n  🔗 https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout\n\n\n## 其他（5 条）\n\n- **Silicon Valley is falling in line with Trump’s attempt to rename AI**  \n  When President Donald Trump announced his plans to rebrand artificial intelligence as \"sup…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai\n\n- **Learning to use local AI is exciting, overwhelming, and frustrating**  \n  I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the re…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress\n\n- **DistroKid has been quietly taking down songs in response to UMG lawsuit**  \n  Artists are taking to social media to complain that DistroKid has unceremoniously removed …  \n  🔗 https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit\n\n- **Anthropic is cutting off its internal evaluations from the internet**  \n  After a recent spate of high-profile incidents in which AI agents escaped containment, Ant…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet\n\n- **AI agent makers are promising privacy — will they deliver?**  \n  At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - an…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots\n",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13 19:47",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-13** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Google finally releases Gemini 4 Argon**  \n  After months sitting on the sidelines of the frontier AI race, Google has finally launched…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon\n\n\n## 产品/应用（2 条）\n\n- **Google makes it easier to launch your vibe-coded apps**  \n  The next time you vibe-code a custom app with Google's AI Studio, you won't have to connec…  \n  🔗 https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch\n\n- **Apple launches HomeView, its first smart display for the home**  \n  It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I …  \n  🔗 https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look\n\n\n## 其他（5 条）\n\n- **Xbox is officially embracing the chaos of AI-powered game ports**  \n  Retro gaming is going through a wild time at the moment, thanks to decompilations and reco…  \n  🔗 https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration\n\n- **I don’t miss the camera on the Ray-Ban Meta Audio glasses**  \n  The other day I whizzed past several people while running in the park, my playlist blastin…  \n  🔗 https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables\n\n- **Facebook will let you customize your feed algorithm using AI**  \n  Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you wa…  \n  🔗 https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai\n\n- **Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread**  \n  Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce\n\n- **Epic shifts to ‘AI-accelerated development’ for upcoming Disney game**  \n  Epic Games plans to use AI to generate code and art for an unannounced Disney game, which …  \n  🔗 https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art\n",
   "items": [
     {
-      "title": "Meta has some Wonder Full new AI models",
-      "title_zh": "Meta has some Wonder Full new AI models",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+      "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+      "title_zh": "Xbox is officially embracing the chaos of AI-powered game ports",
+      "link": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration"
     },
     {
-      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "title_zh": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "link": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+      "title": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+      "title_zh": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+      "link": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables"
     },
     {
-      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-      "title_zh": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
+      "title": "Facebook will let you customize your feed algorithm using AI",
+      "title_zh": "Facebook will let you customize your feed algorithm using AI",
+      "link": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai"
     },
     {
-      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
-      "title_zh": "Learning to use local AI is exciting, overwhelming, and frustrating",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+      "title": "Google makes it easier to launch your vibe-coded apps",
+      "title_zh": "Google makes it easier to launch your vibe-coded apps",
+      "link": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch"
     },
     {
-      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
-      "title_zh": "Satya Nadella says we should assume all AI models are ‘compromised’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+      "title": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+      "title_zh": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce"
     },
     {
-      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-      "title_zh": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-      "link": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit"
+      "title": "Google finally releases Gemini 4 Argon",
+      "title_zh": "Google finally releases Gemini 4 Argon",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
     },
     {
-      "title": "Anthropic is cutting off its internal evaluations from the internet",
-      "title_zh": "Anthropic is cutting off its internal evaluations from the internet",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet"
+      "title": "Epic shifts to ‘AI-accelerated development’ for upcoming Disney game",
+      "title_zh": "Epic shifts to ‘AI-accelerated development’ for upcoming Disney game",
+      "link": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
     },
     {
-      "title": "AI agent makers are promising privacy — will they deliver?",
-      "title_zh": "AI agent makers are promising privacy — will they deliver?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots"
+      "title": "DLSS 5 gets toned down for its Hogwarts Legacy debut next month",
+      "title_zh": "DLSS 5 gets toned down for its Hogwarts Legacy debut next month",
+      "link": "https://www.theverge.com/news/1009904/dlss-5-hogwarts-legacy-changes-improvements"
     },
     {
-      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-      "title_zh": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+      "title": "Apple launches HomeView, its first smart display for the home",
+      "title_zh": "Apple launches HomeView, its first smart display for the home",
+      "link": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look"
     },
     {
-      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
-      "title_zh": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos"
+      "title": "Character.AI files for bankruptcy",
+      "title_zh": "Character.AI files for bankruptcy",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
     },
     {
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "title_zh": "Meta releases its first frontier model, Muse Wonder",
-      "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+      "title_zh": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+      "link": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/"
     },
     {
-      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-      "title_zh": "WindBorne wins a hefty US Air Force contract for its balloon data",
-      "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/"
+      "title": "Facebook is giving users more control over their algorithm",
+      "title_zh": "Facebook is giving users more control over their algorithm",
+      "link": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/"
     }
   ]
 }
