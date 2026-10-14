@@ -1,67 +1,67 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13 19:47",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-13** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Google finally releases Gemini 4 Argon**  \n  After months sitting on the sidelines of the frontier AI race, Google has finally launched…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon\n\n\n## 产品/应用（2 条）\n\n- **Google makes it easier to launch your vibe-coded apps**  \n  The next time you vibe-code a custom app with Google's AI Studio, you won't have to connec…  \n  🔗 https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch\n\n- **Apple launches HomeView, its first smart display for the home**  \n  It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I …  \n  🔗 https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look\n\n\n## 其他（5 条）\n\n- **Xbox is officially embracing the chaos of AI-powered game ports**  \n  Retro gaming is going through a wild time at the moment, thanks to decompilations and reco…  \n  🔗 https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration\n\n- **I don’t miss the camera on the Ray-Ban Meta Audio glasses**  \n  The other day I whizzed past several people while running in the park, my playlist blastin…  \n  🔗 https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables\n\n- **Facebook will let you customize your feed algorithm using AI**  \n  Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you wa…  \n  🔗 https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai\n\n- **Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread**  \n  Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce\n\n- **Epic shifts to ‘AI-accelerated development’ for upcoming Disney game**  \n  Epic Games plans to use AI to generate code and art for an unannounced Disney game, which …  \n  🔗 https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art\n",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14 17:51",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-14** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（2 条）\n\n- **OpenAI claims an ex-employee took its product plans and presented them to Apple**  \n  OpenAI claims a former employee took more than 100 files related to its product plans befo…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans\n\n- **Epic’s new games launcher is ‘vibe coded’**  \n  Epic Games is announcing a big refresh of its PC games launcher today in preview, saying t…  \n  🔗 https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux\n\n\n## 其他（5 条）\n\n- **My AI doppelganger tells me what to eat**  \n  This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that …  \n  🔗 https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health\n\n- **Microsoft has a new machine learning tool to improve weather forecasts**  \n  Old-school physics-based weather forecasting and even new AI models typically become less …  \n  🔗 https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft\n\n- **Square’s new kiosk lets you talk to AI for help with your order**  \n  Square is launching new hardware: a big kiosk for ordering things that has a touchscreen a…  \n  🔗 https://www.theverge.com/tech/1009086/square-kiosk\n\n- **Android is using AI to suss out scammers in Google Messages**  \n  Android is introducing new scam defense features that aim to make it easier for users to e…  \n  🔗 https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages\n\n- **Anthropic’s self-replicating AI warning is alarming deja vu**  \n  Are legions of smart devices - fridges, ovens, vacuum cleaners, lawnmowers, security camer…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk\n",
   "items": [
+    {
+      "title": "My AI doppelganger tells me what to eat",
+      "title_zh": "My AI doppelganger tells me what to eat",
+      "link": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health"
+    },
+    {
+      "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+      "title_zh": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
+    },
+    {
+      "title": "Microsoft has a new machine learning tool to improve weather forecasts",
+      "title_zh": "Microsoft has a new machine learning tool to improve weather forecasts",
+      "link": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft"
+    },
+    {
+      "title": "Square’s new kiosk lets you talk to AI for help with your order",
+      "title_zh": "Square’s new kiosk lets you talk to AI for help with your order",
+      "link": "https://www.theverge.com/tech/1009086/square-kiosk"
+    },
+    {
+      "title": "Android is using AI to suss out scammers in Google Messages",
+      "title_zh": "Android is using AI to suss out scammers in Google Messages",
+      "link": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages"
+    },
+    {
+      "title": "Anthropic’s self-replicating AI warning is alarming deja vu",
+      "title_zh": "Anthropic’s self-replicating AI warning is alarming deja vu",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk"
+    },
+    {
+      "title": "Epic’s new games launcher is ‘vibe coded’",
+      "title_zh": "Epic’s new games launcher is ‘vibe coded’",
+      "link": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux"
+    },
+    {
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "title_zh": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device"
+    },
+    {
+      "title": "Shopify opens its catalog up to more AI agents",
+      "title_zh": "Shopify opens its catalog up to more AI agents",
+      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
+    },
     {
       "title": "Xbox is officially embracing the chaos of AI-powered game ports",
       "title_zh": "Xbox is officially embracing the chaos of AI-powered game ports",
       "link": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration"
     },
     {
-      "title": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
-      "title_zh": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
-      "link": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables"
+      "title": "Deezer will soon let you filter out AI-generated music",
+      "title_zh": "Deezer will soon let you filter out AI-generated music",
+      "link": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
     },
     {
-      "title": "Facebook will let you customize your feed algorithm using AI",
-      "title_zh": "Facebook will let you customize your feed algorithm using AI",
-      "link": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai"
-    },
-    {
-      "title": "Google makes it easier to launch your vibe-coded apps",
-      "title_zh": "Google makes it easier to launch your vibe-coded apps",
-      "link": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch"
-    },
-    {
-      "title": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
-      "title_zh": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce"
-    },
-    {
-      "title": "Google finally releases Gemini 4 Argon",
-      "title_zh": "Google finally releases Gemini 4 Argon",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
-    },
-    {
-      "title": "Epic shifts to ‘AI-accelerated development’ for upcoming Disney game",
-      "title_zh": "Epic shifts to ‘AI-accelerated development’ for upcoming Disney game",
-      "link": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art"
-    },
-    {
-      "title": "DLSS 5 gets toned down for its Hogwarts Legacy debut next month",
-      "title_zh": "DLSS 5 gets toned down for its Hogwarts Legacy debut next month",
-      "link": "https://www.theverge.com/news/1009904/dlss-5-hogwarts-legacy-changes-improvements"
-    },
-    {
-      "title": "Apple launches HomeView, its first smart display for the home",
-      "title_zh": "Apple launches HomeView, its first smart display for the home",
-      "link": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look"
-    },
-    {
-      "title": "Character.AI files for bankruptcy",
-      "title_zh": "Character.AI files for bankruptcy",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
-    },
-    {
-      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
-      "title_zh": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
-      "link": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/"
-    },
-    {
-      "title": "Facebook is giving users more control over their algorithm",
-      "title_zh": "Facebook is giving users more control over their algorithm",
-      "link": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/"
+      "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
+      "title_zh": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
+      "link": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/"
     }
   ]
 }
