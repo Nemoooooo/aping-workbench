@@ -1,67 +1,67 @@
 {
-  "date": "2026-10-14",
-  "generated_at": "2026-10-14 17:51",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-14** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（2 条）\n\n- **OpenAI claims an ex-employee took its product plans and presented them to Apple**  \n  OpenAI claims a former employee took more than 100 files related to its product plans befo…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans\n\n- **Epic’s new games launcher is ‘vibe coded’**  \n  Epic Games is announcing a big refresh of its PC games launcher today in preview, saying t…  \n  🔗 https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux\n\n\n## 其他（5 条）\n\n- **My AI doppelganger tells me what to eat**  \n  This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that …  \n  🔗 https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health\n\n- **Microsoft has a new machine learning tool to improve weather forecasts**  \n  Old-school physics-based weather forecasting and even new AI models typically become less …  \n  🔗 https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft\n\n- **Square’s new kiosk lets you talk to AI for help with your order**  \n  Square is launching new hardware: a big kiosk for ordering things that has a touchscreen a…  \n  🔗 https://www.theverge.com/tech/1009086/square-kiosk\n\n- **Android is using AI to suss out scammers in Google Messages**  \n  Android is introducing new scam defense features that aim to make it easier for users to e…  \n  🔗 https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages\n\n- **Anthropic’s self-replicating AI warning is alarming deja vu**  \n  Are legions of smart devices - fridges, ovens, vacuum cleaners, lawnmowers, security camer…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk\n",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15 17:40",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-15** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Eight states sue OpenAI, saying ChatGPT isn’t safe for kids**  \n  OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of ha…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety\n\n\n## 产品/应用（3 条）\n\n- **Google launches its ‘universal’ online shopping cart ahead of the holidays**  \n  Google's intelligent AI shopping cart is finally here, and just in time to tempt users int…  \n  🔗 https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch\n\n- **McKinsey is making job applicants spar with a fake AI client**  \n  Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 1…  \n  🔗 https://www.theverge.com/news/1011654/mckinsey-ai-client-interview\n\n- **Google’s Universal Cart shopping tool launches in the US**  \n  The new shopping tool is available in the U.S. across Google Search and the Gemini app.…  \n  🔗 https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/\n\n\n## 其他（5 条）\n\n- **Friends don’t let friends feed their data to AI agents**  \n  There's a growing trend in the consumer tech world: gadgets designed to spy on everything …  \n  🔗 https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent\n\n- **How Windows is being optimized for Nvidia’s RTX Spark laptops**  \n  Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week…  \n  🔗 https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad\n\n- **Nobody is safe from celebrity AI deepfakes**  \n  In hindsight, the post on Instagram should have raised more red flags. The image purported…  \n  🔗 https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth\n\n- **Benn Jordan on Flock, privacy, and the new surveillance backlash**  \n  Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative jou…  \n  🔗 https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy\n\n- **Amazon’s always-listening Bee wearable can now help you buy stuff**  \n  Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI …  \n  🔗 https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs\n",
   "items": [
     {
-      "title": "My AI doppelganger tells me what to eat",
-      "title_zh": "My AI doppelganger tells me what to eat",
-      "link": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health"
+      "title": "Friends don’t let friends feed their data to AI agents",
+      "title_zh": "Friends don’t let friends feed their data to AI agents",
+      "link": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent"
     },
     {
-      "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
-      "title_zh": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
+      "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
+      "title_zh": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
+      "link": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad"
     },
     {
-      "title": "Microsoft has a new machine learning tool to improve weather forecasts",
-      "title_zh": "Microsoft has a new machine learning tool to improve weather forecasts",
-      "link": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft"
+      "title": "Nobody is safe from celebrity AI deepfakes",
+      "title_zh": "Nobody is safe from celebrity AI deepfakes",
+      "link": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth"
     },
     {
-      "title": "Square’s new kiosk lets you talk to AI for help with your order",
-      "title_zh": "Square’s new kiosk lets you talk to AI for help with your order",
-      "link": "https://www.theverge.com/tech/1009086/square-kiosk"
+      "title": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
+      "title_zh": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
+      "link": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy"
     },
     {
-      "title": "Android is using AI to suss out scammers in Google Messages",
-      "title_zh": "Android is using AI to suss out scammers in Google Messages",
-      "link": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages"
+      "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+      "title_zh": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+      "link": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch"
     },
     {
-      "title": "Anthropic’s self-replicating AI warning is alarming deja vu",
-      "title_zh": "Anthropic’s self-replicating AI warning is alarming deja vu",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk"
+      "title": "Amazon’s always-listening Bee wearable can now help you buy stuff",
+      "title_zh": "Amazon’s always-listening Bee wearable can now help you buy stuff",
+      "link": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
     },
     {
-      "title": "Epic’s new games launcher is ‘vibe coded’",
-      "title_zh": "Epic’s new games launcher is ‘vibe coded’",
-      "link": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux"
+      "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+      "title_zh": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+      "link": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab"
     },
     {
-      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-      "title_zh": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device"
+      "title": "McKinsey is making job applicants spar with a fake AI client",
+      "title_zh": "McKinsey is making job applicants spar with a fake AI client",
+      "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
     },
     {
-      "title": "Shopify opens its catalog up to more AI agents",
-      "title_zh": "Shopify opens its catalog up to more AI agents",
-      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
+      "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "title_zh": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
     },
     {
-      "title": "Xbox is officially embracing the chaos of AI-powered game ports",
-      "title_zh": "Xbox is officially embracing the chaos of AI-powered game ports",
-      "link": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration"
+      "title": "The AI race is back on",
+      "title_zh": "The AI race is back on",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
     },
     {
-      "title": "Deezer will soon let you filter out AI-generated music",
-      "title_zh": "Deezer will soon let you filter out AI-generated music",
-      "link": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
+      "title": "AI agents are coming to Rivian’s cars",
+      "title_zh": "AI agents are coming to Rivian’s cars",
+      "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/"
     },
     {
-      "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
-      "title_zh": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
-      "link": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/"
+      "title": "Google’s Universal Cart shopping tool launches in the US",
+      "title_zh": "Google’s Universal Cart shopping tool launches in the US",
+      "link": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/"
     }
   ]
 }
