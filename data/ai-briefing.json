@@ -1,8 +1,28 @@
 {
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18 16:25",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-18** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **ChatGPT can peek at your Chrome tabs now**  \n  OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getti…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs\n\n- **Meta and Apple team up to make Muse AI models run better on Macs**  \n  Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US…  \n  🔗 https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx\n\n\n## 产品/应用（2 条）\n\n- **Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch**  \n  Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disas…  \n  🔗 https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled\n\n- **Bluesky’s AI tool now lets you make games and apps to share on social**  \n  Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to …  \n  🔗 https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps\n\n\n## 其他（5 条）\n\n- **Meta removes language that may have allowed it to scrape news sites**  \n  After backlash, Meta is updating its terms again to remove language that suggested it coul…  \n  🔗 https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites\n\n- **Websites are closing their doors to AI agents**  \n  Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web\n\n- **A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops**  \n  Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a sm…  \n  🔗 https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions\n\n- **Meta’s new terms may allow it to train AI on news sites for free**  \n  Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" wi…  \n  🔗 https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers\n\n- **The tech backlash is now in theaters**  \n  Though movies about disruptive tech founders are nothing new, 2026 has been unusually stac…  \n  🔗 https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial\n",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19 19:09",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-19** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **ChatGPT can peek at your Chrome tabs now**  \n  OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getti…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs\n\n\n## 产品/应用（1 条）\n\n- **Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch**  \n  Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disas…  \n  🔗 https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled\n\n\n## 其他（5 条）\n\n- **JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes**  \n  Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tec…  \n  🔗 https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws\n\n- **A hacker broke into John Deere and SharkNinja with an army of AI agents**  \n  A hacker broke into more than 100 websites using an army of AI agents that mostly operated…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins\n\n- **Democrats think cracking down on AI could give them an edge**  \n  Democrats could win back control of Congress this November, and if they do, they'll need t…  \n  🔗 https://www.theverge.com/policy/1013113/democrats-ai-midterms\n\n- **A woman was arrested in Philly for blocking a delivery robot**  \n  Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot\n\n- **Meta removes language that may have allowed it to scrape news sites**  \n  After backlash, Meta is updating its terms again to remove language that suggested it coul…  \n  🔗 https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites\n",
   "items": [
+    {
+      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+      "title_zh": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+      "link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws"
+    },
+    {
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "title_zh": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+    },
+    {
+      "title": "Democrats think cracking down on AI could give them an edge",
+      "title_zh": "Democrats think cracking down on AI could give them an edge",
+      "link": "https://www.theverge.com/policy/1013113/democrats-ai-midterms"
+    },
+    {
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "title_zh": "A woman was arrested in Philly for blocking a delivery robot",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
+    },
     {
       "title": "Meta removes language that may have allowed it to scrape news sites",
       "title_zh": "Meta removes language that may have allowed it to scrape news sites",
@@ -34,34 +54,14 @@
       "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
     },
     {
-      "title": "The tech backlash is now in theaters",
-      "title_zh": "The tech backlash is now in theaters",
-      "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial"
+      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "title_zh": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
     },
     {
-      "title": "Trump posts AI-edited photo to brag about White House restoration work",
-      "title_zh": "Trump posts AI-edited photo to brag about White House restoration work",
-      "link": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column"
-    },
-    {
-      "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
-      "title_zh": "Bluesky’s AI tool now lets you make games and apps to share on social",
-      "link": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps"
-    },
-    {
-      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "title_zh": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
-    },
-    {
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "title_zh": "Meta removes language that raised scraping and AI training concerns",
-      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
-    },
-    {
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "title_zh": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "title_zh": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
     }
   ]
 }
