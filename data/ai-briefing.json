@@ -1,8 +1,28 @@
 {
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19 19:09",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-19** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **ChatGPT can peek at your Chrome tabs now**  \n  OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getti…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs\n\n\n## 产品/应用（1 条）\n\n- **Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch**  \n  Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disas…  \n  🔗 https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled\n\n\n## 其他（5 条）\n\n- **JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes**  \n  Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tec…  \n  🔗 https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws\n\n- **A hacker broke into John Deere and SharkNinja with an army of AI agents**  \n  A hacker broke into more than 100 websites using an army of AI agents that mostly operated…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins\n\n- **Democrats think cracking down on AI could give them an edge**  \n  Democrats could win back control of Congress this November, and if they do, they'll need t…  \n  🔗 https://www.theverge.com/policy/1013113/democrats-ai-midterms\n\n- **A woman was arrested in Philly for blocking a delivery robot**  \n  Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot\n\n- **Meta removes language that may have allowed it to scrape news sites**  \n  After backlash, Meta is updating its terms again to remove language that suggested it coul…  \n  🔗 https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites\n",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20 17:50",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-20** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Plants can speak using electricity, so this startup built an AI model to decipher their language**  \n  Electric Plant has built an AI-powered translator to help humans listen to what plants are…  \n  🔗 https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/\n\n\n## 产品/应用（1 条）\n\n- **Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps**  \n  Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joi…  \n  🔗 https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/\n\n\n## 其他（5 条）\n\n- **Spotify pulled 50 million AI slop and spam tracks from its recommendations**  \n  Spotify says it has removed more than 50 million songs considered AI-generated slop or spa…  \n  🔗 https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed\n\n- **Adobe Lightroom mobile can now open closed eyes in photos with a simple tap**  \n  Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS,…  \n  🔗 https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair\n\n- **The fossil fuel comeback is here**  \n  The US is building more fossil fuel infrastructure than it has in a decade while renewable…  \n  🔗 https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report\n\n- **CoreWeave’s debt is becoming the whole AI industry’s problem**  \n  CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a commo…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai\n\n- **JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes**  \n  Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tec…  \n  🔗 https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws\n",
   "items": [
+    {
+      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "title_zh": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "link": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
+    },
+    {
+      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+      "title_zh": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+      "link": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair"
+    },
+    {
+      "title": "The fossil fuel comeback is here",
+      "title_zh": "The fossil fuel comeback is here",
+      "link": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
+    },
+    {
+      "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+      "title_zh": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+    },
     {
       "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
       "title_zh": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
@@ -34,34 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
     },
     {
-      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "title_zh": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions"
+      "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+      "title_zh": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+      "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/"
     },
     {
-      "title": "Meta’s new terms may allow it to train AI on news sites for free",
-      "title_zh": "Meta’s new terms may allow it to train AI on news sites for free",
-      "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
-    },
-    {
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "title_zh": "ChatGPT can peek at your Chrome tabs now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
-    },
-    {
-      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-      "title_zh": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-      "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
-    },
-    {
-      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-      "title_zh": "Tolan snags $30M for its AI companion that helps users navigate life",
-      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
-    },
-    {
-      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-      "title_zh": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-      "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
+      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+      "title_zh": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+      "link": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/"
     }
   ]
 }
