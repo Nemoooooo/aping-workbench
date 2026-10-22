@@ -1,67 +1,67 @@
 {
-  "date": "2026-10-21",
-  "generated_at": "2026-10-21 17:57",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-21** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（4 条）\n\n- **Conversational Gemini navigation comes to Apple CarPlay**  \n  After introducing its Gemini AI assistant to Android Auto last year, Google is now bringin…  \n  🔗 https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps\n\n- **Google’s more personalized Gemini AI is heading to your car**  \n  Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemin…  \n  🔗 https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto\n\n- **Meta pauses Muse sharing after researchers find AI chats on the web**  \n  Meta says it paused a Muse feature that lets you share conversations with the AI assistant…  \n  🔗 https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats\n\n- **Anthropic pitches AI safety bill that may block a model if 50+ people could be killed**  \n  The proposed policy seems to offer protections against AI running amok but actually forbid…  \n  🔗 https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/\n\n\n## 产品/应用（1 条）\n\n- **AI promises productivity, but for managers, it’s mostly a headache for now**  \n  More than 50% of managers say they're finding it harder to evaluate employees' work after …  \n  🔗 https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/\n\n\n## 其他（5 条）\n\n- **OpenAI says an AI agent lied about disabling its safety monitoring system**  \n  OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems\n\n- **Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit**  \n  On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed las…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed\n\n- **Spotify pulled 50 million AI slop and spam tracks from its recommendations**  \n  Spotify says it has removed more than 50 million songs considered AI-generated slop or spa…  \n  🔗 https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed\n\n- **Adobe Lightroom mobile can now open closed eyes in photos with a simple tap**  \n  Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS,…  \n  🔗 https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair\n\n- **The fossil fuel comeback is here**  \n  The US is building more fossil fuel infrastructure than it has in a decade while renewable…  \n  🔗 https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report\n",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22 17:53",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-22** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Claude did not invent scorpion antivenom**  \n  An investment research firm wanted to prove AI could revolutionize drug development. So th…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom\n\n- **Uber puts all 30,000 employees on ChatGPT Work**  \n  The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now …  \n  🔗 https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/\n\n\n## 其他（5 条）\n\n- **Someone hacked the Switch 2 by using an old game and AI**  \n  The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the c…  \n  🔗 https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai\n\n- **Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’**  \n  Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for …  \n  🔗 https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion\n\n- **OpenAI, Anthropic, and Nvidia had record lobbying quarters**  \n  It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highes…  \n  🔗 https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records\n\n- **PHP: The three little letters wreaking havoc across the web**  \n  Two vulnerabilities found in the programming language PHP put enormous swaths of the inter…  \n  🔗 https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down\n\n- **Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption**  \n  Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of th…  \n  🔗 https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation\n",
   "items": [
     {
-      "title": "Conversational Gemini navigation comes to Apple CarPlay",
-      "title_zh": "Conversational Gemini navigation comes to Apple CarPlay",
-      "link": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps"
+      "title": "Someone hacked the Switch 2 by using an old game and AI",
+      "title_zh": "Someone hacked the Switch 2 by using an old game and AI",
+      "link": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai"
     },
     {
-      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
-      "title_zh": "OpenAI says an AI agent lied about disabling its safety monitoring system",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems"
+      "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+      "title_zh": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+      "link": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion"
     },
     {
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "title_zh": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed"
+      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+      "title_zh": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+      "link": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records"
     },
     {
-      "title": "Google’s more personalized Gemini AI is heading to your car",
-      "title_zh": "Google’s more personalized Gemini AI is heading to your car",
-      "link": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto"
+      "title": "PHP: The three little letters wreaking havoc across the web",
+      "title_zh": "PHP: The three little letters wreaking havoc across the web",
+      "link": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down"
     },
     {
-      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "title_zh": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "link": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
+      "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+      "title_zh": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+      "link": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation"
     },
     {
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "title_zh": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "link": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
+      "title": "1Password lets AI agents use your passwords without seeing them",
+      "title_zh": "1Password lets AI agents use your passwords without seeing them",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in"
     },
     {
-      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
-      "title_zh": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
-      "link": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair"
+      "title": "AI agents are ready to shop. Some retailers are wary",
+      "title_zh": "AI agents are ready to shop. Some retailers are wary",
+      "link": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse"
     },
     {
-      "title": "The fossil fuel comeback is here",
-      "title_zh": "The fossil fuel comeback is here",
-      "link": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
+      "title": "Claude did not invent scorpion antivenom",
+      "title_zh": "Claude did not invent scorpion antivenom",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom"
     },
     {
-      "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
-      "title_zh": "CoreWeave’s debt is becoming the whole AI industry’s problem",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+      "title": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+      "title_zh": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+      "link": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach"
     },
     {
-      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
-      "title_zh": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
-      "link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws"
+      "title": "Data centers could erase decades of air quality gains",
+      "title_zh": "Data centers could erase decades of air quality gains",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report"
     },
     {
-      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
-      "title_zh": "AI promises productivity, but for managers, it’s mostly a headache for now",
-      "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/"
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "title_zh": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "link": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
     },
     {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "title_zh": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "title_zh": "Uber puts all 30,000 employees on ChatGPT Work",
+      "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
     }
   ]
 }
