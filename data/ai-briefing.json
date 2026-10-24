@@ -1,8 +1,28 @@
 {
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23 17:47",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-23** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Canva’s first AI image model plans designs before generating them**  \n  Canva is diving even deeper into AI with the launch of an image generation model that comp…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model\n\n\n## 其他（5 条）\n\n- **Meta delays new business terms after publisher pushback on AI scraping**  \n  Meta is delaying the enforcement of its new business terms after publishers raised concern…  \n  🔗 https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping\n\n- **Retro gaming is being overrun with AI**  \n  Retro video games are everywhere lately - especially in places where they aren't supposed …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port\n\n- **Meta’s AI could still scrape news sites, legal experts say**  \n  Meta has tweaked its business terms to remove language suggesting that it could freely tra…  \n  🔗 https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns\n\n- **Meta turns Muse sharing back on**  \n  Meta has re-enabled Muse sharing after security researchers had reported that public conve…  \n  🔗 https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts\n\n- **Sure, let’s smoosh SpaceX and Tesla together, who cares**  \n  Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 bill…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari\n",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24 16:28",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-24** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（5 条）\n\n- **OpenAI now trains its frontier AI models with no internet access**  \n  OpenAI is now training its most advanced AI models without internet access following a str…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet\n\n- **Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend**  \n  Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on not…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech\n\n- **Canva’s first AI image model plans designs before generating them**  \n  Canva is diving even deeper into AI with the launch of an image generation model that comp…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model\n\n- **Block’s new voice model sounds eerily human**  \n  Block said that the voice model can run locally on a MacBook M4 Max…  \n  🔗 https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/\n\n- **Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.**  \n  A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's…  \n  🔗 https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/\n\n\n## 其他（5 条）\n\n- **The iPhone Duo should have been an iPad**  \n  We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might …  \n  🔗 https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast\n\n- **Now Google says it might use your Gmail and Google Photos data to target ads**  \n  Google has updated its privacy policy in a way that could mean you'll start seeing targete…  \n  🔗 https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update\n\n- **Meta delays new business terms after publisher pushback on AI scraping**  \n  Meta is delaying the enforcement of its new business terms after publishers raised concern…  \n  🔗 https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping\n\n- **Retro gaming is being overrun with AI**  \n  Retro video games are everywhere lately - especially in places where they aren't supposed …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port\n\n- **Meta’s AI could still scrape news sites, legal experts say**  \n  Meta has tweaked its business terms to remove language suggesting that it could freely tra…  \n  🔗 https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns\n",
   "items": [
+    {
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "title_zh": "OpenAI now trains its frontier AI models with no internet access",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "title_zh": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
+    },
+    {
+      "title": "The iPhone Duo should have been an iPad",
+      "title_zh": "The iPhone Duo should have been an iPad",
+      "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast"
+    },
+    {
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "title_zh": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+    },
     {
       "title": "Meta delays new business terms after publisher pushback on AI scraping",
       "title_zh": "Meta delays new business terms after publisher pushback on AI scraping",
@@ -34,34 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari"
     },
     {
-      "title": "Discord now formats Markdown previews right",
-      "title_zh": "Discord now formats Markdown previews right",
-      "link": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels"
+      "title": "Block’s new voice model sounds eerily human",
+      "title_zh": "Block’s new voice model sounds eerily human",
+      "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
     },
     {
-      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
-      "title_zh": "In Meta’s version of the future, I’ll have my Muse call your Muse",
-      "link": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network"
-    },
-    {
-      "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
-      "title_zh": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
-    },
-    {
-      "title": "Someone hacked the Switch 2 by using an old game and AI",
-      "title_zh": "Someone hacked the Switch 2 by using an old game and AI",
-      "link": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai"
-    },
-    {
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "title_zh": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
-    },
-    {
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "title_zh": "Left alone with nothing to do, AI agents started playing",
-      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "title_zh": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
     }
   ]
 }
