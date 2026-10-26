@@ -1,8 +1,38 @@
 {
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25 16:59",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-25** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **OpenAI now trains its frontier AI models with no internet access**  \n  OpenAI is now training its most advanced AI models without internet access following a str…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet\n\n- **Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend**  \n  Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on not…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech\n\n\n## 其他（5 条）\n\n- **r/opensource just banned AI, non-English speakers, and more**  \n  The mods at r/opensource posted new submission rules that, among other things, banned proj…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban\n\n- **Google’s AI search changes upended online publishing**  \n  This is The Stepback, a weekly newsletter breaking down one essential story from the tech …  \n  🔗 https://www.theverge.com/column/1017983/google-ai-search-online-publishing\n\n- **Blue Planet III is keeping the rough edges in the age of AI**  \n  BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-per…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai\n\n- **Pennsylvania will require labels on AI-generated ads**  \n  On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Decepti…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act\n\n- **The iPhone Duo should have been an iPad**  \n  We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might …  \n  🔗 https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast\n",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26 19:05",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-26** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **SpaceX locks in $40B GPU financing deal with Apollo**  \n  SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for …  \n  🔗 https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/\n\n\n## 其他（5 条）\n\n- **The RealReal won’t let AI agents hog designer clothing**  \n  The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot…  \n  🔗 https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal\n\n- **Five weird details from Anthropic’s IPO filing**  \n  Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give i…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details\n\n- **Microsoft offers buyouts to 60,000 employees**  \n  Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canad…  \n  🔗 https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible\n\n- **Kevin Roose is AGI-pilled. Why aren’t you?**  \n  Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicle…  \n  🔗 https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic\n\n- **Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI**  \n  Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, prepar…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec\n",
   "items": [
+    {
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "title_zh": "The RealReal won’t let AI agents hog designer clothing",
+      "link": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal"
+    },
+    {
+      "title": "Five weird details from Anthropic’s IPO filing",
+      "title_zh": "Five weird details from Anthropic’s IPO filing",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+    },
+    {
+      "title": "Microsoft offers buyouts to 60,000 employees",
+      "title_zh": "Microsoft offers buyouts to 60,000 employees",
+      "link": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+    },
+    {
+      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+      "title_zh": "Kevin Roose is AGI-pilled. Why aren’t you?",
+      "link": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic"
+    },
+    {
+      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+      "title_zh": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+    },
+    {
+      "title": "Can AI help solve the COBOL code crisis?",
+      "title_zh": "Can AI help solve the COBOL code crisis?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
+    },
     {
       "title": "r/opensource just banned AI, non-English speakers, and more",
       "title_zh": "r/opensource just banned AI, non-English speakers, and more",
@@ -24,44 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
     },
     {
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "title_zh": "OpenAI now trains its frontier AI models with no internet access",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "title_zh": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
     },
     {
-      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "title_zh": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
-    },
-    {
-      "title": "The iPhone Duo should have been an iPad",
-      "title_zh": "The iPhone Duo should have been an iPad",
-      "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast"
-    },
-    {
-      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "title_zh": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
-    },
-    {
-      "title": "Meta delays new business terms after publisher pushback on AI scraping",
-      "title_zh": "Meta delays new business terms after publisher pushback on AI scraping",
-      "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
-    },
-    {
-      "title": "Retro gaming is being overrun with AI",
-      "title_zh": "Retro gaming is being overrun with AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port"
-    },
-    {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, according to Apollo economist",
-      "title_zh": "AI delivers ‘zero financial payoff’ to most companies, according to Apollo economist",
-      "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
-    },
-    {
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "title_zh": "The hottest AI wearables and gadgets you should know about",
-      "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/"
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "title_zh": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"
     }
   ]
 }
