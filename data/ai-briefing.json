@@ -1,67 +1,67 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28 18:42",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-28** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Researchers are getting tired of OpenAI gatekeeping its breakthroughs**  \n  On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics\n\n- **As AI agents reshape the web, Google opens Gemini and Search to more apps**  \n  A new developer platform will let businesses bring their services to Google's AI experienc…  \n  🔗 https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/\n\n\n## 产品/应用（2 条）\n\n- **Meta quietly launched an ‘AI pet journal’ app**  \n  Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creature…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world\n\n- **VisionQuest is what happens when AI really goes rogue**  \n  In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getti…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai\n\n\n## 其他（5 条）\n\n- **Microsoft is ending Copilot support on smart TVs**  \n  Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs wo…  \n  🔗 https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending\n\n- **Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms**  \n  Following improvements made to Chrome's enhanced autofill last year that included your nam…  \n  🔗 https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence\n\n- **Meta says it’ll probably delay its controversial new business terms again**  \n  Meta says it may push the implementation of its new business terms past November 20th as i…  \n  🔗 https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely\n\n- **xAI is buying out homeowners who promise not to sue over data center noise**  \n  A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood,…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit\n\n- **Voters in Texas agree: They hate data centers**  \n  Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers d…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas\n",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29 18:50",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-29** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **You can generate and edit Google Docs files directly in Gemini chats now**  \n  Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Mar…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs\n\n- **Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity**  \n  Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gain…  \n  🔗 https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier\n\n- **Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity**  \n  Mistral says its new model can afford organizations a kind of control over its cyber defen…  \n  🔗 https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/\n\n\n## 产品/应用（1 条）\n\n- **The NYT Cooking app is testing AI recipe modifications**  \n  The New York Times is testing a new AI feature for its Cooking app that helps users to mod…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool\n\n\n## 其他（5 条）\n\n- **Microsoft’s AI future has fewer jobs**  \n  To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the p…  \n  🔗 https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad\n\n- **Anthropic is asking Wall Street to believe in AGI**  \n  Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research fir…  \n  🔗 https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview\n\n- **Anthropic’s business plan: Build God or die trying**  \n  The Anthropic S-1 seems to have provided the financial justification for the company to sp…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive\n\n- **AI has come for Arizona’s water**  \n  A hulking gray giant rises from the desert. Inside, engineers create the force behind our …  \n  🔗 https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc\n\n- **Adam Mosseri says negativity around AI is ‘going to get worse’**  \n  Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity\n",
   "items": [
+    {
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "title_zh": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
+    },
+    {
+      "title": "Microsoft’s AI future has fewer jobs",
+      "title_zh": "Microsoft’s AI future has fewer jobs",
+      "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
+    },
+    {
+      "title": "The NYT Cooking app is testing AI recipe modifications",
+      "title_zh": "The NYT Cooking app is testing AI recipe modifications",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool"
+    },
+    {
+      "title": "Anthropic is asking Wall Street to believe in AGI",
+      "title_zh": "Anthropic is asking Wall Street to believe in AGI",
+      "link": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview"
+    },
+    {
+      "title": "Anthropic’s business plan: Build God or die trying",
+      "title_zh": "Anthropic’s business plan: Build God or die trying",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive"
+    },
+    {
+      "title": "AI has come for Arizona’s water",
+      "title_zh": "AI has come for Arizona’s water",
+      "link": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
+    },
+    {
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "title_zh": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity"
+    },
+    {
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "title_zh": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "link": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key"
+    },
+    {
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "title_zh": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
+    },
     {
       "title": "Microsoft is ending Copilot support on smart TVs",
       "title_zh": "Microsoft is ending Copilot support on smart TVs",
       "link": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending"
     },
     {
-      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
-      "title_zh": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
-      "link": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence"
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "title_zh": "Granola crunches up a dictation feature to compete with Wispr",
+      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/"
     },
     {
-      "title": "Meta says it’ll probably delay its controversial new business terms again",
-      "title_zh": "Meta says it’ll probably delay its controversial new business terms again",
-      "link": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely"
-    },
-    {
-      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
-      "title_zh": "xAI is buying out homeowners who promise not to sue over data center noise",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit"
-    },
-    {
-      "title": "Voters in Texas agree: They hate data centers",
-      "title_zh": "Voters in Texas agree: They hate data centers",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas"
-    },
-    {
-      "title": "Meta quietly launched an ‘AI pet journal’ app",
-      "title_zh": "Meta quietly launched an ‘AI pet journal’ app",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world"
-    },
-    {
-      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "title_zh": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
-    },
-    {
-      "title": "VisionQuest is what happens when AI really goes rogue",
-      "title_zh": "VisionQuest is what happens when AI really goes rogue",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai"
-    },
-    {
-      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
-      "title_zh": "Anthropic’s elaborate plan to keep Wall Street at bay",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
-    },
-    {
-      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-      "title_zh": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
-    },
-    {
-      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
-      "title_zh": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
-      "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/"
-    },
-    {
-      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-      "title_zh": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-      "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "title_zh": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
     }
   ]
 }
