@@ -1,8 +1,43 @@
 {
-  "date": "2026-10-29",
-  "generated_at": "2026-10-29 18:50",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-29** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **You can generate and edit Google Docs files directly in Gemini chats now**  \n  Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Mar…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs\n\n- **Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity**  \n  Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gain…  \n  🔗 https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier\n\n- **Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity**  \n  Mistral says its new model can afford organizations a kind of control over its cyber defen…  \n  🔗 https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/\n\n\n## 产品/应用（1 条）\n\n- **The NYT Cooking app is testing AI recipe modifications**  \n  The New York Times is testing a new AI feature for its Cooking app that helps users to mod…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool\n\n\n## 其他（5 条）\n\n- **Microsoft’s AI future has fewer jobs**  \n  To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the p…  \n  🔗 https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad\n\n- **Anthropic is asking Wall Street to believe in AGI**  \n  Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research fir…  \n  🔗 https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview\n\n- **Anthropic’s business plan: Build God or die trying**  \n  The Anthropic S-1 seems to have provided the financial justification for the company to sp…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive\n\n- **AI has come for Arizona’s water**  \n  A hulking gray giant rises from the desert. Inside, engineers create the force behind our …  \n  🔗 https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc\n\n- **Adam Mosseri says negativity around AI is ‘going to get worse’**  \n  Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity\n",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30 18:28",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-30** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **You can generate and edit Google Docs files directly in Gemini chats now**  \n  Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Mar…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs\n\n\n## 产品/应用（1 条）\n\n- **The NYT Cooking app is testing AI recipe modifications**  \n  The New York Times is testing a new AI feature for its Cooking app that helps users to mod…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool\n\n\n## 其他（5 条）\n\n- **Google’s satellite AI server transmits its first response to Earth**  \n  Google's AI chip-equipped satellite has generated its first response from space. In a blog…  \n  🔗 https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission\n\n- **Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru**  \n  Starbucks could eventually show you a personalized digital menu when you pull up to the dr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru\n\n- **Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’**  \n  Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibi…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai\n\n- **Silicon Valley wants you to invest in miracles**  \n  Investing in any stock is kind of like gambling in the sense that you're betting your mone…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles\n\n- **Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop**  \n  After months of bombarding mathematicians with a relentless stream of AI-generated results…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview\n",
   "items": [
+    {
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "title_zh": "Google’s satellite AI server transmits its first response to Earth",
+      "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+    },
+    {
+      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "title_zh": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
+    },
+    {
+      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "title_zh": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
+    },
+    {
+      "title": "Silicon Valley wants you to invest in miracles",
+      "title_zh": "Silicon Valley wants you to invest in miracles",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
+    },
+    {
+      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+      "title_zh": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview"
+    },
+    {
+      "title": "Maine’s data center revolt will decide who controls the Senate",
+      "title_zh": "Maine’s data center revolt will decide who controls the Senate",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
+    },
+    {
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "title_zh": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
+    },
     {
       "title": "You can generate and edit Google Docs files directly in Gemini chats now",
       "title_zh": "You can generate and edit Google Docs files directly in Gemini chats now",
@@ -19,49 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool"
     },
     {
-      "title": "Anthropic is asking Wall Street to believe in AGI",
-      "title_zh": "Anthropic is asking Wall Street to believe in AGI",
-      "link": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview"
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "title_zh": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/"
     },
     {
-      "title": "Anthropic’s business plan: Build God or die trying",
-      "title_zh": "Anthropic’s business plan: Build God or die trying",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive"
-    },
-    {
-      "title": "AI has come for Arizona’s water",
-      "title_zh": "AI has come for Arizona’s water",
-      "link": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
-    },
-    {
-      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-      "title_zh": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity"
-    },
-    {
-      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
-      "title_zh": "Akai is embracing vibe-coded mods with an open-source MPC",
-      "link": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key"
-    },
-    {
-      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-      "title_zh": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-      "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
-    },
-    {
-      "title": "Microsoft is ending Copilot support on smart TVs",
-      "title_zh": "Microsoft is ending Copilot support on smart TVs",
-      "link": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending"
-    },
-    {
-      "title": "Granola crunches up a dictation feature to compete with Wispr",
-      "title_zh": "Granola crunches up a dictation feature to compete with Wispr",
-      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/"
-    },
-    {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "title_zh": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "title_zh": "Google’s first data center satellite is online and writing poetry",
+      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
     }
   ]
 }
