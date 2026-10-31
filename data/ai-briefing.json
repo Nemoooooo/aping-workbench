@@ -1,8 +1,28 @@
 {
-  "date": "2026-10-30",
-  "generated_at": "2026-10-30 18:28",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-30** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **You can generate and edit Google Docs files directly in Gemini chats now**  \n  Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Mar…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs\n\n\n## 产品/应用（1 条）\n\n- **The NYT Cooking app is testing AI recipe modifications**  \n  The New York Times is testing a new AI feature for its Cooking app that helps users to mod…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool\n\n\n## 其他（5 条）\n\n- **Google’s satellite AI server transmits its first response to Earth**  \n  Google's AI chip-equipped satellite has generated its first response from space. In a blog…  \n  🔗 https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission\n\n- **Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru**  \n  Starbucks could eventually show you a personalized digital menu when you pull up to the dr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru\n\n- **Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’**  \n  Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibi…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai\n\n- **Silicon Valley wants you to invest in miracles**  \n  Investing in any stock is kind of like gambling in the sense that you're betting your mone…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles\n\n- **Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop**  \n  After months of bombarding mathematicians with a relentless stream of AI-generated results…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview\n",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31 17:33",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-10-31** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Apple Intelligence is finally coming to China with iOS 27.3**  \n  Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its …  \n  🔗 https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3\n\n\n## 其他（5 条）\n\n- **I built an AI Tamagotchi before Meta could**  \n  Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - …  \n  🔗 https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code\n\n- **Sam Altman says it’s better for RAM to be in a data center than on your desk**  \n  Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman s…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers\n\n- **The biggest names in AI are backing a new way to opt out of scraping**  \n  OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publisher…  \n  🔗 https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out\n\n- **Google’s satellite AI server transmits its first response to Earth**  \n  Google's AI chip-equipped satellite has generated its first response from space. In a blog…  \n  🔗 https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission\n\n- **Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru**  \n  Starbucks could eventually show you a personalized digital menu when you pull up to the dr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru\n",
   "items": [
+    {
+      "title": "I built an AI Tamagotchi before Meta could",
+      "title_zh": "I built an AI Tamagotchi before Meta could",
+      "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "title_zh": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+    },
+    {
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "title_zh": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+    },
+    {
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "title_zh": "The biggest names in AI are backing a new way to opt out of scraping",
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+    },
     {
       "title": "Google’s satellite AI server transmits its first response to Earth",
       "title_zh": "Google’s satellite AI server transmits its first response to Earth",
@@ -34,34 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
     },
     {
-      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-      "title_zh": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-      "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "title_zh": "OpenAI reportedly lowers funding target for new round",
+      "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
     },
     {
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "title_zh": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
-    },
-    {
-      "title": "Microsoft’s AI future has fewer jobs",
-      "title_zh": "Microsoft’s AI future has fewer jobs",
-      "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
-    },
-    {
-      "title": "The NYT Cooking app is testing AI recipe modifications",
-      "title_zh": "The NYT Cooking app is testing AI recipe modifications",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool"
-    },
-    {
-      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-      "title_zh": "Zest’s new AI agent finds restaurants and books reservations over text",
-      "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/"
-    },
-    {
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "title_zh": "Google’s first data center satellite is online and writing poetry",
-      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "title_zh": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
     }
   ]
 }
