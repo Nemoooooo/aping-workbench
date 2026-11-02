@@ -1,8 +1,23 @@
 {
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01 18:19",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-01** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（2 条）\n\n- **Apple Intelligence is finally coming to China with iOS 27.3**  \n  Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its …  \n  🔗 https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3\n\n- **Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’**  \n  Apple's new CEO defended the company's current position in the AI landscape.…  \n  🔗 https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/\n\n\n## 其他（5 条）\n\n- **I built an AI Tamagotchi before Meta could**  \n  Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - …  \n  🔗 https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code\n\n- **Sam Altman says it’s better for RAM to be in a data center than on your desk**  \n  Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman s…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers\n\n- **The biggest names in AI are backing a new way to opt out of scraping**  \n  OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publisher…  \n  🔗 https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out\n\n- **Google’s satellite AI server transmits its first response to Earth**  \n  Google's AI chip-equipped satellite has generated its first response from space. In a blog…  \n  🔗 https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission\n\n- **Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru**  \n  Starbucks could eventually show you a personalized digital menu when you pull up to the dr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru\n",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02 22:13",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-02** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Anthropic clamps down on Claude’s AI video game clones**  \n  Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used t…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones\n\n\n## 产品/应用（1 条）\n\n- **Apple Intelligence is finally coming to China with iOS 27.3**  \n  Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its …  \n  🔗 https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3\n\n\n## 其他（5 条）\n\n- **OpenAI pitches data center power plants as a way to protect nearby areas**  \n  In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at a…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program\n\n- **The New York Times sues Brave web browser for AI scraping and bypassing paywalls**  \n  The New York Times and a group of other publications have filed lawsuits against the compa…  \n  🔗 https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times\n\n- **I built an AI Tamagotchi before Meta could**  \n  Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - …  \n  🔗 https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code\n\n- **Sam Altman says it’s better for RAM to be in a data center than on your desk**  \n  Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman s…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers\n\n- **The biggest names in AI are backing a new way to opt out of scraping**  \n  OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publisher…  \n  🔗 https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out\n",
   "items": [
+    {
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "title_zh": "Anthropic clamps down on Claude’s AI video game clones",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+    },
+    {
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "title_zh": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+    },
+    {
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "title_zh": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+    },
     {
       "title": "I built an AI Tamagotchi before Meta could",
       "title_zh": "I built an AI Tamagotchi before Meta could",
@@ -39,29 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
     },
     {
-      "title": "Silicon Valley wants you to invest in miracles",
-      "title_zh": "Silicon Valley wants you to invest in miracles",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
+      "title": "Web host Squarespace lays off 19% of its employees",
+      "title_zh": "Web host Squarespace lays off 19% of its employees",
+      "link": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/"
     },
     {
-      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-      "title_zh": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview"
-    },
-    {
-      "title": "Maine’s data center revolt will decide who controls the Senate",
-      "title_zh": "Maine’s data center revolt will decide who controls the Senate",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
-    },
-    {
-      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-      "title_zh": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-      "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
-    },
-    {
-      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
-      "title_zh": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
-      "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/"
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "title_zh": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
     }
   ]
 }
