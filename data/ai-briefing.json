@@ -1,8 +1,38 @@
 {
-  "date": "2026-11-02",
-  "generated_at": "2026-11-02 22:13",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-02** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Anthropic clamps down on Claude’s AI video game clones**  \n  Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used t…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones\n\n\n## 产品/应用（1 条）\n\n- **Apple Intelligence is finally coming to China with iOS 27.3**  \n  Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its …  \n  🔗 https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3\n\n\n## 其他（5 条）\n\n- **OpenAI pitches data center power plants as a way to protect nearby areas**  \n  In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at a…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program\n\n- **The New York Times sues Brave web browser for AI scraping and bypassing paywalls**  \n  The New York Times and a group of other publications have filed lawsuits against the compa…  \n  🔗 https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times\n\n- **I built an AI Tamagotchi before Meta could**  \n  Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - …  \n  🔗 https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code\n\n- **Sam Altman says it’s better for RAM to be in a data center than on your desk**  \n  Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman s…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers\n\n- **The biggest names in AI are backing a new way to opt out of scraping**  \n  OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publisher…  \n  🔗 https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out\n",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03 20:00",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-03** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Anthropic clamps down on Claude’s AI video game clones**  \n  Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used t…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones\n\n\n## 产品/应用（2 条）\n\n- **Indie games are missing launch dates because Steam is backed up**  \n  Many indie game developers have recently posted on social media about unexpectedly long ap…  \n  🔗 https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates\n\n- **Apple is all in on AI — its own and everyone else’s**  \n  Apple's latest earnings show how it's continuing to capitalize on the AI boom without bust…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai\n\n\n## 其他（5 条）\n\n- **Netflix will show you themed recommendations through a new ‘AI Discover’ tab**  \n  Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experiment…  \n  🔗 https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations\n\n- **Google is entirely disabling Search in schools that don’t want AI**  \n  Google is completely turning off Search in schools that reject its AI features, the compan…  \n  🔗 https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features\n\n- **Midterm elections 2026: all the news**  \n  The 2026 midterm elections will determine the scope of President Donald Trump’s power in h…  \n  🔗 https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news\n\n- **OpenAI is quietly renaming data centers ‘compute campuses’**  \n  People hate data centers. They're loud, resource-hungry eyesores that are so profoundly un…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses\n\n- **OpenAI pitches data center power plants as a way to protect nearby areas**  \n  In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at a…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program\n",
   "items": [
+    {
+      "title": "Indie games are missing launch dates because Steam is backed up",
+      "title_zh": "Indie games are missing launch dates because Steam is backed up",
+      "link": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates"
+    },
+    {
+      "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+      "title_zh": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+      "link": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations"
+    },
+    {
+      "title": "Google is entirely disabling Search in schools that don’t want AI",
+      "title_zh": "Google is entirely disabling Search in schools that don’t want AI",
+      "link": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
+    },
+    {
+      "title": "Midterm elections 2026: all the news",
+      "title_zh": "Midterm elections 2026: all the news",
+      "link": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news"
+    },
+    {
+      "title": "Apple is all in on AI — its own and everyone else’s",
+      "title_zh": "Apple is all in on AI — its own and everyone else’s",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai"
+    },
+    {
+      "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
+      "title_zh": "OpenAI is quietly renaming data centers ‘compute campuses’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses"
+    },
     {
       "title": "Anthropic clamps down on Claude’s AI video game clones",
       "title_zh": "Anthropic clamps down on Claude’s AI video game clones",
@@ -24,44 +54,14 @@
       "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
     },
     {
-      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "title_zh": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "title_zh": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
     },
     {
-      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-      "title_zh": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
-    },
-    {
-      "title": "The biggest names in AI are backing a new way to opt out of scraping",
-      "title_zh": "The biggest names in AI are backing a new way to opt out of scraping",
-      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
-    },
-    {
-      "title": "Google’s satellite AI server transmits its first response to Earth",
-      "title_zh": "Google’s satellite AI server transmits its first response to Earth",
-      "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
-    },
-    {
-      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-      "title_zh": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
-    },
-    {
-      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "title_zh": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
-    },
-    {
-      "title": "Web host Squarespace lays off 19% of its employees",
-      "title_zh": "Web host Squarespace lays off 19% of its employees",
-      "link": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/"
-    },
-    {
-      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "title_zh": "New York Times and other outlets sue web browser Brave over alleged content scraping",
-      "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "title_zh": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
     }
   ]
 }
