@@ -1,67 +1,67 @@
 {
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04 20:20",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-04** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **ChatGPT will now make you animated GIFs**  \n  ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The upda…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6\n\n\n## 产品/应用（1 条）\n\n- **Nothing teases a screen-free AI device ahead of launch next month**  \n  Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei\n\n\n## 政策/行业（1 条）\n\n- **DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy**  \n  DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators …  \n  🔗 https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/\n\n\n## 其他（5 条）\n\n- **My therapist thinks I should chuck the Amazon Bee Frontier out a window**  \n  This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that …  \n  🔗 https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables\n\n- **Data centers lost the midterms**  \n  Data center developers are poised to face a more restrictive building environment after vo…  \n  🔗 https://www.theverge.com/policy/1026365/data-centers-midterms-results\n\n- **Uber only fulfilled 4 rides from AI agents last quarter**  \n  AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by t…  \n  🔗 https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation\n\n- **Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’**  \n  OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments\n\n- **Google hasn’t figured out how to make AI pay like its search engine**  \n  Search queries are growing at their fastest rate in five years, Google parent Alphabet sai…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3\n",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05 20:30",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-05** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Claude AI can plug directly into your bank account**  \n  Anthropic has a new pitch for managing your personal finances: let Claude do it instead, w…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance\n\n- **OpenAI says its new cybersecurity model is better at not hacking other companies**  \n  OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which i…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch\n\n\n## 其他（5 条）\n\n- **Muse has a voice mode now**  \n  Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark …  \n  🔗 https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar\n\n- **‘Total repudiation’: The blue wave is about to hit AI**  \n  On Tuesday night, Democrats made history as they took control of the House and the Senate,…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai\n\n- **Grimes is going to star in an AI movie that’s coming to theaters**  \n  The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star…  \n  🔗 https://www.theverge.com/entertainment/1026282/grimes-ai-movie\n\n- **The hidden supply chain costs of the AI boom**  \n  Today, I’m talking with Willy Shih, an economist, a professor of management practice at Ha…  \n  🔗 https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book\n\n- **You can post AI music straight to SoundCloud from ElevenLabs**  \n  After partnering with Moises earlier this year, SoundCloud is now adding integration with …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs\n",
   "items": [
     {
-      "title": "Nothing teases a screen-free AI device ahead of launch next month",
-      "title_zh": "Nothing teases a screen-free AI device ahead of launch next month",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
+      "title": "Muse has a voice mode now",
+      "title_zh": "Muse has a voice mode now",
+      "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar"
     },
     {
-      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-      "title_zh": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-      "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables"
+      "title": "Claude AI can plug directly into your bank account",
+      "title_zh": "Claude AI can plug directly into your bank account",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
     },
     {
-      "title": "ChatGPT will now make you animated GIFs",
-      "title_zh": "ChatGPT will now make you animated GIFs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+      "title": "‘Total repudiation’: The blue wave is about to hit AI",
+      "title_zh": "‘Total repudiation’: The blue wave is about to hit AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai"
     },
     {
-      "title": "Data centers lost the midterms",
-      "title_zh": "Data centers lost the midterms",
-      "link": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+      "title": "Grimes is going to star in an AI movie that’s coming to theaters",
+      "title_zh": "Grimes is going to star in an AI movie that’s coming to theaters",
+      "link": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie"
     },
     {
-      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
-      "title_zh": "Uber only fulfilled 4 rides from AI agents last quarter",
-      "link": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+      "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+      "title_zh": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
     },
     {
-      "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
-      "title_zh": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments"
+      "title": "The hidden supply chain costs of the AI boom",
+      "title_zh": "The hidden supply chain costs of the AI boom",
+      "link": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book"
     },
     {
-      "title": "Google hasn’t figured out how to make AI pay like its search engine",
-      "title_zh": "Google hasn’t figured out how to make AI pay like its search engine",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3"
+      "title": "You can post AI music straight to SoundCloud from ElevenLabs",
+      "title_zh": "You can post AI music straight to SoundCloud from ElevenLabs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs"
     },
     {
-      "title": "The biggest modding site in PC gaming is taking a stance on AI",
-      "title_zh": "The biggest modding site in PC gaming is taking a stance on AI",
-      "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures"
+      "title": "Big Tech’s big AI buildout will not end until someone stops it",
+      "title_zh": "Big Tech’s big AI buildout will not end until someone stops it",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3"
     },
     {
-      "title": "Please stop asking me when the AI bubble will pop",
-      "title_zh": "Please stop asking me when the AI bubble will pop",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "title_zh": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
     },
     {
-      "title": "Those Jeff Bezos hair transplant photos are very fake",
-      "title_zh": "Those Jeff Bezos hair transplant photos are very fake",
-      "link": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk"
+      "title": "17 better ways Elon Musk could have wasted $446 million",
+      "title_zh": "17 better ways Elon Musk could have wasted $446 million",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich"
     },
     {
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "title_zh": "Open source AI is booming. Hugging Face explains who profits.",
-      "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/"
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "title_zh": "Meta says US users can now video chat with their Muse AI avatar",
+      "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
     },
     {
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "title_zh": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/"
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "title_zh": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
     }
   ]
 }
