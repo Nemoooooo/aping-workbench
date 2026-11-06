@@ -1,67 +1,67 @@
 {
-  "date": "2026-11-05",
-  "generated_at": "2026-11-05 20:30",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-05** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Claude AI can plug directly into your bank account**  \n  Anthropic has a new pitch for managing your personal finances: let Claude do it instead, w…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance\n\n- **OpenAI says its new cybersecurity model is better at not hacking other companies**  \n  OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which i…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch\n\n\n## 其他（5 条）\n\n- **Muse has a voice mode now**  \n  Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark …  \n  🔗 https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar\n\n- **‘Total repudiation’: The blue wave is about to hit AI**  \n  On Tuesday night, Democrats made history as they took control of the House and the Senate,…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai\n\n- **Grimes is going to star in an AI movie that’s coming to theaters**  \n  The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star…  \n  🔗 https://www.theverge.com/entertainment/1026282/grimes-ai-movie\n\n- **The hidden supply chain costs of the AI boom**  \n  Today, I’m talking with Willy Shih, an economist, a professor of management practice at Ha…  \n  🔗 https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book\n\n- **You can post AI music straight to SoundCloud from ElevenLabs**  \n  After partnering with Moises earlier this year, SoundCloud is now adding integration with …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs\n",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06 19:53",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-06** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（2 条）\n\n- **Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now**  \n  Meta will now allow you to build customized, app-like experiences within its Muse AI assis…  \n  🔗 https://www.theverge.com/tech/1028871/meta-muse-ai-spaces\n\n- **Perplexity launches its own take on AI agents for work**  \n  Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The star…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work\n\n\n## 其他（5 条）\n\n- **AI is the new dating dealbreaker**  \n  When Irene moved to San Francisco last year, she started using dating apps as a way to mee…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity\n\n- **Big Tech lost big in the 2026 election**  \n  On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Dem…  \n  🔗 https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast\n\n- **How Akai and Moog are embracing vibe-coded mods**  \n  inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to em…  \n  🔗 https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai\n\n- **Amazon will let you text Alexa your shopping list**  \n  Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase ite…  \n  🔗 https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders\n\n- **Protesters break into Microsoft data center site in Amsterdam**  \n  Protesters have broken into a construction site of a new Microsoft data center in Amsterda…  \n  🔗 https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam\n",
   "items": [
+    {
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "title_zh": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+    },
+    {
+      "title": "AI is the new dating dealbreaker",
+      "title_zh": "AI is the new dating dealbreaker",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity"
+    },
+    {
+      "title": "Big Tech lost big in the 2026 election",
+      "title_zh": "Big Tech lost big in the 2026 election",
+      "link": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
+    },
+    {
+      "title": "How Akai and Moog are embracing vibe-coded mods",
+      "title_zh": "How Akai and Moog are embracing vibe-coded mods",
+      "link": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai"
+    },
+    {
+      "title": "Amazon will let you text Alexa your shopping list",
+      "title_zh": "Amazon will let you text Alexa your shopping list",
+      "link": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders"
+    },
+    {
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "title_zh": "Protesters break into Microsoft data center site in Amsterdam",
+      "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
+    },
+    {
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "title_zh": "OpenAI is stepping back from NDAs for data center projects",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+    },
+    {
+      "title": "Airbnb is working on an AI travel agent",
+      "title_zh": "Airbnb is working on an AI travel agent",
+      "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings"
+    },
+    {
+      "title": "Perplexity launches its own take on AI agents for work",
+      "title_zh": "Perplexity launches its own take on AI agents for work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+    },
     {
       "title": "Muse has a voice mode now",
       "title_zh": "Muse has a voice mode now",
       "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar"
     },
     {
-      "title": "Claude AI can plug directly into your bank account",
-      "title_zh": "Claude AI can plug directly into your bank account",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "title_zh": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
     },
     {
-      "title": "‘Total repudiation’: The blue wave is about to hit AI",
-      "title_zh": "‘Total repudiation’: The blue wave is about to hit AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai"
-    },
-    {
-      "title": "Grimes is going to star in an AI movie that’s coming to theaters",
-      "title_zh": "Grimes is going to star in an AI movie that’s coming to theaters",
-      "link": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie"
-    },
-    {
-      "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
-      "title_zh": "OpenAI says its new cybersecurity model is better at not hacking other companies",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
-    },
-    {
-      "title": "The hidden supply chain costs of the AI boom",
-      "title_zh": "The hidden supply chain costs of the AI boom",
-      "link": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book"
-    },
-    {
-      "title": "You can post AI music straight to SoundCloud from ElevenLabs",
-      "title_zh": "You can post AI music straight to SoundCloud from ElevenLabs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs"
-    },
-    {
-      "title": "Big Tech’s big AI buildout will not end until someone stops it",
-      "title_zh": "Big Tech’s big AI buildout will not end until someone stops it",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3"
-    },
-    {
-      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "title_zh": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
-    },
-    {
-      "title": "17 better ways Elon Musk could have wasted $446 million",
-      "title_zh": "17 better ways Elon Musk could have wasted $446 million",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich"
-    },
-    {
-      "title": "Meta says US users can now video chat with their Muse AI avatar",
-      "title_zh": "Meta says US users can now video chat with their Muse AI avatar",
-      "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
-    },
-    {
-      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "title_zh": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "title_zh": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
     }
   ]
 }
