@@ -1,67 +1,67 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08 18:16",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-08** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Why a new report on Anthropic automating AI development is alarming researchers**  \n  Anthropic is using AI to build more powerful AI. And it appears to be working remarkably w…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development\n\n\n## 产品/应用（2 条）\n\n- **The US let Nvidia sell chips to an empty office in China**  \n  Concerns are being raised that neither the Commerce Department nor Nvidia are doing their …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government\n\n- **Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now**  \n  Meta will now allow you to build customized, app-like experiences within Muse. The new fea…  \n  🔗 https://www.theverge.com/tech/1028871/meta-muse-ai-spaces\n\n\n## 其他（5 条）\n\n- **Elvis and Eminem rights holders are suing Suno**  \n  Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit\n\n- **NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake**  \n  Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide…  \n  🔗 https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review\n\n- **AI broke the cybersecurity world. What’s next?**  \n  Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybe…  \n  🔗 https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos\n\n- **OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO**  \n  OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation\n\n- **China reportedly recruited AI exec to spy on Jensen Huang**  \n  China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO…  \n  🔗 https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy\n",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09 22:55",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-09** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Anthropic launches new Claude Fable and Mythos 5.2 models**  \n  Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, whic…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2\n\n\n## 产品/应用（1 条）\n\n- **Apple’s $50 Intelligence Usage Packs extend access to some AI features**  \n  After publishing a support article in early September outlining usage limits for some Appl…  \n  🔗 https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro\n\n\n## 其他（5 条）\n\n- **Instagram’s Effect Builder makes new filters from AI prompts**  \n  After expanding its Edits app to macOS last week, Instagram's next move is launching this …  \n  🔗 https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters\n\n- **The future of AI hinges on… Jensen Huang’s sex life?**  \n  I would prefer that these people's sex lives were none of my business but I guess we have …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me\n\n- **Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec**  \n  Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai\n\n- **Disney and Adobe are building generative AI tools together**  \n  The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" gener…  \n  🔗 https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership\n\n- **Hold up — I had a great time talking to the RIAA guy**  \n  Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversat…  \n  🔗 https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music\n",
   "items": [
     {
-      "title": "Elvis and Eminem rights holders are suing Suno",
-      "title_zh": "Elvis and Eminem rights holders are suing Suno",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "title_zh": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "link": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
     },
     {
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "title_zh": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "title_zh": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
     },
     {
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "title_zh": "The US let Nvidia sell chips to an empty office in China",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "title_zh": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters"
     },
     {
-      "title": "AI broke the cybersecurity world. What’s next?",
-      "title_zh": "AI broke the cybersecurity world. What’s next?",
-      "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos"
+      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "title_zh": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me"
     },
     {
-      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "title_zh": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "title_zh": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai"
     },
     {
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "title_zh": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+      "title": "Disney and Adobe are building generative AI tools together",
+      "title_zh": "Disney and Adobe are building generative AI tools together",
+      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership"
     },
     {
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "title_zh": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+      "title": "Hold up — I had a great time talking to the RIAA guy",
+      "title_zh": "Hold up — I had a great time talking to the RIAA guy",
+      "link": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music"
     },
     {
-      "title": "All the latest updates on AI data centers",
-      "title_zh": "All the latest updates on AI data centers",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
+      "title": "Jonathan Kanter is using AI to take on Big Tech",
+      "title_zh": "Jonathan Kanter is using AI to take on Big Tech",
+      "link": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech"
     },
     {
-      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-      "title_zh": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-      "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "title_zh": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
     },
     {
-      "title": "AI is the new dating dealbreaker",
-      "title_zh": "AI is the new dating dealbreaker",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity"
+      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+      "title_zh": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
     },
     {
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "title_zh": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "title_zh": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "link": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
     },
     {
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "title_zh": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+      "title": "The race is on to sue Nvidia",
+      "title_zh": "The race is on to sue Nvidia",
+      "link": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
     }
   ]
 }
