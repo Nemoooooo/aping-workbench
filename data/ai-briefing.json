@@ -1,67 +1,67 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09 22:55",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-09** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Anthropic launches new Claude Fable and Mythos 5.2 models**  \n  Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, whic…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2\n\n\n## 产品/应用（1 条）\n\n- **Apple’s $50 Intelligence Usage Packs extend access to some AI features**  \n  After publishing a support article in early September outlining usage limits for some Appl…  \n  🔗 https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro\n\n\n## 其他（5 条）\n\n- **Instagram’s Effect Builder makes new filters from AI prompts**  \n  After expanding its Edits app to macOS last week, Instagram's next move is launching this …  \n  🔗 https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters\n\n- **The future of AI hinges on… Jensen Huang’s sex life?**  \n  I would prefer that these people's sex lives were none of my business but I guess we have …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me\n\n- **Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec**  \n  Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai\n\n- **Disney and Adobe are building generative AI tools together**  \n  The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" gener…  \n  🔗 https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership\n\n- **Hold up — I had a great time talking to the RIAA guy**  \n  Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversat…  \n  🔗 https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music\n",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10 20:20",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-10** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **ChatGPT is getting verified AI ‘Business Agents’**  \n  ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub\n\n- **Google releases Gemini 4 Carbon with agent ‘swarm’ feature**  \n  Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after re…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout\n\n\n## 产品/应用（1 条）\n\n- **eBay appears to have shut the door on third-party AI agents**  \n  eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platfo…  \n  🔗 https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping\n\n\n## 其他（5 条）\n\n- **The US is winning the AI race. Jensen Huang could have blown it**  \n  As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy\n\n- **The indie game community is in disarray over AI and Big Walk**  \n  Some Independent Games Festival (IGF) jurors published a statement yesterday saying they w…  \n  🔗 https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai\n\n- **Anthropic has its own AI-powered office suite now**  \n  For years, Anthropic has been known for its focus on enterprise and coding tools that attr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now\n\n- **Anthropic targets $1.4 trillion IPO**  \n  Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while f…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion\n\n- **Adobe is going all in on agentic AI**  \n  Adobe is committing itself to the notion that chatbots and AI agents could be your next de…  \n  🔗 https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates\n",
   "items": [
     {
-      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
-      "title_zh": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
-      "link": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+      "title": "The US is winning the AI race. Jensen Huang could have blown it",
+      "title_zh": "The US is winning the AI race. Jensen Huang could have blown it",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"
     },
     {
-      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
-      "title_zh": "Anthropic launches new Claude Fable and Mythos 5.2 models",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+      "title": "ChatGPT is getting verified AI ‘Business Agents’",
+      "title_zh": "ChatGPT is getting verified AI ‘Business Agents’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
     },
     {
-      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
-      "title_zh": "Instagram’s Effect Builder makes new filters from AI prompts",
-      "link": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters"
+      "title": "The indie game community is in disarray over AI and Big Walk",
+      "title_zh": "The indie game community is in disarray over AI and Big Walk",
+      "link": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai"
     },
     {
-      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
-      "title_zh": "The future of AI hinges on… Jensen Huang’s sex life?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me"
+      "title": "Anthropic has its own AI-powered office suite now",
+      "title_zh": "Anthropic has its own AI-powered office suite now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
     },
     {
-      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
-      "title_zh": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai"
+      "title": "eBay appears to have shut the door on third-party AI agents",
+      "title_zh": "eBay appears to have shut the door on third-party AI agents",
+      "link": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping"
     },
     {
-      "title": "Disney and Adobe are building generative AI tools together",
-      "title_zh": "Disney and Adobe are building generative AI tools together",
-      "link": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership"
+      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "title_zh": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
     },
     {
-      "title": "Hold up — I had a great time talking to the RIAA guy",
-      "title_zh": "Hold up — I had a great time talking to the RIAA guy",
-      "link": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music"
+      "title": "Anthropic targets $1.4 trillion IPO",
+      "title_zh": "Anthropic targets $1.4 trillion IPO",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
     },
     {
-      "title": "Jonathan Kanter is using AI to take on Big Tech",
-      "title_zh": "Jonathan Kanter is using AI to take on Big Tech",
-      "link": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech"
+      "title": "Adobe is going all in on agentic AI",
+      "title_zh": "Adobe is going all in on agentic AI",
+      "link": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates"
     },
     {
-      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "title_zh": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+      "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+      "title_zh": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+      "link": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates"
     },
     {
-      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
-      "title_zh": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+      "title": "Hands-on with Ring’s new AI drone camera for your home",
+      "title_zh": "Hands-on with Ring’s new AI drone camera for your home",
+      "link": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot"
     },
     {
-      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-      "title_zh": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-      "link": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "title_zh": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
     },
     {
-      "title": "The race is on to sue Nvidia",
-      "title_zh": "The race is on to sue Nvidia",
-      "link": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "title_zh": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
     }
   ]
 }
