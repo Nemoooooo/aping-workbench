@@ -1,8 +1,23 @@
 {
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10 20:20",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-10** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **ChatGPT is getting verified AI ‘Business Agents’**  \n  ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub\n\n- **Google releases Gemini 4 Carbon with agent ‘swarm’ feature**  \n  Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after re…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout\n\n\n## 产品/应用（1 条）\n\n- **eBay appears to have shut the door on third-party AI agents**  \n  eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platfo…  \n  🔗 https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping\n\n\n## 其他（5 条）\n\n- **The US is winning the AI race. Jensen Huang could have blown it**  \n  As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy\n\n- **The indie game community is in disarray over AI and Big Walk**  \n  Some Independent Games Festival (IGF) jurors published a statement yesterday saying they w…  \n  🔗 https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai\n\n- **Anthropic has its own AI-powered office suite now**  \n  For years, Anthropic has been known for its focus on enterprise and coding tools that attr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now\n\n- **Anthropic targets $1.4 trillion IPO**  \n  Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while f…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion\n\n- **Adobe is going all in on agentic AI**  \n  Adobe is committing itself to the notion that chatbots and AI agents could be your next de…  \n  🔗 https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates\n",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11 20:04",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-11** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **ChatGPT is getting verified AI ‘Business Agents’**  \n  ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub\n\n- **Google releases Gemini 4 Carbon with agent ‘swarm’ feature**  \n  Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after re…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout\n\n\n## 产品/应用（2 条）\n\n- **Google’s Tabletop AI experiment lets you build custom collaboration apps**  \n  Google has cooked up a new experimental AI tool called Tabletop that generates customized …  \n  🔗 https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability\n\n- **eBay appears to have shut the door on third-party AI agents**  \n  eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platfo…  \n  🔗 https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping\n\n\n## 其他（5 条）\n\n- **Google’s AlphaGenome 2 zooms in on the cellular roots of disease**  \n  Researchers at Google DeepMind have unveiled a new AI model designed to unravel how change…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model\n\n- **Adobe’s AI experiments let you walk around in photos and interview your characters**  \n  Some of the most impressive tech that Adobe showcases at its annual Max conference each ye…  \n  🔗 https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai\n\n- **The US is winning the AI race. Jensen Huang could have blown it**  \n  As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy\n\n- **The indie game community is in disarray over AI and Big Walk**  \n  Some Independent Games Festival (IGF) jurors published a statement yesterday saying they w…  \n  🔗 https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai\n\n- **Anthropic has its own AI-powered office suite now**  \n  For years, Anthropic has been known for its focus on enterprise and coding tools that attr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now\n",
   "items": [
+    {
+      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "title_zh": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
+    },
+    {
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "title_zh": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+    },
+    {
+      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+      "title_zh": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+      "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai"
+    },
     {
       "title": "The US is winning the AI race. Jensen Huang could have blown it",
       "title_zh": "The US is winning the AI race. Jensen Huang could have blown it",
@@ -39,29 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
     },
     {
-      "title": "Adobe is going all in on agentic AI",
-      "title_zh": "Adobe is going all in on agentic AI",
-      "link": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates"
+      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "title_zh": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "link": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/"
     },
     {
-      "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
-      "title_zh": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
-      "link": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates"
-    },
-    {
-      "title": "Hands-on with Ring’s new AI drone camera for your home",
-      "title_zh": "Hands-on with Ring’s new AI drone camera for your home",
-      "link": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot"
-    },
-    {
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "title_zh": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
-    },
-    {
-      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-      "title_zh": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-      "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "title_zh": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
     }
   ]
 }
