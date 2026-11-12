@@ -1,67 +1,67 @@
 {
-  "date": "2026-11-11",
-  "generated_at": "2026-11-11 20:04",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-11** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **ChatGPT is getting verified AI ‘Business Agents’**  \n  ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub\n\n- **Google releases Gemini 4 Carbon with agent ‘swarm’ feature**  \n  Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after re…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout\n\n\n## 产品/应用（2 条）\n\n- **Google’s Tabletop AI experiment lets you build custom collaboration apps**  \n  Google has cooked up a new experimental AI tool called Tabletop that generates customized …  \n  🔗 https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability\n\n- **eBay appears to have shut the door on third-party AI agents**  \n  eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platfo…  \n  🔗 https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping\n\n\n## 其他（5 条）\n\n- **Google’s AlphaGenome 2 zooms in on the cellular roots of disease**  \n  Researchers at Google DeepMind have unveiled a new AI model designed to unravel how change…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model\n\n- **Adobe’s AI experiments let you walk around in photos and interview your characters**  \n  Some of the most impressive tech that Adobe showcases at its annual Max conference each ye…  \n  🔗 https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai\n\n- **The US is winning the AI race. Jensen Huang could have blown it**  \n  As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy\n\n- **The indie game community is in disarray over AI and Big Walk**  \n  Some Independent Games Festival (IGF) jurors published a statement yesterday saying they w…  \n  🔗 https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai\n\n- **Anthropic has its own AI-powered office suite now**  \n  For years, Anthropic has been known for its focus on enterprise and coding tools that attr…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now\n",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12 20:41",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-12** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **AI chatbots are recommending fake retail websites, study finds**  \n  Shoppers using AI chatbots to research products or find places to buy items could be direc…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations\n\n\n## 产品/应用（2 条）\n\n- **Nvidia CEO Jensen Huang has resigned. What happens next?**  \n  After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowl…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang\n\n- **I reviewed the Apple HomeView, ask me anything**  \n  Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display…  \n  🔗 https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything\n\n\n## 其他（5 条）\n\n- **Oh, Palantir is ‘progressive’ now, is it?**  \n  I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video\n\n- **The Jensen Huang scandal is hardly over**  \n  I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletp…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling\n\n- **More game developers are starting to use generative AI**  \n  More video game developers are using generative AI tools in their jobs compared to last ye…  \n  🔗 https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs\n\n- **Jensen Huang is out. What did China want from him?**  \n  Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quic…  \n  🔗 https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump\n\n- **Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup**  \n  Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang\n",
   "items": [
     {
-      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
-      "title_zh": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
-      "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "title_zh": "Oh, Palantir is ‘progressive’ now, is it?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video"
     },
     {
-      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
-      "title_zh": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+      "title": "The Jensen Huang scandal is hardly over",
+      "title_zh": "The Jensen Huang scandal is hardly over",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
     },
     {
-      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
-      "title_zh": "Adobe’s AI experiments let you walk around in photos and interview your characters",
-      "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai"
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "title_zh": "AI chatbots are recommending fake retail websites, study finds",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
     },
     {
-      "title": "The US is winning the AI race. Jensen Huang could have blown it",
-      "title_zh": "The US is winning the AI race. Jensen Huang could have blown it",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"
+      "title": "More game developers are starting to use generative AI",
+      "title_zh": "More game developers are starting to use generative AI",
+      "link": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs"
     },
     {
-      "title": "ChatGPT is getting verified AI ‘Business Agents’",
-      "title_zh": "ChatGPT is getting verified AI ‘Business Agents’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
+      "title": "Jensen Huang is out. What did China want from him?",
+      "title_zh": "Jensen Huang is out. What did China want from him?",
+      "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump"
     },
     {
-      "title": "The indie game community is in disarray over AI and Big Walk",
-      "title_zh": "The indie game community is in disarray over AI and Big Walk",
-      "link": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai"
+      "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+      "title_zh": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang"
     },
     {
-      "title": "Anthropic has its own AI-powered office suite now",
-      "title_zh": "Anthropic has its own AI-powered office suite now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+      "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+      "title_zh": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
     },
     {
-      "title": "eBay appears to have shut the door on third-party AI agents",
-      "title_zh": "eBay appears to have shut the door on third-party AI agents",
-      "link": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping"
+      "title": "I reviewed the Apple HomeView, ask me anything",
+      "title_zh": "I reviewed the Apple HomeView, ask me anything",
+      "link": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything"
     },
     {
-      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "title_zh": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+      "title_zh": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns"
     },
     {
-      "title": "Anthropic targets $1.4 trillion IPO",
-      "title_zh": "Anthropic targets $1.4 trillion IPO",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "title_zh": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor"
     },
     {
-      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
-      "title_zh": "How backlash and red tape continue to slow data centers post-Blue Wave",
-      "link": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/"
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "title_zh": "Jensen Huang was having a third affair, Reuters reports",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/"
     },
     {
-      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-      "title_zh": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "title_zh": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
     }
   ]
 }
