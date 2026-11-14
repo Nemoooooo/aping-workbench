@@ -1,8 +1,28 @@
 {
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13 20:23",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-13** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（4 条）\n\n- **Claude’s Duet agent is a little neurotic and surprisingly helpful**  \n  Normally, the products I test don't offer to help me write up my experience with them. Due…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on\n\n- **Google’s new Gemini model is better at understanding complicated questions**  \n  Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex quest…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen\n\n- **AI chatbots are recommending fake retail websites, study finds**  \n  Shoppers using AI chatbots to research products or find places to buy items could be direc…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations\n\n- **Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!**  \n  New research shows the most advanced AI models from China were trained on banned Nvidia ch…  \n  🔗 https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/\n\n\n## 其他（5 条）\n\n- **What’s really at stake in the Jensen Huang saga**  \n  One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang res…  \n  🔗 https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast\n\n- **Let’s talk about Jensen Huang’s many affairs!**  \n  Usually, we'd be offering to answer your questions about a news event, but honestly we don…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow\n\n- **No, AI agents did not discover a previously unknown Maya site**  \n  Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery\n\n- **Oh, Palantir is ‘progressive’ now, is it?**  \n  I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video\n\n- **The Jensen Huang scandal is hardly over**  \n  I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletp…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling\n",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14 18:40",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-14** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you**  \n  After launching its Dots AI agents platform earlier this year, OpenAI is launching a walle…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\n\n- **Claude’s Duet agent is a little neurotic and surprisingly helpful**  \n  Normally, the products I test don't offer to help me write up my experience with them. Due…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on\n\n- **Google’s new Gemini model is better at understanding complicated questions**  \n  Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex quest…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen\n\n\n## 其他（5 条）\n\n- **The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs**  \n  Today, I’m talking with Helen Toner, the executive director of the Center for Security and…  \n  🔗 https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview\n\n- **Jensen Huang and the decline of the visionary showman founder CEO**  \n  On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode t…  \n  🔗 https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo\n\n- **Amazon has a plan to index the world’s online shopping data**  \n  Amazon has plans to build a vault of data on every product sold anywhere on the internet, …  \n  🔗 https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search\n\n- **What’s really at stake in the Jensen Huang saga**  \n  One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang res…  \n  🔗 https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast\n\n- **Let’s talk about Jensen Huang’s many affairs!**  \n  Usually, we'd be offering to answer your questions about a news event, but honestly we don…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow\n",
   "items": [
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "title_zh": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+    },
+    {
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "title_zh": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+    },
+    {
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "title_zh": "Amazon has a plan to index the world’s online shopping data",
+      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+    },
+    {
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "title_zh": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+    },
     {
       "title": "What’s really at stake in the Jensen Huang saga",
       "title_zh": "What’s really at stake in the Jensen Huang saga",
@@ -34,34 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video"
     },
     {
-      "title": "The Jensen Huang scandal is hardly over",
-      "title_zh": "The Jensen Huang scandal is hardly over",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "title_zh": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
     },
     {
-      "title": "AI chatbots are recommending fake retail websites, study finds",
-      "title_zh": "AI chatbots are recommending fake retail websites, study finds",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
-    },
-    {
-      "title": "More game developers are starting to use generative AI",
-      "title_zh": "More game developers are starting to use generative AI",
-      "link": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs"
-    },
-    {
-      "title": "Jensen Huang is out. What did China want from him?",
-      "title_zh": "Jensen Huang is out. What did China want from him?",
-      "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump"
-    },
-    {
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "title_zh": "AI agent startup LangChain hits $3B valuation",
-      "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
-    },
-    {
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
-      "title_zh": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
-      "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "title_zh": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
     }
   ]
 }
