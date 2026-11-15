@@ -1,8 +1,18 @@
 {
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14 18:40",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-14** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you**  \n  After launching its Dots AI agents platform earlier this year, OpenAI is launching a walle…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\n\n- **Claude’s Duet agent is a little neurotic and surprisingly helpful**  \n  Normally, the products I test don't offer to help me write up my experience with them. Due…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on\n\n- **Google’s new Gemini model is better at understanding complicated questions**  \n  Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex quest…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen\n\n\n## 其他（5 条）\n\n- **The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs**  \n  Today, I’m talking with Helen Toner, the executive director of the Center for Security and…  \n  🔗 https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview\n\n- **Jensen Huang and the decline of the visionary showman founder CEO**  \n  On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode t…  \n  🔗 https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo\n\n- **Amazon has a plan to index the world’s online shopping data**  \n  Amazon has plans to build a vault of data on every product sold anywhere on the internet, …  \n  🔗 https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search\n\n- **What’s really at stake in the Jensen Huang saga**  \n  One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang res…  \n  🔗 https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast\n\n- **Let’s talk about Jensen Huang’s many affairs!**  \n  Usually, we'd be offering to answer your questions about a news event, but honestly we don…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow\n",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15 19:17",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-15** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you**  \n  After launching its Dots AI agents platform earlier this year, OpenAI is launching a walle…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\n\n- **Claude’s Duet agent is a little neurotic and surprisingly helpful**  \n  Normally, the products I test don't offer to help me write up my experience with them. Due…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on\n\n- **Google’s new Gemini model is better at understanding complicated questions**  \n  Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex quest…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen\n\n\n## 产品/应用（1 条）\n\n- **Congress wants to tighten export rules on AI chips after Nvidia spy scandal**  \n  Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a s…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china\n\n\n## 其他（5 条）\n\n- **An overview of Jensen Huang’s messy days**  \n  This is The Stepback, a weekly newsletter breaking down one essential story from the tech …  \n  🔗 https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation\n\n- **The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs**  \n  Today, I’m talking with Helen Toner, the executive director of the Center for Security and…  \n  🔗 https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview\n\n- **Jensen Huang and the decline of the visionary showman founder CEO**  \n  On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode t…  \n  🔗 https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo\n\n- **Amazon has a plan to index the world’s online shopping data**  \n  Amazon has plans to build a vault of data on every product sold anywhere on the internet, …  \n  🔗 https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search\n\n- **What’s really at stake in the Jensen Huang saga**  \n  One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang res…  \n  🔗 https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast\n",
   "items": [
+    {
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "title_zh": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+    },
+    {
+      "title": "An overview of Jensen Huang’s messy days",
+      "title_zh": "An overview of Jensen Huang’s messy days",
+      "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+    },
     {
       "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
       "title_zh": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
@@ -44,24 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
     },
     {
-      "title": "No, AI agents did not discover a previously unknown Maya site",
-      "title_zh": "No, AI agents did not discover a previously unknown Maya site",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery"
+      "title": "Where was Nvidia’s security team?",
+      "title_zh": "Where was Nvidia’s security team?",
+      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
     },
     {
-      "title": "Oh, Palantir is ‘progressive’ now, is it?",
-      "title_zh": "Oh, Palantir is ‘progressive’ now, is it?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video"
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "title_zh": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
-    },
-    {
-      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "title_zh": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "title_zh": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
     }
   ]
 }
