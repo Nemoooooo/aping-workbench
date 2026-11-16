@@ -1,67 +1,67 @@
 {
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15 19:17",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-15** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（3 条）\n\n- **ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you**  \n  After launching its Dots AI agents platform earlier this year, OpenAI is launching a walle…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet\n\n- **Claude’s Duet agent is a little neurotic and surprisingly helpful**  \n  Normally, the products I test don't offer to help me write up my experience with them. Due…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on\n\n- **Google’s new Gemini model is better at understanding complicated questions**  \n  Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex quest…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen\n\n\n## 产品/应用（1 条）\n\n- **Congress wants to tighten export rules on AI chips after Nvidia spy scandal**  \n  Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a s…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china\n\n\n## 其他（5 条）\n\n- **An overview of Jensen Huang’s messy days**  \n  This is The Stepback, a weekly newsletter breaking down one essential story from the tech …  \n  🔗 https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation\n\n- **The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs**  \n  Today, I’m talking with Helen Toner, the executive director of the Center for Security and…  \n  🔗 https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview\n\n- **Jensen Huang and the decline of the visionary showman founder CEO**  \n  On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode t…  \n  🔗 https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo\n\n- **Amazon has a plan to index the world’s online shopping data**  \n  Amazon has plans to build a vault of data on every product sold anywhere on the internet, …  \n  🔗 https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search\n\n- **What’s really at stake in the Jensen Huang saga**  \n  One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang res…  \n  🔗 https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast\n",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16 22:48",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-16** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Apple is testing daily usage limits for more complex Siri AI interactions**  \n  Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is us…  \n  🔗 https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription\n\n\n## 其他（5 条）\n\n- **California sues OpenAI over rogue AI hacking incidents**  \n  California is suing OpenAI after its AI agents broke out of their testing environment and …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit\n\n- **Sam Altman says he wants everyone ‘to have a lot of RAM’**  \n  OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purcha…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor\n\n- **Big Nuclear isn’t worried about the Democrats stopping data centers**  \n  Constellation Energy - America's largest operator of nuclear power plants - does not share…  \n  🔗 https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats\n\n- **US data centers now burn more electricity than a midsized country**  \n  Fossil fuels are still the biggest source of electricity for hyperscale data centers in th…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard\n\n- **OpenAI wants to stop deepfakes from overwhelming child abuse tiplines**  \n  OpenAI is announcing a tool that it says will help child sexual abuse investigators cut th…  \n  🔗 https://www.theverge.com/policy/1034527/openai-csam-classifier\n",
   "items": [
     {
-      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-      "title_zh": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+      "title": "California sues OpenAI over rogue AI hacking incidents",
+      "title_zh": "California sues OpenAI over rogue AI hacking incidents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
     },
     {
-      "title": "An overview of Jensen Huang’s messy days",
-      "title_zh": "An overview of Jensen Huang’s messy days",
-      "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+      "title_zh": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor"
     },
     {
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "title_zh": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+      "title_zh": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+      "link": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats"
     },
     {
-      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-      "title_zh": "Jensen Huang and the decline of the visionary showman founder CEO",
-      "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+      "title": "US data centers now burn more electricity than a midsized country",
+      "title_zh": "US data centers now burn more electricity than a midsized country",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard"
     },
     {
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "title_zh": "Amazon has a plan to index the world’s online shopping data",
-      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+      "title_zh": "Apple is testing daily usage limits for more complex Siri AI interactions",
+      "link": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription"
     },
     {
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "title_zh": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+      "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+      "title_zh": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+      "link": "https://www.theverge.com/policy/1034527/openai-csam-classifier"
     },
     {
-      "title": "What’s really at stake in the Jensen Huang saga",
-      "title_zh": "What’s really at stake in the Jensen Huang saga",
-      "link": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+      "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+      "title_zh": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+      "link": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back"
     },
     {
-      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "title_zh": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
+      "title": "Audible is trying to make it easier to find audiobooks you’ll actually like",
+      "title_zh": "Audible is trying to make it easier to find audiobooks you’ll actually like",
+      "link": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability"
     },
     {
-      "title": "Let’s talk about Jensen Huang’s many affairs!",
-      "title_zh": "Let’s talk about Jensen Huang’s many affairs!",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
+      "title": "Google Maps can now create trip itineraries for you",
+      "title_zh": "Google Maps can now create trip itineraries for you",
+      "link": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning"
     },
     {
-      "title": "Google’s new Gemini model is better at understanding complicated questions",
-      "title_zh": "Google’s new Gemini model is better at understanding complicated questions",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+      "title": "The Nvidia scandal isn’t slowing down",
+      "title_zh": "The Nvidia scandal isn’t slowing down",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down"
     },
     {
-      "title": "Where was Nvidia’s security team?",
-      "title_zh": "Where was Nvidia’s security team?",
-      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "title_zh": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/"
     },
     {
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "title_zh": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "title_zh": "California state AG sues OpenAI over rogue agent incidents",
+      "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
     }
   ]
 }
