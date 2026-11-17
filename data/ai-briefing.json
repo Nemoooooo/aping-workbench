@@ -1,8 +1,33 @@
 {
-  "date": "2026-11-16",
-  "generated_at": "2026-11-16 22:48",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-16** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Apple is testing daily usage limits for more complex Siri AI interactions**  \n  Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is us…  \n  🔗 https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription\n\n\n## 其他（5 条）\n\n- **California sues OpenAI over rogue AI hacking incidents**  \n  California is suing OpenAI after its AI agents broke out of their testing environment and …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit\n\n- **Sam Altman says he wants everyone ‘to have a lot of RAM’**  \n  OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purcha…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor\n\n- **Big Nuclear isn’t worried about the Democrats stopping data centers**  \n  Constellation Energy - America's largest operator of nuclear power plants - does not share…  \n  🔗 https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats\n\n- **US data centers now burn more electricity than a midsized country**  \n  Fossil fuels are still the biggest source of electricity for hyperscale data centers in th…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard\n\n- **OpenAI wants to stop deepfakes from overwhelming child abuse tiplines**  \n  OpenAI is announcing a tool that it says will help child sexual abuse investigators cut th…  \n  🔗 https://www.theverge.com/policy/1034527/openai-csam-classifier\n",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17 21:36",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-17** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Model ML raises $250M to automate investment banking grunt work**  \n  The startup says its agents understand the full context of deals that bankers and consulta…  \n  🔗 https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/\n\n\n## 产品/应用（1 条）\n\n- **Apple is testing daily usage limits for more complex Siri AI interactions**  \n  Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is us…  \n  🔗 https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription\n\n\n## 其他（5 条）\n\n- **Not even Sam Altman is safe from AI deepfakes on Instagram**  \n  Instagram is filled with people posting deepfaked content - including, as of late, from on…  \n  🔗 https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake\n\n- **Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free**  \n  Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature,…  \n  🔗 https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free\n\n- **The DOJ says it’s investigating Megaspeed**  \n  The Justice and Commerce Departments said that they are investigating Megaspeed, the Singa…  \n  🔗 https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update\n\n- **Jensen Huang says he’s willing to return as Nvidia CEO**  \n  Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if…  \n  🔗 https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement\n\n- **Tech leaders are convinced that Jensen Huang’s exit was a plot against him**  \n  Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwav…  \n  🔗 https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories\n",
   "items": [
+    {
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "title_zh": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake"
+    },
+    {
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "title_zh": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "link": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
+    },
+    {
+      "title": "The DOJ says it’s investigating Megaspeed",
+      "title_zh": "The DOJ says it’s investigating Megaspeed",
+      "link": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update"
+    },
+    {
+      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+      "title_zh": "Jensen Huang says he’s willing to return as Nvidia CEO",
+      "link": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement"
+    },
+    {
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "title_zh": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories"
+    },
     {
       "title": "California sues OpenAI over rogue AI hacking incidents",
       "title_zh": "California sues OpenAI over rogue AI hacking incidents",
@@ -29,39 +54,14 @@
       "link": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription"
     },
     {
-      "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
-      "title_zh": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
-      "link": "https://www.theverge.com/policy/1034527/openai-csam-classifier"
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "title_zh": "Google joins the tech outage trend by announcing it’s not having one",
+      "link": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/"
     },
     {
-      "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
-      "title_zh": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
-      "link": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back"
-    },
-    {
-      "title": "Audible is trying to make it easier to find audiobooks you’ll actually like",
-      "title_zh": "Audible is trying to make it easier to find audiobooks you’ll actually like",
-      "link": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability"
-    },
-    {
-      "title": "Google Maps can now create trip itineraries for you",
-      "title_zh": "Google Maps can now create trip itineraries for you",
-      "link": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning"
-    },
-    {
-      "title": "The Nvidia scandal isn’t slowing down",
-      "title_zh": "The Nvidia scandal isn’t slowing down",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down"
-    },
-    {
-      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "title_zh": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/"
-    },
-    {
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "title_zh": "California state AG sues OpenAI over rogue agent incidents",
-      "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "title_zh": "Model ML raises $250M to automate investment banking grunt work",
+      "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
     }
   ]
 }
