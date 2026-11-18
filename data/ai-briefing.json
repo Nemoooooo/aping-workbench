@@ -1,67 +1,67 @@
 {
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17 21:36",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-17** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Model ML raises $250M to automate investment banking grunt work**  \n  The startup says its agents understand the full context of deals that bankers and consulta…  \n  🔗 https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/\n\n\n## 产品/应用（1 条）\n\n- **Apple is testing daily usage limits for more complex Siri AI interactions**  \n  Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is us…  \n  🔗 https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription\n\n\n## 其他（5 条）\n\n- **Not even Sam Altman is safe from AI deepfakes on Instagram**  \n  Instagram is filled with people posting deepfaked content - including, as of late, from on…  \n  🔗 https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake\n\n- **Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free**  \n  Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature,…  \n  🔗 https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free\n\n- **The DOJ says it’s investigating Megaspeed**  \n  The Justice and Commerce Departments said that they are investigating Megaspeed, the Singa…  \n  🔗 https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update\n\n- **Jensen Huang says he’s willing to return as Nvidia CEO**  \n  Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if…  \n  🔗 https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement\n\n- **Tech leaders are convinced that Jensen Huang’s exit was a plot against him**  \n  Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwav…  \n  🔗 https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories\n",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18 21:12",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-18** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor**  \n  Lens creators can describe the Lens they want in plain language, and their AI assistant ha…  \n  🔗 https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/\n\n\n## 产品/应用（2 条）\n\n- **Remember the frontier AI pause? Chip companies don’t either**  \n  This summer, OpenAI paused its largest planned frontier training run after its AI agents a…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models\n\n- **Nvidia isn’t selling any more AI chips to China**  \n  Nvidia has stopped sending its advanced AI chips to China despite the approval it received…  \n  🔗 https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling\n\n\n## 其他（5 条）\n\n- **Trump’s latest land grab is an AI hub in the Philippines**  \n  President Donald Trump was greeted by no less than five beauty queens when he landed in th…  \n  🔗 https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica\n\n- **What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat**  \n  If someone handed you $8,300 every second, what would you do? That's how much pure profit …  \n  🔗 https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang\n\n- **Tech lawsuits defined 2026 — and lawmakers want more**  \n  With just a few weeks remaining, lawmakers are trying to pass new protections for victims …  \n  🔗 https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act\n\n- **What is Nvidia without AI’s sugar daddy in charge?**  \n  If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps n…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition\n\n- **Disney’s new Star Wars animatronics interact with guests using AI**  \n  As advanced and lifelike as the animatronic characters at Disney parks have become, they t…  \n  🔗 https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai\n",
   "items": [
     {
-      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-      "title_zh": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-      "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake"
+      "title": "Trump’s latest land grab is an AI hub in the Philippines",
+      "title_zh": "Trump’s latest land grab is an AI hub in the Philippines",
+      "link": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica"
     },
     {
-      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "title_zh": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "link": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
+      "title": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
+      "title_zh": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
+      "link": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang"
     },
     {
-      "title": "The DOJ says it’s investigating Megaspeed",
-      "title_zh": "The DOJ says it’s investigating Megaspeed",
-      "link": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update"
+      "title": "Tech lawsuits defined 2026 — and lawmakers want more",
+      "title_zh": "Tech lawsuits defined 2026 — and lawmakers want more",
+      "link": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act"
     },
     {
-      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
-      "title_zh": "Jensen Huang says he’s willing to return as Nvidia CEO",
-      "link": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement"
+      "title": "What is Nvidia without AI’s sugar daddy in charge?",
+      "title_zh": "What is Nvidia without AI’s sugar daddy in charge?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition"
     },
     {
-      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-      "title_zh": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-      "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories"
+      "title": "Disney’s new Star Wars animatronics interact with guests using AI",
+      "title_zh": "Disney’s new Star Wars animatronics interact with guests using AI",
+      "link": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai"
     },
     {
-      "title": "California sues OpenAI over rogue AI hacking incidents",
-      "title_zh": "California sues OpenAI over rogue AI hacking incidents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
+      "title": "Remember the frontier AI pause? Chip companies don’t either",
+      "title_zh": "Remember the frontier AI pause? Chip companies don’t either",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models"
     },
     {
-      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
-      "title_zh": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor"
+      "title": "Will Wright’s next game uses AI to map your memories",
+      "title_zh": "Will Wright’s next game uses AI to map your memories",
+      "link": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview"
     },
     {
-      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
-      "title_zh": "Big Nuclear isn’t worried about the Democrats stopping data centers",
-      "link": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats"
+      "title": "Nvidia isn’t selling any more AI chips to China",
+      "title_zh": "Nvidia isn’t selling any more AI chips to China",
+      "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
     },
     {
-      "title": "US data centers now burn more electricity than a midsized country",
-      "title_zh": "US data centers now burn more electricity than a midsized country",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard"
+      "title": "Suno now lets you make AI videos for your AI music",
+      "title_zh": "Suno now lets you make AI videos for your AI music",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature"
     },
     {
-      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
-      "title_zh": "Apple is testing daily usage limits for more complex Siri AI interactions",
-      "link": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription"
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "title_zh": "Satya Nadella says he’s AGI-pilled now",
+      "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
     },
     {
-      "title": "Google joins the tech outage trend by announcing it’s not having one",
-      "title_zh": "Google joins the tech outage trend by announcing it’s not having one",
-      "link": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/"
+      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "title_zh": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "link": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/"
     },
     {
-      "title": "Model ML raises $250M to automate investment banking grunt work",
-      "title_zh": "Model ML raises $250M to automate investment banking grunt work",
-      "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "title_zh": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
     }
   ]
 }
