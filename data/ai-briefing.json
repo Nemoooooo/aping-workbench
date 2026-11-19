@@ -1,67 +1,67 @@
 {
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18 21:12",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-18** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor**  \n  Lens creators can describe the Lens they want in plain language, and their AI assistant ha…  \n  🔗 https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/\n\n\n## 产品/应用（2 条）\n\n- **Remember the frontier AI pause? Chip companies don’t either**  \n  This summer, OpenAI paused its largest planned frontier training run after its AI agents a…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models\n\n- **Nvidia isn’t selling any more AI chips to China**  \n  Nvidia has stopped sending its advanced AI chips to China despite the approval it received…  \n  🔗 https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling\n\n\n## 其他（5 条）\n\n- **Trump’s latest land grab is an AI hub in the Philippines**  \n  President Donald Trump was greeted by no less than five beauty queens when he landed in th…  \n  🔗 https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica\n\n- **What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat**  \n  If someone handed you $8,300 every second, what would you do? That's how much pure profit …  \n  🔗 https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang\n\n- **Tech lawsuits defined 2026 — and lawmakers want more**  \n  With just a few weeks remaining, lawmakers are trying to pass new protections for victims …  \n  🔗 https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act\n\n- **What is Nvidia without AI’s sugar daddy in charge?**  \n  If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps n…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition\n\n- **Disney’s new Star Wars animatronics interact with guests using AI**  \n  As advanced and lifelike as the animatronic characters at Disney parks have become, they t…  \n  🔗 https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai\n",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19 21:15",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-19** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Gemini on Mac can now use your computer**  \n  Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-ste…  \n  🔗 https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use\n\n- **ChatGPT can transcribe as you speak now with Live Dictation**  \n  ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation fe…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation\n\n\n## 产品/应用（1 条）\n\n- **I let Apple’s always-listening AI summarize my life for two weeks**  \n  Was it worth it? I've been asking myself this quite a bit over the last month or so while …  \n  🔗 https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on\n\n\n## 其他（5 条）\n\n- **Meta’s Muse Charm might cost $300**  \n  Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat…  \n  🔗 https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price\n\n- **Google is putting AI chats right on the homepage**  \n  Google is updating its homepage to include AI searches. In a post on X, Google's vice pres…  \n  🔗 https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats\n\n- **Anthropic starts trading on Wall Street**  \n  Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symb…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq\n\n- **With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line**  \n  Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure\n\n- **Canva adds an AI ‘off’ button**  \n  Canva will now allow you to turn off its generative AI features. With this change, you can…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button\n",
   "items": [
+    {
+      "title": "Meta’s Muse Charm might cost $300",
+      "title_zh": "Meta’s Muse Charm might cost $300",
+      "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+    },
+    {
+      "title": "Google is putting AI chats right on the homepage",
+      "title_zh": "Google is putting AI chats right on the homepage",
+      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
+    },
+    {
+      "title": "Gemini on Mac can now use your computer",
+      "title_zh": "Gemini on Mac can now use your computer",
+      "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+    },
+    {
+      "title": "Anthropic starts trading on Wall Street",
+      "title_zh": "Anthropic starts trading on Wall Street",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
+    },
+    {
+      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "title_zh": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+    },
+    {
+      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+      "title_zh": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
+    },
+    {
+      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "title_zh": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on"
+    },
+    {
+      "title": "Canva adds an AI ‘off’ button",
+      "title_zh": "Canva adds an AI ‘off’ button",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
+    },
+    {
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "title_zh": "The nation’s largest school districts consider ditching Google Search",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
+    },
     {
       "title": "Trump’s latest land grab is an AI hub in the Philippines",
       "title_zh": "Trump’s latest land grab is an AI hub in the Philippines",
       "link": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica"
     },
     {
-      "title": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
-      "title_zh": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
-      "link": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang"
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "title_zh": "The unfolding Jensen Huang scandal: a timeline",
+      "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
     },
     {
-      "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-      "title_zh": "Tech lawsuits defined 2026 — and lawmakers want more",
-      "link": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act"
-    },
-    {
-      "title": "What is Nvidia without AI’s sugar daddy in charge?",
-      "title_zh": "What is Nvidia without AI’s sugar daddy in charge?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition"
-    },
-    {
-      "title": "Disney’s new Star Wars animatronics interact with guests using AI",
-      "title_zh": "Disney’s new Star Wars animatronics interact with guests using AI",
-      "link": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai"
-    },
-    {
-      "title": "Remember the frontier AI pause? Chip companies don’t either",
-      "title_zh": "Remember the frontier AI pause? Chip companies don’t either",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models"
-    },
-    {
-      "title": "Will Wright’s next game uses AI to map your memories",
-      "title_zh": "Will Wright’s next game uses AI to map your memories",
-      "link": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview"
-    },
-    {
-      "title": "Nvidia isn’t selling any more AI chips to China",
-      "title_zh": "Nvidia isn’t selling any more AI chips to China",
-      "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
-    },
-    {
-      "title": "Suno now lets you make AI videos for your AI music",
-      "title_zh": "Suno now lets you make AI videos for your AI music",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature"
-    },
-    {
-      "title": "Satya Nadella says he’s AGI-pilled now",
-      "title_zh": "Satya Nadella says he’s AGI-pilled now",
-      "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now"
-    },
-    {
-      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "title_zh": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "link": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/"
-    },
-    {
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "title_zh": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+      "title": "Anthropic’s IPO could deliver $156 billion to charity",
+      "title_zh": "Anthropic’s IPO could deliver $156 billion to charity",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
     }
   ]
 }
