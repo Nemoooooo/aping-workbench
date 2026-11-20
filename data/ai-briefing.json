@@ -1,8 +1,38 @@
 {
-  "date": "2026-11-19",
-  "generated_at": "2026-11-19 21:15",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-19** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Gemini on Mac can now use your computer**  \n  Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-ste…  \n  🔗 https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use\n\n- **ChatGPT can transcribe as you speak now with Live Dictation**  \n  ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation fe…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation\n\n\n## 产品/应用（1 条）\n\n- **I let Apple’s always-listening AI summarize my life for two weeks**  \n  Was it worth it? I've been asking myself this quite a bit over the last month or so while …  \n  🔗 https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on\n\n\n## 其他（5 条）\n\n- **Meta’s Muse Charm might cost $300**  \n  Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat…  \n  🔗 https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price\n\n- **Google is putting AI chats right on the homepage**  \n  Google is updating its homepage to include AI searches. In a post on X, Google's vice pres…  \n  🔗 https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats\n\n- **Anthropic starts trading on Wall Street**  \n  Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symb…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq\n\n- **With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line**  \n  Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure\n\n- **Canva adds an AI ‘off’ button**  \n  Canva will now allow you to turn off its generative AI features. With this change, you can…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button\n",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20 20:58",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-20** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（4 条）\n\n- **Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude**  \n  Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem\n\n- **Signal is blocking Gemini and Siri AI from reading your screen**  \n  Signal is restricting the ability to take screenshots on Android and iOS devices in an eff…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app\n\n- **Gemini on Mac can now use your computer**  \n  Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-ste…  \n  🔗 https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use\n\n- **Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.**  \n  Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an A…  \n  🔗 https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/\n\n\n## 产品/应用（1 条）\n\n- **Apple is hiring engineers to build its own AI agent**  \n  Apple is working on its own AI agent that can perform a range of tasks for you, including …  \n  🔗 https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing\n\n\n## 其他（5 条）\n\n- **Trump threatens ‘tremendous tax’ for moving AI data centers outside the US**  \n  President Donald Trump promised to put a \"tremendous tax\" on companies that build data cen…  \n  🔗 https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax\n\n- **The week everything fell apart**  \n  There was a dayslong Outlook outage. A nationwide ground stop for only the second time in …  \n  🔗 https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast\n\n- **A brief history of Nvidia’s recent stock fluctuations**  \n  \"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed o…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings\n\n- **Meta’s Muse Charm might cost $300**  \n  Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat…  \n  🔗 https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price\n\n- **Google is putting AI chats right on the homepage**  \n  Google is updating its homepage to include AI searches. In a post on X, Google's vice pres…  \n  🔗 https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats\n",
   "items": [
+    {
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "title_zh": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+    },
+    {
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "title_zh": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+    },
+    {
+      "title": "The week everything fell apart",
+      "title_zh": "The week everything fell apart",
+      "link": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast"
+    },
+    {
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "title_zh": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+    },
+    {
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "title_zh": "Apple is hiring engineers to build its own AI agent",
+      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+    },
+    {
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "title_zh": "A brief history of Nvidia’s recent stock fluctuations",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
+    },
     {
       "title": "Meta’s Muse Charm might cost $300",
       "title_zh": "Meta’s Muse Charm might cost $300",
@@ -24,44 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
     },
     {
-      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "title_zh": "ChatGPT can transcribe as you speak now with Live Dictation",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "title_zh": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
     },
     {
-      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-      "title_zh": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure"
-    },
-    {
-      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
-      "title_zh": "I let Apple’s always-listening AI summarize my life for two weeks",
-      "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on"
-    },
-    {
-      "title": "Canva adds an AI ‘off’ button",
-      "title_zh": "Canva adds an AI ‘off’ button",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
-    },
-    {
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "title_zh": "The nation’s largest school districts consider ditching Google Search",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
-    },
-    {
-      "title": "Trump’s latest land grab is an AI hub in the Philippines",
-      "title_zh": "Trump’s latest land grab is an AI hub in the Philippines",
-      "link": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica"
-    },
-    {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "title_zh": "The unfolding Jensen Huang scandal: a timeline",
-      "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
-    },
-    {
-      "title": "Anthropic’s IPO could deliver $156 billion to charity",
-      "title_zh": "Anthropic’s IPO could deliver $156 billion to charity",
-      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
+      "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
+      "title_zh": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
+      "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
     }
   ]
 }
