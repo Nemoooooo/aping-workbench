@@ -1,8 +1,23 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21 19:59",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-21** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude**  \n  Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem\n\n- **Signal is blocking Gemini and Siri AI from reading your screen**  \n  Signal is restricting the ability to take screenshots on Android and iOS devices in an eff…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app\n\n\n## 产品/应用（1 条）\n\n- **Apple is hiring engineers to build its own AI agent**  \n  Apple is working on its own AI agent that can perform a range of tasks for you, including …  \n  🔗 https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing\n\n\n## 其他（5 条）\n\n- **Can Anthropic afford to put safety first?**  \n  Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic …  \n  🔗 https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure\n\n- **Chess.com’s next move is a new hub for classic games, from mahjong to sudoku**  \n  Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free …  \n  🔗 https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai\n\n- **Trump threatens ‘tremendous tax’ for moving AI data centers outside the US**  \n  President Donald Trump promised to put a \"tremendous tax\" on companies that build data cen…  \n  🔗 https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax\n\n- **The week everything fell apart**  \n  There was a dayslong Outlook outage. A nationwide ground stop for only the second time in …  \n  🔗 https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast\n\n- **A brief history of Nvidia’s recent stock fluctuations**  \n  \"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed o…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings\n",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22 20:13",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-22** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude**  \n  Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem\n\n- **Signal is blocking Gemini and Siri AI from reading your screen**  \n  Signal is restricting the ability to take screenshots on Android and iOS devices in an eff…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app\n\n\n## 产品/应用（1 条）\n\n- **Apple is hiring engineers to build its own AI agent**  \n  Apple is working on its own AI agent that can perform a range of tasks for you, including …  \n  🔗 https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing\n\n\n## 政策/行业（1 条）\n\n- **The UN fails to agree on rules regulating ‘killer robots’**  \n  One of the items on the agenda for UN diplomats meeting in Geneva this week was working to…  \n  🔗 https://www.theverge.com/tech/1039554/un-regulations-killer-robots\n\n\n## 其他（5 条）\n\n- **Binding of Isaac developer removes AI music from Repentance Plus**  \n  The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on…  \n  🔗 https://www.theverge.com/games/1039770/binding-of-isaac-ai-music\n\n- **The vibe-coding revolution is coming to all the gadgets**  \n  This is The Stepback, a weekly newsletter breaking down one essential story from the tech …  \n  🔗 https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera\n\n- **Can Anthropic afford to put safety first?**  \n  Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic …  \n  🔗 https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure\n\n- **Chess.com’s next move is a new hub for classic games, from mahjong to sudoku**  \n  Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free …  \n  🔗 https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai\n\n- **Trump threatens ‘tremendous tax’ for moving AI data centers outside the US**  \n  President Donald Trump promised to put a \"tremendous tax\" on companies that build data cen…  \n  🔗 https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax\n",
   "items": [
+    {
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "title_zh": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+    },
+    {
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "title_zh": "The vibe-coding revolution is coming to all the gadgets",
+      "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+    },
+    {
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "title_zh": "The UN fails to agree on rules regulating ‘killer robots’",
+      "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+    },
     {
       "title": "Can Anthropic afford to put safety first?",
       "title_zh": "Can Anthropic afford to put safety first?",
@@ -39,29 +54,14 @@
       "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
     },
     {
-      "title": "A brief history of Nvidia’s recent stock fluctuations",
-      "title_zh": "A brief history of Nvidia’s recent stock fluctuations",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "title_zh": "Why data centers are at the center of the Big Tech backlash",
+      "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
     },
     {
-      "title": "Meta’s Muse Charm might cost $300",
-      "title_zh": "Meta’s Muse Charm might cost $300",
-      "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
-    },
-    {
-      "title": "Google is putting AI chats right on the homepage",
-      "title_zh": "Google is putting AI chats right on the homepage",
-      "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
-    },
-    {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "title_zh": "Here are the top AI agents that can live in your text messages",
-      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
-    },
-    {
-      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "title_zh": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "title_zh": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
     }
   ]
 }
