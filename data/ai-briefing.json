@@ -1,8 +1,33 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-24 00:39",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-24** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（2 条）\n\n- **Claude AI can review pull requests and ship fixes on its own now**  \n  Anthropic is launching some new Claude AI features to help software engineers ship code. A…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests\n\n- **Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes**  \n  As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bo…  \n  🔗 https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/\n\n\n## 产品/应用（1 条）\n\n- **Nvidia CEO Jensen Huang is back. What happens next?**  \n  After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowl…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang\n\n\n## 其他（5 条）\n\n- **Trump engineered a risky comeback for Jensen Huang**  \n  After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Hu…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated\n\n- **Welcome to elite impunity, Jensen Huang**  \n  I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia ag…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang\n\n- **AI data centers throw another wrench into chaotic UN climate talks**  \n  The clean energy revolution hinges on electrifying the entire global economy just as power…  \n  🔗 https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit\n\n- **How Jensen Huang ended up as Nvidia CEO again**  \n  The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades …  \n  🔗 https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return\n\n- **Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription**  \n  Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped ch…  \n  🔗 https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording\n",
+  "generated_at": "2026-11-24 22:57",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-24** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Claude AI can review pull requests and ship fixes on its own now**  \n  Anthropic is launching some new Claude AI features to help software engineers ship code. A…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests\n\n\n## 产品/应用（1 条）\n\n- **Nvidia CEO Jensen Huang is back. What happens next?**  \n  After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowl…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang\n\n\n## 其他（5 条）\n\n- **Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired**  \n  Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to …  \n  🔗 https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology\n\n- **David Fincher is being dragged for suspected use of AI in his latest film**  \n  Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cl…  \n  🔗 https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive\n\n- **Tidal will start banning AI-generated music next month**  \n  Tidal is officially banning AI-generated music on December 9th. As a result of this change…  \n  🔗 https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban\n\n- **Jensen Huang deepfakes are the hot new AI slop**  \n  Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagr…  \n  🔗 https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes\n\n- **The New York Times warns photographers not to update Photoshop over AI features**  \n  The New York Times is asking freelance photographers not to use the newest version of Adob…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features\n",
   "items": [
+    {
+      "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+      "title_zh": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+      "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
+    },
+    {
+      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "title_zh": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive"
+    },
+    {
+      "title": "Tidal will start banning AI-generated music next month",
+      "title_zh": "Tidal will start banning AI-generated music next month",
+      "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+    },
+    {
+      "title": "Jensen Huang deepfakes are the hot new AI slop",
+      "title_zh": "Jensen Huang deepfakes are the hot new AI slop",
+      "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
+    },
+    {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "title_zh": "The New York Times warns photographers not to update Photoshop over AI features",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+    },
     {
       "title": "Trump engineered a risky comeback for Jensen Huang",
       "title_zh": "Trump engineered a risky comeback for Jensen Huang",
@@ -29,39 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
     },
     {
-      "title": "How Jensen Huang ended up as Nvidia CEO again",
-      "title_zh": "How Jensen Huang ended up as Nvidia CEO again",
-      "link": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return"
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "title_zh": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
     },
     {
-      "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
-      "title_zh": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
-      "link": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording"
-    },
-    {
-      "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
-      "title_zh": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit"
-    },
-    {
-      "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
-      "title_zh": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
-      "link": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated"
-    },
-    {
-      "title": "Tech leaders are celebrating Jensen Huang’s return",
-      "title_zh": "Tech leaders are celebrating Jensen Huang’s return",
-      "link": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay"
-    },
-    {
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "title_zh": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
-    },
-    {
-      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "title_zh": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "title_zh": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
     }
   ]
 }
