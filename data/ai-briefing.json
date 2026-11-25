@@ -1,8 +1,33 @@
 {
-  "date": "2026-11-24",
-  "generated_at": "2026-11-24 22:57",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-24** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **Claude AI can review pull requests and ship fixes on its own now**  \n  Anthropic is launching some new Claude AI features to help software engineers ship code. A…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests\n\n\n## 产品/应用（1 条）\n\n- **Nvidia CEO Jensen Huang is back. What happens next?**  \n  After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowl…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang\n\n\n## 其他（5 条）\n\n- **Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired**  \n  Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to …  \n  🔗 https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology\n\n- **David Fincher is being dragged for suspected use of AI in his latest film**  \n  Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cl…  \n  🔗 https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive\n\n- **Tidal will start banning AI-generated music next month**  \n  Tidal is officially banning AI-generated music on December 9th. As a result of this change…  \n  🔗 https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban\n\n- **Jensen Huang deepfakes are the hot new AI slop**  \n  Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagr…  \n  🔗 https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes\n\n- **The New York Times warns photographers not to update Photoshop over AI features**  \n  The New York Times is asking freelance photographers not to use the newest version of Adob…  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features\n",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25 22:14",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-25** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work**  \n  OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work…  \n  🔗 https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/\n\n\n## 其他（5 条）\n\n- **Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future**  \n  Last year, Google filed a patent for a system called My Channel that's designed to create …  \n  🔗 https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent\n\n- **FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space**  \n  In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 milli…  \n  🔗 https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers\n\n- **Nothing offers a full look at its AI earbuds and charging case**  \n  Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their…  \n  🔗 https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal\n\n- **Amazon is reportedly in talks to end Muse AI shopping block**  \n  Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, a…  \n  🔗 https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions\n\n- **Has vibe coding made open source the new normal for synths?**  \n  The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware\n",
   "items": [
+    {
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "title_zh": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent"
+    },
+    {
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "title_zh": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+    },
+    {
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "title_zh": "Nothing offers a full look at its AI earbuds and charging case",
+      "link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal"
+    },
+    {
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "title_zh": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
+    },
+    {
+      "title": "Has vibe coding made open source the new normal for synths?",
+      "title_zh": "Has vibe coding made open source the new normal for synths?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware"
+    },
     {
       "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
       "title_zh": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
@@ -29,39 +54,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
     },
     {
-      "title": "Trump engineered a risky comeback for Jensen Huang",
-      "title_zh": "Trump engineered a risky comeback for Jensen Huang",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "title_zh": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
     },
     {
-      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-      "title_zh": "Nvidia CEO Jensen Huang is back. What happens next?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
-    },
-    {
-      "title": "Welcome to elite impunity, Jensen Huang",
-      "title_zh": "Welcome to elite impunity, Jensen Huang",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang"
-    },
-    {
-      "title": "AI data centers throw another wrench into chaotic UN climate talks",
-      "title_zh": "AI data centers throw another wrench into chaotic UN climate talks",
-      "link": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit"
-    },
-    {
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "title_zh": "Claude AI can review pull requests and ship fixes on its own now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
-    },
-    {
-      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-      "title_zh": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-      "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
-    },
-    {
-      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "title_zh": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "title_zh": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/"
     }
   ]
 }
