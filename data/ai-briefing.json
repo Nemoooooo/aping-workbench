@@ -1,8 +1,13 @@
 {
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25 22:14",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-25** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 研究/模型（1 条）\n\n- **OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work**  \n  OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work…  \n  🔗 https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/\n\n\n## 其他（5 条）\n\n- **Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future**  \n  Last year, Google filed a patent for a system called My Channel that's designed to create …  \n  🔗 https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent\n\n- **FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space**  \n  In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 milli…  \n  🔗 https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers\n\n- **Nothing offers a full look at its AI earbuds and charging case**  \n  Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their…  \n  🔗 https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal\n\n- **Amazon is reportedly in talks to end Muse AI shopping block**  \n  Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, a…  \n  🔗 https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions\n\n- **Has vibe coding made open source the new normal for synths?**  \n  The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has …  \n  🔗 https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware\n",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26 22:11",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-26** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Nvidia hits pause on chip shipments to Southeast Asia**  \n  Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, T…  \n  🔗 https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/\n\n\n## 其他（5 条）\n\n- **42 state AGs are trying to stop Character.AI from selling users’ chats**  \n  A coalition of 42 state attorneys general is trying to prevent Character.AI from selling o…  \n  🔗 https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats\n\n- **Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future**  \n  Last year, Google filed a patent for a system called My Channel that's designed to create …  \n  🔗 https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent\n\n- **FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space**  \n  In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 milli…  \n  🔗 https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers\n\n- **Nothing offers a full look at its AI earbuds and charging case**  \n  Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their…  \n  🔗 https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal\n\n- **Amazon is reportedly in talks to end Muse AI shopping block**  \n  Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, a…  \n  🔗 https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions\n",
   "items": [
+    {
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "title_zh": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+    },
     {
       "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
       "title_zh": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
@@ -49,19 +54,14 @@
       "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
     },
     {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "title_zh": "The New York Times warns photographers not to update Photoshop over AI features",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "title_zh": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
     },
     {
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "title_zh": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
-    },
-    {
-      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-      "title_zh": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-      "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/"
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "title_zh": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/"
     }
   ]
 }
