@@ -1,8 +1,13 @@
 {
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26 22:11",
-  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-26** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Nvidia hits pause on chip shipments to Southeast Asia**  \n  Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, T…  \n  🔗 https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/\n\n\n## 其他（5 条）\n\n- **42 state AGs are trying to stop Character.AI from selling users’ chats**  \n  A coalition of 42 state attorneys general is trying to prevent Character.AI from selling o…  \n  🔗 https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats\n\n- **Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future**  \n  Last year, Google filed a patent for a system called My Channel that's designed to create …  \n  🔗 https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent\n\n- **FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space**  \n  In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 milli…  \n  🔗 https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers\n\n- **Nothing offers a full look at its AI earbuds and charging case**  \n  Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their…  \n  🔗 https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal\n\n- **Amazon is reportedly in talks to end Muse AI shopping block**  \n  Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, a…  \n  🔗 https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions\n",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27 21:51",
+  "briefing_md": "# AI 动态每日简报\n\n> 生成日期：**2026-11-27** ｜ 来源：The Verge AI、TechCrunch AI（标题/摘要已译为中文，链接指向英文原文）\n\n> 每日 09:00 自动抓取全球 AI 领域最新动态，整理为简报。\n\n\n## 产品/应用（1 条）\n\n- **Nvidia hits pause on chip shipments to Southeast Asia**  \n  Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, T…  \n  🔗 https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/\n\n\n## 其他（5 条）\n\n- **Android’s DIY widgets are a bit of vibe-coding fun**  \n  Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm abo…  \n  🔗 https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini\n\n- **42 state AGs are trying to stop Character.AI from selling users’ chats**  \n  A coalition of 42 state attorneys general is trying to prevent Character.AI from selling o…  \n  🔗 https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats\n\n- **Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future**  \n  Last year, Google filed a patent for a system called My Channel that's designed to create …  \n  🔗 https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent\n\n- **FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space**  \n  In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 milli…  \n  🔗 https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers\n\n- **Nothing offers a full look at its AI earbuds and charging case**  \n  Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their…  \n  🔗 https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal\n",
   "items": [
+    {
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "title_zh": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini"
+    },
     {
       "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
       "title_zh": "42 state AGs are trying to stop Character.AI from selling users’ chats",
@@ -47,11 +52,6 @@
       "title": "Tidal will start banning AI-generated music next month",
       "title_zh": "Tidal will start banning AI-generated music next month",
       "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
-    },
-    {
-      "title": "Jensen Huang deepfakes are the hot new AI slop",
-      "title_zh": "Jensen Huang deepfakes are the hot new AI slop",
-      "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes"
     },
     {
       "title": "Nvidia hits pause on chip shipments to Southeast Asia",
